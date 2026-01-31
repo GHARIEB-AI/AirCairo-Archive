@@ -1,0 +1,45 @@
+2026-01-20 07:04:19 | INFO     | ======================================================================
+2026-01-20 07:04:19 | INFO     | Load Factor Scraper Started - Route: ATZ-RUH
+2026-01-20 07:04:19 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_200126_at_06.58\logs\LF_ATZ-RUH_20260120_070419.log
+2026-01-20 07:04:19 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-20 07:04:19 | INFO     | ======================================================================
+2026-01-20 07:04:19 | INFO     | Starting LF search for route: ATZ-RUH
+2026-01-20 07:04:19 | INFO     | [START] LF Search
+2026-01-20 07:04:21 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-20 07:04:21 | INFO     | [DAY_START] Processing 22MAY
+2026-01-20 07:04:21 | INFO     | [lf.day.start] Processing ATZ-RUH for 22MAY
+2026-01-20 07:04:22 | WARNING  | [lf.day.no_flights] No direct flights on 22MAY
+2026-01-20 07:04:22 | INFO     | [SUCCESS] Day 22MAY
+2026-01-20 07:04:22 | INFO     | [DAY_START] Processing 21MAY
+2026-01-20 07:04:22 | INFO     | [lf.day.start] Processing ATZ-RUH for 21MAY
+2026-01-20 07:04:23 | WARNING  | [lf.day.no_flights] No direct flights on 21MAY
+2026-01-20 07:04:23 | INFO     | [SUCCESS] Day 21MAY
+2026-01-20 07:04:23 | INFO     | [DAY_START] Processing 20MAY
+2026-01-20 07:04:23 | INFO     | [lf.day.start] Processing ATZ-RUH for 20MAY
+2026-01-20 07:04:25 | INFO     | [lf.day.flights_found] Found 1 flights on 20MAY
+2026-01-20 07:04:28 | INFO     | [lf.flight.extracted] SM465 on 20MAY: BKG=4, LF=2.2%
+2026-01-20 07:04:34 | INFO     | [SUCCESS] Day 20MAY
+2026-01-20 07:04:34 | INFO     | [DAY_START] Processing 19MAY
+2026-01-20 07:04:34 | INFO     | [lf.day.start] Processing ATZ-RUH for 19MAY
+2026-01-20 07:04:36 | WARNING  | [lf.day.no_flights] No direct flights on 19MAY
+2026-01-20 07:04:36 | INFO     | [SUCCESS] Day 19MAY
+2026-01-20 07:04:36 | INFO     | [DAY_START] Processing 18MAY
+2026-01-20 07:04:36 | INFO     | [lf.day.start] Processing ATZ-RUH for 18MAY
+2026-01-20 07:04:38 | WARNING  | [lf.day.no_flights] No direct flights on 18MAY
+2026-01-20 07:04:39 | INFO     | [SUCCESS] Day 18MAY
+2026-01-20 07:04:39 | INFO     | [DAY_START] Processing 17MAY
+2026-01-20 07:04:39 | INFO     | [lf.day.start] Processing ATZ-RUH for 17MAY
+2026-01-20 07:04:40 | WARNING  | [lf.day.no_flights] No direct flights on 17MAY
+2026-01-20 07:04:40 | INFO     | [SUCCESS] Day 17MAY
+2026-01-20 07:04:40 | INFO     | [DAY_START] Processing 16MAY
+2026-01-20 07:04:40 | INFO     | [lf.day.start] Processing ATZ-RUH for 16MAY
+2026-01-20 07:04:42 | WARNING  | [lf.day.no_flights] No direct flights on 16MAY
+2026-01-20 07:04:43 | INFO     | [SUCCESS] Day 16MAY
+2026-01-20 07:04:43 | INFO     | [DAY_START] Processing 15MAY
+2026-01-20 07:04:43 | INFO     | [lf.day.start] Processing ATZ-RUH for 15MAY
+2026-01-20 07:04:44 | WARNING  | [lf.day.no_flights] No direct flights on 15MAY
+2026-01-20 07:04:44 | INFO     | [SUCCESS] Day 15MAY
+2026-01-20 07:04:44 | INFO     | [SUCCESS] LF Search Complete
+2026-01-20 07:04:46 | INFO     | [Worker_9232] Completed: ATZ-RUH - 8 results, 0 errors
+2026-01-20 07:04:46 | INFO     | [Worker_9232] Processing: ATZ-TUU
+2026-01-20 07:04:46 | INFO     |   Tier 0: Range 4, Chunk 2/4 (8 days)

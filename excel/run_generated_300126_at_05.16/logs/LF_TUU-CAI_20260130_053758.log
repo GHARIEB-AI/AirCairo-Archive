@@ -1,0 +1,56 @@
+2026-01-30 05:37:58 | INFO     | ======================================================================
+2026-01-30 05:37:58 | INFO     | Load Factor Scraper Started - Route: TUU-CAI
+2026-01-30 05:37:58 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_TUU-CAI_20260130_053758.log
+2026-01-30 05:37:58 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 05:37:58 | INFO     | ======================================================================
+2026-01-30 05:37:58 | INFO     | Starting LF search for route: TUU-CAI
+2026-01-30 05:37:58 | INFO     | [START] LF Search
+2026-01-30 05:37:59 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 05:37:59 | INFO     | [DAY_START] Processing 30MAR
+2026-01-30 05:37:59 | INFO     | [lf.day.start] Processing TUU-CAI for 30MAR
+2026-01-30 05:38:05 | WARNING  | [lf.day.no_flights] No direct flights on 30MAR
+2026-01-30 05:38:05 | INFO     | [SUCCESS] Day 30MAR
+2026-01-30 05:38:05 | INFO     | [DAY_START] Processing 29MAR
+2026-01-30 05:38:05 | INFO     | [lf.day.start] Processing TUU-CAI for 29MAR
+2026-01-30 05:38:09 | WARNING  | [lf.day.no_flights] No direct flights on 29MAR
+2026-01-30 05:38:09 | INFO     | [SUCCESS] Day 29MAR
+2026-01-30 05:38:09 | INFO     | [DAY_START] Processing 28MAR
+2026-01-30 05:38:09 | INFO     | [lf.day.start] Processing TUU-CAI for 28MAR
+2026-01-30 05:38:14 | INFO     | [lf.day.flights_found] Found 1 flights on 28MAR
+2026-01-30 05:38:20 | INFO     | [lf.flight.extracted] SM326 on 28MAR: BKG=3, LF=1.7%
+2026-01-30 05:38:30 | INFO     | [SUCCESS] Day 28MAR
+2026-01-30 05:38:30 | INFO     | [DAY_START] Processing 27MAR
+2026-01-30 05:38:30 | INFO     | [lf.day.start] Processing TUU-CAI for 27MAR
+2026-01-30 05:38:33 | WARNING  | [lf.day.no_flights] No direct flights on 27MAR
+2026-01-30 05:38:33 | INFO     | [SUCCESS] Day 27MAR
+2026-01-30 05:38:33 | INFO     | [DAY_START] Processing 26MAR
+2026-01-30 05:38:33 | INFO     | [lf.day.start] Processing TUU-CAI for 26MAR
+2026-01-30 05:38:37 | INFO     | [lf.day.flights_found] Found 1 flights on 26MAR
+2026-01-30 05:38:42 | INFO     | [lf.flight.extracted] SM326 on 26MAR: BKG=0, LF=0.0%
+2026-01-30 05:38:46 | INFO     | [SUCCESS] Day 26MAR
+2026-01-30 05:38:46 | INFO     | [DAY_START] Processing 25MAR
+2026-01-30 05:38:46 | INFO     | [lf.day.start] Processing TUU-CAI for 25MAR
+2026-01-30 05:38:49 | INFO     | [lf.day.flights_found] Found 1 flights on 25MAR
+2026-01-30 05:38:54 | INFO     | [lf.flight.extracted] SM326 on 25MAR: BKG=2, LF=1.1%
+2026-01-30 05:39:04 | INFO     | [SUCCESS] Day 25MAR
+2026-01-30 05:39:04 | INFO     | [DAY_START] Processing 24MAR
+2026-01-30 05:39:04 | INFO     | [lf.day.start] Processing TUU-CAI for 24MAR
+2026-01-30 05:39:09 | WARNING  | [lf.day.no_flights] No direct flights on 24MAR
+2026-01-30 05:39:09 | INFO     | [SUCCESS] Day 24MAR
+2026-01-30 05:39:09 | INFO     | [DAY_START] Processing 23MAR
+2026-01-30 05:39:09 | INFO     | [lf.day.start] Processing TUU-CAI for 23MAR
+2026-01-30 05:39:14 | WARNING  | [lf.day.no_flights] No direct flights on 23MAR
+2026-01-30 05:39:14 | INFO     | [SUCCESS] Day 23MAR
+2026-01-30 05:39:14 | INFO     | [DAY_START] Processing 22MAR
+2026-01-30 05:39:14 | INFO     | [lf.day.start] Processing TUU-CAI for 22MAR
+2026-01-30 05:39:18 | WARNING  | [lf.day.no_flights] No direct flights on 22MAR
+2026-01-30 05:39:18 | INFO     | [SUCCESS] Day 22MAR
+2026-01-30 05:39:18 | INFO     | [DAY_START] Processing 21MAR
+2026-01-30 05:39:18 | INFO     | [lf.day.start] Processing TUU-CAI for 21MAR
+2026-01-30 05:39:22 | INFO     | [lf.day.flights_found] Found 1 flights on 21MAR
+2026-01-30 05:39:29 | INFO     | [lf.flight.extracted] SM326 on 21MAR: BKG=15, LF=14.3%
+2026-01-30 05:39:39 | INFO     | [SUCCESS] Day 21MAR
+2026-01-30 05:39:39 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 05:39:39 | INFO     | [Worker_9232] Completed: TUU-CAI - 10 results, 0 errors
+2026-01-30 05:39:39 | INFO     | [Worker_9232] Processing: AHB-ATZ
+2026-01-30 05:39:39 | INFO     |   Tier 0: Range 2, Chunk 1/3 (10 days)

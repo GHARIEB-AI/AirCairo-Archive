@@ -1,0 +1,57 @@
+2026-01-22 11:22:20 | INFO     | ======================================================================
+2026-01-22 11:22:20 | INFO     | Load Factor Scraper Started - Route: CAI-RUH
+2026-01-22 11:22:20 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_220126_at_11.20\logs\LF_CAI-RUH_20260122_112220.log
+2026-01-22 11:22:20 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-22 11:22:20 | INFO     | ======================================================================
+2026-01-22 11:22:20 | INFO     | Starting LF search for route: CAI-RUH
+2026-01-22 11:22:20 | INFO     | [START] LF Search
+2026-01-22 11:22:21 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-22 11:22:21 | INFO     | [DAY_START] Processing 01JUN
+2026-01-22 11:22:21 | INFO     | [lf.day.start] Processing CAI-RUH for 01JUN
+2026-01-22 11:22:22 | INFO     | [lf.day.flights_found] Found 1 flights on 01JUN
+2026-01-22 11:22:26 | INFO     | [lf.flight.extracted] SM461 on 01JUN: BKG=0, LF=0.0%
+2026-01-22 11:22:28 | INFO     | [SUCCESS] Day 01JUN
+2026-01-22 11:22:28 | INFO     | [DAY_START] Processing 31MAY
+2026-01-22 11:22:28 | INFO     | [lf.day.start] Processing CAI-RUH for 31MAY
+2026-01-22 11:22:29 | INFO     | [lf.day.flights_found] Found 1 flights on 31MAY
+2026-01-22 11:22:31 | INFO     | [lf.flight.extracted] SM461 on 31MAY: BKG=0, LF=0.0%
+2026-01-22 11:22:33 | INFO     | [SUCCESS] Day 31MAY
+2026-01-22 11:22:33 | INFO     | [DAY_START] Processing 30MAY
+2026-01-22 11:22:33 | INFO     | [lf.day.start] Processing CAI-RUH for 30MAY
+2026-01-22 11:22:34 | INFO     | [lf.day.flights_found] Found 1 flights on 30MAY
+2026-01-22 11:22:36 | INFO     | [lf.flight.extracted] SM461 on 30MAY: BKG=0, LF=0.0%
+2026-01-22 11:22:37 | INFO     | [SUCCESS] Day 30MAY
+2026-01-22 11:22:37 | INFO     | [DAY_START] Processing 29MAY
+2026-01-22 11:22:37 | INFO     | [lf.day.start] Processing CAI-RUH for 29MAY
+2026-01-22 11:22:38 | INFO     | [lf.day.flights_found] Found 1 flights on 29MAY
+2026-01-22 11:22:40 | INFO     | [lf.flight.extracted] SM461 on 29MAY: BKG=0, LF=0.0%
+2026-01-22 11:22:41 | INFO     | [SUCCESS] Day 29MAY
+2026-01-22 11:22:41 | INFO     | [DAY_START] Processing 28MAY
+2026-01-22 11:22:41 | INFO     | [lf.day.start] Processing CAI-RUH for 28MAY
+2026-01-22 11:22:42 | INFO     | [lf.day.flights_found] Found 1 flights on 28MAY
+2026-01-22 11:22:44 | INFO     | [lf.flight.extracted] SM461 on 28MAY: BKG=0, LF=0.0%
+2026-01-22 11:22:45 | INFO     | [SUCCESS] Day 28MAY
+2026-01-22 11:22:45 | INFO     | [DAY_START] Processing 27MAY
+2026-01-22 11:22:45 | INFO     | [lf.day.start] Processing CAI-RUH for 27MAY
+2026-01-22 11:22:46 | INFO     | [lf.day.flights_found] Found 1 flights on 27MAY
+2026-01-22 11:22:48 | INFO     | [lf.flight.extracted] SM461 on 27MAY: BKG=0, LF=0.0%
+2026-01-22 11:22:49 | INFO     | [SUCCESS] Day 27MAY
+2026-01-22 11:22:49 | INFO     | [DAY_START] Processing 26MAY
+2026-01-22 11:22:49 | INFO     | [lf.day.start] Processing CAI-RUH for 26MAY
+2026-01-22 11:22:50 | INFO     | [lf.day.flights_found] Found 1 flights on 26MAY
+2026-01-22 11:22:52 | INFO     | [lf.flight.extracted] SM461 on 26MAY: BKG=0, LF=0.0%
+2026-01-22 11:22:54 | INFO     | [SUCCESS] Day 26MAY
+2026-01-22 11:22:54 | INFO     | [DAY_START] Processing 25MAY
+2026-01-22 11:22:54 | INFO     | [lf.day.start] Processing CAI-RUH for 25MAY
+2026-01-22 11:22:55 | INFO     | [lf.day.flights_found] Found 1 flights on 25MAY
+2026-01-22 11:22:57 | INFO     | [lf.flight.extracted] SM461 on 25MAY: BKG=0, LF=0.0%
+2026-01-22 11:22:58 | INFO     | [SUCCESS] Day 25MAY
+2026-01-22 11:22:58 | INFO     | [DAY_START] Processing 24MAY
+2026-01-22 11:22:58 | INFO     | [lf.day.start] Processing CAI-RUH for 24MAY
+2026-01-22 11:22:59 | INFO     | [lf.day.flights_found] Found 1 flights on 24MAY
+2026-01-22 11:23:01 | INFO     | [lf.flight.extracted] SM461 on 24MAY: BKG=0, LF=0.0%
+2026-01-22 11:23:02 | INFO     | [SUCCESS] Day 24MAY
+2026-01-22 11:23:02 | INFO     | [SUCCESS] LF Search Complete
+2026-01-22 11:23:08 | INFO     | [Worker_9223] Completed: CAI-RUH - 9 results, 0 errors
+2026-01-22 11:23:08 | INFO     | [Worker_9223] Processing: CAI-ELQ
+2026-01-22 11:23:08 | INFO     |   Tier 0: Range 4, Chunk 1/4 (9 days)

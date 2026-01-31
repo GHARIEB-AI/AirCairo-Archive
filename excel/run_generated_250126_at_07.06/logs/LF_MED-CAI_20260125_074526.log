@@ -1,0 +1,56 @@
+2026-01-25 07:45:26 | INFO     | ======================================================================
+2026-01-25 07:45:26 | INFO     | Load Factor Scraper Started - Route: MED-CAI
+2026-01-25 07:45:26 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\logs\LF_MED-CAI_20260125_074526.log
+2026-01-25 07:45:26 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-25 07:45:26 | INFO     | ======================================================================
+2026-01-25 07:45:26 | INFO     | Starting LF search for route: MED-CAI
+2026-01-25 07:45:26 | INFO     | [START] LF Search
+2026-01-25 07:45:27 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-25 07:45:27 | INFO     | [DAY_START] Processing 24FEB
+2026-01-25 07:45:27 | INFO     | [lf.day.start] Processing MED-CAI for 24FEB
+2026-01-25 07:45:29 | INFO     | [lf.day.flights_found] Found 2 flights on 24FEB
+2026-01-25 07:45:31 | INFO     | [lf.flight.extracted] SM496 on 24FEB: BKG=175, LF=100.0%
+2026-01-25 07:45:36 | INFO     | [lf.flight.extracted] SM494 on 24FEB: BKG=169, LF=96.6%
+2026-01-25 07:45:43 | INFO     | [SUCCESS] Day 24FEB
+2026-01-25 07:45:43 | INFO     | [DAY_START] Processing 23FEB
+2026-01-25 07:45:43 | INFO     | [lf.day.start] Processing MED-CAI for 23FEB
+2026-01-25 07:45:45 | WARNING  | [lf.day.no_flights] No direct flights on 23FEB
+2026-01-25 07:45:45 | INFO     | [SUCCESS] Day 23FEB
+2026-01-25 07:45:45 | INFO     | [DAY_START] Processing 22FEB
+2026-01-25 07:45:45 | INFO     | [lf.day.start] Processing MED-CAI for 22FEB
+2026-01-25 07:45:47 | INFO     | [lf.day.flights_found] Found 1 flights on 22FEB
+2026-01-25 07:45:49 | INFO     | [lf.flight.extracted] SM494 on 22FEB: BKG=80, LF=45.7%
+2026-01-25 07:45:52 | INFO     | [SUCCESS] Day 22FEB
+2026-01-25 07:45:52 | INFO     | [DAY_START] Processing 21FEB
+2026-01-25 07:45:52 | INFO     | [lf.day.start] Processing MED-CAI for 21FEB
+2026-01-25 07:45:53 | INFO     | [lf.day.flights_found] Found 1 flights on 21FEB
+2026-01-25 07:45:55 | INFO     | [lf.flight.extracted] SM494 on 21FEB: BKG=11, LF=6.3%
+2026-01-25 07:45:58 | INFO     | [SUCCESS] Day 21FEB
+2026-01-25 07:45:58 | INFO     | [DAY_START] Processing 20FEB
+2026-01-25 07:45:58 | INFO     | [lf.day.start] Processing MED-CAI for 20FEB
+2026-01-25 07:46:00 | INFO     | [lf.day.flights_found] Found 2 flights on 20FEB
+2026-01-25 07:46:02 | INFO     | [lf.flight.extracted] SM972 on 20FEB: BKG=0, LF=0.0%
+2026-01-25 07:46:05 | INFO     | [lf.flight.extracted] SM984 on 20FEB: BKG=47, LF=28.1%
+2026-01-25 07:46:08 | INFO     | [SUCCESS] Day 20FEB
+2026-01-25 07:46:08 | INFO     | [DAY_START] Processing 19FEB
+2026-01-25 07:46:08 | INFO     | [lf.day.start] Processing MED-CAI for 19FEB
+2026-01-25 07:46:10 | INFO     | [lf.day.flights_found] Found 1 flights on 19FEB
+2026-01-25 07:46:12 | INFO     | [lf.flight.extracted] SM494 on 19FEB: BKG=5, LF=2.9%
+2026-01-25 07:46:15 | INFO     | [SUCCESS] Day 19FEB
+2026-01-25 07:46:15 | INFO     | [DAY_START] Processing 18FEB
+2026-01-25 07:46:15 | INFO     | [lf.day.start] Processing MED-CAI for 18FEB
+2026-01-25 07:46:16 | INFO     | [lf.day.flights_found] Found 2 flights on 18FEB
+2026-01-25 07:46:18 | INFO     | [lf.flight.extracted] SM952 on 18FEB: BKG=1, LF=0.6%
+2026-01-25 07:46:22 | INFO     | [lf.flight.extracted] SM954 on 18FEB: BKG=1, LF=0.6%
+2026-01-25 07:46:26 | INFO     | [SUCCESS] Day 18FEB
+2026-01-25 07:46:26 | INFO     | [DAY_START] Processing 17FEB
+2026-01-25 07:46:26 | INFO     | [lf.day.start] Processing MED-CAI for 17FEB
+2026-01-25 07:46:27 | INFO     | [lf.day.flights_found] Found 3 flights on 17FEB
+2026-01-25 07:46:30 | INFO     | [lf.flight.extracted] SM496 on 17FEB: BKG=20, LF=11.6%
+2026-01-25 07:46:35 | INFO     | [lf.flight.extracted] SM972 on 17FEB: BKG=12, LF=7.2%
+2026-01-25 07:46:38 | INFO     | [lf.flight.extracted] SM494 on 17FEB: BKG=18, LF=10.3%
+2026-01-25 07:46:46 | INFO     | [SUCCESS] Day 17FEB
+2026-01-25 07:46:46 | INFO     | [SUCCESS] LF Search Complete
+2026-01-25 07:46:46 | INFO     | [Worker_9226] Completed: MED-CAI - 8 results, 0 errors
+2026-01-25 07:46:46 | INFO     | [Worker_9226] Processing: DMM-CAI
+2026-01-25 07:46:46 | INFO     |   Tier 0: Range 1, Chunk 1/4 (8 days)

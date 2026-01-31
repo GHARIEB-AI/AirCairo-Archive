@@ -1,0 +1,58 @@
+2026-01-30 05:56:50 | INFO     | ======================================================================
+2026-01-30 05:56:50 | INFO     | Load Factor Scraper Started - Route: ATZ-MED
+2026-01-30 05:56:50 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_ATZ-MED_20260130_055650.log
+2026-01-30 05:56:50 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 05:56:50 | INFO     | ======================================================================
+2026-01-30 05:56:50 | INFO     | Starting LF search for route: ATZ-MED
+2026-01-30 05:56:50 | INFO     | [START] LF Search
+2026-01-30 05:56:50 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 05:56:50 | INFO     | [DAY_START] Processing 10MAR
+2026-01-30 05:56:50 | INFO     | [lf.day.start] Processing ATZ-MED for 10MAR
+2026-01-30 05:56:52 | INFO     | [lf.day.flights_found] Found 1 flights on 10MAR
+2026-01-30 05:56:54 | INFO     | [lf.flight.extracted] SM487 on 10MAR: BKG=0, LF=0.0%
+2026-01-30 05:56:55 | INFO     | [SUCCESS] Day 10MAR
+2026-01-30 05:56:55 | INFO     | [DAY_START] Processing 09MAR
+2026-01-30 05:56:55 | INFO     | [lf.day.start] Processing ATZ-MED for 09MAR
+2026-01-30 05:56:56 | INFO     | [lf.day.flights_found] Found 1 flights on 09MAR
+2026-01-30 05:56:58 | INFO     | [lf.flight.extracted] SM487 on 09MAR: BKG=0, LF=0.0%
+2026-01-30 05:56:59 | INFO     | [SUCCESS] Day 09MAR
+2026-01-30 05:56:59 | INFO     | [DAY_START] Processing 08MAR
+2026-01-30 05:56:59 | INFO     | [lf.day.start] Processing ATZ-MED for 08MAR
+2026-01-30 05:57:00 | WARNING  | [lf.day.no_flights] No direct flights on 08MAR
+2026-01-30 05:57:00 | INFO     | [SUCCESS] Day 08MAR
+2026-01-30 05:57:00 | INFO     | [DAY_START] Processing 07MAR
+2026-01-30 05:57:00 | INFO     | [lf.day.start] Processing ATZ-MED for 07MAR
+2026-01-30 05:57:02 | INFO     | [lf.day.flights_found] Found 1 flights on 07MAR
+2026-01-30 05:57:04 | INFO     | [lf.flight.extracted] SM487 on 07MAR: BKG=6, LF=3.4%
+2026-01-30 05:57:06 | INFO     | [SUCCESS] Day 07MAR
+2026-01-30 05:57:06 | INFO     | [DAY_START] Processing 06MAR
+2026-01-30 05:57:06 | INFO     | [lf.day.start] Processing ATZ-MED for 06MAR
+2026-01-30 05:57:07 | WARNING  | [lf.day.no_flights] No direct flights on 06MAR
+2026-01-30 05:57:07 | INFO     | [SUCCESS] Day 06MAR
+2026-01-30 05:57:07 | INFO     | [DAY_START] Processing 05MAR
+2026-01-30 05:57:07 | INFO     | [lf.day.start] Processing ATZ-MED for 05MAR
+2026-01-30 05:57:09 | WARNING  | [lf.day.no_flights] No direct flights on 05MAR
+2026-01-30 05:57:09 | INFO     | [SUCCESS] Day 05MAR
+2026-01-30 05:57:09 | INFO     | [DAY_START] Processing 04MAR
+2026-01-30 05:57:09 | INFO     | [lf.day.start] Processing ATZ-MED for 04MAR
+2026-01-30 05:57:10 | INFO     | [lf.day.flights_found] Found 1 flights on 04MAR
+2026-01-30 05:57:12 | INFO     | [lf.flight.extracted] SM489 on 04MAR: BKG=49, LF=27.4%
+2026-01-30 05:57:14 | INFO     | [SUCCESS] Day 04MAR
+2026-01-30 05:57:14 | INFO     | [DAY_START] Processing 03MAR
+2026-01-30 05:57:14 | INFO     | [lf.day.start] Processing ATZ-MED for 03MAR
+2026-01-30 05:57:15 | INFO     | [lf.day.flights_found] Found 1 flights on 03MAR
+2026-01-30 05:57:17 | INFO     | [lf.flight.extracted] SM487 on 03MAR: BKG=48, LF=26.8%
+2026-01-30 05:57:20 | INFO     | [SUCCESS] Day 03MAR
+2026-01-30 05:57:20 | INFO     | [DAY_START] Processing 02MAR
+2026-01-30 05:57:20 | INFO     | [lf.day.start] Processing ATZ-MED for 02MAR
+2026-01-30 05:57:21 | INFO     | [lf.day.flights_found] Found 1 flights on 02MAR
+2026-01-30 05:57:23 | INFO     | [lf.flight.extracted] SM487 on 02MAR: BKG=1, LF=0.6%
+2026-01-30 05:57:26 | INFO     | [SUCCESS] Day 02MAR
+2026-01-30 05:57:26 | INFO     | [DAY_START] Processing 01MAR
+2026-01-30 05:57:26 | INFO     | [lf.day.start] Processing ATZ-MED for 01MAR
+2026-01-30 05:57:27 | WARNING  | [lf.day.no_flights] No direct flights on 01MAR
+2026-01-30 05:57:27 | INFO     | [SUCCESS] Day 01MAR
+2026-01-30 05:57:27 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 05:57:27 | INFO     | [Worker_9222] Completed: ATZ-MED - 10 results, 0 errors
+2026-01-30 05:57:27 | INFO     | [Worker_9222] Processing: ATZ-RUH
+2026-01-30 05:57:27 | INFO     |   Tier 0: Range 2, Chunk 3/3 (10 days)

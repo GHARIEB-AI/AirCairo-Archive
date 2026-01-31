@@ -1,0 +1,57 @@
+2026-01-15 08:27:55 | INFO     | ======================================================================
+2026-01-15 08:27:55 | INFO     | Load Factor Scraper Started - Route: CAI-AJF
+2026-01-15 08:27:55 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_150126_at_08.22\logs\LF_CAI-AJF_20260115_082755.log
+2026-01-15 08:27:55 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-15 08:27:55 | INFO     | ======================================================================
+2026-01-15 08:27:55 | INFO     | Starting LF search for route: CAI-AJF
+2026-01-15 08:27:55 | INFO     | [START] LF Search
+2026-01-15 08:27:58 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-15 08:27:58 | INFO     | [DAY_START] Processing 28FEB
+2026-01-15 08:27:58 | INFO     | [lf.day.start] Processing CAI-AJF for 28FEB
+2026-01-15 08:28:00 | INFO     | [lf.day.flights_found] Found 1 flights on 28FEB
+2026-01-15 08:28:03 | INFO     | [lf.flight.extracted] SM321 on 28FEB: BKG=4, LF=2.2%
+2026-01-15 08:28:06 | INFO     | [SUCCESS] Day 28FEB
+2026-01-15 08:28:06 | INFO     | [DAY_START] Processing 27FEB
+2026-01-15 08:28:06 | INFO     | [lf.day.start] Processing CAI-AJF for 27FEB
+2026-01-15 08:28:07 | WARNING  | [lf.day.no_flights] No direct flights on 27FEB
+2026-01-15 08:28:07 | INFO     | [SUCCESS] Day 27FEB
+2026-01-15 08:28:07 | INFO     | [DAY_START] Processing 26FEB
+2026-01-15 08:28:07 | INFO     | [lf.day.start] Processing CAI-AJF for 26FEB
+2026-01-15 08:28:08 | INFO     | [lf.day.flights_found] Found 1 flights on 26FEB
+2026-01-15 08:28:11 | INFO     | [lf.flight.extracted] SM321 on 26FEB: BKG=1, LF=0.6%
+2026-01-15 08:28:14 | INFO     | [SUCCESS] Day 26FEB
+2026-01-15 08:28:14 | INFO     | [DAY_START] Processing 25FEB
+2026-01-15 08:28:14 | INFO     | [lf.day.start] Processing CAI-AJF for 25FEB
+2026-01-15 08:28:15 | WARNING  | [lf.day.no_flights] No direct flights on 25FEB
+2026-01-15 08:28:15 | INFO     | [SUCCESS] Day 25FEB
+2026-01-15 08:28:15 | INFO     | [DAY_START] Processing 24FEB
+2026-01-15 08:28:15 | INFO     | [lf.day.start] Processing CAI-AJF for 24FEB
+2026-01-15 08:28:16 | INFO     | [lf.day.flights_found] Found 1 flights on 24FEB
+2026-01-15 08:28:19 | INFO     | [lf.flight.extracted] SM321 on 24FEB: BKG=5, LF=2.8%
+2026-01-15 08:28:23 | INFO     | [SUCCESS] Day 24FEB
+2026-01-15 08:28:23 | INFO     | [DAY_START] Processing 23FEB
+2026-01-15 08:28:23 | INFO     | [lf.day.start] Processing CAI-AJF for 23FEB
+2026-01-15 08:28:25 | WARNING  | [lf.day.no_flights] No direct flights on 23FEB
+2026-01-15 08:28:25 | INFO     | [SUCCESS] Day 23FEB
+2026-01-15 08:28:25 | INFO     | [DAY_START] Processing 22FEB
+2026-01-15 08:28:25 | INFO     | [lf.day.start] Processing CAI-AJF for 22FEB
+2026-01-15 08:28:26 | WARNING  | [lf.day.no_flights] No direct flights on 22FEB
+2026-01-15 08:28:26 | INFO     | [SUCCESS] Day 22FEB
+2026-01-15 08:28:26 | INFO     | [DAY_START] Processing 21FEB
+2026-01-15 08:28:26 | INFO     | [lf.day.start] Processing CAI-AJF for 21FEB
+2026-01-15 08:28:28 | INFO     | [lf.day.flights_found] Found 1 flights on 21FEB
+2026-01-15 08:28:31 | INFO     | [lf.flight.extracted] SM321 on 21FEB: BKG=11, LF=6.2%
+2026-01-15 08:28:35 | INFO     | [SUCCESS] Day 21FEB
+2026-01-15 08:28:35 | INFO     | [DAY_START] Processing 20FEB
+2026-01-15 08:28:35 | INFO     | [lf.day.start] Processing CAI-AJF for 20FEB
+2026-01-15 08:28:36 | WARNING  | [lf.day.no_flights] No direct flights on 20FEB
+2026-01-15 08:28:36 | INFO     | [SUCCESS] Day 20FEB
+2026-01-15 08:28:36 | INFO     | [DAY_START] Processing 19FEB
+2026-01-15 08:28:36 | INFO     | [lf.day.start] Processing CAI-AJF for 19FEB
+2026-01-15 08:28:38 | INFO     | [lf.day.flights_found] Found 1 flights on 19FEB
+2026-01-15 08:28:40 | INFO     | [lf.flight.extracted] SM321 on 19FEB: BKG=0, LF=0.0%
+2026-01-15 08:28:42 | INFO     | [SUCCESS] Day 19FEB
+2026-01-15 08:28:42 | INFO     | [SUCCESS] LF Search Complete
+2026-01-15 08:28:44 | INFO     | [Worker_9234] Completed: CAI-AJF - 10 results, 0 errors
+2026-01-15 08:28:44 | INFO     | [Worker_9234] Processing: CAI-GIZ
+2026-01-15 08:28:44 | INFO     |   Tier 0: Range 2, Chunk 1/3 (10 days)

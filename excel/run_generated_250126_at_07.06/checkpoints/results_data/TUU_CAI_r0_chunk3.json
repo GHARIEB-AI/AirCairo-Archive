@@ -1,0 +1,93 @@
+{
+  "task_id": "TUU-CAI_r0_chunk3",
+  "saved_at": "2026-01-25T08:03:01.699030",
+  "lf_results": {
+    "2026-01-31": [
+      {
+        "Date": "Saturday, January 31, 2026",
+        "Flight": "SM326",
+        "DEP": "20:40",
+        "SOLD": 37,
+        "FULL CAPACITY": 175,
+        "LF%": 0.2114,
+        "LowestAvail": "I9",
+        "LASTSOLD": "2026-01-24 00:00:00",
+        "WEEKLY PROGRESS": 21,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 33,
+          "O": 4,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "TUU-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 8,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-30": [
+      {
+        "Date": "Friday, January 30, 2026",
+        "Flight": "SM326",
+        "DEP": "00:35",
+        "SOLD": 66,
+        "FULL CAPACITY": 105,
+        "LF%": 0.6286,
+        "LowestAvail": "I9",
+        "LASTSOLD": "2026-01-22 00:00:00",
+        "WEEKLY PROGRESS": 66,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 56,
+          "O": 6,
+          "U": 4,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "E90",
+        "Brd-Off": "TUU-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-29": [],
+    "2026-01-28": [],
+    "2026-01-27": [],
+    "2026-01-26": []
+  },
+  "lf_errors": {}
+}

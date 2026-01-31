@@ -1,0 +1,56 @@
+2026-01-30 05:32:02 | INFO     | ======================================================================
+2026-01-30 05:32:02 | INFO     | Load Factor Scraper Started - Route: GIZ-CAI
+2026-01-30 05:32:02 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_GIZ-CAI_20260130_053202.log
+2026-01-30 05:32:02 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 05:32:02 | INFO     | ======================================================================
+2026-01-30 05:32:02 | INFO     | Starting LF search for route: GIZ-CAI
+2026-01-30 05:32:02 | INFO     | [START] LF Search
+2026-01-30 05:32:03 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 05:32:03 | INFO     | [DAY_START] Processing 09APR
+2026-01-30 05:32:03 | INFO     | [lf.day.start] Processing GIZ-CAI for 09APR
+2026-01-30 05:32:04 | INFO     | [lf.day.flights_found] Found 1 flights on 09APR
+2026-01-30 05:32:06 | INFO     | [lf.flight.extracted] SM330 on 09APR: BKG=2, LF=1.1%
+2026-01-30 05:32:09 | INFO     | [SUCCESS] Day 09APR
+2026-01-30 05:32:09 | INFO     | [DAY_START] Processing 08APR
+2026-01-30 05:32:09 | INFO     | [lf.day.start] Processing GIZ-CAI for 08APR
+2026-01-30 05:32:10 | WARNING  | [lf.day.no_flights] No direct flights on 08APR
+2026-01-30 05:32:10 | INFO     | [SUCCESS] Day 08APR
+2026-01-30 05:32:10 | INFO     | [DAY_START] Processing 07APR
+2026-01-30 05:32:10 | INFO     | [lf.day.start] Processing GIZ-CAI for 07APR
+2026-01-30 05:32:11 | WARNING  | [lf.day.no_flights] No direct flights on 07APR
+2026-01-30 05:32:11 | INFO     | [SUCCESS] Day 07APR
+2026-01-30 05:32:11 | INFO     | [DAY_START] Processing 06APR
+2026-01-30 05:32:11 | INFO     | [lf.day.start] Processing GIZ-CAI for 06APR
+2026-01-30 05:32:12 | WARNING  | [lf.day.no_flights] No direct flights on 06APR
+2026-01-30 05:32:12 | INFO     | [SUCCESS] Day 06APR
+2026-01-30 05:32:12 | INFO     | [DAY_START] Processing 05APR
+2026-01-30 05:32:12 | INFO     | [lf.day.start] Processing GIZ-CAI for 05APR
+2026-01-30 05:32:13 | INFO     | [lf.day.flights_found] Found 1 flights on 05APR
+2026-01-30 05:32:15 | INFO     | [lf.flight.extracted] SM330 on 05APR: BKG=7, LF=4.2%
+2026-01-30 05:32:18 | INFO     | [SUCCESS] Day 05APR
+2026-01-30 05:32:18 | INFO     | [DAY_START] Processing 04APR
+2026-01-30 05:32:18 | INFO     | [lf.day.start] Processing GIZ-CAI for 04APR
+2026-01-30 05:32:20 | WARNING  | [lf.day.no_flights] No direct flights on 04APR
+2026-01-30 05:32:20 | INFO     | [SUCCESS] Day 04APR
+2026-01-30 05:32:20 | INFO     | [DAY_START] Processing 03APR
+2026-01-30 05:32:20 | INFO     | [lf.day.start] Processing GIZ-CAI for 03APR
+2026-01-30 05:32:21 | INFO     | [lf.day.flights_found] Found 1 flights on 03APR
+2026-01-30 05:32:23 | INFO     | [lf.flight.extracted] SM330 on 03APR: BKG=10, LF=5.7%
+2026-01-30 05:32:25 | INFO     | [SUCCESS] Day 03APR
+2026-01-30 05:32:25 | INFO     | [DAY_START] Processing 02APR
+2026-01-30 05:32:25 | INFO     | [lf.day.start] Processing GIZ-CAI for 02APR
+2026-01-30 05:32:27 | INFO     | [lf.day.flights_found] Found 1 flights on 02APR
+2026-01-30 05:32:28 | INFO     | [lf.flight.extracted] SM330 on 02APR: BKG=15, LF=8.6%
+2026-01-30 05:32:31 | INFO     | [SUCCESS] Day 02APR
+2026-01-30 05:32:31 | INFO     | [DAY_START] Processing 01APR
+2026-01-30 05:32:31 | INFO     | [lf.day.start] Processing GIZ-CAI for 01APR
+2026-01-30 05:32:33 | WARNING  | [lf.day.no_flights] No direct flights on 01APR
+2026-01-30 05:32:33 | INFO     | [SUCCESS] Day 01APR
+2026-01-30 05:32:33 | INFO     | [DAY_START] Processing 31MAR
+2026-01-30 05:32:33 | INFO     | [lf.day.start] Processing GIZ-CAI for 31MAR
+2026-01-30 05:32:34 | WARNING  | [lf.day.no_flights] No direct flights on 31MAR
+2026-01-30 05:32:34 | INFO     | [SUCCESS] Day 31MAR
+2026-01-30 05:32:34 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 05:32:34 | INFO     | [Worker_9234] Completed: GIZ-CAI - 10 results, 0 errors
+2026-01-30 05:32:34 | INFO     | [Worker_9234] Processing: LXR-JED
+2026-01-30 05:32:34 | INFO     |   Tier 0: Range 3, Chunk 3/3 (10 days)

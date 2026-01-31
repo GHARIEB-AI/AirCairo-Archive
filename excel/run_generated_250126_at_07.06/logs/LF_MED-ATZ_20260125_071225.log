@@ -1,0 +1,45 @@
+2026-01-25 07:12:25 | INFO     | ======================================================================
+2026-01-25 07:12:25 | INFO     | Load Factor Scraper Started - Route: MED-ATZ
+2026-01-25 07:12:25 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\logs\LF_MED-ATZ_20260125_071225.log
+2026-01-25 07:12:25 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-25 07:12:25 | INFO     | ======================================================================
+2026-01-25 07:12:25 | INFO     | Starting LF search for route: MED-ATZ
+2026-01-25 07:12:25 | INFO     | [START] LF Search
+2026-01-25 07:12:26 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-25 07:12:26 | INFO     | [DAY_START] Processing 22MAY
+2026-01-25 07:12:26 | INFO     | [lf.day.start] Processing MED-ATZ for 22MAY
+2026-01-25 07:12:27 | WARNING  | [lf.day.no_flights] No direct flights on 22MAY
+2026-01-25 07:12:27 | INFO     | [SUCCESS] Day 22MAY
+2026-01-25 07:12:27 | INFO     | [DAY_START] Processing 21MAY
+2026-01-25 07:12:27 | INFO     | [lf.day.start] Processing MED-ATZ for 21MAY
+2026-01-25 07:12:28 | WARNING  | [lf.day.no_flights] No direct flights on 21MAY
+2026-01-25 07:12:28 | INFO     | [SUCCESS] Day 21MAY
+2026-01-25 07:12:28 | INFO     | [DAY_START] Processing 20MAY
+2026-01-25 07:12:28 | INFO     | [lf.day.start] Processing MED-ATZ for 20MAY
+2026-01-25 07:12:29 | WARNING  | [lf.day.no_flights] No direct flights on 20MAY
+2026-01-25 07:12:29 | INFO     | [SUCCESS] Day 20MAY
+2026-01-25 07:12:29 | INFO     | [DAY_START] Processing 19MAY
+2026-01-25 07:12:29 | INFO     | [lf.day.start] Processing MED-ATZ for 19MAY
+2026-01-25 07:12:30 | WARNING  | [lf.day.no_flights] No direct flights on 19MAY
+2026-01-25 07:12:30 | INFO     | [SUCCESS] Day 19MAY
+2026-01-25 07:12:30 | INFO     | [DAY_START] Processing 18MAY
+2026-01-25 07:12:30 | INFO     | [lf.day.start] Processing MED-ATZ for 18MAY
+2026-01-25 07:12:31 | WARNING  | [lf.day.no_flights] No direct flights on 18MAY
+2026-01-25 07:12:31 | INFO     | [SUCCESS] Day 18MAY
+2026-01-25 07:12:31 | INFO     | [DAY_START] Processing 17MAY
+2026-01-25 07:12:31 | INFO     | [lf.day.start] Processing MED-ATZ for 17MAY
+2026-01-25 07:12:32 | INFO     | [lf.day.flights_found] Found 1 flights on 17MAY
+2026-01-25 07:12:34 | INFO     | [lf.flight.extracted] SM488 on 17MAY: BKG=2, LF=1.1%
+2026-01-25 07:12:37 | INFO     | [SUCCESS] Day 17MAY
+2026-01-25 07:12:37 | INFO     | [DAY_START] Processing 16MAY
+2026-01-25 07:12:37 | INFO     | [lf.day.start] Processing MED-ATZ for 16MAY
+2026-01-25 07:12:38 | WARNING  | [lf.day.no_flights] No direct flights on 16MAY
+2026-01-25 07:12:38 | INFO     | [SUCCESS] Day 16MAY
+2026-01-25 07:12:38 | INFO     | [DAY_START] Processing 15MAY
+2026-01-25 07:12:38 | INFO     | [lf.day.start] Processing MED-ATZ for 15MAY
+2026-01-25 07:12:39 | WARNING  | [lf.day.no_flights] No direct flights on 15MAY
+2026-01-25 07:12:39 | INFO     | [SUCCESS] Day 15MAY
+2026-01-25 07:12:39 | INFO     | [SUCCESS] LF Search Complete
+2026-01-25 07:12:39 | INFO     | [Worker_9222] Completed: MED-ATZ - 8 results, 0 errors
+2026-01-25 07:12:39 | INFO     | [Worker_9222] Processing: JED-LXR
+2026-01-25 07:12:39 | INFO     |   Tier 0: Range 4, Chunk 2/4 (8 days)

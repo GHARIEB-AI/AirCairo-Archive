@@ -1,0 +1,15 @@
+2026-01-22 11:21:43,910 | INFO     | [Worker_9223] Completed: JED-HBE - 9 results, 0 errors
+2026-01-22 11:21:43,914 | INFO     | [Worker_9223] Processing: ELQ-ATZ
+2026-01-22 11:21:43,914 | INFO     |   Tier 0: Range 4, Chunk 1/4 (9 days)
+2026-01-22 11:21:56,851 | INFO     | [Worker_9223] Completed: ELQ-ATZ - 9 results, 0 errors
+2026-01-22 11:21:56,852 | INFO     | [Worker_9223] Processing: HBE-MED
+2026-01-22 11:21:56,852 | INFO     |   Tier 0: Range 4, Chunk 1/4 (9 days)
+2026-01-22 11:22:20,939 | INFO     | [Worker_9223] Completed: HBE-MED - 9 results, 0 errors
+2026-01-22 11:22:20,940 | INFO     | [Worker_9223] Processing: CAI-RUH
+2026-01-22 11:22:20,941 | INFO     |   Tier 0: Range 4, Chunk 1/4 (9 days)
+2026-01-22 11:23:08,572 | INFO     | [Worker_9223] Completed: CAI-RUH - 9 results, 0 errors
+2026-01-22 11:23:08,574 | INFO     | [Worker_9223] Processing: CAI-ELQ
+2026-01-22 11:23:08,574 | INFO     |   Tier 0: Range 4, Chunk 1/4 (9 days)
+2026-01-22 11:23:28,975 | INFO     | [Worker_9223] Completed: CAI-ELQ - 9 results, 0 errors
+2026-01-22 11:23:28,975 | INFO     | [Worker_9223] Processing: JED-CAI
+2026-01-22 11:23:28,975 | INFO     |   Tier 0: Range 4, Chunk 2/4 (8 days)

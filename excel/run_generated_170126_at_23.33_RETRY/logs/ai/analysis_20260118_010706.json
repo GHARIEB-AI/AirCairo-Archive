@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-01-18T01:07:06.040721",
+  "analysis_type": "session",
+  "summary": "Gemini error (gemini-2.0-flash): google-generativeai is not installed. Install it to enable Gemini integration.",
+  "patterns_detected": [],
+  "recommendations": [],
+  "bottlenecks": [],
+  "performance_score": 0
+}

@@ -1,0 +1,55 @@
+2026-01-11 00:37:59 | INFO     | ======================================================================
+2026-01-11 00:37:59 | INFO     | Load Factor Scraper Started - Route: TUU-ATZ
+2026-01-11 00:37:59 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_110126_at_00.36\logs\LF_TUU-ATZ_20260111_003759.log
+2026-01-11 00:37:59 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-11 00:37:59 | INFO     | ======================================================================
+2026-01-11 00:37:59 | INFO     | Starting LF search for route: TUU-ATZ
+2026-01-11 00:37:59 | INFO     | [START] LF Search
+2026-01-11 00:38:00 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-11 00:38:00 | INFO     | [DAY_START] Processing 28FEB
+2026-01-11 00:38:00 | INFO     | [lf.day.start] Processing TUU-ATZ for 28FEB
+2026-01-11 00:38:01 | WARNING  | [lf.day.no_flights] No direct flights on 28FEB
+2026-01-11 00:38:01 | INFO     | [SUCCESS] Day 28FEB
+2026-01-11 00:38:01 | INFO     | [DAY_START] Processing 27FEB
+2026-01-11 00:38:01 | INFO     | [lf.day.start] Processing TUU-ATZ for 27FEB
+2026-01-11 00:38:02 | INFO     | [lf.day.flights_found] Found 1 flights on 27FEB
+2026-01-11 00:38:04 | INFO     | [lf.flight.extracted] SM328 on 27FEB: BKG=4, LF=2.3%
+2026-01-11 00:38:06 | ERROR    | Atomic write failed for D:\CODERED\LAB\Artifacts\outputs\run_generated_110126_at_00.36\checkpoints\flight_booking_data.json: [WinError 5] Access is denied: 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_110126_at_00.36\\checkpoints\\flight_booking_data.tmp_75836460' -> 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_110126_at_00.36\\checkpoints\\flight_booking_data.json'
+2026-01-11 00:38:06 | INFO     | [SUCCESS] Day 27FEB
+2026-01-11 00:38:06 | INFO     | [DAY_START] Processing 26FEB
+2026-01-11 00:38:06 | INFO     | [lf.day.start] Processing TUU-ATZ for 26FEB
+2026-01-11 00:38:07 | WARNING  | [lf.day.no_flights] No direct flights on 26FEB
+2026-01-11 00:38:07 | INFO     | [SUCCESS] Day 26FEB
+2026-01-11 00:38:07 | INFO     | [DAY_START] Processing 25FEB
+2026-01-11 00:38:07 | INFO     | [lf.day.start] Processing TUU-ATZ for 25FEB
+2026-01-11 00:38:08 | WARNING  | [lf.day.no_flights] No direct flights on 25FEB
+2026-01-11 00:38:09 | INFO     | [SUCCESS] Day 25FEB
+2026-01-11 00:38:09 | INFO     | [DAY_START] Processing 24FEB
+2026-01-11 00:38:09 | INFO     | [lf.day.start] Processing TUU-ATZ for 24FEB
+2026-01-11 00:38:09 | WARNING  | [lf.day.no_flights] No direct flights on 24FEB
+2026-01-11 00:38:10 | INFO     | [SUCCESS] Day 24FEB
+2026-01-11 00:38:10 | INFO     | [DAY_START] Processing 23FEB
+2026-01-11 00:38:10 | INFO     | [lf.day.start] Processing TUU-ATZ for 23FEB
+2026-01-11 00:38:10 | WARNING  | [lf.day.no_flights] No direct flights on 23FEB
+2026-01-11 00:38:11 | INFO     | [SUCCESS] Day 23FEB
+2026-01-11 00:38:11 | INFO     | [DAY_START] Processing 22FEB
+2026-01-11 00:38:11 | INFO     | [lf.day.start] Processing TUU-ATZ for 22FEB
+2026-01-11 00:38:12 | WARNING  | [lf.day.no_flights] No direct flights on 22FEB
+2026-01-11 00:38:12 | INFO     | [SUCCESS] Day 22FEB
+2026-01-11 00:38:12 | INFO     | [DAY_START] Processing 21FEB
+2026-01-11 00:38:12 | INFO     | [lf.day.start] Processing TUU-ATZ for 21FEB
+2026-01-11 00:38:13 | WARNING  | [lf.day.no_flights] No direct flights on 21FEB
+2026-01-11 00:38:13 | INFO     | [SUCCESS] Day 21FEB
+2026-01-11 00:38:13 | INFO     | [DAY_START] Processing 20FEB
+2026-01-11 00:38:13 | INFO     | [lf.day.start] Processing TUU-ATZ for 20FEB
+2026-01-11 00:38:14 | INFO     | [lf.day.flights_found] Found 1 flights on 20FEB
+2026-01-11 00:38:16 | INFO     | [lf.flight.extracted] SM328 on 20FEB: BKG=1, LF=0.6%
+2026-01-11 00:38:18 | INFO     | [SUCCESS] Day 20FEB
+2026-01-11 00:38:18 | INFO     | [DAY_START] Processing 19FEB
+2026-01-11 00:38:18 | INFO     | [lf.day.start] Processing TUU-ATZ for 19FEB
+2026-01-11 00:38:19 | WARNING  | [lf.day.no_flights] No direct flights on 19FEB
+2026-01-11 00:38:19 | INFO     | [SUCCESS] Day 19FEB
+2026-01-11 00:38:19 | INFO     | [SUCCESS] LF Search Complete
+2026-01-11 00:38:21 | INFO     | [Worker_9223] Completed: TUU-ATZ - 10 results, 0 errors
+2026-01-11 00:38:21 | INFO     | [Worker_9223] Processing: AHB-CAI
+2026-01-11 00:38:21 | INFO     |   Tier 0: Range 2, Chunk 1/3 (10 days)

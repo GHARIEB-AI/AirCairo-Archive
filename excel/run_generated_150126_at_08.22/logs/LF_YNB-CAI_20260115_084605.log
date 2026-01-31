@@ -1,0 +1,57 @@
+2026-01-15 08:46:05 | INFO     | ======================================================================
+2026-01-15 08:46:05 | INFO     | Load Factor Scraper Started - Route: YNB-CAI
+2026-01-15 08:46:05 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_150126_at_08.22\logs\LF_YNB-CAI_20260115_084605.log
+2026-01-15 08:46:05 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-15 08:46:05 | INFO     | ======================================================================
+2026-01-15 08:46:05 | INFO     | Starting LF search for route: YNB-CAI
+2026-01-15 08:46:05 | INFO     | [START] LF Search
+2026-01-15 08:46:08 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-15 08:46:08 | INFO     | [DAY_START] Processing 31JAN
+2026-01-15 08:46:08 | INFO     | [lf.day.start] Processing YNB-CAI for 31JAN
+2026-01-15 08:46:10 | INFO     | [lf.day.flights_found] Found 1 flights on 31JAN
+2026-01-15 08:46:13 | INFO     | [lf.flight.extracted] SM442 on 31JAN: BKG=123, LF=70.3%
+2026-01-15 08:46:19 | INFO     | [SUCCESS] Day 31JAN
+2026-01-15 08:46:19 | INFO     | [DAY_START] Processing 30JAN
+2026-01-15 08:46:19 | INFO     | [lf.day.start] Processing YNB-CAI for 30JAN
+2026-01-15 08:46:21 | INFO     | [lf.day.flights_found] Found 1 flights on 30JAN
+2026-01-15 08:46:23 | INFO     | [lf.flight.extracted] SM442 on 30JAN: BKG=62, LF=35.4%
+2026-01-15 08:46:29 | INFO     | [SUCCESS] Day 30JAN
+2026-01-15 08:46:29 | INFO     | [DAY_START] Processing 29JAN
+2026-01-15 08:46:29 | INFO     | [lf.day.start] Processing YNB-CAI for 29JAN
+2026-01-15 08:46:31 | INFO     | [lf.day.flights_found] Found 1 flights on 29JAN
+2026-01-15 08:46:33 | INFO     | [lf.flight.extracted] SM442 on 29JAN: BKG=168, LF=96.0%
+2026-01-15 08:46:46 | INFO     | [SUCCESS] Day 29JAN
+2026-01-15 08:46:46 | INFO     | [DAY_START] Processing 28JAN
+2026-01-15 08:46:46 | INFO     | [lf.day.start] Processing YNB-CAI for 28JAN
+2026-01-15 08:46:48 | INFO     | [lf.day.flights_found] Found 1 flights on 28JAN
+2026-01-15 08:46:50 | INFO     | [lf.flight.extracted] SM442 on 28JAN: BKG=175, LF=98.3%
+2026-01-15 08:46:58 | INFO     | [SUCCESS] Day 28JAN
+2026-01-15 08:46:58 | INFO     | [DAY_START] Processing 27JAN
+2026-01-15 08:46:58 | INFO     | [lf.day.start] Processing YNB-CAI for 27JAN
+2026-01-15 08:47:00 | INFO     | [lf.day.flights_found] Found 1 flights on 27JAN
+2026-01-15 08:47:03 | INFO     | [lf.flight.extracted] SM442 on 27JAN: BKG=164, LF=92.1%
+2026-01-15 08:47:09 | INFO     | [SUCCESS] Day 27JAN
+2026-01-15 08:47:09 | INFO     | [DAY_START] Processing 26JAN
+2026-01-15 08:47:09 | INFO     | [lf.day.start] Processing YNB-CAI for 26JAN
+2026-01-15 08:47:11 | INFO     | [lf.day.flights_found] Found 1 flights on 26JAN
+2026-01-15 08:47:13 | INFO     | [lf.flight.extracted] SM442 on 26JAN: BKG=116, LF=66.3%
+2026-01-15 08:47:19 | INFO     | [SUCCESS] Day 26JAN
+2026-01-15 08:47:19 | INFO     | [DAY_START] Processing 25JAN
+2026-01-15 08:47:19 | INFO     | [lf.day.start] Processing YNB-CAI for 25JAN
+2026-01-15 08:47:20 | INFO     | [lf.day.flights_found] Found 1 flights on 25JAN
+2026-01-15 08:47:22 | INFO     | [lf.flight.extracted] SM442 on 25JAN: BKG=104, LF=60.5%
+2026-01-15 08:47:28 | INFO     | [SUCCESS] Day 25JAN
+2026-01-15 08:47:28 | INFO     | [DAY_START] Processing 24JAN
+2026-01-15 08:47:28 | INFO     | [lf.day.start] Processing YNB-CAI for 24JAN
+2026-01-15 08:47:29 | INFO     | [lf.day.flights_found] Found 1 flights on 24JAN
+2026-01-15 08:47:32 | INFO     | [lf.flight.extracted] SM442 on 24JAN: BKG=172, LF=98.3%
+2026-01-15 08:47:42 | INFO     | [SUCCESS] Day 24JAN
+2026-01-15 08:47:42 | INFO     | [DAY_START] Processing 23JAN
+2026-01-15 08:47:42 | INFO     | [lf.day.start] Processing YNB-CAI for 23JAN
+2026-01-15 08:47:44 | INFO     | [lf.day.flights_found] Found 1 flights on 23JAN
+2026-01-15 08:47:47 | INFO     | [lf.flight.extracted] SM442 on 23JAN: BKG=79, LF=45.1%
+2026-01-15 08:47:53 | INFO     | [SUCCESS] Day 23JAN
+2026-01-15 08:47:53 | INFO     | [SUCCESS] LF Search Complete
+2026-01-15 08:47:55 | INFO     | [Worker_9226] Completed: YNB-CAI - 9 results, 0 errors
+2026-01-15 08:47:55 | INFO     | [Worker_9226] Processing: LXR-JED
+2026-01-15 08:47:55 | INFO     |   Tier 0: Range 1, Chunk 1/2 (9 days)

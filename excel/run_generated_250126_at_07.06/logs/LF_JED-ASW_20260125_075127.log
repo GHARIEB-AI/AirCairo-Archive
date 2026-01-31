@@ -1,0 +1,48 @@
+2026-01-25 07:51:27 | INFO     | ======================================================================
+2026-01-25 07:51:27 | INFO     | Load Factor Scraper Started - Route: JED-ASW
+2026-01-25 07:51:27 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\logs\LF_JED-ASW_20260125_075127.log
+2026-01-25 07:51:27 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-25 07:51:27 | INFO     | ======================================================================
+2026-01-25 07:51:27 | INFO     | Starting LF search for route: JED-ASW
+2026-01-25 07:51:27 | INFO     | [START] LF Search
+2026-01-25 07:51:28 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-25 07:51:28 | INFO     | [DAY_START] Processing 16FEB
+2026-01-25 07:51:28 | INFO     | [lf.day.start] Processing JED-ASW for 16FEB
+2026-01-25 07:51:29 | WARNING  | [lf.day.no_flights] No direct flights on 16FEB
+2026-01-25 07:51:29 | INFO     | [SUCCESS] Day 16FEB
+2026-01-25 07:51:29 | INFO     | [DAY_START] Processing 15FEB
+2026-01-25 07:51:29 | INFO     | [lf.day.start] Processing JED-ASW for 15FEB
+2026-01-25 07:51:31 | WARNING  | [lf.day.no_flights] No direct flights on 15FEB
+2026-01-25 07:51:31 | INFO     | [SUCCESS] Day 15FEB
+2026-01-25 07:51:31 | INFO     | [DAY_START] Processing 14FEB
+2026-01-25 07:51:31 | INFO     | [lf.day.start] Processing JED-ASW for 14FEB
+2026-01-25 07:51:32 | WARNING  | [lf.day.no_flights] No direct flights on 14FEB
+2026-01-25 07:51:32 | INFO     | [SUCCESS] Day 14FEB
+2026-01-25 07:51:32 | INFO     | [DAY_START] Processing 13FEB
+2026-01-25 07:51:32 | INFO     | [lf.day.start] Processing JED-ASW for 13FEB
+2026-01-25 07:51:33 | WARNING  | [lf.day.no_flights] No direct flights on 13FEB
+2026-01-25 07:51:33 | INFO     | [SUCCESS] Day 13FEB
+2026-01-25 07:51:33 | INFO     | [DAY_START] Processing 12FEB
+2026-01-25 07:51:33 | INFO     | [lf.day.start] Processing JED-ASW for 12FEB
+2026-01-25 07:51:34 | WARNING  | [lf.day.no_flights] No direct flights on 12FEB
+2026-01-25 07:51:34 | INFO     | [SUCCESS] Day 12FEB
+2026-01-25 07:51:34 | INFO     | [DAY_START] Processing 11FEB
+2026-01-25 07:51:34 | INFO     | [lf.day.start] Processing JED-ASW for 11FEB
+2026-01-25 07:51:36 | WARNING  | [lf.day.no_flights] No direct flights on 11FEB
+2026-01-25 07:51:36 | INFO     | [SUCCESS] Day 11FEB
+2026-01-25 07:51:36 | INFO     | [DAY_START] Processing 10FEB
+2026-01-25 07:51:36 | INFO     | [lf.day.start] Processing JED-ASW for 10FEB
+2026-01-25 07:51:37 | INFO     | [lf.day.flights_found] Found 2 flights on 10FEB
+2026-01-25 07:51:39 | INFO     | [lf.flight.extracted] SM974 on 10FEB: BKG=164, LF=93.7%
+2026-01-25 07:51:43 | INFO     | [lf.flight.extracted] SM986 on 10FEB: BKG=180, LF=107.8%
+2026-01-25 07:51:47 | INFO     | [SUCCESS] Day 10FEB
+2026-01-25 07:51:47 | INFO     | [DAY_START] Processing 09FEB
+2026-01-25 07:51:47 | INFO     | [lf.day.start] Processing JED-ASW for 09FEB
+2026-01-25 07:51:48 | INFO     | [lf.day.flights_found] Found 2 flights on 09FEB
+2026-01-25 07:51:52 | INFO     | [lf.flight.extracted] SM426 on 09FEB: BKG=180, LF=107.8%
+2026-01-25 07:51:55 | INFO     | [lf.flight.extracted] SM950 on 09FEB: BKG=180, LF=107.8%
+2026-01-25 07:52:00 | INFO     | [SUCCESS] Day 09FEB
+2026-01-25 07:52:00 | INFO     | [SUCCESS] LF Search Complete
+2026-01-25 07:52:00 | INFO     | [Worker_9224] Completed: JED-ASW - 8 results, 0 errors
+2026-01-25 07:52:00 | INFO     | [Worker_9224] Processing: TUU-CAI
+2026-01-25 07:52:00 | INFO     |   Tier 0: Range 1, Chunk 2/4 (8 days)

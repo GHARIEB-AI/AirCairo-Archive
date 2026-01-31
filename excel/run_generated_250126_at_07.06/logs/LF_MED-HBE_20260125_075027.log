@@ -1,0 +1,49 @@
+2026-01-25 07:50:27 | INFO     | ======================================================================
+2026-01-25 07:50:27 | INFO     | Load Factor Scraper Started - Route: MED-HBE
+2026-01-25 07:50:27 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\logs\LF_MED-HBE_20260125_075027.log
+2026-01-25 07:50:27 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-25 07:50:27 | INFO     | ======================================================================
+2026-01-25 07:50:27 | INFO     | Starting LF search for route: MED-HBE
+2026-01-25 07:50:27 | INFO     | [START] LF Search
+2026-01-25 07:50:28 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-25 07:50:28 | INFO     | [DAY_START] Processing 16FEB
+2026-01-25 07:50:28 | INFO     | [lf.day.start] Processing MED-HBE for 16FEB
+2026-01-25 07:50:29 | WARNING  | [lf.day.no_flights] No direct flights on 16FEB
+2026-01-25 07:50:29 | INFO     | [SUCCESS] Day 16FEB
+2026-01-25 07:50:29 | INFO     | [DAY_START] Processing 15FEB
+2026-01-25 07:50:29 | INFO     | [lf.day.start] Processing MED-HBE for 15FEB
+2026-01-25 07:50:31 | INFO     | [lf.day.flights_found] Found 1 flights on 15FEB
+2026-01-25 07:50:35 | INFO     | [lf.flight.extracted] SM486 on 15FEB: BKG=60, LF=34.3%
+2026-01-25 07:50:40 | INFO     | [SUCCESS] Day 15FEB
+2026-01-25 07:50:40 | INFO     | [DAY_START] Processing 14FEB
+2026-01-25 07:50:40 | INFO     | [lf.day.start] Processing MED-HBE for 14FEB
+2026-01-25 07:50:42 | WARNING  | [lf.day.no_flights] No direct flights on 14FEB
+2026-01-25 07:50:42 | INFO     | [SUCCESS] Day 14FEB
+2026-01-25 07:50:42 | INFO     | [DAY_START] Processing 13FEB
+2026-01-25 07:50:42 | INFO     | [lf.day.start] Processing MED-HBE for 13FEB
+2026-01-25 07:50:44 | INFO     | [lf.day.flights_found] Found 1 flights on 13FEB
+2026-01-25 07:50:48 | INFO     | [lf.flight.extracted] SM974 on 13FEB: BKG=98, LF=58.7%
+2026-01-25 07:50:53 | INFO     | [SUCCESS] Day 13FEB
+2026-01-25 07:50:53 | INFO     | [DAY_START] Processing 12FEB
+2026-01-25 07:50:53 | INFO     | [lf.day.start] Processing MED-HBE for 12FEB
+2026-01-25 07:50:54 | INFO     | [lf.day.flights_found] Found 1 flights on 12FEB
+2026-01-25 07:50:56 | INFO     | [lf.flight.extracted] SM486 on 12FEB: BKG=168, LF=96.0%
+2026-01-25 07:51:02 | INFO     | [SUCCESS] Day 12FEB
+2026-01-25 07:51:02 | INFO     | [DAY_START] Processing 11FEB
+2026-01-25 07:51:02 | INFO     | [lf.day.start] Processing MED-HBE for 11FEB
+2026-01-25 07:51:03 | INFO     | [lf.day.flights_found] Found 1 flights on 11FEB
+2026-01-25 07:51:05 | INFO     | [lf.flight.extracted] SM486 on 11FEB: BKG=157, LF=89.7%
+2026-01-25 07:51:09 | INFO     | [SUCCESS] Day 11FEB
+2026-01-25 07:51:09 | INFO     | [DAY_START] Processing 10FEB
+2026-01-25 07:51:09 | INFO     | [lf.day.start] Processing MED-HBE for 10FEB
+2026-01-25 07:51:10 | INFO     | [lf.day.flights_found] Found 1 flights on 10FEB
+2026-01-25 07:51:12 | INFO     | [lf.flight.extracted] SM486 on 10FEB: BKG=173, LF=98.9%
+2026-01-25 07:51:18 | INFO     | [SUCCESS] Day 10FEB
+2026-01-25 07:51:18 | INFO     | [DAY_START] Processing 09FEB
+2026-01-25 07:51:18 | INFO     | [lf.day.start] Processing MED-HBE for 09FEB
+2026-01-25 07:51:19 | WARNING  | [lf.day.no_flights] No direct flights on 09FEB
+2026-01-25 07:51:19 | INFO     | [SUCCESS] Day 09FEB
+2026-01-25 07:51:19 | INFO     | [SUCCESS] LF Search Complete
+2026-01-25 07:51:19 | INFO     | [Worker_9234] Completed: MED-HBE - 8 results, 0 errors
+2026-01-25 07:51:19 | INFO     | [Worker_9234] Processing: JED-LXR
+2026-01-25 07:51:19 | INFO     |   Tier 0: Range 1, Chunk 2/4 (8 days)

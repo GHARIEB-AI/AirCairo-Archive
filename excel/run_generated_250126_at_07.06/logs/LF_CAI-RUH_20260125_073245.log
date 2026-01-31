@@ -1,0 +1,55 @@
+2026-01-25 07:32:45 | INFO     | ======================================================================
+2026-01-25 07:32:45 | INFO     | Load Factor Scraper Started - Route: CAI-RUH
+2026-01-25 07:32:45 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\logs\LF_CAI-RUH_20260125_073245.log
+2026-01-25 07:32:45 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-25 07:32:45 | INFO     | ======================================================================
+2026-01-25 07:32:45 | INFO     | Starting LF search for route: CAI-RUH
+2026-01-25 07:32:45 | INFO     | [START] LF Search
+2026-01-25 07:32:46 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-25 07:32:46 | INFO     | [DAY_START] Processing 27MAR
+2026-01-25 07:32:46 | INFO     | [lf.day.start] Processing CAI-RUH for 27MAR
+2026-01-25 07:32:47 | INFO     | [lf.day.flights_found] Found 2 flights on 27MAR
+2026-01-25 07:32:49 | INFO     | [lf.flight.extracted] SM461 on 27MAR: BKG=54, LF=30.2%
+2026-01-25 07:32:52 | INFO     | [lf.flight.extracted] SM469 on 27MAR: BKG=72, LF=40.2%
+2026-01-25 07:33:01 | INFO     | [SUCCESS] Day 27MAR
+2026-01-25 07:33:01 | INFO     | [DAY_START] Processing 26MAR
+2026-01-25 07:33:01 | INFO     | [lf.day.start] Processing CAI-RUH for 26MAR
+2026-01-25 07:33:03 | INFO     | [lf.day.flights_found] Found 1 flights on 26MAR
+2026-01-25 07:33:05 | INFO     | [lf.flight.extracted] SM461 on 26MAR: BKG=36, LF=20.1%
+2026-01-25 07:33:09 | INFO     | [SUCCESS] Day 26MAR
+2026-01-25 07:33:09 | INFO     | [DAY_START] Processing 25MAR
+2026-01-25 07:33:09 | INFO     | [lf.day.start] Processing CAI-RUH for 25MAR
+2026-01-25 07:33:22 | INFO     | [lf.day.flights_found] Found 2 flights on 25MAR
+2026-01-25 07:33:24 | INFO     | [lf.flight.extracted] SM461 on 25MAR: BKG=20, LF=11.2%
+2026-01-25 07:33:28 | INFO     | [lf.flight.extracted] SM469 on 25MAR: BKG=38, LF=21.2%
+2026-01-25 07:33:35 | INFO     | [SUCCESS] Day 25MAR
+2026-01-25 07:33:35 | INFO     | [DAY_START] Processing 24MAR
+2026-01-25 07:33:35 | INFO     | [lf.day.start] Processing CAI-RUH for 24MAR
+2026-01-25 07:33:36 | INFO     | [lf.day.flights_found] Found 1 flights on 24MAR
+2026-01-25 07:33:38 | INFO     | [lf.flight.extracted] SM469 on 24MAR: BKG=8, LF=4.5%
+2026-01-25 07:33:41 | INFO     | [SUCCESS] Day 24MAR
+2026-01-25 07:33:41 | INFO     | [DAY_START] Processing 23MAR
+2026-01-25 07:33:41 | INFO     | [lf.day.start] Processing CAI-RUH for 23MAR
+2026-01-25 07:33:42 | INFO     | [lf.day.flights_found] Found 1 flights on 23MAR
+2026-01-25 07:33:44 | INFO     | [lf.flight.extracted] SM469 on 23MAR: BKG=22, LF=12.3%
+2026-01-25 07:33:47 | INFO     | [SUCCESS] Day 23MAR
+2026-01-25 07:33:47 | INFO     | [DAY_START] Processing 22MAR
+2026-01-25 07:33:47 | INFO     | [lf.day.start] Processing CAI-RUH for 22MAR
+2026-01-25 07:33:48 | INFO     | [lf.day.flights_found] Found 1 flights on 22MAR
+2026-01-25 07:33:50 | INFO     | [lf.flight.extracted] SM461 on 22MAR: BKG=25, LF=14.0%
+2026-01-25 07:33:53 | INFO     | [SUCCESS] Day 22MAR
+2026-01-25 07:33:53 | INFO     | [DAY_START] Processing 21MAR
+2026-01-25 07:33:53 | INFO     | [lf.day.start] Processing CAI-RUH for 21MAR
+2026-01-25 07:33:54 | INFO     | [lf.day.flights_found] Found 1 flights on 21MAR
+2026-01-25 07:33:56 | INFO     | [lf.flight.extracted] SM461 on 21MAR: BKG=44, LF=24.6%
+2026-01-25 07:34:01 | INFO     | [SUCCESS] Day 21MAR
+2026-01-25 07:34:01 | INFO     | [DAY_START] Processing 20MAR
+2026-01-25 07:34:01 | INFO     | [lf.day.start] Processing CAI-RUH for 20MAR
+2026-01-25 07:34:02 | INFO     | [lf.day.flights_found] Found 2 flights on 20MAR
+2026-01-25 07:34:04 | INFO     | [lf.flight.extracted] SM461 on 20MAR: BKG=10, LF=5.6%
+2026-01-25 07:34:07 | INFO     | [lf.flight.extracted] SM469 on 20MAR: BKG=13, LF=7.3%
+2026-01-25 07:34:11 | INFO     | [SUCCESS] Day 20MAR
+2026-01-25 07:34:11 | INFO     | [SUCCESS] LF Search Complete
+2026-01-25 07:34:11 | INFO     | [Worker_9225] Completed: CAI-RUH - 8 results, 0 errors
+2026-01-25 07:34:11 | INFO     | [Worker_9225] Processing: MED-HBE
+2026-01-25 07:34:11 | INFO     |   Tier 0: Range 2, Chunk 2/4 (8 days)

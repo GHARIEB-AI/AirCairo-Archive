@@ -1,0 +1,57 @@
+2026-01-17 08:53:12 | INFO     | ======================================================================
+2026-01-17 08:53:12 | INFO     | Load Factor Scraper Started - Route: CAI-YNB
+2026-01-17 08:53:12 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_08.47_RETRY\logs\LF_CAI-YNB_20260117_085312.log
+2026-01-17 08:53:12 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-17 08:53:12 | INFO     | ======================================================================
+2026-01-17 08:53:12 | INFO     | Starting LF search for route: CAI-YNB
+2026-01-17 08:53:12 | INFO     | [START] LF Search
+2026-01-17 08:53:13 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-17 08:53:13 | INFO     | [DAY_START] Processing 18APR
+2026-01-17 08:53:13 | INFO     | [lf.day.start] Processing CAI-YNB for 18APR
+2026-01-17 08:53:14 | INFO     | [lf.day.flights_found] Found 1 flights on 18APR
+2026-01-17 08:53:16 | INFO     | [lf.flight.extracted] SM447 on 18APR: BKG=6, LF=3.4%
+2026-01-17 08:53:18 | INFO     | [SUCCESS] Day 18APR
+2026-01-17 08:53:18 | INFO     | [DAY_START] Processing 17APR
+2026-01-17 08:53:18 | INFO     | [lf.day.start] Processing CAI-YNB for 17APR
+2026-01-17 08:53:19 | INFO     | [lf.day.flights_found] Found 1 flights on 17APR
+2026-01-17 08:53:22 | INFO     | [lf.flight.extracted] SM441 on 17APR: BKG=4, LF=2.2%
+2026-01-17 08:53:24 | INFO     | [SUCCESS] Day 17APR
+2026-01-17 08:53:24 | INFO     | [DAY_START] Processing 16APR
+2026-01-17 08:53:24 | INFO     | [lf.day.start] Processing CAI-YNB for 16APR
+2026-01-17 08:53:25 | INFO     | [lf.day.flights_found] Found 1 flights on 16APR
+2026-01-17 08:53:27 | INFO     | [lf.flight.extracted] SM441 on 16APR: BKG=1, LF=0.6%
+2026-01-17 08:53:30 | INFO     | [SUCCESS] Day 16APR
+2026-01-17 08:53:30 | INFO     | [DAY_START] Processing 15APR
+2026-01-17 08:53:30 | INFO     | [lf.day.start] Processing CAI-YNB for 15APR
+2026-01-17 08:53:31 | INFO     | [lf.day.flights_found] Found 1 flights on 15APR
+2026-01-17 08:53:33 | INFO     | [lf.flight.extracted] SM441 on 15APR: BKG=2, LF=1.1%
+2026-01-17 08:53:36 | INFO     | [SUCCESS] Day 15APR
+2026-01-17 08:53:36 | INFO     | [DAY_START] Processing 14APR
+2026-01-17 08:53:36 | INFO     | [lf.day.start] Processing CAI-YNB for 14APR
+2026-01-17 08:53:37 | INFO     | [lf.day.flights_found] Found 1 flights on 14APR
+2026-01-17 08:53:39 | INFO     | [lf.flight.extracted] SM441 on 14APR: BKG=1, LF=0.6%
+2026-01-17 08:53:42 | INFO     | [SUCCESS] Day 14APR
+2026-01-17 08:53:42 | INFO     | [DAY_START] Processing 13APR
+2026-01-17 08:53:42 | INFO     | [lf.day.start] Processing CAI-YNB for 13APR
+2026-01-17 08:53:43 | INFO     | [lf.day.flights_found] Found 1 flights on 13APR
+2026-01-17 08:53:45 | INFO     | [lf.flight.extracted] SM441 on 13APR: BKG=4, LF=2.2%
+2026-01-17 08:53:47 | INFO     | [SUCCESS] Day 13APR
+2026-01-17 08:53:47 | INFO     | [DAY_START] Processing 12APR
+2026-01-17 08:53:47 | INFO     | [lf.day.start] Processing CAI-YNB for 12APR
+2026-01-17 08:53:48 | INFO     | [lf.day.flights_found] Found 1 flights on 12APR
+2026-01-17 08:53:50 | INFO     | [lf.flight.extracted] SM441 on 12APR: BKG=3, LF=1.7%
+2026-01-17 08:53:53 | INFO     | [SUCCESS] Day 12APR
+2026-01-17 08:53:53 | INFO     | [DAY_START] Processing 11APR
+2026-01-17 08:53:53 | INFO     | [lf.day.start] Processing CAI-YNB for 11APR
+2026-01-17 08:53:54 | INFO     | [lf.day.flights_found] Found 1 flights on 11APR
+2026-01-17 08:53:56 | INFO     | [lf.flight.extracted] SM447 on 11APR: BKG=9, LF=5.0%
+2026-01-17 08:53:58 | INFO     | [SUCCESS] Day 11APR
+2026-01-17 08:53:58 | INFO     | [DAY_START] Processing 10APR
+2026-01-17 08:53:58 | INFO     | [lf.day.start] Processing CAI-YNB for 10APR
+2026-01-17 08:53:59 | INFO     | [lf.day.flights_found] Found 1 flights on 10APR
+2026-01-17 08:54:01 | INFO     | [lf.flight.extracted] SM441 on 10APR: BKG=11, LF=6.2%
+2026-01-17 08:54:04 | INFO     | [SUCCESS] Day 10APR
+2026-01-17 08:54:04 | INFO     | [SUCCESS] LF Search Complete
+2026-01-17 08:54:04 | INFO     | [Worker_9223] Completed: CAI-YNB - 9 results, 0 errors
+2026-01-17 08:54:04 | INFO     | [Worker_9223] Processing: RUH-CAI
+2026-01-17 08:54:04 | INFO     |   Tier 0: Range 4, Chunk 3/3 (8 days)

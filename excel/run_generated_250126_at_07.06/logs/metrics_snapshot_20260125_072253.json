@@ -1,0 +1,560 @@
+{
+  "timestamp": "2026-01-25T07:22:53.523446",
+  "service": "market-insights",
+  "counters": {
+    "oal_requests_total": {
+      "description": "Total OAL API requests",
+      "values": []
+    },
+    "lf_requests_total": {
+      "description": "Total LF requests",
+      "values": [
+        {
+          "labels": {
+            "destination": "HBE",
+            "origin": "MED",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "ATZ",
+            "origin": "DMM",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "ATZ",
+            "origin": "AJF",
+            "status": "success"
+          },
+          "value": 16.0
+        },
+        {
+          "labels": {
+            "destination": "ATZ",
+            "origin": "ELQ",
+            "status": "success"
+          },
+          "value": 16.0
+        },
+        {
+          "labels": {
+            "destination": "MED",
+            "origin": "HBE",
+            "status": "success"
+          },
+          "value": 16.0
+        },
+        {
+          "labels": {
+            "destination": "JED",
+            "origin": "LXR",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "TUU",
+            "origin": "ATZ",
+            "status": "success"
+          },
+          "value": 16.0
+        },
+        {
+          "labels": {
+            "destination": "YNB",
+            "origin": "CAI",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "ATZ",
+            "origin": "JED",
+            "status": "success"
+          },
+          "value": 16.0
+        },
+        {
+          "labels": {
+            "destination": "CAI",
+            "origin": "ELQ",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "JED",
+            "origin": "ATZ",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "GIZ",
+            "origin": "CAI",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "ATZ",
+            "origin": "AHB",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "RUH",
+            "origin": "ATZ",
+            "status": "success"
+          },
+          "value": 16.0
+        },
+        {
+          "labels": {
+            "destination": "CAI",
+            "origin": "MED",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "ASW",
+            "origin": "JED",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "CAI",
+            "origin": "DMM",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "MED",
+            "origin": "ATZ",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "AJF",
+            "origin": "CAI",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "ATZ",
+            "origin": "MED",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "HBE",
+            "origin": "JED",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "JED",
+            "origin": "CAI",
+            "status": "success"
+          },
+          "value": 8.0
+        }
+      ]
+    },
+    "errors_total": {
+      "description": "Total errors",
+      "values": []
+    }
+  },
+  "gauges": {
+    "routes_in_progress": {
+      "description": "Routes currently being processed",
+      "values": [
+        {
+          "labels": {},
+          "value": 0.0
+        }
+      ]
+    },
+    "flights_analyzed": {
+      "description": "Total flights analyzed in session",
+      "values": [
+        {
+          "labels": {
+            "direction": "lf"
+          },
+          "value": 95.0
+        }
+      ]
+    },
+    "circuit_breaker_state": {
+      "description": "Circuit breaker state (0=closed, 1=open)",
+      "values": []
+    }
+  },
+  "histograms": {
+    "request_duration_seconds": {
+      "description": "Request duration in seconds",
+      "data": {}
+    },
+    "route_processing_seconds": {
+      "description": "Route processing duration",
+      "data": {
+        "{'route': 'MED-HBE'}": {
+          "sum": 18.830859,
+          "count": 8,
+          "buckets": {
+            "5.0": 8,
+            "10.0": 8,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8
+          },
+          "p50": 3.0,
+          "p95": 4.8,
+          "p99": 4.96
+        },
+        "{'route': 'DMM-ATZ'}": {
+          "sum": 9.522816,
+          "count": 8,
+          "buckets": {
+            "5.0": 8,
+            "10.0": 8,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8
+          },
+          "p50": 3.0,
+          "p95": 4.8,
+          "p99": 4.96
+        },
+        "{'route': 'AJF-ATZ'}": {
+          "sum": 20.558338,
+          "count": 16,
+          "buckets": {
+            "5.0": 16,
+            "10.0": 16,
+            "30.0": 16,
+            "60.0": 16,
+            "120.0": 16,
+            "300.0": 16
+          },
+          "p50": 3.0,
+          "p95": 4.8,
+          "p99": 4.96
+        },
+        "{'route': 'ELQ-ATZ'}": {
+          "sum": 19.609021999999996,
+          "count": 16,
+          "buckets": {
+            "5.0": 16,
+            "10.0": 16,
+            "30.0": 16,
+            "60.0": 16,
+            "120.0": 16,
+            "300.0": 16
+          },
+          "p50": 3.0,
+          "p95": 4.8,
+          "p99": 4.96
+        },
+        "{'route': 'HBE-MED'}": {
+          "sum": 41.409808,
+          "count": 16,
+          "buckets": {
+            "5.0": 13,
+            "10.0": 16,
+            "30.0": 16,
+            "60.0": 16,
+            "120.0": 16,
+            "300.0": 16
+          },
+          "p50": 3.4615384615384617,
+          "p95": 5.6875,
+          "p99": 5.8875
+        },
+        "{'route': 'LXR-JED'}": {
+          "sum": 18.90614,
+          "count": 8,
+          "buckets": {
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8,
+            "5.0": 7,
+            "10.0": 7
+          },
+          "p50": 3.2857142857142856,
+          "p95": 5.428571428571428,
+          "p99": 5.6571428571428575
+        },
+        "{'route': 'ATZ-TUU'}": {
+          "sum": 19.559175,
+          "count": 16,
+          "buckets": {
+            "5.0": 16,
+            "10.0": 16,
+            "30.0": 16,
+            "60.0": 16,
+            "120.0": 16,
+            "300.0": 16
+          },
+          "p50": 3.0,
+          "p95": 4.8,
+          "p99": 4.96
+        },
+        "{'route': 'CAI-YNB'}": {
+          "sum": 36.713926,
+          "count": 8,
+          "buckets": {
+            "10.0": 8,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8,
+            "5.0": 5
+          },
+          "p50": 4.2,
+          "p95": 6.625,
+          "p99": 6.825
+        },
+        "{'route': 'JED-ATZ'}": {
+          "sum": 75.225676,
+          "count": 16,
+          "buckets": {
+            "10.0": 16,
+            "30.0": 16,
+            "60.0": 16,
+            "120.0": 16,
+            "300.0": 16,
+            "5.0": 11
+          },
+          "p50": 3.909090909090909,
+          "p95": 6.3125,
+          "p99": 6.5125
+        },
+        "{'route': 'ELQ-CAI'}": {
+          "sum": 24.629735,
+          "count": 8,
+          "buckets": {
+            "10.0": 8,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8,
+            "5.0": 6
+          },
+          "p50": 3.6666666666666665,
+          "p95": 6.0,
+          "p99": 6.2
+        },
+        "{'route': 'ATZ-JED'}": {
+          "sum": 41.424327,
+          "count": 8,
+          "buckets": {
+            "10.0": 8,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8,
+            "5.0": 2
+          },
+          "p50": 6.25,
+          "p95": 8.5,
+          "p99": 8.7
+        },
+        "{'route': 'CAI-GIZ'}": {
+          "sum": 20.396442999999998,
+          "count": 8,
+          "buckets": {
+            "5.0": 7,
+            "10.0": 8,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8
+          },
+          "p50": 3.2857142857142856,
+          "p95": 5.375,
+          "p99": 5.575
+        },
+        "{'route': 'AHB-ATZ'}": {
+          "sum": 9.829262,
+          "count": 8,
+          "buckets": {
+            "5.0": 8,
+            "10.0": 8,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8
+          },
+          "p50": 3.0,
+          "p95": 4.8,
+          "p99": 4.96
+        },
+        "{'route': 'ATZ-RUH'}": {
+          "sum": 34.923576000000004,
+          "count": 16,
+          "buckets": {
+            "5.0": 13,
+            "10.0": 16,
+            "30.0": 16,
+            "60.0": 16,
+            "120.0": 16,
+            "300.0": 16
+          },
+          "p50": 3.4615384615384617,
+          "p95": 5.6875,
+          "p99": 5.8875
+        },
+        "{'route': 'MED-CAI'}": {
+          "sum": 29.049367999999998,
+          "count": 8,
+          "buckets": {
+            "5.0": 5,
+            "10.0": 8,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8
+          },
+          "p50": 4.2,
+          "p95": 6.625,
+          "p99": 6.825
+        },
+        "{'route': 'JED-ASW'}": {
+          "sum": 10.260750000000002,
+          "count": 8,
+          "buckets": {
+            "5.0": 8,
+            "10.0": 8,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8
+          },
+          "p50": 3.0,
+          "p95": 4.8,
+          "p99": 4.96
+        },
+        "{'route': 'DMM-CAI'}": {
+          "sum": 45.73776,
+          "count": 8,
+          "buckets": {
+            "10.0": 7,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8,
+            "5.0": 2
+          },
+          "p50": 6.428571428571429,
+          "p95": 9.0,
+          "p99": 9.228571428571428
+        },
+        "{'route': 'ATZ-MED'}": {
+          "sum": 15.200059,
+          "count": 8,
+          "buckets": {
+            "5.0": 7,
+            "10.0": 8,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8
+          },
+          "p50": 3.2857142857142856,
+          "p95": 5.375,
+          "p99": 5.575
+        },
+        "{'route': 'CAI-AJF'}": {
+          "sum": 31.019952000000004,
+          "count": 8,
+          "buckets": {
+            "10.0": 8,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8,
+            "5.0": 4
+          },
+          "p50": 5.0,
+          "p95": 7.25,
+          "p99": 7.45
+        },
+        "{'route': 'MED-ATZ'}": {
+          "sum": 12.951042,
+          "count": 8,
+          "buckets": {
+            "5.0": 8,
+            "10.0": 8,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8
+          },
+          "p50": 3.0,
+          "p95": 4.8,
+          "p99": 4.96
+        },
+        "{'route': 'JED-HBE'}": {
+          "sum": 31.423595,
+          "count": 8,
+          "buckets": {
+            "5.0": 5,
+            "10.0": 8,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8
+          },
+          "p50": 4.2,
+          "p95": 6.625,
+          "p99": 6.825
+        },
+        "{'route': 'CAI-JED'}": {
+          "sum": 141.66390199999998,
+          "count": 8,
+          "buckets": {
+            "30.0": 7,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8
+          },
+          "p50": 21.42857142857143,
+          "p95": 32.25,
+          "p99": 33.45
+        }
+      }
+    }
+  }
+}

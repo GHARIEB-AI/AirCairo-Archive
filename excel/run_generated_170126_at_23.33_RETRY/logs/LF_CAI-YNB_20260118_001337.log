@@ -1,0 +1,62 @@
+2026-01-18 00:13:37 | INFO     | ======================================================================
+2026-01-18 00:13:37 | INFO     | Load Factor Scraper Started - Route: CAI-YNB
+2026-01-18 00:13:37 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_23.33_RETRY\logs\LF_CAI-YNB_20260118_001337.log
+2026-01-18 00:13:37 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-18 00:13:37 | INFO     | ======================================================================
+2026-01-18 00:13:37 | INFO     | Starting LF search for route: CAI-YNB
+2026-01-18 00:13:37 | INFO     | [START] LF Search
+2026-01-18 00:13:38 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-18 00:13:38 | INFO     | [DAY_START] Processing 10FEB
+2026-01-18 00:13:38 | INFO     | [lf.day.start] Processing CAI-YNB for 10FEB
+2026-01-18 00:13:39 | INFO     | [lf.day.flights_found] Found 2 flights on 10FEB
+2026-01-18 00:13:41 | INFO     | [lf.flight.extracted] SM987 on 10FEB: BKG=170, LF=95.0%
+2026-01-18 00:13:45 | INFO     | [lf.flight.extracted] SM441 on 10FEB: BKG=179, LF=100.0%
+2026-01-18 00:13:49 | INFO     | [SUCCESS] Day 10FEB
+2026-01-18 00:13:49 | INFO     | [DAY_START] Processing 09FEB
+2026-01-18 00:13:49 | INFO     | [lf.day.start] Processing CAI-YNB for 09FEB
+2026-01-18 00:13:50 | INFO     | [lf.day.flights_found] Found 2 flights on 09FEB
+2026-01-18 00:13:52 | INFO     | [lf.flight.extracted] SM987 on 09FEB: BKG=170, LF=95.0%
+2026-01-18 00:13:55 | INFO     | [lf.flight.extracted] SM441 on 09FEB: BKG=179, LF=100.0%
+2026-01-18 00:13:59 | INFO     | [SUCCESS] Day 09FEB
+2026-01-18 00:13:59 | INFO     | [DAY_START] Processing 08FEB
+2026-01-18 00:13:59 | INFO     | [lf.day.start] Processing CAI-YNB for 08FEB
+2026-01-18 00:14:00 | INFO     | [lf.day.flights_found] Found 4 flights on 08FEB
+2026-01-18 00:14:02 | INFO     | [lf.flight.extracted] SM981 on 08FEB: BKG=175, LF=97.8%
+2026-01-18 00:14:06 | INFO     | [lf.flight.extracted] SM441 on 08FEB: BKG=166, LF=94.3%
+2026-01-18 00:14:09 | INFO     | [lf.flight.extracted] SM983 on 08FEB: BKG=170, LF=95.0%
+2026-01-18 00:14:13 | INFO     | [lf.flight.extracted] SM985 on 08FEB: BKG=170, LF=95.0%
+2026-01-18 00:14:24 | INFO     | [SUCCESS] Day 08FEB
+2026-01-18 00:14:24 | INFO     | [DAY_START] Processing 07FEB
+2026-01-18 00:14:24 | INFO     | [lf.day.start] Processing CAI-YNB for 07FEB
+2026-01-18 00:14:25 | INFO     | [lf.day.flights_found] Found 1 flights on 07FEB
+2026-01-18 00:14:27 | INFO     | [lf.flight.extracted] SM441 on 07FEB: BKG=163, LF=91.1%
+2026-01-18 00:14:30 | INFO     | [SUCCESS] Day 07FEB
+2026-01-18 00:14:30 | INFO     | [DAY_START] Processing 06FEB
+2026-01-18 00:14:30 | INFO     | [lf.day.start] Processing CAI-YNB for 06FEB
+2026-01-18 00:14:31 | INFO     | [lf.day.flights_found] Found 1 flights on 06FEB
+2026-01-18 00:14:33 | INFO     | [lf.flight.extracted] SM441 on 06FEB: BKG=63, LF=35.2%
+2026-01-18 00:14:36 | INFO     | [SUCCESS] Day 06FEB
+2026-01-18 00:14:36 | INFO     | [DAY_START] Processing 05FEB
+2026-01-18 00:14:36 | INFO     | [lf.day.start] Processing CAI-YNB for 05FEB
+2026-01-18 00:14:37 | INFO     | [lf.day.flights_found] Found 1 flights on 05FEB
+2026-01-18 00:14:40 | INFO     | [lf.flight.extracted] SM441 on 05FEB: BKG=12, LF=6.7%
+2026-01-18 00:14:42 | INFO     | [SUCCESS] Day 05FEB
+2026-01-18 00:14:42 | INFO     | [DAY_START] Processing 04FEB
+2026-01-18 00:14:42 | INFO     | [lf.day.start] Processing CAI-YNB for 04FEB
+2026-01-18 00:14:43 | INFO     | [lf.day.flights_found] Found 1 flights on 04FEB
+2026-01-18 00:14:45 | INFO     | [lf.flight.extracted] SM441 on 04FEB: BKG=15, LF=8.4%
+2026-01-18 00:14:47 | INFO     | [SUCCESS] Day 04FEB
+2026-01-18 00:14:47 | INFO     | [DAY_START] Processing 03FEB
+2026-01-18 00:14:47 | INFO     | [lf.day.start] Processing CAI-YNB for 03FEB
+2026-01-18 00:14:48 | INFO     | [lf.day.flights_found] Found 1 flights on 03FEB
+2026-01-18 00:14:50 | INFO     | [lf.flight.extracted] SM441 on 03FEB: BKG=6, LF=3.4%
+2026-01-18 00:14:53 | INFO     | [SUCCESS] Day 03FEB
+2026-01-18 00:14:53 | INFO     | [DAY_START] Processing 02FEB
+2026-01-18 00:14:53 | INFO     | [lf.day.start] Processing CAI-YNB for 02FEB
+2026-01-18 00:14:54 | INFO     | [lf.day.flights_found] Found 1 flights on 02FEB
+2026-01-18 00:14:56 | INFO     | [lf.flight.extracted] SM441 on 02FEB: BKG=21, LF=11.7%
+2026-01-18 00:14:59 | INFO     | [SUCCESS] Day 02FEB
+2026-01-18 00:14:59 | INFO     | [SUCCESS] LF Search Complete
+2026-01-18 00:14:59 | INFO     | [Worker_9225] Completed: CAI-YNB - 9 results, 0 errors
+2026-01-18 00:14:59 | INFO     | [Worker_9225] Processing: RUH-CAI
+2026-01-18 00:14:59 | INFO     |   Tier 0: Range 1, Chunk 2/3 (8 days)

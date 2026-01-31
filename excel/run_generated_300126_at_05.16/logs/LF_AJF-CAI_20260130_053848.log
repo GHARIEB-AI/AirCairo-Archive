@@ -1,0 +1,56 @@
+2026-01-30 05:38:48 | INFO     | ======================================================================
+2026-01-30 05:38:48 | INFO     | Load Factor Scraper Started - Route: AJF-CAI
+2026-01-30 05:38:48 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_AJF-CAI_20260130_053848.log
+2026-01-30 05:38:48 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 05:38:48 | INFO     | ======================================================================
+2026-01-30 05:38:48 | INFO     | Starting LF search for route: AJF-CAI
+2026-01-30 05:38:48 | INFO     | [START] LF Search
+2026-01-30 05:38:49 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 05:38:49 | INFO     | [DAY_START] Processing 30MAR
+2026-01-30 05:38:49 | INFO     | [lf.day.start] Processing AJF-CAI for 30MAR
+2026-01-30 05:38:51 | WARNING  | [lf.day.no_flights] No direct flights on 30MAR
+2026-01-30 05:38:51 | INFO     | [SUCCESS] Day 30MAR
+2026-01-30 05:38:51 | INFO     | [DAY_START] Processing 29MAR
+2026-01-30 05:38:51 | INFO     | [lf.day.start] Processing AJF-CAI for 29MAR
+2026-01-30 05:38:54 | WARNING  | [lf.day.no_flights] No direct flights on 29MAR
+2026-01-30 05:38:54 | INFO     | [SUCCESS] Day 29MAR
+2026-01-30 05:38:54 | INFO     | [DAY_START] Processing 28MAR
+2026-01-30 05:38:54 | INFO     | [lf.day.start] Processing AJF-CAI for 28MAR
+2026-01-30 05:38:58 | INFO     | [lf.day.flights_found] Found 1 flights on 28MAR
+2026-01-30 05:39:03 | INFO     | [lf.flight.extracted] SM322 on 28MAR: BKG=9, LF=5.1%
+2026-01-30 05:39:14 | INFO     | [SUCCESS] Day 28MAR
+2026-01-30 05:39:14 | INFO     | [DAY_START] Processing 27MAR
+2026-01-30 05:39:14 | INFO     | [lf.day.start] Processing AJF-CAI for 27MAR
+2026-01-30 05:39:18 | WARNING  | [lf.day.no_flights] No direct flights on 27MAR
+2026-01-30 05:39:18 | INFO     | [SUCCESS] Day 27MAR
+2026-01-30 05:39:18 | INFO     | [DAY_START] Processing 26MAR
+2026-01-30 05:39:18 | INFO     | [lf.day.start] Processing AJF-CAI for 26MAR
+2026-01-30 05:39:21 | INFO     | [lf.day.flights_found] Found 1 flights on 26MAR
+2026-01-30 05:39:27 | INFO     | [lf.flight.extracted] SM322 on 26MAR: BKG=10, LF=5.7%
+2026-01-30 05:39:34 | INFO     | [SUCCESS] Day 26MAR
+2026-01-30 05:39:34 | INFO     | [DAY_START] Processing 25MAR
+2026-01-30 05:39:34 | INFO     | [lf.day.start] Processing AJF-CAI for 25MAR
+2026-01-30 05:39:38 | WARNING  | [lf.day.no_flights] No direct flights on 25MAR
+2026-01-30 05:39:38 | INFO     | [SUCCESS] Day 25MAR
+2026-01-30 05:39:38 | INFO     | [DAY_START] Processing 24MAR
+2026-01-30 05:39:38 | INFO     | [lf.day.start] Processing AJF-CAI for 24MAR
+2026-01-30 05:39:42 | INFO     | [lf.day.flights_found] Found 1 flights on 24MAR
+2026-01-30 05:39:49 | INFO     | [lf.flight.extracted] SM322 on 24MAR: BKG=6, LF=3.6%
+2026-01-30 05:39:58 | INFO     | [SUCCESS] Day 24MAR
+2026-01-30 05:39:58 | INFO     | [DAY_START] Processing 23MAR
+2026-01-30 05:39:58 | INFO     | [lf.day.start] Processing AJF-CAI for 23MAR
+2026-01-30 05:40:01 | WARNING  | [lf.day.no_flights] No direct flights on 23MAR
+2026-01-30 05:40:01 | INFO     | [SUCCESS] Day 23MAR
+2026-01-30 05:40:01 | INFO     | [DAY_START] Processing 22MAR
+2026-01-30 05:40:01 | INFO     | [lf.day.start] Processing AJF-CAI for 22MAR
+2026-01-30 05:40:04 | WARNING  | [lf.day.no_flights] No direct flights on 22MAR
+2026-01-30 05:40:04 | INFO     | [SUCCESS] Day 22MAR
+2026-01-30 05:40:04 | INFO     | [DAY_START] Processing 21MAR
+2026-01-30 05:40:04 | INFO     | [lf.day.start] Processing AJF-CAI for 21MAR
+2026-01-30 05:40:08 | INFO     | [lf.day.flights_found] Found 1 flights on 21MAR
+2026-01-30 05:40:14 | INFO     | [lf.flight.extracted] SM322 on 21MAR: BKG=13, LF=7.4%
+2026-01-30 05:40:24 | INFO     | [SUCCESS] Day 21MAR
+2026-01-30 05:40:24 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 05:40:24 | INFO     | [Worker_9222] Completed: AJF-CAI - 10 results, 0 errors
+2026-01-30 05:40:24 | INFO     | [Worker_9222] Processing: CAI-MED
+2026-01-30 05:40:24 | INFO     |   Tier 0: Range 2, Chunk 1/3 (10 days)

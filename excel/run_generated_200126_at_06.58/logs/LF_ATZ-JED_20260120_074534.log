@@ -1,0 +1,66 @@
+2026-01-20 07:45:34 | INFO     | ======================================================================
+2026-01-20 07:45:34 | INFO     | Load Factor Scraper Started - Route: ATZ-JED
+2026-01-20 07:45:34 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_200126_at_06.58\logs\LF_ATZ-JED_20260120_074534.log
+2026-01-20 07:45:34 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-20 07:45:34 | INFO     | ======================================================================
+2026-01-20 07:45:34 | INFO     | Starting LF search for route: ATZ-JED
+2026-01-20 07:45:34 | INFO     | [START] LF Search
+2026-01-20 07:45:37 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-20 07:45:37 | INFO     | [DAY_START] Processing 09MAR
+2026-01-20 07:45:37 | INFO     | [lf.day.start] Processing ATZ-JED for 09MAR
+2026-01-20 07:45:39 | INFO     | [lf.day.flights_found] Found 4 flights on 09MAR
+2026-01-20 07:45:41 | INFO     | [lf.flight.extracted] SM491 on 09MAR: BKG=2, LF=1.1%
+2026-01-20 07:45:45 | INFO     | [lf.flight.extracted] SM455 on 09MAR: BKG=0, LF=0.0%
+2026-01-20 07:45:48 | INFO     | [lf.flight.extracted] SM421 on 09MAR: BKG=8, LF=4.5%
+2026-01-20 07:45:52 | INFO     | [lf.flight.extracted] SM453 on 09MAR: BKG=0, LF=0.0%
+2026-01-20 07:45:55 | INFO     | [SUCCESS] Day 09MAR
+2026-01-20 07:45:55 | INFO     | [DAY_START] Processing 08MAR
+2026-01-20 07:45:55 | INFO     | [lf.day.start] Processing ATZ-JED for 08MAR
+2026-01-20 07:45:57 | INFO     | [lf.day.flights_found] Found 2 flights on 08MAR
+2026-01-20 07:45:59 | INFO     | [lf.flight.extracted] SM491 on 08MAR: BKG=3, LF=1.7%
+2026-01-20 07:46:02 | INFO     | [lf.flight.extracted] SM455 on 08MAR: BKG=2, LF=1.1%
+2026-01-20 07:46:06 | INFO     | [SUCCESS] Day 08MAR
+2026-01-20 07:46:06 | INFO     | [DAY_START] Processing 07MAR
+2026-01-20 07:46:06 | INFO     | [lf.day.start] Processing ATZ-JED for 07MAR
+2026-01-20 07:46:07 | INFO     | [lf.day.flights_found] Found 3 flights on 07MAR
+2026-01-20 07:46:09 | INFO     | [lf.flight.extracted] SM491 on 07MAR: BKG=1, LF=0.6%
+2026-01-20 07:46:13 | INFO     | [lf.flight.extracted] SM453 on 07MAR: BKG=1, LF=0.6%
+2026-01-20 07:46:16 | INFO     | [lf.flight.extracted] SM455 on 07MAR: BKG=9, LF=5.0%
+2026-01-20 07:46:19 | ERROR    | Atomic write failed for D:\CODERED\LAB\Artifacts\outputs\run_generated_200126_at_06.58\checkpoints\flight_booking_data.json: [WinError 5] Access is denied: 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_200126_at_06.58\\checkpoints\\flight_booking_data.tmp_543f08eb' -> 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_200126_at_06.58\\checkpoints\\flight_booking_data.json'
+2026-01-20 07:46:23 | INFO     | [SUCCESS] Day 07MAR
+2026-01-20 07:46:23 | INFO     | [DAY_START] Processing 06MAR
+2026-01-20 07:46:23 | INFO     | [lf.day.start] Processing ATZ-JED for 06MAR
+2026-01-20 07:46:25 | INFO     | [lf.day.flights_found] Found 1 flights on 06MAR
+2026-01-20 07:46:27 | INFO     | [lf.flight.extracted] SM491 on 06MAR: BKG=1, LF=0.6%
+2026-01-20 07:46:31 | INFO     | [SUCCESS] Day 06MAR
+2026-01-20 07:46:31 | INFO     | [DAY_START] Processing 05MAR
+2026-01-20 07:46:31 | INFO     | [lf.day.start] Processing ATZ-JED for 05MAR
+2026-01-20 07:46:32 | INFO     | [lf.day.flights_found] Found 2 flights on 05MAR
+2026-01-20 07:46:35 | INFO     | [lf.flight.extracted] SM453 on 05MAR: BKG=177, LF=98.9%
+2026-01-20 07:46:38 | INFO     | [lf.flight.extracted] SM455 on 05MAR: BKG=92, LF=51.4%
+2026-01-20 07:46:43 | INFO     | [SUCCESS] Day 05MAR
+2026-01-20 07:46:43 | INFO     | [DAY_START] Processing 04MAR
+2026-01-20 07:46:43 | INFO     | [lf.day.start] Processing ATZ-JED for 04MAR
+2026-01-20 07:46:44 | INFO     | [lf.day.flights_found] Found 3 flights on 04MAR
+2026-01-20 07:46:46 | INFO     | [lf.flight.extracted] SM453 on 04MAR: BKG=45, LF=25.1%
+2026-01-20 07:46:50 | INFO     | [lf.flight.extracted] SM491 on 04MAR: BKG=0, LF=0.0%
+2026-01-20 07:46:53 | INFO     | [lf.flight.extracted] SM421 on 04MAR: BKG=2, LF=1.1%
+2026-01-20 07:46:58 | INFO     | [SUCCESS] Day 04MAR
+2026-01-20 07:46:58 | INFO     | [DAY_START] Processing 03MAR
+2026-01-20 07:46:58 | INFO     | [lf.day.start] Processing ATZ-JED for 03MAR
+2026-01-20 07:46:59 | INFO     | [lf.day.flights_found] Found 2 flights on 03MAR
+2026-01-20 07:47:01 | INFO     | [lf.flight.extracted] SM453 on 03MAR: BKG=0, LF=0.0%
+2026-01-20 07:47:05 | INFO     | [lf.flight.extracted] SM455 on 03MAR: BKG=2, LF=1.1%
+2026-01-20 07:47:08 | INFO     | [SUCCESS] Day 03MAR
+2026-01-20 07:47:08 | INFO     | [DAY_START] Processing 02MAR
+2026-01-20 07:47:08 | INFO     | [lf.day.start] Processing ATZ-JED for 02MAR
+2026-01-20 07:47:09 | INFO     | [lf.day.flights_found] Found 4 flights on 02MAR
+2026-01-20 07:47:11 | INFO     | [lf.flight.extracted] SM491 on 02MAR: BKG=0, LF=0.0%
+2026-01-20 07:47:15 | INFO     | [lf.flight.extracted] SM455 on 02MAR: BKG=0, LF=0.0%
+2026-01-20 07:47:19 | INFO     | [lf.flight.extracted] SM421 on 02MAR: BKG=3, LF=1.7%
+2026-01-20 07:47:25 | INFO     | [lf.flight.extracted] SM453 on 02MAR: BKG=1, LF=0.6%
+2026-01-20 07:47:32 | INFO     | [SUCCESS] Day 02MAR
+2026-01-20 07:47:32 | INFO     | [SUCCESS] LF Search Complete
+2026-01-20 07:47:34 | INFO     | [Worker_9223] Completed: ATZ-JED - 8 results, 0 errors
+2026-01-20 07:47:34 | INFO     | [Worker_9223] Processing: JED-CAI
+2026-01-20 07:47:34 | INFO     |   Tier 0: Range 2, Chunk 4/4 (8 days)

@@ -1,0 +1,213 @@
+2026-01-30 05:16:40,343 | INFO     | [Worker_9234] Completed: JED-LXR - 8 results, 0 errors
+2026-01-30 05:16:40,344 | INFO     | [Worker_9234] Processing: RUH-ATZ
+2026-01-30 05:16:40,344 | INFO     |   Tier 0: Range 4, Chunk 1/4 (8 days)
+2026-01-30 05:16:54,239 | INFO     | [Worker_9234] Completed: RUH-ATZ - 8 results, 0 errors
+2026-01-30 05:16:54,240 | INFO     | [Worker_9234] Processing: AJF-CAI
+2026-01-30 05:16:54,240 | INFO     |   Tier 0: Range 4, Chunk 1/4 (8 days)
+2026-01-30 05:17:16,401 | INFO     | [Worker_9234] Completed: AJF-CAI - 8 results, 0 errors
+2026-01-30 05:17:16,401 | INFO     | [Worker_9234] Processing: CAI-MED
+2026-01-30 05:17:16,402 | INFO     |   Tier 0: Range 4, Chunk 1/4 (8 days)
+2026-01-30 05:17:38,841 | INFO     | [Worker_9234] Completed: CAI-MED - 8 results, 0 errors
+2026-01-30 05:17:38,842 | INFO     | [Worker_9234] Processing: ATZ-RUH
+2026-01-30 05:17:38,842 | INFO     |   Tier 0: Range 4, Chunk 1/4 (8 days)
+2026-01-30 05:17:52,396 | INFO     | [Worker_9234] Completed: ATZ-RUH - 8 results, 0 errors
+2026-01-30 05:17:52,397 | INFO     | [Worker_9234] Processing: CAI-AJF
+2026-01-30 05:17:52,397 | INFO     |   Tier 0: Range 4, Chunk 1/4 (8 days)
+2026-01-30 05:18:25,237 | INFO     | [Worker_9234] Completed: CAI-AJF - 8 results, 0 errors
+2026-01-30 05:18:25,238 | INFO     | [Worker_9234] Processing: MED-ATZ
+2026-01-30 05:18:25,239 | INFO     |   Tier 0: Range 4, Chunk 2/4 (8 days)
+2026-01-30 05:18:39,123 | INFO     | [Worker_9234] Completed: MED-ATZ - 8 results, 0 errors
+2026-01-30 05:18:39,124 | INFO     | [Worker_9234] Processing: JED-ASW
+2026-01-30 05:18:39,124 | INFO     |   Tier 0: Range 4, Chunk 2/4 (8 days)
+2026-01-30 05:18:56,340 | INFO     | [Worker_9234] Completed: JED-ASW - 8 results, 0 errors
+2026-01-30 05:18:56,342 | INFO     | [Worker_9234] Processing: DMM-CAI
+2026-01-30 05:18:56,343 | INFO     |   Tier 0: Range 4, Chunk 2/4 (8 days)
+2026-01-30 05:19:41,736 | INFO     | [Worker_9234] Completed: DMM-CAI - 8 results, 0 errors
+2026-01-30 05:19:41,737 | INFO     | [Worker_9234] Processing: HBE-JED
+2026-01-30 05:19:41,737 | INFO     |   Tier 0: Range 4, Chunk 2/4 (8 days)
+2026-01-30 05:20:11,988 | INFO     | [Worker_9234] Completed: HBE-JED - 8 results, 0 errors
+2026-01-30 05:20:11,989 | INFO     | [Worker_9234] Processing: CAI-AJF
+2026-01-30 05:20:11,989 | INFO     |   Tier 0: Range 4, Chunk 2/4 (8 days)
+2026-01-30 05:20:31,619 | INFO     | [Worker_9234] Completed: CAI-AJF - 8 results, 0 errors
+2026-01-30 05:20:31,620 | INFO     | [Worker_9234] Processing: MED-HBE
+2026-01-30 05:20:31,621 | INFO     |   Tier 0: Range 4, Chunk 3/4 (8 days)
+2026-01-30 05:20:54,304 | INFO     | [Worker_9234] Completed: MED-HBE - 8 results, 0 errors
+2026-01-30 05:20:54,305 | INFO     | [Worker_9234] Processing: RUH-CAI
+2026-01-30 05:20:54,305 | INFO     |   Tier 0: Range 4, Chunk 3/4 (8 days)
+2026-01-30 05:21:30,847 | INFO     | [Worker_9234] Completed: RUH-CAI - 8 results, 0 errors
+2026-01-30 05:21:30,847 | INFO     | [Worker_9234] Processing: ELQ-ATZ
+2026-01-30 05:21:30,848 | INFO     |   Tier 0: Range 4, Chunk 3/4 (8 days)
+2026-01-30 05:21:40,569 | INFO     | [Worker_9234] Completed: ELQ-ATZ - 8 results, 0 errors
+2026-01-30 05:21:40,570 | INFO     | [Worker_9234] Processing: CAI-JED
+2026-01-30 05:21:40,571 | INFO     |   Tier 0: Range 4, Chunk 3/4 (8 days)
+2026-01-30 05:23:29,176 | INFO     | [Worker_9234] Completed: CAI-JED - 8 results, 0 errors
+2026-01-30 05:23:29,178 | INFO     | [Worker_9234] Processing: AJF-CAI
+2026-01-30 05:23:29,178 | INFO     |   Tier 0: Range 4, Chunk 4/4 (7 days)
+2026-01-30 05:23:59,142 | INFO     | [Worker_9234] Completed: AJF-CAI - 7 results, 0 errors
+2026-01-30 05:23:59,143 | INFO     | [Worker_9234] Processing: GIZ-CAI
+2026-01-30 05:23:59,144 | INFO     |   Tier 0: Range 4, Chunk 4/4 (7 days)
+2026-01-30 05:24:21,508 | INFO     | [Worker_9234] Completed: GIZ-CAI - 7 results, 0 errors
+2026-01-30 05:24:21,510 | INFO     | [Worker_9234] Processing: ASW-JED
+2026-01-30 05:24:21,511 | INFO     |   Tier 0: Range 4, Chunk 4/4 (7 days)
+2026-01-30 05:24:31,172 | INFO     | [Worker_9234] Completed: ASW-JED - 7 results, 0 errors
+2026-01-30 05:24:31,173 | INFO     | [Worker_9234] Processing: ATZ-TUU
+2026-01-30 05:24:31,174 | INFO     |   Tier 0: Range 4, Chunk 4/4 (7 days)
+2026-01-30 05:24:39,967 | INFO     | [Worker_9234] Completed: ATZ-TUU - 7 results, 0 errors
+2026-01-30 05:24:39,969 | INFO     | [Worker_9234] Processing: CAI-YNB
+2026-01-30 05:24:39,969 | INFO     |   Tier 0: Range 4, Chunk 4/4 (7 days)
+2026-01-30 05:25:14,598 | INFO     | [Worker_9234] Completed: CAI-YNB - 7 results, 0 errors
+2026-01-30 05:25:14,599 | INFO     | [Worker_9234] Processing: JED-ATZ
+2026-01-30 05:25:14,599 | INFO     |   Tier 0: Range 3, Chunk 1/3 (10 days)
+2026-01-30 05:25:58,165 | INFO     | [Worker_9234] Completed: JED-ATZ - 10 results, 0 errors
+2026-01-30 05:25:58,167 | INFO     | [Worker_9234] Processing: ELQ-CAI
+2026-01-30 05:25:58,167 | INFO     |   Tier 0: Range 3, Chunk 1/3 (10 days)
+2026-01-30 05:26:30,576 | INFO     | [Worker_9234] Completed: ELQ-CAI - 10 results, 0 errors
+2026-01-30 05:26:30,578 | INFO     | [Worker_9234] Processing: CAI-RUH
+2026-01-30 05:26:30,578 | INFO     |   Tier 0: Range 3, Chunk 1/3 (10 days)
+2026-01-30 05:27:16,608 | INFO     | [Worker_9234] Completed: CAI-RUH - 10 results, 0 errors
+2026-01-30 05:27:16,610 | INFO     | [Worker_9234] Processing: ATZ-AHB
+2026-01-30 05:27:16,611 | INFO     |   Tier 0: Range 3, Chunk 1/3 (10 days)
+2026-01-30 05:27:29,304 | INFO     | [Worker_9234] Completed: ATZ-AHB - 10 results, 0 errors
+2026-01-30 05:27:29,305 | INFO     | [Worker_9234] Processing: MED-CAI
+2026-01-30 05:27:29,306 | INFO     |   Tier 0: Range 3, Chunk 2/3 (10 days)
+2026-01-30 05:27:58,946 | INFO     | [Worker_9234] Completed: MED-CAI - 10 results, 0 errors
+2026-01-30 05:27:58,947 | INFO     | [Worker_9234] Processing: JED-LXR
+2026-01-30 05:27:58,948 | INFO     |   Tier 0: Range 3, Chunk 2/3 (10 days)
+2026-01-30 05:28:31,645 | INFO     | [Worker_9234] Completed: JED-LXR - 10 results, 0 errors
+2026-01-30 05:28:31,647 | INFO     | [Worker_9234] Processing: TUU-ATZ
+2026-01-30 05:28:31,647 | INFO     |   Tier 0: Range 3, Chunk 2/3 (10 days)
+2026-01-30 05:28:43,964 | INFO     | [Worker_9234] Completed: TUU-ATZ - 10 results, 0 errors
+2026-01-30 05:28:43,965 | INFO     | [Worker_9234] Processing: YNB-CAI
+2026-01-30 05:28:43,965 | INFO     |   Tier 0: Range 3, Chunk 2/3 (10 days)
+2026-01-30 05:29:36,089 | INFO     | [Worker_9234] Completed: YNB-CAI - 10 results, 0 errors
+2026-01-30 05:29:36,090 | INFO     | [Worker_9234] Processing: CAI-RUH
+2026-01-30 05:29:36,090 | INFO     |   Tier 0: Range 3, Chunk 2/3 (10 days)
+2026-01-30 05:30:27,841 | INFO     | [Worker_9234] Completed: CAI-RUH - 10 results, 0 errors
+2026-01-30 05:30:27,842 | INFO     | [Worker_9234] Processing: CAI-ELQ
+2026-01-30 05:30:27,842 | INFO     |   Tier 0: Range 3, Chunk 2/3 (10 days)
+2026-01-30 05:30:57,817 | INFO     | [Worker_9234] Completed: CAI-ELQ - 10 results, 0 errors
+2026-01-30 05:30:57,818 | INFO     | [Worker_9234] Processing: JED-ATZ
+2026-01-30 05:30:57,818 | INFO     |   Tier 0: Range 3, Chunk 3/3 (10 days)
+2026-01-30 05:32:02,841 | INFO     | [Worker_9234] Completed: JED-ATZ - 10 results, 0 errors
+2026-01-30 05:32:02,842 | INFO     | [Worker_9234] Processing: GIZ-CAI
+2026-01-30 05:32:02,842 | INFO     |   Tier 0: Range 3, Chunk 3/3 (10 days)
+2026-01-30 05:32:34,374 | INFO     | [Worker_9234] Completed: GIZ-CAI - 10 results, 0 errors
+2026-01-30 05:32:34,376 | INFO     | [Worker_9234] Processing: LXR-JED
+2026-01-30 05:32:34,376 | INFO     |   Tier 0: Range 3, Chunk 3/3 (10 days)
+2026-01-30 05:32:46,641 | INFO     | [Worker_9234] Completed: LXR-JED - 10 results, 0 errors
+2026-01-30 05:32:46,642 | INFO     | [Worker_9234] Processing: ATZ-RUH
+2026-01-30 05:32:46,642 | INFO     |   Tier 0: Range 3, Chunk 3/3 (10 days)
+2026-01-30 05:33:28,390 | INFO     | [Worker_9234] Completed: ATZ-RUH - 10 results, 0 errors
+2026-01-30 05:33:28,391 | INFO     | [Worker_9234] Processing: ATZ-AJF
+2026-01-30 05:33:28,391 | INFO     |   Tier 0: Range 3, Chunk 3/3 (10 days)
+2026-01-30 05:33:48,762 | INFO     | [Worker_9234] Completed: ATZ-AJF - 10 results, 0 errors
+2026-01-30 05:33:48,766 | INFO     | [Worker_9234] Processing: CAI-ELQ
+2026-01-30 05:33:48,767 | INFO     |   Tier 0: Range 3, Chunk 3/3 (10 days)
+2026-01-30 05:34:55,519 | INFO     | [Worker_9234] Completed: CAI-ELQ - 10 results, 0 errors
+2026-01-30 05:34:55,521 | INFO     | [Worker_9234] Processing: MED-ATZ
+2026-01-30 05:34:55,521 | INFO     |   Tier 0: Range 2, Chunk 1/3 (10 days)
+2026-01-30 05:36:38,141 | INFO     | [Worker_9234] Completed: MED-ATZ - 10 results, 0 errors
+2026-01-30 05:36:38,148 | INFO     | [Worker_9234] Processing: RUH-CAI
+2026-01-30 05:36:38,150 | INFO     |   Tier 0: Range 2, Chunk 1/3 (10 days)
+2026-01-30 05:39:16,296 | INFO     | [Worker_9234] Completed: RUH-CAI - 10 results, 0 errors
+2026-01-30 05:39:16,302 | INFO     | [Worker_9234] Processing: AHB-CAI
+2026-01-30 05:39:16,303 | INFO     |   Tier 0: Range 2, Chunk 1/3 (10 days)
+2026-01-30 05:40:27,393 | INFO     | [Worker_9234] Completed: AHB-CAI - 10 results, 0 errors
+2026-01-30 05:40:27,401 | INFO     | [Worker_9234] Processing: HBE-MED
+2026-01-30 05:40:27,401 | INFO     |   Tier 0: Range 2, Chunk 1/3 (10 days)
+2026-01-30 05:41:58,295 | INFO     | [Worker_9234] Completed: HBE-MED - 10 results, 0 errors
+2026-01-30 05:41:58,301 | INFO     | [Worker_9234] Processing: ASW-JED
+2026-01-30 05:41:58,302 | INFO     |   Tier 0: Range 2, Chunk 1/3 (10 days)
+2026-01-30 05:42:39,210 | INFO     | [Worker_9234] Completed: ASW-JED - 10 results, 0 errors
+2026-01-30 05:42:39,218 | INFO     | [Worker_9234] Processing: ATZ-RUH
+2026-01-30 05:42:39,218 | INFO     |   Tier 0: Range 2, Chunk 1/3 (10 days)
+2026-01-30 05:43:25,317 | INFO     | [Worker_9234] Completed: ATZ-RUH - 10 results, 0 errors
+2026-01-30 05:43:25,322 | INFO     | [Worker_9234] Processing: CAI-TUU
+2026-01-30 05:43:25,323 | INFO     |   Tier 0: Range 2, Chunk 1/3 (10 days)
+2026-01-30 05:44:36,045 | INFO     | [Worker_9234] Completed: CAI-TUU - 10 results, 0 errors
+2026-01-30 05:44:36,047 | INFO     | [Worker_9234] Processing: CAI-YNB
+2026-01-30 05:44:36,048 | INFO     |   Tier 0: Range 2, Chunk 1/3 (10 days)
+2026-01-30 05:47:37,989 | INFO     | [Worker_9234] Completed: CAI-YNB - 10 results, 0 errors
+2026-01-30 05:47:38,000 | INFO     | [Worker_9234] Processing: RUH-CAI
+2026-01-30 05:47:38,001 | INFO     |   Tier 0: Range 2, Chunk 2/3 (10 days)
+2026-01-30 05:50:18,069 | INFO     | [Worker_9234] Completed: RUH-CAI - 10 results, 0 errors
+2026-01-30 05:50:18,073 | INFO     | [Worker_9234] Processing: ELQ-CAI
+2026-01-30 05:50:18,073 | INFO     |   Tier 0: Range 2, Chunk 2/3 (10 days)
+2026-01-30 05:51:06,726 | INFO     | [Worker_9234] Completed: ELQ-CAI - 10 results, 0 errors
+2026-01-30 05:51:06,731 | INFO     | [Worker_9234] Processing: HBE-MED
+2026-01-30 05:51:06,731 | INFO     |   Tier 0: Range 2, Chunk 2/3 (10 days)
+2026-01-30 05:52:16,952 | INFO     | [Worker_9234] Completed: HBE-MED - 10 results, 0 errors
+2026-01-30 05:52:16,960 | INFO     | [Worker_9234] Processing: CAI-DMM
+2026-01-30 05:52:16,961 | INFO     |   Tier 0: Range 2, Chunk 2/3 (10 days)
+2026-01-30 05:53:14,007 | INFO     | [Worker_9234] Completed: CAI-DMM - 10 results, 0 errors
+2026-01-30 05:53:14,010 | INFO     | [Worker_9234] Processing: ATZ-AJF
+2026-01-30 05:53:14,010 | INFO     |   Tier 0: Range 2, Chunk 2/3 (10 days)
+2026-01-30 05:53:41,875 | INFO     | [Worker_9234] Completed: ATZ-AJF - 10 results, 0 errors
+2026-01-30 05:53:41,879 | INFO     | [Worker_9234] Processing: CAI-ELQ
+2026-01-30 05:53:41,880 | INFO     |   Tier 0: Range 2, Chunk 2/3 (10 days)
+2026-01-30 05:54:29,370 | INFO     | [Worker_9234] Completed: CAI-ELQ - 10 results, 0 errors
+2026-01-30 05:54:29,371 | INFO     | [Worker_9234] Processing: JED-CAI
+2026-01-30 05:54:29,372 | INFO     |   Tier 0: Range 2, Chunk 3/3 (10 days)
+2026-01-30 05:59:09,181 | INFO     | [Worker_9234] Completed: JED-CAI - 10 results, 0 errors
+2026-01-30 05:59:09,216 | INFO     | [Worker_9234] Processing: JED-LXR
+2026-01-30 05:59:09,216 | INFO     |   Tier 0: Range 1, Chunk 1/3 (10 days)
+2026-01-30 05:59:40,425 | INFO     | [Worker_9234] Completed: JED-LXR - 10 results, 0 errors
+2026-01-30 05:59:40,427 | INFO     | [Worker_9234] Processing: RUH-ATZ
+2026-01-30 05:59:40,427 | INFO     |   Tier 0: Range 1, Chunk 1/3 (10 days)
+2026-01-30 06:00:12,323 | INFO     | [Worker_9234] Completed: RUH-ATZ - 10 results, 0 errors
+2026-01-30 06:00:12,324 | INFO     | [Worker_9234] Processing: AJF-CAI
+2026-01-30 06:00:12,325 | INFO     |   Tier 0: Range 1, Chunk 1/3 (10 days)
+2026-01-30 06:00:50,830 | INFO     | [Worker_9234] Completed: AJF-CAI - 10 results, 0 errors
+2026-01-30 06:00:50,831 | INFO     | [Worker_9234] Processing: ELQ-ATZ
+2026-01-30 06:00:50,831 | INFO     |   Tier 0: Range 1, Chunk 1/3 (10 days)
+2026-01-30 06:01:21,070 | INFO     | [Worker_9234] Completed: ELQ-ATZ - 10 results, 0 errors
+2026-01-30 06:01:21,071 | INFO     | [Worker_9234] Processing: HBE-JED
+2026-01-30 06:01:21,071 | INFO     |   Tier 0: Range 1, Chunk 1/3 (10 days)
+2026-01-30 06:03:08,282 | INFO     | [Worker_9234] Completed: HBE-JED - 10 results, 0 errors
+2026-01-30 06:03:08,283 | INFO     | [Worker_9234] Processing: ATZ-AHB
+2026-01-30 06:03:08,283 | INFO     |   Tier 0: Range 1, Chunk 1/3 (10 days)
+2026-01-30 06:03:29,186 | INFO     | [Worker_9234] Completed: ATZ-AHB - 10 results, 0 errors
+2026-01-30 06:03:29,187 | INFO     | [Worker_9234] Processing: MED-CAI
+2026-01-30 06:03:29,187 | INFO     |   Tier 0: Range 1, Chunk 2/3 (10 days)
+2026-01-30 06:05:10,384 | INFO     | [Worker_9234] Completed: MED-CAI - 10 results, 0 errors
+2026-01-30 06:05:10,385 | INFO     | [Worker_9234] Processing: DMM-CAI
+2026-01-30 06:05:10,386 | INFO     |   Tier 0: Range 1, Chunk 2/3 (10 days)
+2026-01-30 06:05:49,342 | INFO     | [Worker_9234] Completed: DMM-CAI - 10 results, 0 errors
+2026-01-30 06:05:49,344 | INFO     | [Worker_9234] Processing: DMM-ATZ
+2026-01-30 06:05:49,344 | INFO     |   Tier 0: Range 1, Chunk 2/3 (10 days)
+2026-01-30 06:06:21,875 | INFO     | [Worker_9234] Completed: DMM-ATZ - 10 results, 0 errors
+2026-01-30 06:06:21,876 | INFO     | [Worker_9234] Processing: TUU-ATZ
+2026-01-30 06:06:21,876 | INFO     |   Tier 0: Range 1, Chunk 2/3 (10 days)
+2026-01-30 06:06:40,897 | INFO     | [Worker_9234] Completed: TUU-ATZ - 10 results, 0 errors
+2026-01-30 06:06:40,898 | INFO     | [Worker_9234] Processing: AHB-CAI
+2026-01-30 06:06:40,898 | INFO     |   Tier 0: Range 1, Chunk 2/3 (10 days)
+2026-01-30 06:07:11,832 | INFO     | [Worker_9234] Completed: AHB-CAI - 10 results, 0 errors
+2026-01-30 06:07:11,834 | INFO     | [Worker_9234] Processing: CAI-MED
+2026-01-30 06:07:11,835 | INFO     |   Tier 0: Range 1, Chunk 2/3 (10 days)
+2026-01-30 06:08:35,283 | INFO     | [Worker_9234] Completed: CAI-MED - 10 results, 0 errors
+2026-01-30 06:08:35,284 | INFO     | [Worker_9234] Processing: CAI-RUH
+2026-01-30 06:08:35,284 | INFO     |   Tier 0: Range 1, Chunk 2/3 (10 days)
+2026-01-30 06:10:07,499 | INFO     | [Worker_9234] Completed: CAI-RUH - 10 results, 0 errors
+2026-01-30 06:10:07,500 | INFO     | [Worker_9234] Processing: MED-CAI
+2026-01-30 06:10:07,500 | INFO     |   Tier 0: Range 1, Chunk 3/3 (10 days)
+2026-01-30 06:11:19,065 | INFO     | [Worker_9234] Completed: MED-CAI - 9 results, 0 errors
+2026-01-30 06:11:19,067 | INFO     | [Worker_9234] Processing: DMM-ATZ
+2026-01-30 06:11:19,067 | INFO     |   Tier 0: Range 1, Chunk 3/3 (10 days)
+2026-01-30 06:11:46,406 | INFO     | [Worker_9234] Completed: DMM-ATZ - 9 results, 0 errors
+2026-01-30 06:11:46,407 | INFO     | [Worker_9234] Processing: TUU-CAI
+2026-01-30 06:11:46,407 | INFO     |   Tier 0: Range 1, Chunk 3/3 (10 days)
+2026-01-30 06:12:24,203 | INFO     | [Worker_9234] Completed: TUU-CAI - 9 results, 0 errors
+2026-01-30 06:12:24,204 | INFO     | [Worker_9234] Processing: AHB-CAI
+2026-01-30 06:12:24,204 | INFO     |   Tier 0: Range 1, Chunk 3/3 (10 days)
+2026-01-30 06:13:07,449 | INFO     | [Worker_9234] Completed: AHB-CAI - 9 results, 0 errors
+2026-01-30 06:13:07,450 | INFO     | [Worker_9234] Processing: ATZ-MED
+2026-01-30 06:13:07,451 | INFO     |   Tier 0: Range 1, Chunk 3/3 (10 days)
+2026-01-30 06:13:48,987 | INFO     | [Worker_9234] Completed: ATZ-MED - 9 results, 0 errors
+2026-01-30 06:13:48,989 | INFO     | [Worker_9234] Processing: CAI-RUH
+2026-01-30 06:13:48,989 | INFO     |   Tier 0: Range 1, Chunk 3/3 (10 days)
+2026-01-30 06:15:26,616 | INFO     | [Worker_9234] Completed: CAI-RUH - 9 results, 0 errors
+2026-01-30 06:15:26,617 | INFO     | [Worker_9234] Processing: ATZ-ELQ
+2026-01-30 06:15:26,617 | INFO     |   Tier 0: Range 1, Chunk 3/3 (10 days)
+2026-01-30 06:16:10,019 | INFO     | [Worker_9234] Completed: ATZ-ELQ - 9 results, 0 errors
+2026-01-30 06:21:40,500 | INFO     | [Worker_9234] Shutdown signal received, exiting...
+2026-01-30 06:21:40,501 | INFO     | [Worker_9234] Finished. Processed 71 groups.

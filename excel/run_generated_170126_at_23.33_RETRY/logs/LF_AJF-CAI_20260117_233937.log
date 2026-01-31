@@ -1,0 +1,48 @@
+2026-01-17 23:39:37 | INFO     | ======================================================================
+2026-01-17 23:39:37 | INFO     | Load Factor Scraper Started - Route: AJF-CAI
+2026-01-17 23:39:37 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_23.33_RETRY\logs\LF_AJF-CAI_20260117_233937.log
+2026-01-17 23:39:37 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-17 23:39:37 | INFO     | ======================================================================
+2026-01-17 23:39:37 | INFO     | Starting LF search for route: AJF-CAI
+2026-01-17 23:39:37 | INFO     | [START] LF Search
+2026-01-17 23:39:37 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-17 23:39:38 | INFO     | [DAY_START] Processing 09APR
+2026-01-17 23:39:38 | INFO     | [lf.day.start] Processing AJF-CAI for 09APR
+2026-01-17 23:39:38 | INFO     | [lf.day.flights_found] Found 1 flights on 09APR
+2026-01-17 23:39:40 | INFO     | [lf.flight.extracted] SM322 on 09APR: BKG=1, LF=0.6%
+2026-01-17 23:39:43 | INFO     | [SUCCESS] Day 09APR
+2026-01-17 23:39:43 | INFO     | [DAY_START] Processing 08APR
+2026-01-17 23:39:43 | INFO     | [lf.day.start] Processing AJF-CAI for 08APR
+2026-01-17 23:39:57 | WARNING  | [lf.day.no_flights] No direct flights on 08APR
+2026-01-17 23:39:57 | INFO     | [SUCCESS] Day 08APR
+2026-01-17 23:39:57 | INFO     | [DAY_START] Processing 07APR
+2026-01-17 23:39:57 | INFO     | [lf.day.start] Processing AJF-CAI for 07APR
+2026-01-17 23:39:58 | WARNING  | [lf.day.no_flights] No direct flights on 07APR
+2026-01-17 23:39:58 | INFO     | [SUCCESS] Day 07APR
+2026-01-17 23:39:58 | INFO     | [DAY_START] Processing 06APR
+2026-01-17 23:39:58 | INFO     | [lf.day.start] Processing AJF-CAI for 06APR
+2026-01-17 23:39:59 | WARNING  | [lf.day.no_flights] No direct flights on 06APR
+2026-01-17 23:39:59 | INFO     | [SUCCESS] Day 06APR
+2026-01-17 23:39:59 | INFO     | [DAY_START] Processing 05APR
+2026-01-17 23:39:59 | INFO     | [lf.day.start] Processing AJF-CAI for 05APR
+2026-01-17 23:40:00 | INFO     | [lf.day.flights_found] Found 1 flights on 05APR
+2026-01-17 23:40:02 | INFO     | [lf.flight.extracted] SM322 on 05APR: BKG=5, LF=2.9%
+2026-01-17 23:40:05 | INFO     | [SUCCESS] Day 05APR
+2026-01-17 23:40:05 | INFO     | [DAY_START] Processing 04APR
+2026-01-17 23:40:05 | INFO     | [lf.day.start] Processing AJF-CAI for 04APR
+2026-01-17 23:40:06 | WARNING  | [lf.day.no_flights] No direct flights on 04APR
+2026-01-17 23:40:06 | INFO     | [SUCCESS] Day 04APR
+2026-01-17 23:40:06 | INFO     | [DAY_START] Processing 03APR
+2026-01-17 23:40:06 | INFO     | [lf.day.start] Processing AJF-CAI for 03APR
+2026-01-17 23:40:07 | INFO     | [lf.day.flights_found] Found 1 flights on 03APR
+2026-01-17 23:40:10 | INFO     | [lf.flight.extracted] SM322 on 03APR: BKG=5, LF=2.9%
+2026-01-17 23:40:12 | INFO     | [SUCCESS] Day 03APR
+2026-01-17 23:40:12 | INFO     | [DAY_START] Processing 02APR
+2026-01-17 23:40:12 | INFO     | [lf.day.start] Processing AJF-CAI for 02APR
+2026-01-17 23:40:13 | INFO     | [lf.day.flights_found] Found 1 flights on 02APR
+2026-01-17 23:40:15 | INFO     | [lf.flight.extracted] SM322 on 02APR: BKG=13, LF=7.4%
+2026-01-17 23:40:18 | INFO     | [SUCCESS] Day 02APR
+2026-01-17 23:40:18 | INFO     | [SUCCESS] LF Search Complete
+2026-01-17 23:40:18 | INFO     | [Worker_9227] Completed: AJF-CAI - 8 results, 0 errors
+2026-01-17 23:40:18 | INFO     | [Worker_9227] Processing: CAI-JED
+2026-01-17 23:40:18 | INFO     |   Tier 0: Range 4, Chunk 3/3 (8 days)

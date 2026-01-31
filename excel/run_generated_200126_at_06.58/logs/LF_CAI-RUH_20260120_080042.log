@@ -1,0 +1,54 @@
+2026-01-20 08:00:42 | INFO     | ======================================================================
+2026-01-20 08:00:42 | INFO     | Load Factor Scraper Started - Route: CAI-RUH
+2026-01-20 08:00:42 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_200126_at_06.58\logs\LF_CAI-RUH_20260120_080042.log
+2026-01-20 08:00:42 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-20 08:00:42 | INFO     | ======================================================================
+2026-01-20 08:00:42 | INFO     | Starting LF search for route: CAI-RUH
+2026-01-20 08:00:42 | INFO     | [START] LF Search
+2026-01-20 08:00:43 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-20 08:00:43 | INFO     | [DAY_START] Processing 12FEB
+2026-01-20 08:00:43 | INFO     | [lf.day.start] Processing CAI-RUH for 12FEB
+2026-01-20 08:00:44 | INFO     | [lf.day.flights_found] Found 1 flights on 12FEB
+2026-01-20 08:00:47 | INFO     | [lf.flight.extracted] SM461 on 12FEB: BKG=6, LF=3.4%
+2026-01-20 08:00:49 | INFO     | [SUCCESS] Day 12FEB
+2026-01-20 08:00:49 | INFO     | [DAY_START] Processing 11FEB
+2026-01-20 08:00:49 | INFO     | [lf.day.start] Processing CAI-RUH for 11FEB
+2026-01-20 08:00:50 | INFO     | [lf.day.flights_found] Found 2 flights on 11FEB
+2026-01-20 08:00:53 | INFO     | [lf.flight.extracted] SM461 on 11FEB: BKG=3, LF=1.7%
+2026-01-20 08:00:56 | INFO     | [lf.flight.extracted] SM469 on 11FEB: BKG=5, LF=2.8%
+2026-01-20 08:01:00 | INFO     | [SUCCESS] Day 11FEB
+2026-01-20 08:01:00 | INFO     | [DAY_START] Processing 10FEB
+2026-01-20 08:01:00 | INFO     | [lf.day.start] Processing CAI-RUH for 10FEB
+2026-01-20 08:01:01 | INFO     | [lf.day.flights_found] Found 1 flights on 10FEB
+2026-01-20 08:01:03 | INFO     | [lf.flight.extracted] SM469 on 10FEB: BKG=8, LF=4.5%
+2026-01-20 08:01:06 | INFO     | [SUCCESS] Day 10FEB
+2026-01-20 08:01:06 | INFO     | [DAY_START] Processing 09FEB
+2026-01-20 08:01:06 | INFO     | [lf.day.start] Processing CAI-RUH for 09FEB
+2026-01-20 08:01:07 | INFO     | [lf.day.flights_found] Found 1 flights on 09FEB
+2026-01-20 08:01:09 | INFO     | [lf.flight.extracted] SM469 on 09FEB: BKG=15, LF=8.4%
+2026-01-20 08:01:12 | INFO     | [SUCCESS] Day 09FEB
+2026-01-20 08:01:12 | INFO     | [DAY_START] Processing 08FEB
+2026-01-20 08:01:12 | INFO     | [lf.day.start] Processing CAI-RUH for 08FEB
+2026-01-20 08:01:13 | INFO     | [lf.day.flights_found] Found 1 flights on 08FEB
+2026-01-20 08:01:16 | INFO     | [lf.flight.extracted] SM461 on 08FEB: BKG=14, LF=7.8%
+2026-01-20 08:01:18 | INFO     | [SUCCESS] Day 08FEB
+2026-01-20 08:01:18 | INFO     | [DAY_START] Processing 07FEB
+2026-01-20 08:01:18 | INFO     | [lf.day.start] Processing CAI-RUH for 07FEB
+2026-01-20 08:01:19 | INFO     | [lf.day.flights_found] Found 1 flights on 07FEB
+2026-01-20 08:01:21 | INFO     | [lf.flight.extracted] SM461 on 07FEB: BKG=26, LF=14.5%
+2026-01-20 08:01:25 | INFO     | [SUCCESS] Day 07FEB
+2026-01-20 08:01:25 | INFO     | [DAY_START] Processing 06FEB
+2026-01-20 08:01:25 | INFO     | [lf.day.start] Processing CAI-RUH for 06FEB
+2026-01-20 08:01:26 | INFO     | [lf.day.flights_found] Found 2 flights on 06FEB
+2026-01-20 08:01:28 | INFO     | [lf.flight.extracted] SM461 on 06FEB: BKG=20, LF=11.2%
+2026-01-20 08:01:33 | INFO     | [lf.flight.extracted] SM469 on 06FEB: BKG=26, LF=14.5%
+2026-01-20 08:01:40 | INFO     | [SUCCESS] Day 06FEB
+2026-01-20 08:01:40 | INFO     | [DAY_START] Processing 05FEB
+2026-01-20 08:01:40 | INFO     | [lf.day.start] Processing CAI-RUH for 05FEB
+2026-01-20 08:01:41 | INFO     | [lf.day.flights_found] Found 1 flights on 05FEB
+2026-01-20 08:01:43 | INFO     | [lf.flight.extracted] SM461 on 05FEB: BKG=40, LF=22.4%
+2026-01-20 08:01:47 | INFO     | [SUCCESS] Day 05FEB
+2026-01-20 08:01:47 | INFO     | [SUCCESS] LF Search Complete
+2026-01-20 08:01:49 | INFO     | [Worker_9234] Completed: CAI-RUH - 8 results, 0 errors
+2026-01-20 08:01:49 | INFO     | [Worker_9234] Processing: ATZ-AHB
+2026-01-20 08:01:49 | INFO     |   Tier 0: Range 1, Chunk 2/4 (8 days)

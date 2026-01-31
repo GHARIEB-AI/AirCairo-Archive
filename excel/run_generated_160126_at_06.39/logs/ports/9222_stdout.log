@@ -1,0 +1,165 @@
+
+============================================================
+     LF WORKER - PORT 9222
+============================================================
+Worker: Worker_9222
+Status: READY
+Waiting for tasks...
+============================================================
+
+
+============================================================
+[Worker_9222] Processing: JED-CAI
+  Tier 0: Range 3, Chunk 1/3
+  Dates: 617 days
+  Date Range: 2031-03-31 to 2029-07-23
+============================================================
+
+2026-01-16 06:39:29 | INFO     | ======================================================================
+2026-01-16 06:39:29 | INFO     | Load Factor Scraper Started - Route: JED-CAI
+2026-01-16 06:39:29 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_160126_at_06.39\logs\LF_JED-CAI_20260116_063929.log
+2026-01-16 06:39:29 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-16 06:39:29 | INFO     | ======================================================================
+[LF] Processing dates (override): ['31MAR', '30MAR', '29MAR', '28MAR', '27MAR', '26MAR', '25MAR', '24MAR', '23MAR', '22MAR', '21MAR', '20MAR', '19MAR', '18MAR', '17MAR', '16MAR', '15MAR', '14MAR', '13MAR', '12MAR', '11MAR', '10MAR', '09MAR', '08MAR', '07MAR', '06MAR', '05MAR', '04MAR', '03MAR', '02MAR', '01MAR', '28FEB', '27FEB', '26FEB', '25FEB', '24FEB', '23FEB', '22FEB', '21FEB', '20FEB', '19FEB', '18FEB', '17FEB', '16FEB', '15FEB', '14FEB', '13FEB', '12FEB', '11FEB', '10FEB', '09FEB', '08FEB', '07FEB', '06FEB', '05FEB', '04FEB', '03FEB', '02FEB', '01FEB', '31JAN', '30JAN', '29JAN', '28JAN', '27JAN', '26JAN', '25JAN', '24JAN', '23JAN', '22JAN', '21JAN', '20JAN', '19JAN', '18JAN', '17JAN', '16JAN', '15JAN', '14JAN', '13JAN', '12JAN', '11JAN', '10JAN', '09JAN', '08JAN', '07JAN', '06JAN', '05JAN', '04JAN', '03JAN', '02JAN', '01JAN', '31DEC', '30DEC', '29DEC', '28DEC', '27DEC', '26DEC', '25DEC', '24DEC', '23DEC', '22DEC', '21DEC', '20DEC', '19DEC', '18DEC', '17DEC', '16DEC', '15DEC', '14DEC', '13DEC', '12DEC', '11DEC', '10DEC', '09DEC', '08DEC', '07DEC', '06DEC', '05DEC', '04DEC', '03DEC', '02DEC', '01DEC', '30NOV', '29NOV', '28NOV', '27NOV', '26NOV', '25NOV', '24NOV', '23NOV', '22NOV', '21NOV', '20NOV', '19NOV', '18NOV', '17NOV', '16NOV', '15NOV', '14NOV', '13NOV', '12NOV', '11NOV', '10NOV', '09NOV', '08NOV', '07NOV', '06NOV', '05NOV', '04NOV', '03NOV', '02NOV', '01NOV', '31OCT', '30OCT', '29OCT', '28OCT', '27OCT', '26OCT', '25OCT', '24OCT', '23OCT', '22OCT', '21OCT', '20OCT', '19OCT', '18OCT', '17OCT', '16OCT', '15OCT', '14OCT', '13OCT', '12OCT', '11OCT', '10OCT', '09OCT', '08OCT', '07OCT', '06OCT', '05OCT', '04OCT', '03OCT', '02OCT', '01OCT', '30SEP', '29SEP', '28SEP', '27SEP', '26SEP', '25SEP', '24SEP', '23SEP', '22SEP', '21SEP', '20SEP', '19SEP', '18SEP', '17SEP', '16SEP', '15SEP', '14SEP', '13SEP', '12SEP', '11SEP', '10SEP', '09SEP', '08SEP', '07SEP', '06SEP', '05SEP', '04SEP', '03SEP', '02SEP', '01SEP', '31AUG', '30AUG', '29AUG', '28AUG', '27AUG', '26AUG', '25AUG', '24AUG', '23AUG', '22AUG', '21AUG', '20AUG', '19AUG', '18AUG', '17AUG', '16AUG', '15AUG', '14AUG', '13AUG', '12AUG', '11AUG', '10AUG', '09AUG', '08AUG', '07AUG', '06AUG', '05AUG', '04AUG', '03AUG', '02AUG', '01AUG', '31JUL', '30JUL', '29JUL', '28JUL', '27JUL', '26JUL', '25JUL', '24JUL', '23JUL', '22JUL', '21JUL', '20JUL', '19JUL', '18JUL', '17JUL', '16JUL', '15JUL', '14JUL', '13JUL', '12JUL', '11JUL', '10JUL', '09JUL', '08JUL', '07JUL', '06JUL', '05JUL', '04JUL', '03JUL', '02JUL', '01JUL', '30JUN', '29JUN', '28JUN', '27JUN', '26JUN', '25JUN', '24JUN', '23JUN', '22JUN', '21JUN', '20JUN', '19JUN', '18JUN', '17JUN', '16JUN', '15JUN', '14JUN', '13JUN', '12JUN', '11JUN', '10JUN', '09JUN', '08JUN', '07JUN', '06JUN', '05JUN', '04JUN', '03JUN', '02JUN', '01JUN', '31MAY', '30MAY', '29MAY', '28MAY', '27MAY', '26MAY', '25MAY', '24MAY', '23MAY', '22MAY', '21MAY', '20MAY', '19MAY', '18MAY', '17MAY', '16MAY', '15MAY', '14MAY', '13MAY', '12MAY', '11MAY', '10MAY', '09MAY', '08MAY', '07MAY', '06MAY', '05MAY', '04MAY', '03MAY', '02MAY', '01MAY', '30APR', '29APR', '28APR', '27APR', '26APR', '25APR', '24APR', '23APR', '22APR', '21APR', '20APR', '19APR', '18APR', '17APR', '16APR', '15APR', '14APR', '13APR', '12APR', '11APR', '10APR', '09APR', '08APR', '07APR', '06APR', '05APR', '04APR', '03APR', '02APR', '01APR', '31MAR', '30MAR', '29MAR', '28MAR', '27MAR', '26MAR', '25MAR', '24MAR', '23MAR', '22MAR', '21MAR', '20MAR', '19MAR', '18MAR', '17MAR', '16MAR', '15MAR', '14MAR', '13MAR', '12MAR', '11MAR', '10MAR', '09MAR', '08MAR', '07MAR', '06MAR', '05MAR', '04MAR', '03MAR', '02MAR', '01MAR', '28FEB', '27FEB', '26FEB', '25FEB', '24FEB', '23FEB', '22FEB', '21FEB', '20FEB', '19FEB', '18FEB', '17FEB', '16FEB', '15FEB', '14FEB', '13FEB', '12FEB', '11FEB', '10FEB', '09FEB', '08FEB', '07FEB', '06FEB', '05FEB', '04FEB', '03FEB', '02FEB', '01FEB', '31JAN', '30JAN', '29JAN', '28JAN', '27JAN', '26JAN', '25JAN', '24JAN', '23JAN', '22JAN', '21JAN', '20JAN', '19JAN', '18JAN', '17JAN', '16JAN', '15JAN', '14JAN', '13JAN', '12JAN', '11JAN', '10JAN', '09JAN', '08JAN', '07JAN', '06JAN', '05JAN', '04JAN', '03JAN', '02JAN', '01JAN', '31DEC', '30DEC', '29DEC', '28DEC', '27DEC', '26DEC', '25DEC', '24DEC', '23DEC', '22DEC', '21DEC', '20DEC', '19DEC', '18DEC', '17DEC', '16DEC', '15DEC', '14DEC', '13DEC', '12DEC', '11DEC', '10DEC', '09DEC', '08DEC', '07DEC', '06DEC', '05DEC', '04DEC', '03DEC', '02DEC', '01DEC', '30NOV', '29NOV', '28NOV', '27NOV', '26NOV', '25NOV', '24NOV', '23NOV', '22NOV', '21NOV', '20NOV', '19NOV', '18NOV', '17NOV', '16NOV', '15NOV', '14NOV', '13NOV', '12NOV', '11NOV', '10NOV', '09NOV', '08NOV', '07NOV', '06NOV', '05NOV', '04NOV', '03NOV', '02NOV', '01NOV', '31OCT', '30OCT', '29OCT', '28OCT', '27OCT', '26OCT', '25OCT', '24OCT', '23OCT', '22OCT', '21OCT', '20OCT', '19OCT', '18OCT', '17OCT', '16OCT', '15OCT', '14OCT', '13OCT', '12OCT', '11OCT', '10OCT', '09OCT', '08OCT', '07OCT', '06OCT', '05OCT', '04OCT', '03OCT', '02OCT', '01OCT', '30SEP', '29SEP', '28SEP', '27SEP', '26SEP', '25SEP', '24SEP', '23SEP', '22SEP', '21SEP', '20SEP', '19SEP', '18SEP', '17SEP', '16SEP', '15SEP', '14SEP', '13SEP', '12SEP', '11SEP', '10SEP', '09SEP', '08SEP', '07SEP', '06SEP', '05SEP', '04SEP', '03SEP', '02SEP', '01SEP', '31AUG', '30AUG', '29AUG', '28AUG', '27AUG', '26AUG', '25AUG', '24AUG', '23AUG', '22AUG', '21AUG', '20AUG', '19AUG', '18AUG', '17AUG', '16AUG', '15AUG', '14AUG', '13AUG', '12AUG', '11AUG', '10AUG', '09AUG', '08AUG', '07AUG', '06AUG', '05AUG', '04AUG', '03AUG', '02AUG', '01AUG', '31JUL', '30JUL', '29JUL', '28JUL', '27JUL', '26JUL', '25JUL', '24JUL', '23JUL']
+[LF] Attaching to Chrome for Altea access
+[LF][[OK] SUCCESS] Connected to Chrome on 127.0.0.1:9222 (after 1 attempts)
+[LF][[OK] SUCCESS] Found Amadeus Altea window: Altéa Reservation Desktop
+[LF][[INFO] INFO] URL: https://tc212.resdesktop.altea.amadeus.com/app_ard/apf/init/login?SITE=ESMPESMP&LANGUAGE=GB&MARKETS=ARDW_PROD_WBP&ACTION=clpLogin
+[LF] Processing JED-CAI for 31MAR
+[LF][ERROR] Amadeus command error detected: UNKNOWN TRANSACTION
+[LF][ERROR] Command: SN31MARJEDCAI/ASM
+[LF][RESYNC] Triggering immediate resync to last successful SN command
+============================================================
+[LF][RESYNC] Command 'SN31MARJEDCAI/ASM' failed: TECH_ERROR:UNKNOWN TRANSACTION
+[LF][RESYNC] Re-running entire day from SN command for JED-CAI 31MAR
+[LF][RESYNC] Attempt 1/50 (waiting 1.0s before retry...)
+============================================================
+[LF][RESYNC] Sending IG to clear session state...
+[LF][RESYNC] Session cleared with IG
+[LF] Processing JED-CAI for 31MAR
+[LF] 31MAR: found 3 direct flights
+[LF] SM478 31MAR: BKG=168, GRP=125, CAP=175, LF%=96.0%, Brd-Off=JED-CAI, Classes: P:125, I:17, O:17, U:8, K:1
+[LF] SM476 31MAR: BKG=167, GRP=135, CAP=175, LF%=95.4%, Brd-Off=JED-CAI, Classes: P:135, I:16, O:15, H:1
+[LF] SM480 31MAR: BKG=165, GRP=135, CAP=175, LF%=94.3%, Brd-Off=JED-CAI, Classes: P:135, I:16, O:12, Q:2
+[LF] Getting WEEKLY/LASTSOLD data for 3 flights
+[LF] SM478 31MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM476 31MAR: LASTSOLD=2030-12-28 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM480 31MAR: LASTSOLD=2030-12-30 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing JED-CAI for 30MAR
+[LF] 30MAR: found 4 direct flights
+[LF] SM460 30MAR: BKG=167, GRP=90, CAP=167, LF%=100.0%, Brd-Off=JED-CAI, Classes: P:90, I:17, O:17, U:17, X:17, T:4, G:5
+[LPC] SM460 30MAR: Found 1 outbound flights with connecting passengers
+[LF] SM478 30MAR: BKG=168, GRP=90, CAP=175, LF%=96.0%, Brd-Off=JED-CAI, Classes: P:90, I:17, O:17, U:17, X:17, T:6, G:4
+[LF] SM476 30MAR: BKG=257, GRP=180, CAP=175, LF%=146.9%, Brd-Off=JED-CAI, Classes: P:180, I:17, O:17, U:17, X:17, K:9
+[LPC] SM476 30MAR: Found 1 outbound flights with connecting passengers
+[LF] SM480 30MAR: BKG=169, GRP=135, CAP=175, LF%=96.6%, Brd-Off=JED-CAI, Classes: P:135, I:17, O:14, U:3
+[LF] Getting WEEKLY/LASTSOLD data for 4 flights
+[LF] SM460 30MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM478 30MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM476 30MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM480 30MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing JED-CAI for 29MAR
+[LF] 29MAR: found 3 direct flights
+[LF] SM424 29MAR: BKG=153, GRP=53, CAP=175, LF%=87.4%, Brd-Off=JED-CAI, Classes: P:50, I:17, O:17, U:16, X:18, T:16, W:11, S:8
+[LF] SM478 29MAR: BKG=168, GRP=90, CAP=175, LF%=96.0%, Brd-Off=JED-CAI, Classes: P:90, I:17, O:17, U:16, X:18, T:9, G:1
+[LF] SM476 29MAR: BKG=168, GRP=90, CAP=175, LF%=96.0%, Brd-Off=JED-CAI, Classes: P:90, I:17, O:17, U:17, X:17, T:10
+[LF] Getting WEEKLY/LASTSOLD data for 3 flights
+[LF] SM424 29MAR: LASTSOLD=2030-12-30 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM478 29MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM476 29MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing JED-CAI for 28MAR
+[LF] 28MAR: found 7 direct flights
+[LF] SM976 28MAR: BKG=170, GRP=170, CAP=175, LF%=97.1%, Brd-Off=JED-CAI, Classes: P:170
+[LF] SM450 28MAR: BKG=175, GRP=170, CAP=175, LF%=100.0%, Brd-Off=JED-CAI, Classes: P:170, L:5
+[LF][STALE] Stale element detected - rebinding...
+[LF] SM476 28MAR: BKG=144, GRP=135, CAP=175, LF%=82.3%, Brd-Off=JED-CAI, Classes: P:135, L:9
+[LF][SYNC] RETRYING: Cannot focus on command line
+[LF][INFO] Will try 50 times before pausing...
+[LF][STALE] Stale element detected - rebinding...
+[LF] SM2464 28MAR: BKG=175, GRP=175, CAP=175, LF%=100.0%, Brd-Off=JED-CAI, Classes: P:175
+[LF] SM2466 28MAR: BKG=175, GRP=175, CAP=175, LF%=100.0%, Brd-Off=JED-CAI, Classes: P:175
+[LF] SM478 28MAR: BKG=148, GRP=135, CAP=175, LF%=84.6%, Brd-Off=JED-CAI, Classes: P:135, L:9, V:3, M:1
+[LF] SM952 28MAR: BKG=170, GRP=170, CAP=175, LF%=97.1%, Brd-Off=JED-CAI, Classes: P:170
+[LF] Getting WEEKLY/LASTSOLD data for 7 flights
+[LF] SM976 28MAR: LASTSOLD=2030-01-07 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM450 28MAR: LASTSOLD=2030-09-16 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM476 28MAR: LASTSOLD=2030-06-15 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM2464 28MAR: LASTSOLD=2030-01-02 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM2466 28MAR: LASTSOLD=2030-01-13 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM478 28MAR: LASTSOLD=2030-12-22 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM952 28MAR: LASTSOLD=2030-01-07 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing JED-CAI for 27MAR
+[LF] 27MAR: found 6 direct flights
+[LF] SM424 27MAR: BKG=149, GRP=135, CAP=175, LF%=85.1%, Brd-Off=JED-CAI, Classes: P:135, L:9, K:5
+[LPC] SM424 27MAR: Found 3 outbound flights with connecting passengers
+[LF] SM476 27MAR: BKG=144, GRP=135, CAP=175, LF%=82.3%, Brd-Off=JED-CAI, Classes: P:135, L:9
+[LF] SM478 27MAR: BKG=144, GRP=135, CAP=175, LF%=82.3%, Brd-Off=JED-CAI, Classes: P:135, L:9
+[LF] SM480 27MAR: BKG=175, GRP=165, CAP=175, LF%=100.0%, Brd-Off=JED-CAI, Classes: P:165, L:9, K:1
+[LF] SM472 27MAR: BKG=148, GRP=135, CAP=175, LF%=84.6%, Brd-Off=JED-CAI, Classes: P:135, L:9, V:4
+[LF] SM460 27MAR: BKG=144, GRP=135, CAP=167, LF%=86.2%, Brd-Off=JED-CAI, Classes: P:135, L:9
+[LF] Getting WEEKLY/LASTSOLD data for 6 flights
+[LF] SM424 27MAR: LASTSOLD=2030-12-30 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM476 27MAR: LASTSOLD=2030-01-15 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM478 27MAR: LASTSOLD=2030-01-13 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM480 27MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM472 27MAR: LASTSOLD=2030-12-30 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM460 27MAR: LASTSOLD=2030-01-13 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing JED-CAI for 26MAR
+[LF] 26MAR: found 8 direct flights
+[LF] SM424 26MAR: BKG=174, GRP=165, CAP=175, LF%=99.4%, Brd-Off=JED-CAI, Classes: P:165, L:9
+[LF] SM472 26MAR: BKG=183, GRP=180, CAP=175, LF%=104.6%, Brd-Off=JED-CAI, Classes: P:180, L:3
+[LF] SM450 26MAR: BKG=171, GRP=170, CAP=175, LF%=97.7%, Brd-Off=JED-CAI, Classes: P:170, L:1
+[LF] SM2476 26MAR: BKG=175, GRP=175, CAP=175, LF%=100.0%, Brd-Off=JED-CAI, Classes: P:175
+[LF] SM476 26MAR: BKG=170, GRP=170, CAP=175, LF%=97.1%, Brd-Off=JED-CAI, Classes: P:170
+[LF] SM432 26MAR: BKG=171, GRP=170, CAP=175, LF%=97.7%, Brd-Off=JED-CAI, Classes: P:170, L:1
+[LF] SM478 26MAR: BKG=154, GRP=135, CAP=175, LF%=88.0%, Brd-Off=JED-CAI, Classes: P:135, L:9, V:7, K:3
+[LPC] SM478 26MAR: Found 1 outbound flights with connecting passengers
+[LF] SM480 26MAR: BKG=152, GRP=135, CAP=175, LF%=86.9%, Brd-Off=JED-CAI, Classes: P:135, L:9, V:7, K:1
+[LPC] SM480 26MAR: Found 0 outbound flights with connecting passengers
+[LF] Getting WEEKLY/LASTSOLD data for 8 flights
+[LF] SM424 26MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM472 26MAR: LASTSOLD=2030-09-16 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM450 26MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM2476 26MAR: LASTSOLD=2030-01-14 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM476 26MAR: LASTSOLD=2030-01-07 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM432 26MAR: LASTSOLD=2030-12-29 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM478 26MAR: LASTSOLD=2030-12-30 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+Process Process-2:
+Traceback (most recent call last):
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CODERED\LAB\market_insights\orchestration\queue_worker_system.py", line 587, in lf_worker_process
+    results, errors = run_lf_search(
+                      ~~~~~~~~~~~~~^
+        origin=origin,
+        ^^^^^^^^^^^^^^
+    ...<3 lines>...
+        progress_callback=heartbeat_callback
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\CODERED\LAB\market_insights\lf\orchestration.py", line 771, in run_lf_search
+    dtok, rows, err = process_lf_day(drv, origin, dest, dtok, year_for_token)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CODERED\LAB\market_insights\lf\orchestration.py", line 287, in process_lf_day
+    return handle_amadeus_error_with_resync(
+        drv, origin, dest, dtok, year,
+        _process_lf_day_once,
+        resync_wait_sec=RESYNC_WAIT_SEC
+    )
+  File "D:\CODERED\LAB\market_insights\lf\amadeus.py", line 224, in handle_amadeus_error_with_resync
+    result = process_func(drv, origin, dest, dtok, year)
+  File "D:\CODERED\LAB\market_insights\lf\orchestration.py", line 483, in _process_lf_day_once
+    last_sold, weekly_sold, sold_today, sold_yesterday = weekly_from_lpl_pages(drv, flight, dtok, year_)
+                                                         ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CODERED\LAB\market_insights\lf\parsers.py", line 870, in weekly_from_lpl_pages
+    first = send_and_wait(drv, cmd, expect_tokens=[flight, dtok], timeout=SEND_TIMEOUT_SEC) or ""
+            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CODERED\LAB\market_insights\lf\amadeus.py", line 900, in send_and_wait
+    time.sleep(POLL_SLEEP_SEC)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyboardInterrupt

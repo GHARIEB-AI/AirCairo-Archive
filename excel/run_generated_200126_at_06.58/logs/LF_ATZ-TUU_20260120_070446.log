@@ -1,0 +1,44 @@
+2026-01-20 07:04:46 | INFO     | ======================================================================
+2026-01-20 07:04:46 | INFO     | Load Factor Scraper Started - Route: ATZ-TUU
+2026-01-20 07:04:46 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_200126_at_06.58\logs\LF_ATZ-TUU_20260120_070446.log
+2026-01-20 07:04:46 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-20 07:04:46 | INFO     | ======================================================================
+2026-01-20 07:04:46 | INFO     | Starting LF search for route: ATZ-TUU
+2026-01-20 07:04:46 | INFO     | [START] LF Search
+2026-01-20 07:04:50 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-20 07:04:50 | INFO     | [DAY_START] Processing 22MAY
+2026-01-20 07:04:50 | INFO     | [lf.day.start] Processing ATZ-TUU for 22MAY
+2026-01-20 07:04:52 | WARNING  | [lf.day.no_flights] No direct flights on 22MAY
+2026-01-20 07:04:52 | INFO     | [SUCCESS] Day 22MAY
+2026-01-20 07:04:52 | INFO     | [DAY_START] Processing 21MAY
+2026-01-20 07:04:52 | INFO     | [lf.day.start] Processing ATZ-TUU for 21MAY
+2026-01-20 07:04:54 | WARNING  | [lf.day.no_flights] No direct flights on 21MAY
+2026-01-20 07:04:55 | INFO     | [SUCCESS] Day 21MAY
+2026-01-20 07:04:55 | INFO     | [DAY_START] Processing 20MAY
+2026-01-20 07:04:55 | INFO     | [lf.day.start] Processing ATZ-TUU for 20MAY
+2026-01-20 07:04:57 | WARNING  | [lf.day.no_flights] No direct flights on 20MAY
+2026-01-20 07:04:57 | INFO     | [SUCCESS] Day 20MAY
+2026-01-20 07:04:57 | INFO     | [DAY_START] Processing 19MAY
+2026-01-20 07:04:57 | INFO     | [lf.day.start] Processing ATZ-TUU for 19MAY
+2026-01-20 07:05:00 | WARNING  | [lf.day.no_flights] No direct flights on 19MAY
+2026-01-20 07:05:00 | INFO     | [SUCCESS] Day 19MAY
+2026-01-20 07:05:00 | INFO     | [DAY_START] Processing 18MAY
+2026-01-20 07:05:00 | INFO     | [lf.day.start] Processing ATZ-TUU for 18MAY
+2026-01-20 07:05:01 | WARNING  | [lf.day.no_flights] No direct flights on 18MAY
+2026-01-20 07:05:01 | INFO     | [SUCCESS] Day 18MAY
+2026-01-20 07:05:01 | INFO     | [DAY_START] Processing 17MAY
+2026-01-20 07:05:01 | INFO     | [lf.day.start] Processing ATZ-TUU for 17MAY
+2026-01-20 07:05:02 | WARNING  | [lf.day.no_flights] No direct flights on 17MAY
+2026-01-20 07:05:02 | INFO     | [SUCCESS] Day 17MAY
+2026-01-20 07:05:02 | INFO     | [DAY_START] Processing 16MAY
+2026-01-20 07:05:02 | INFO     | [lf.day.start] Processing ATZ-TUU for 16MAY
+2026-01-20 07:05:04 | WARNING  | [lf.day.no_flights] No direct flights on 16MAY
+2026-01-20 07:05:04 | INFO     | [SUCCESS] Day 16MAY
+2026-01-20 07:05:04 | INFO     | [DAY_START] Processing 15MAY
+2026-01-20 07:05:04 | INFO     | [lf.day.start] Processing ATZ-TUU for 15MAY
+2026-01-20 07:05:06 | WARNING  | [lf.day.no_flights] No direct flights on 15MAY
+2026-01-20 07:05:06 | INFO     | [SUCCESS] Day 15MAY
+2026-01-20 07:05:06 | INFO     | [SUCCESS] LF Search Complete
+2026-01-20 07:05:08 | INFO     | [Worker_9232] Completed: ATZ-TUU - 8 results, 0 errors
+2026-01-20 07:05:08 | INFO     | [Worker_9232] Processing: CAI-AHB
+2026-01-20 07:05:08 | INFO     |   Tier 0: Range 4, Chunk 2/4 (8 days)

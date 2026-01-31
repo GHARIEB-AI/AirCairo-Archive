@@ -1,0 +1,292 @@
+{
+  "task_id": "DMM-CAI_r1_chunk2",
+  "saved_at": "2026-01-30T05:56:04.892106",
+  "lf_results": {
+    "2026-03-10": [
+      {
+        "Date": "Tuesday, March 10, 2026",
+        "Flight": "SM434",
+        "DEP": "06:30",
+        "SOLD": 50,
+        "FULL CAPACITY": 105,
+        "LF%": 0.4762,
+        "LowestAvail": "V6",
+        "LASTSOLD": "2026-01-29 00:00:00",
+        "WEEKLY PROGRESS": 6,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 10,
+          "S": 5,
+          "G": 8,
+          "L": 23,
+          "V": 3,
+          "K": 1,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "E90",
+        "Brd-Off": "DMM-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 2,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM434",
+          "sm_route": "DMM-CAI",
+          "sm_dep": "0630",
+          "sm_arr": "0845",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0052",
+              "outbound_route": "CAI-LXR",
+              "outbound_dep": "1130",
+              "passengers": [
+                {
+                  "iata": "ISTT128AM"
+                },
+                {
+                  "iata": "ISTT128AM"
+                },
+                {
+                  "iata": "ISTT128AM"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "2026-03-09": [],
+    "2026-03-08": [],
+    "2026-03-07": [
+      {
+        "Date": "Saturday, March 07, 2026",
+        "Flight": "SM434",
+        "DEP": "22:10",
+        "SOLD": 39,
+        "FULL CAPACITY": 175,
+        "LF%": 0.2229,
+        "LowestAvail": "L6",
+        "LASTSOLD": "2026-01-29 00:00:00",
+        "WEEKLY PROGRESS": 4,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 11,
+          "S": 7,
+          "G": 10,
+          "L": 11,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "DMM-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 2,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-03-06": [
+      {
+        "Date": "Friday, March 06, 2026",
+        "Flight": "SM434",
+        "DEP": "13:55",
+        "SOLD": 53,
+        "FULL CAPACITY": 175,
+        "LF%": 0.3029,
+        "LowestAvail": "V9",
+        "LASTSOLD": "2026-01-28 00:00:00",
+        "WEEKLY PROGRESS": 5,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 5,
+          "G": 15,
+          "L": 22,
+          "V": 11,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "DMM-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM434",
+          "sm_route": "DMM-CAI",
+          "sm_dep": "1355",
+          "sm_arr": "1610",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0050",
+              "outbound_route": "CAI-LXR",
+              "outbound_dep": "2100",
+              "passengers": [
+                {
+                  "iata": "RUHAA28WH"
+                },
+                {
+                  "iata": "RUHAA28WH"
+                },
+                {
+                  "iata": "RUHAA28WH"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "2026-03-05": [
+      {
+        "Date": "Thursday, March 05, 2026",
+        "Flight": "SM434",
+        "DEP": "22:10",
+        "SOLD": 70,
+        "FULL CAPACITY": 167,
+        "LF%": 0.4192,
+        "LowestAvail": "V3",
+        "LASTSOLD": "2026-01-21 00:00:00",
+        "WEEKLY PROGRESS": 0,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 4,
+          "T": 5,
+          "W": 0,
+          "S": 0,
+          "G": 4,
+          "L": 24,
+          "V": 21,
+          "K": 12,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "DMM-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM434",
+          "sm_route": "DMM-CAI",
+          "sm_dep": "2210",
+          "sm_arr": "0025",
+          "connecting_passengers": []
+        }
+      }
+    ],
+    "2026-03-04": [],
+    "2026-03-03": [
+      {
+        "Date": "Tuesday, March 03, 2026",
+        "Flight": "SM434",
+        "DEP": "06:30",
+        "SOLD": 23,
+        "FULL CAPACITY": 105,
+        "LF%": 0.219,
+        "LowestAvail": "G8",
+        "LASTSOLD": "2026-01-20 00:00:00",
+        "WEEKLY PROGRESS": 0,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 3,
+          "T": 0,
+          "W": 6,
+          "S": 10,
+          "G": 4,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "E90",
+        "Brd-Off": "DMM-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM434",
+          "sm_route": "DMM-CAI",
+          "sm_dep": "0630",
+          "sm_arr": "0845",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0052",
+              "outbound_route": "CAI-LXR",
+              "outbound_dep": "1130",
+              "passengers": [
+                {
+                  "iata": "RUHAA28WH"
+                },
+                {
+                  "iata": "RUHAA28WH"
+                },
+                {
+                  "iata": "RUHAA28WH"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "2026-03-02": [],
+    "2026-03-01": []
+  },
+  "lf_errors": {}
+}

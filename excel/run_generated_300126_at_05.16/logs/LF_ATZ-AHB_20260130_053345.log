@@ -1,0 +1,52 @@
+2026-01-30 05:33:45 | INFO     | ======================================================================
+2026-01-30 05:33:45 | INFO     | Load Factor Scraper Started - Route: ATZ-AHB
+2026-01-30 05:33:45 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_ATZ-AHB_20260130_053345.log
+2026-01-30 05:33:45 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 05:33:45 | INFO     | ======================================================================
+2026-01-30 05:33:45 | INFO     | Starting LF search for route: ATZ-AHB
+2026-01-30 05:33:45 | INFO     | [START] LF Search
+2026-01-30 05:33:46 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 05:33:47 | INFO     | [DAY_START] Processing 09APR
+2026-01-30 05:33:47 | INFO     | [lf.day.start] Processing ATZ-AHB for 09APR
+2026-01-30 05:33:48 | WARNING  | [lf.day.no_flights] No direct flights on 09APR
+2026-01-30 05:33:48 | INFO     | [SUCCESS] Day 09APR
+2026-01-30 05:33:48 | INFO     | [DAY_START] Processing 08APR
+2026-01-30 05:33:48 | INFO     | [lf.day.start] Processing ATZ-AHB for 08APR
+2026-01-30 05:33:50 | WARNING  | [lf.day.no_flights] No direct flights on 08APR
+2026-01-30 05:33:50 | INFO     | [SUCCESS] Day 08APR
+2026-01-30 05:33:50 | INFO     | [DAY_START] Processing 07APR
+2026-01-30 05:33:50 | INFO     | [lf.day.start] Processing ATZ-AHB for 07APR
+2026-01-30 05:33:51 | WARNING  | [lf.day.no_flights] No direct flights on 07APR
+2026-01-30 05:33:51 | INFO     | [SUCCESS] Day 07APR
+2026-01-30 05:33:51 | INFO     | [DAY_START] Processing 06APR
+2026-01-30 05:33:51 | INFO     | [lf.day.start] Processing ATZ-AHB for 06APR
+2026-01-30 05:33:53 | WARNING  | [lf.day.no_flights] No direct flights on 06APR
+2026-01-30 05:33:53 | INFO     | [SUCCESS] Day 06APR
+2026-01-30 05:33:53 | INFO     | [DAY_START] Processing 05APR
+2026-01-30 05:33:53 | INFO     | [lf.day.start] Processing ATZ-AHB for 05APR
+2026-01-30 05:33:54 | WARNING  | [lf.day.no_flights] No direct flights on 05APR
+2026-01-30 05:33:54 | INFO     | [SUCCESS] Day 05APR
+2026-01-30 05:33:54 | INFO     | [DAY_START] Processing 04APR
+2026-01-30 05:33:54 | INFO     | [lf.day.start] Processing ATZ-AHB for 04APR
+2026-01-30 05:33:56 | WARNING  | [lf.day.no_flights] No direct flights on 04APR
+2026-01-30 05:33:56 | INFO     | [SUCCESS] Day 04APR
+2026-01-30 05:33:56 | INFO     | [DAY_START] Processing 03APR
+2026-01-30 05:33:56 | INFO     | [lf.day.start] Processing ATZ-AHB for 03APR
+2026-01-30 05:33:57 | WARNING  | [lf.day.no_flights] No direct flights on 03APR
+2026-01-30 05:33:57 | INFO     | [SUCCESS] Day 03APR
+2026-01-30 05:33:57 | INFO     | [DAY_START] Processing 02APR
+2026-01-30 05:33:57 | INFO     | [lf.day.start] Processing ATZ-AHB for 02APR
+2026-01-30 05:33:59 | WARNING  | [lf.day.no_flights] No direct flights on 02APR
+2026-01-30 05:33:59 | INFO     | [SUCCESS] Day 02APR
+2026-01-30 05:33:59 | INFO     | [DAY_START] Processing 01APR
+2026-01-30 05:33:59 | INFO     | [lf.day.start] Processing ATZ-AHB for 01APR
+2026-01-30 05:34:00 | WARNING  | [lf.day.no_flights] No direct flights on 01APR
+2026-01-30 05:34:00 | INFO     | [SUCCESS] Day 01APR
+2026-01-30 05:34:00 | INFO     | [DAY_START] Processing 31MAR
+2026-01-30 05:34:00 | INFO     | [lf.day.start] Processing ATZ-AHB for 31MAR
+2026-01-30 05:34:02 | WARNING  | [lf.day.no_flights] No direct flights on 31MAR
+2026-01-30 05:34:02 | INFO     | [SUCCESS] Day 31MAR
+2026-01-30 05:34:02 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 05:34:02 | INFO     | [Worker_9227] Completed: ATZ-AHB - 10 results, 0 errors
+2026-01-30 05:34:02 | INFO     | [Worker_9227] Processing: CAI-GIZ
+2026-01-30 05:34:02 | INFO     |   Tier 0: Range 3, Chunk 3/3 (10 days)

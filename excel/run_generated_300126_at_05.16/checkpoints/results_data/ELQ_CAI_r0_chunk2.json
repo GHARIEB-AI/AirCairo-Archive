@@ -1,0 +1,262 @@
+{
+  "task_id": "ELQ-CAI_r0_chunk2",
+  "saved_at": "2026-01-30T06:13:20.259111",
+  "lf_results": {
+    "2026-02-08": [
+      {
+        "Date": "Sunday, February 08, 2026",
+        "Flight": "SM428",
+        "DEP": "19:10",
+        "SOLD": 59,
+        "FULL CAPACITY": 175,
+        "LF%": 0.3371,
+        "LowestAvail": "U7",
+        "LASTSOLD": "2026-01-29 00:00:00",
+        "WEEKLY PROGRESS": 10,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 25,
+          "U": 23,
+          "X": 5,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 6,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "ELQ-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 1,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-02-07": [
+      {
+        "Date": "Saturday, February 07, 2026",
+        "Flight": "SM428",
+        "DEP": "00:01",
+        "SOLD": 60,
+        "FULL CAPACITY": 105,
+        "LF%": 0.5714,
+        "LowestAvail": "O5",
+        "LASTSOLD": "2026-01-26 00:00:00",
+        "WEEKLY PROGRESS": 1,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 3,
+          "O": 27,
+          "U": 16,
+          "X": 0,
+          "T": 0,
+          "W": 3,
+          "S": 1,
+          "G": 10,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "E90",
+        "Brd-Off": "ELQ-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM428",
+          "sm_route": "ELQ-CAI",
+          "sm_dep": "0001",
+          "sm_arr": "0130",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0062",
+              "outbound_route": "CAI-LXR",
+              "outbound_dep": "0500",
+              "passengers": [
+                {
+                  "iata": "ELQS22234"
+                },
+                {
+                  "iata": "ELQS22234"
+                },
+                {
+                  "iata": "ELQS22234"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "2026-02-06": [],
+    "2026-02-05": [
+      {
+        "Date": "Thursday, February 05, 2026",
+        "Flight": "SM428",
+        "DEP": "19:10",
+        "SOLD": 82,
+        "FULL CAPACITY": 105,
+        "LF%": 0.781,
+        "LowestAvail": "U8",
+        "LASTSOLD": "2026-01-28 00:00:00",
+        "WEEKLY PROGRESS": 22,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 3,
+          "O": 35,
+          "U": 30,
+          "X": 3,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 11,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "E90",
+        "Brd-Off": "ELQ-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-02-04": [],
+    "2026-02-03": [],
+    "2026-02-02": [],
+    "2026-02-01": [
+      {
+        "Date": "Sunday, February 01, 2026",
+        "Flight": "SM428",
+        "DEP": "19:10",
+        "SOLD": 92,
+        "FULL CAPACITY": 175,
+        "LF%": 0.5257,
+        "LowestAvail": "U9",
+        "LASTSOLD": "2026-01-29 00:00:00",
+        "WEEKLY PROGRESS": 64,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 85,
+          "U": 7,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "ELQ-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 8,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-31": [
+      {
+        "Date": "Saturday, January 31, 2026",
+        "Flight": "SM428",
+        "DEP": "00:01",
+        "SOLD": 87,
+        "FULL CAPACITY": 175,
+        "LF%": 0.4971,
+        "LowestAvail": "O9",
+        "LASTSOLD": "2026-01-29 00:00:00",
+        "WEEKLY PROGRESS": 1,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 1,
+          "O": 73,
+          "U": 9,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 4,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "ELQ-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 1,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM428",
+          "sm_route": "ELQ-CAI",
+          "sm_dep": "0001",
+          "sm_arr": "0130",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0050",
+              "outbound_route": "CAI-LXR",
+              "outbound_dep": "0600",
+              "passengers": [
+                {
+                  "iata": "JEDS228MR"
+                },
+                {
+                  "iata": "JEDS228MR"
+                },
+                {
+                  "iata": "JEDS228MR"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "lf_errors": {}
+}

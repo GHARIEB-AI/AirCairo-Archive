@@ -1,0 +1,100 @@
+2026-01-17 09:13:53 | INFO     | ======================================================================
+2026-01-17 09:13:53 | INFO     | Load Factor Scraper Started - Route: CAI-JED
+2026-01-17 09:13:53 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_08.47_RETRY\logs\LF_CAI-JED_20260117_091353.log
+2026-01-17 09:13:53 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-17 09:13:53 | INFO     | ======================================================================
+2026-01-17 09:13:53 | INFO     | Starting LF search for route: CAI-JED
+2026-01-17 09:13:53 | INFO     | [START] LF Search
+2026-01-17 09:13:54 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-17 09:13:54 | INFO     | [DAY_START] Processing 26FEB
+2026-01-17 09:13:54 | INFO     | [lf.day.start] Processing CAI-JED for 26FEB
+2026-01-17 09:13:55 | INFO     | [lf.day.flights_found] Found 8 flights on 26FEB
+2026-01-17 09:13:57 | INFO     | [lf.flight.extracted] SM449 on 26FEB: BKG=134, LF=74.9%
+2026-01-17 09:14:00 | INFO     | [lf.flight.extracted] SM2483 on 26FEB: BKG=160, LF=90.9%
+2026-01-17 09:14:03 | INFO     | [lf.flight.extracted] SM475 on 26FEB: BKG=147, LF=82.1%
+2026-01-17 09:14:06 | INFO     | [lf.flight.extracted] SM431 on 26FEB: BKG=146, LF=81.6%
+2026-01-17 09:14:09 | INFO     | [lf.flight.extracted] SM2459 on 26FEB: BKG=0, LF=0.0%
+2026-01-17 09:14:12 | INFO     | [lf.flight.extracted] SM477 on 26FEB: BKG=145, LF=81.0%
+2026-01-17 09:14:16 | INFO     | [lf.flight.extracted] SM479 on 26FEB: BKG=100, LF=55.9%
+2026-01-17 09:14:19 | INFO     | [lf.flight.extracted] SM423 on 26FEB: BKG=125, LF=71.0%
+2026-01-17 09:14:29 | INFO     | [SUCCESS] Day 26FEB
+2026-01-17 09:14:29 | INFO     | [DAY_START] Processing 25FEB
+2026-01-17 09:14:29 | INFO     | [lf.day.start] Processing CAI-JED for 25FEB
+2026-01-17 09:14:30 | INFO     | [lf.day.flights_found] Found 7 flights on 25FEB
+2026-01-17 09:14:30 | INFO     | [lf.flight.extracted] SM2455 on 25FEB: BKG=0, LF=0.0%
+2026-01-17 09:14:34 | INFO     | [lf.flight.extracted] SM423 on 25FEB: BKG=165, LF=92.2%
+2026-01-17 09:14:37 | INFO     | [lf.flight.extracted] SM475 on 25FEB: BKG=150, LF=83.8%
+2026-01-17 09:14:40 | INFO     | [lf.flight.extracted] SM459 on 25FEB: BKG=146, LF=81.6%
+2026-01-17 09:14:44 | INFO     | [lf.flight.extracted] SM477 on 25FEB: BKG=147, LF=82.1%
+2026-01-17 09:14:47 | INFO     | [lf.flight.extracted] SM951 on 25FEB: BKG=170, LF=95.0%
+2026-01-17 09:14:50 | INFO     | [lf.flight.extracted] SM471 on 25FEB: BKG=148, LF=82.7%
+2026-01-17 09:15:02 | INFO     | [SUCCESS] Day 25FEB
+2026-01-17 09:15:02 | INFO     | [DAY_START] Processing 24FEB
+2026-01-17 09:15:02 | INFO     | [lf.day.start] Processing CAI-JED for 24FEB
+2026-01-17 09:15:03 | INFO     | [lf.day.flights_found] Found 8 flights on 24FEB
+2026-01-17 09:15:05 | INFO     | [lf.flight.extracted] SM471 on 24FEB: BKG=164, LF=93.2%
+2026-01-17 09:15:09 | INFO     | [lf.flight.extracted] SM2447 on 24FEB: BKG=0, LF=0.0%
+2026-01-17 09:15:12 | INFO     | [lf.flight.extracted] SM975 on 24FEB: BKG=170, LF=95.0%
+2026-01-17 09:15:15 | INFO     | [lf.flight.extracted] SM479 on 24FEB: BKG=151, LF=84.4%
+2026-01-17 09:15:19 | INFO     | [lf.flight.extracted] SM477 on 24FEB: BKG=153, LF=85.5%
+2026-01-17 09:15:22 | INFO     | [lf.flight.extracted] SM459 on 24FEB: BKG=151, LF=84.4%
+2026-01-17 09:15:26 | INFO     | [lf.flight.extracted] SM423 on 24FEB: BKG=148, LF=82.7%
+2026-01-17 09:15:29 | INFO     | [lf.flight.extracted] SM475 on 24FEB: BKG=153, LF=85.5%
+2026-01-17 09:15:44 | INFO     | [SUCCESS] Day 24FEB
+2026-01-17 09:15:44 | INFO     | [DAY_START] Processing 23FEB
+2026-01-17 09:15:44 | INFO     | [lf.day.start] Processing CAI-JED for 23FEB
+2026-01-17 09:15:45 | INFO     | [lf.day.flights_found] Found 7 flights on 23FEB
+2026-01-17 09:15:45 | INFO     | [lf.flight.extracted] SM2473 on 23FEB: BKG=0, LF=0.0%
+2026-01-17 09:15:49 | INFO     | [lf.flight.extracted] SM977 on 23FEB: BKG=170, LF=95.0%
+2026-01-17 09:15:52 | INFO     | [lf.flight.extracted] SM2469 on 23FEB: BKG=175, LF=97.8%
+2026-01-17 09:15:56 | INFO     | [lf.flight.extracted] SM475 on 23FEB: BKG=167, LF=93.3%
+2026-01-17 09:15:59 | INFO     | [lf.flight.extracted] SM957 on 23FEB: BKG=180, LF=100.6%
+2026-01-17 09:16:03 | INFO     | [lf.flight.extracted] SM477 on 23FEB: BKG=153, LF=85.5%
+2026-01-17 09:16:06 | INFO     | [lf.flight.extracted] SM459 on 23FEB: BKG=149, LF=83.2%
+2026-01-17 09:16:10 | ERROR    | Atomic write failed for D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_08.47_RETRY\checkpoints\flight_booking_data.json: [WinError 5] Access is denied: 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_170126_at_08.47_RETRY\\checkpoints\\flight_booking_data.tmp_e00c7b8e' -> 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_170126_at_08.47_RETRY\\checkpoints\\flight_booking_data.json'
+2026-01-17 09:16:19 | INFO     | [SUCCESS] Day 23FEB
+2026-01-17 09:16:19 | INFO     | [DAY_START] Processing 22FEB
+2026-01-17 09:16:19 | INFO     | [lf.day.start] Processing CAI-JED for 22FEB
+2026-01-17 09:16:20 | INFO     | [lf.day.flights_found] Found 9 flights on 22FEB
+2026-01-17 09:16:22 | INFO     | [lf.flight.extracted] SM475 on 22FEB: BKG=164, LF=93.2%
+2026-01-17 09:16:25 | INFO     | [lf.flight.extracted] SM431 on 22FEB: BKG=162, LF=90.5%
+2026-01-17 09:16:28 | INFO     | [lf.flight.extracted] SM459 on 22FEB: BKG=161, LF=89.9%
+2026-01-17 09:16:31 | INFO     | [lf.flight.extracted] SM2441 on 22FEB: BKG=180, LF=100.6%
+2026-01-17 09:16:35 | INFO     | [lf.flight.extracted] SM477 on 22FEB: BKG=164, LF=91.6%
+2026-01-17 09:16:38 | INFO     | [lf.flight.extracted] SM975 on 22FEB: BKG=175, LF=97.8%
+2026-01-17 09:16:41 | INFO     | [lf.flight.extracted] SM2443 on 22FEB: BKG=0, LF=0.0%
+2026-01-17 09:16:45 | INFO     | [lf.flight.extracted] SM479 on 22FEB: BKG=165, LF=93.8%
+2026-01-17 09:16:48 | INFO     | [lf.flight.extracted] SM2445 on 22FEB: BKG=0, LF=0.0%
+2026-01-17 09:17:13 | INFO     | [SUCCESS] Day 22FEB
+2026-01-17 09:17:13 | INFO     | [DAY_START] Processing 21FEB
+2026-01-17 09:17:13 | INFO     | [lf.day.start] Processing CAI-JED for 21FEB
+2026-01-17 09:17:14 | INFO     | [lf.day.flights_found] Found 4 flights on 21FEB
+2026-01-17 09:17:16 | INFO     | [lf.flight.extracted] SM449 on 21FEB: BKG=160, LF=89.4%
+2026-01-17 09:17:19 | INFO     | [lf.flight.extracted] SM475 on 21FEB: BKG=155, LF=88.1%
+2026-01-17 09:17:23 | INFO     | [lf.flight.extracted] SM477 on 21FEB: BKG=157, LF=89.2%
+2026-01-17 09:17:26 | INFO     | [lf.flight.extracted] SM423 on 21FEB: BKG=162, LF=90.5%
+2026-01-17 09:17:38 | INFO     | [SUCCESS] Day 21FEB
+2026-01-17 09:17:38 | INFO     | [DAY_START] Processing 20FEB
+2026-01-17 09:17:38 | INFO     | [lf.day.start] Processing CAI-JED for 20FEB
+2026-01-17 09:17:39 | INFO     | [lf.day.flights_found] Found 6 flights on 20FEB
+2026-01-17 09:17:41 | INFO     | [lf.flight.extracted] SM475 on 20FEB: BKG=174, LF=97.2%
+2026-01-17 09:17:44 | INFO     | [lf.flight.extracted] SM975 on 20FEB: BKG=170, LF=95.0%
+2026-01-17 09:17:47 | INFO     | [lf.flight.extracted] SM477 on 20FEB: BKG=161, LF=89.9%
+2026-01-17 09:17:51 | INFO     | [lf.flight.extracted] SM479 on 20FEB: BKG=167, LF=93.3%
+2026-01-17 09:17:54 | INFO     | [lf.flight.extracted] SM471 on 20FEB: BKG=161, LF=89.9%
+2026-01-17 09:17:57 | INFO     | [lf.flight.extracted] SM459 on 20FEB: BKG=149, LF=83.2%
+2026-01-17 09:18:12 | INFO     | [SUCCESS] Day 20FEB
+2026-01-17 09:18:12 | INFO     | [DAY_START] Processing 19FEB
+2026-01-17 09:18:12 | INFO     | [lf.day.start] Processing CAI-JED for 19FEB
+2026-01-17 09:18:13 | INFO     | [lf.day.flights_found] Found 6 flights on 19FEB
+2026-01-17 09:18:15 | INFO     | [lf.flight.extracted] SM449 on 19FEB: BKG=160, LF=89.4%
+2026-01-17 09:18:19 | INFO     | [lf.flight.extracted] SM475 on 19FEB: BKG=152, LF=86.4%
+2026-01-17 09:18:22 | INFO     | [lf.flight.extracted] SM431 on 19FEB: BKG=162, LF=90.5%
+2026-01-17 09:18:25 | INFO     | [lf.flight.extracted] SM477 on 19FEB: BKG=166, LF=92.7%
+2026-01-17 09:18:28 | INFO     | [lf.flight.extracted] SM479 on 19FEB: BKG=169, LF=94.4%
+2026-01-17 09:18:32 | INFO     | [lf.flight.extracted] SM423 on 19FEB: BKG=149, LF=83.2%
+2026-01-17 09:18:48 | INFO     | [SUCCESS] Day 19FEB
+2026-01-17 09:18:48 | INFO     | [SUCCESS] LF Search Complete
+2026-01-17 09:18:48 | INFO     | [Worker_9224] Completed: CAI-JED - 8 results, 0 errors
+2026-01-17 09:18:48 | INFO     | [Worker_9224] Processing: ASW-JED
+2026-01-17 09:18:48 | INFO     |   Tier 0: Range 2, Chunk 3/3 (8 days)

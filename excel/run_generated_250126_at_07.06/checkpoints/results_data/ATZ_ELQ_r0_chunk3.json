@@ -1,0 +1,93 @@
+{
+  "task_id": "ATZ-ELQ_r0_chunk3",
+  "saved_at": "2026-01-25T08:05:45.776385",
+  "lf_results": {
+    "2026-01-31": [
+      {
+        "Date": "Saturday, January 31, 2026",
+        "Flight": "SM435",
+        "DEP": "16:35",
+        "SOLD": 59,
+        "FULL CAPACITY": 179,
+        "LF%": 0.3296,
+        "LowestAvail": "T6",
+        "LASTSOLD": "2026-01-24 00:00:00",
+        "WEEKLY PROGRESS": 24,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 28,
+          "O": 5,
+          "U": 15,
+          "X": 8,
+          "T": 2,
+          "W": 0,
+          "S": 1,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "ATZ-ELQ",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 1,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-30": [],
+    "2026-01-29": [],
+    "2026-01-28": [],
+    "2026-01-27": [
+      {
+        "Date": "Tuesday, January 27, 2026",
+        "Flight": "SM435",
+        "DEP": "20:35",
+        "SOLD": 140,
+        "FULL CAPACITY": 179,
+        "LF%": 0.7821,
+        "LowestAvail": "T1",
+        "LASTSOLD": "2026-01-24 00:00:00",
+        "WEEKLY PROGRESS": 20,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 50,
+          "O": 20,
+          "U": 19,
+          "X": 30,
+          "T": 14,
+          "W": 7,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "ATZ-ELQ",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 17,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-26": []
+  },
+  "lf_errors": {}
+}

@@ -1,0 +1,55 @@
+2026-01-17 09:22:43 | INFO     | ======================================================================
+2026-01-17 09:22:43 | INFO     | Load Factor Scraper Started - Route: CAI-MED
+2026-01-17 09:22:43 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_08.47_RETRY\logs\LF_CAI-MED_20260117_092243.log
+2026-01-17 09:22:43 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-17 09:22:43 | INFO     | ======================================================================
+2026-01-17 09:22:43 | INFO     | Starting LF search for route: CAI-MED
+2026-01-17 09:22:43 | INFO     | [START] LF Search
+2026-01-17 09:22:44 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-17 09:22:44 | INFO     | [DAY_START] Processing 10FEB
+2026-01-17 09:22:44 | INFO     | [lf.day.start] Processing CAI-MED for 10FEB
+2026-01-17 09:22:45 | INFO     | [lf.day.flights_found] Found 1 flights on 10FEB
+2026-01-17 09:22:47 | INFO     | [lf.flight.extracted] SM493 on 10FEB: BKG=179, LF=100.0%
+2026-01-17 09:22:52 | INFO     | [SUCCESS] Day 10FEB
+2026-01-17 09:22:52 | INFO     | [DAY_START] Processing 09FEB
+2026-01-17 09:22:52 | INFO     | [lf.day.start] Processing CAI-MED for 09FEB
+2026-01-17 09:22:53 | INFO     | [lf.day.flights_found] Found 1 flights on 09FEB
+2026-01-17 09:22:55 | INFO     | [lf.flight.extracted] SM495 on 09FEB: BKG=172, LF=96.1%
+2026-01-17 09:22:59 | INFO     | [SUCCESS] Day 09FEB
+2026-01-17 09:22:59 | INFO     | [DAY_START] Processing 08FEB
+2026-01-17 09:22:59 | INFO     | [lf.day.start] Processing CAI-MED for 08FEB
+2026-01-17 09:23:00 | INFO     | [lf.day.flights_found] Found 1 flights on 08FEB
+2026-01-17 09:23:02 | INFO     | [lf.flight.extracted] SM493 on 08FEB: BKG=175, LF=97.8%
+2026-01-17 09:23:06 | INFO     | [SUCCESS] Day 08FEB
+2026-01-17 09:23:06 | INFO     | [DAY_START] Processing 07FEB
+2026-01-17 09:23:06 | INFO     | [lf.day.start] Processing CAI-MED for 07FEB
+2026-01-17 09:23:07 | INFO     | [lf.day.flights_found] Found 1 flights on 07FEB
+2026-01-17 09:23:09 | INFO     | [lf.flight.extracted] SM493 on 07FEB: BKG=177, LF=98.9%
+2026-01-17 09:23:14 | INFO     | [SUCCESS] Day 07FEB
+2026-01-17 09:23:14 | INFO     | [DAY_START] Processing 06FEB
+2026-01-17 09:23:14 | INFO     | [lf.day.start] Processing CAI-MED for 06FEB
+2026-01-17 09:23:15 | WARNING  | [lf.day.no_flights] No direct flights on 06FEB
+2026-01-17 09:23:15 | INFO     | [SUCCESS] Day 06FEB
+2026-01-17 09:23:15 | INFO     | [DAY_START] Processing 05FEB
+2026-01-17 09:23:15 | INFO     | [lf.day.start] Processing CAI-MED for 05FEB
+2026-01-17 09:23:16 | INFO     | [lf.day.flights_found] Found 1 flights on 05FEB
+2026-01-17 09:23:18 | INFO     | [lf.flight.extracted] SM493 on 05FEB: BKG=102, LF=57.0%
+2026-01-17 09:23:23 | INFO     | [SUCCESS] Day 05FEB
+2026-01-17 09:23:23 | INFO     | [DAY_START] Processing 04FEB
+2026-01-17 09:23:23 | INFO     | [lf.day.start] Processing CAI-MED for 04FEB
+2026-01-17 09:23:24 | WARNING  | [lf.day.no_flights] No direct flights on 04FEB
+2026-01-17 09:23:24 | INFO     | [SUCCESS] Day 04FEB
+2026-01-17 09:23:24 | INFO     | [DAY_START] Processing 03FEB
+2026-01-17 09:23:24 | INFO     | [lf.day.start] Processing CAI-MED for 03FEB
+2026-01-17 09:23:25 | INFO     | [lf.day.flights_found] Found 1 flights on 03FEB
+2026-01-17 09:23:27 | INFO     | [lf.flight.extracted] SM493 on 03FEB: BKG=95, LF=53.1%
+2026-01-17 09:23:32 | INFO     | [SUCCESS] Day 03FEB
+2026-01-17 09:23:32 | INFO     | [DAY_START] Processing 02FEB
+2026-01-17 09:23:32 | INFO     | [lf.day.start] Processing CAI-MED for 02FEB
+2026-01-17 09:23:33 | INFO     | [lf.day.flights_found] Found 1 flights on 02FEB
+2026-01-17 09:23:34 | INFO     | [lf.flight.extracted] SM495 on 02FEB: BKG=49, LF=27.8%
+2026-01-17 09:23:39 | INFO     | [SUCCESS] Day 02FEB
+2026-01-17 09:23:39 | INFO     | [SUCCESS] LF Search Complete
+2026-01-17 09:23:47 | INFO     | [Worker_9232] Completed: CAI-MED - 9 results, 0 errors
+2026-01-17 09:23:47 | INFO     | [Worker_9232] Processing: ATZ-RUH
+2026-01-17 09:23:47 | INFO     |   Tier 0: Range 1, Chunk 1/3 (9 days)

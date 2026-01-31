@@ -1,0 +1,58 @@
+2026-01-20 07:45:31 | INFO     | ======================================================================
+2026-01-20 07:45:31 | INFO     | Load Factor Scraper Started - Route: HBE-JED
+2026-01-20 07:45:31 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_200126_at_06.58\logs\LF_HBE-JED_20260120_074531.log
+2026-01-20 07:45:31 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-20 07:45:31 | INFO     | ======================================================================
+2026-01-20 07:45:31 | INFO     | Starting LF search for route: HBE-JED
+2026-01-20 07:45:31 | INFO     | [START] LF Search
+2026-01-20 07:45:34 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-20 07:45:34 | INFO     | [DAY_START] Processing 09MAR
+2026-01-20 07:45:34 | INFO     | [lf.day.start] Processing HBE-JED for 09MAR
+2026-01-20 07:45:36 | INFO     | [lf.day.flights_found] Found 2 flights on 09MAR
+2026-01-20 07:45:39 | INFO     | [lf.flight.extracted] SM457 on 09MAR: BKG=10, LF=5.6%
+2026-01-20 07:45:43 | INFO     | [lf.flight.extracted] SM451 on 09MAR: BKG=23, LF=12.8%
+2026-01-20 07:45:48 | INFO     | [SUCCESS] Day 09MAR
+2026-01-20 07:45:48 | INFO     | [DAY_START] Processing 08MAR
+2026-01-20 07:45:48 | INFO     | [lf.day.start] Processing HBE-JED for 08MAR
+2026-01-20 07:45:49 | INFO     | [lf.day.flights_found] Found 2 flights on 08MAR
+2026-01-20 07:45:51 | INFO     | [lf.flight.extracted] SM451 on 08MAR: BKG=73, LF=40.8%
+2026-01-20 07:45:55 | INFO     | [lf.flight.extracted] SM457 on 08MAR: BKG=11, LF=6.2%
+2026-01-20 07:46:00 | INFO     | [SUCCESS] Day 08MAR
+2026-01-20 07:46:00 | INFO     | [DAY_START] Processing 07MAR
+2026-01-20 07:46:00 | INFO     | [lf.day.start] Processing HBE-JED for 07MAR
+2026-01-20 07:46:01 | INFO     | [lf.day.flights_found] Found 2 flights on 07MAR
+2026-01-20 07:46:03 | INFO     | [lf.flight.extracted] SM457 on 07MAR: BKG=33, LF=18.4%
+2026-01-20 07:46:07 | INFO     | [lf.flight.extracted] SM451 on 07MAR: BKG=4, LF=2.2%
+2026-01-20 07:46:12 | INFO     | [SUCCESS] Day 07MAR
+2026-01-20 07:46:12 | INFO     | [DAY_START] Processing 06MAR
+2026-01-20 07:46:12 | INFO     | [lf.day.start] Processing HBE-JED for 06MAR
+2026-01-20 07:46:13 | INFO     | [lf.day.flights_found] Found 1 flights on 06MAR
+2026-01-20 07:46:15 | INFO     | [lf.flight.extracted] SM451 on 06MAR: BKG=29, LF=16.2%
+2026-01-20 07:46:19 | INFO     | [SUCCESS] Day 06MAR
+2026-01-20 07:46:19 | INFO     | [DAY_START] Processing 05MAR
+2026-01-20 07:46:19 | INFO     | [lf.day.start] Processing HBE-JED for 05MAR
+2026-01-20 07:46:21 | INFO     | [lf.day.flights_found] Found 1 flights on 05MAR
+2026-01-20 07:46:23 | INFO     | [lf.flight.extracted] SM451 on 05MAR: BKG=84, LF=46.9%
+2026-01-20 07:46:27 | INFO     | [SUCCESS] Day 05MAR
+2026-01-20 07:46:27 | INFO     | [DAY_START] Processing 04MAR
+2026-01-20 07:46:27 | INFO     | [lf.day.start] Processing HBE-JED for 04MAR
+2026-01-20 07:46:29 | INFO     | [lf.day.flights_found] Found 3 flights on 04MAR
+2026-01-20 07:46:32 | INFO     | [lf.flight.extracted] SM451 on 04MAR: BKG=63, LF=35.2%
+2026-01-20 07:46:35 | INFO     | [lf.flight.extracted] SM457 on 04MAR: BKG=3, LF=1.7%
+2026-01-20 07:46:39 | INFO     | [lf.flight.extracted] SM473 on 04MAR: BKG=1, LF=0.6%
+2026-01-20 07:46:44 | INFO     | [SUCCESS] Day 04MAR
+2026-01-20 07:46:44 | INFO     | [DAY_START] Processing 03MAR
+2026-01-20 07:46:44 | INFO     | [lf.day.start] Processing HBE-JED for 03MAR
+2026-01-20 07:46:46 | INFO     | [lf.day.flights_found] Found 1 flights on 03MAR
+2026-01-20 07:46:48 | INFO     | [lf.flight.extracted] SM451 on 03MAR: BKG=19, LF=10.6%
+2026-01-20 07:46:51 | INFO     | [SUCCESS] Day 03MAR
+2026-01-20 07:46:51 | INFO     | [DAY_START] Processing 02MAR
+2026-01-20 07:46:51 | INFO     | [lf.day.start] Processing HBE-JED for 02MAR
+2026-01-20 07:46:52 | INFO     | [lf.day.flights_found] Found 2 flights on 02MAR
+2026-01-20 07:46:54 | INFO     | [lf.flight.extracted] SM457 on 02MAR: BKG=2, LF=1.1%
+2026-01-20 07:46:58 | INFO     | [lf.flight.extracted] SM451 on 02MAR: BKG=2, LF=1.1%
+2026-01-20 07:47:02 | INFO     | [SUCCESS] Day 02MAR
+2026-01-20 07:47:02 | INFO     | [SUCCESS] LF Search Complete
+2026-01-20 07:47:04 | INFO     | [Worker_9226] Completed: HBE-JED - 8 results, 0 errors
+2026-01-20 07:47:04 | INFO     | [Worker_9226] Processing: ATZ-ELQ
+2026-01-20 07:47:04 | INFO     |   Tier 0: Range 2, Chunk 3/4 (8 days)

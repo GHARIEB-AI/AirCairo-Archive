@@ -1,0 +1,44 @@
+2026-01-20 07:11:07 | INFO     | ======================================================================
+2026-01-20 07:11:07 | INFO     | Load Factor Scraper Started - Route: ATZ-DMM
+2026-01-20 07:11:07 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_200126_at_06.58\logs\LF_ATZ-DMM_20260120_071107.log
+2026-01-20 07:11:07 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-20 07:11:07 | INFO     | ======================================================================
+2026-01-20 07:11:07 | INFO     | Starting LF search for route: ATZ-DMM
+2026-01-20 07:11:07 | INFO     | [START] LF Search
+2026-01-20 07:11:11 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-20 07:11:11 | INFO     | [DAY_START] Processing 06MAY
+2026-01-20 07:11:11 | INFO     | [lf.day.start] Processing ATZ-DMM for 06MAY
+2026-01-20 07:11:13 | WARNING  | [lf.day.no_flights] No direct flights on 06MAY
+2026-01-20 07:11:13 | INFO     | [SUCCESS] Day 06MAY
+2026-01-20 07:11:13 | INFO     | [DAY_START] Processing 05MAY
+2026-01-20 07:11:13 | INFO     | [lf.day.start] Processing ATZ-DMM for 05MAY
+2026-01-20 07:11:15 | WARNING  | [lf.day.no_flights] No direct flights on 05MAY
+2026-01-20 07:11:15 | INFO     | [SUCCESS] Day 05MAY
+2026-01-20 07:11:15 | INFO     | [DAY_START] Processing 04MAY
+2026-01-20 07:11:15 | INFO     | [lf.day.start] Processing ATZ-DMM for 04MAY
+2026-01-20 07:11:17 | WARNING  | [lf.day.no_flights] No direct flights on 04MAY
+2026-01-20 07:11:17 | INFO     | [SUCCESS] Day 04MAY
+2026-01-20 07:11:17 | INFO     | [DAY_START] Processing 03MAY
+2026-01-20 07:11:17 | INFO     | [lf.day.start] Processing ATZ-DMM for 03MAY
+2026-01-20 07:11:19 | WARNING  | [lf.day.no_flights] No direct flights on 03MAY
+2026-01-20 07:11:19 | INFO     | [SUCCESS] Day 03MAY
+2026-01-20 07:11:19 | INFO     | [DAY_START] Processing 02MAY
+2026-01-20 07:11:19 | INFO     | [lf.day.start] Processing ATZ-DMM for 02MAY
+2026-01-20 07:11:21 | WARNING  | [lf.day.no_flights] No direct flights on 02MAY
+2026-01-20 07:11:21 | INFO     | [SUCCESS] Day 02MAY
+2026-01-20 07:11:21 | INFO     | [DAY_START] Processing 01MAY
+2026-01-20 07:11:21 | INFO     | [lf.day.start] Processing ATZ-DMM for 01MAY
+2026-01-20 07:11:23 | WARNING  | [lf.day.no_flights] No direct flights on 01MAY
+2026-01-20 07:11:23 | INFO     | [SUCCESS] Day 01MAY
+2026-01-20 07:11:23 | INFO     | [DAY_START] Processing 30APR
+2026-01-20 07:11:23 | INFO     | [lf.day.start] Processing ATZ-DMM for 30APR
+2026-01-20 07:11:25 | WARNING  | [lf.day.no_flights] No direct flights on 30APR
+2026-01-20 07:11:25 | INFO     | [SUCCESS] Day 30APR
+2026-01-20 07:11:25 | INFO     | [DAY_START] Processing 29APR
+2026-01-20 07:11:25 | INFO     | [lf.day.start] Processing ATZ-DMM for 29APR
+2026-01-20 07:11:27 | WARNING  | [lf.day.no_flights] No direct flights on 29APR
+2026-01-20 07:11:27 | INFO     | [SUCCESS] Day 29APR
+2026-01-20 07:11:27 | INFO     | [SUCCESS] LF Search Complete
+2026-01-20 07:11:29 | INFO     | [Worker_9232] Completed: ATZ-DMM - 8 results, 0 errors
+2026-01-20 07:11:29 | INFO     | [Worker_9232] Processing: CAI-AJF
+2026-01-20 07:11:29 | INFO     |   Tier 0: Range 4, Chunk 4/4 (8 days)

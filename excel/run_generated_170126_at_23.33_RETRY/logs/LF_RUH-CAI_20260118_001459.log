@@ -1,0 +1,55 @@
+2026-01-18 00:14:59 | INFO     | ======================================================================
+2026-01-18 00:14:59 | INFO     | Load Factor Scraper Started - Route: RUH-CAI
+2026-01-18 00:14:59 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_23.33_RETRY\logs\LF_RUH-CAI_20260118_001459.log
+2026-01-18 00:14:59 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-18 00:14:59 | INFO     | ======================================================================
+2026-01-18 00:14:59 | INFO     | Starting LF search for route: RUH-CAI
+2026-01-18 00:14:59 | INFO     | [START] LF Search
+2026-01-18 00:15:00 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-18 00:15:00 | INFO     | [DAY_START] Processing 01FEB
+2026-01-18 00:15:00 | INFO     | [lf.day.start] Processing RUH-CAI for 01FEB
+2026-01-18 00:15:02 | INFO     | [lf.day.flights_found] Found 1 flights on 01FEB
+2026-01-18 00:15:04 | INFO     | [lf.flight.extracted] SM462 on 01FEB: BKG=22, LF=12.6%
+2026-01-18 00:15:07 | INFO     | [SUCCESS] Day 01FEB
+2026-01-18 00:15:07 | INFO     | [DAY_START] Processing 31JAN
+2026-01-18 00:15:07 | INFO     | [lf.day.start] Processing RUH-CAI for 31JAN
+2026-01-18 00:15:08 | INFO     | [lf.day.flights_found] Found 1 flights on 31JAN
+2026-01-18 00:15:10 | INFO     | [lf.flight.extracted] SM462 on 31JAN: BKG=53, LF=30.3%
+2026-01-18 00:15:16 | INFO     | [SUCCESS] Day 31JAN
+2026-01-18 00:15:16 | INFO     | [DAY_START] Processing 30JAN
+2026-01-18 00:15:16 | INFO     | [lf.day.start] Processing RUH-CAI for 30JAN
+2026-01-18 00:15:17 | INFO     | [lf.day.flights_found] Found 2 flights on 30JAN
+2026-01-18 00:15:20 | INFO     | [lf.flight.extracted] SM462 on 30JAN: BKG=51, LF=29.1%
+2026-01-18 00:15:23 | INFO     | [lf.flight.extracted] SM470 on 30JAN: BKG=53, LF=31.7%
+2026-01-18 00:15:32 | INFO     | [SUCCESS] Day 30JAN
+2026-01-18 00:15:32 | INFO     | [DAY_START] Processing 29JAN
+2026-01-18 00:15:32 | INFO     | [lf.day.start] Processing RUH-CAI for 29JAN
+2026-01-18 00:15:33 | INFO     | [lf.day.flights_found] Found 1 flights on 29JAN
+2026-01-18 00:15:35 | INFO     | [lf.flight.extracted] SM462 on 29JAN: BKG=48, LF=27.4%
+2026-01-18 00:15:39 | INFO     | [SUCCESS] Day 29JAN
+2026-01-18 00:15:39 | INFO     | [DAY_START] Processing 28JAN
+2026-01-18 00:15:39 | INFO     | [lf.day.start] Processing RUH-CAI for 28JAN
+2026-01-18 00:15:40 | INFO     | [lf.day.flights_found] Found 2 flights on 28JAN
+2026-01-18 00:15:42 | INFO     | [lf.flight.extracted] SM462 on 28JAN: BKG=50, LF=28.6%
+2026-01-18 00:15:47 | INFO     | [lf.flight.extracted] SM470 on 28JAN: BKG=51, LF=29.1%
+2026-01-18 00:15:55 | INFO     | [SUCCESS] Day 28JAN
+2026-01-18 00:15:55 | INFO     | [DAY_START] Processing 27JAN
+2026-01-18 00:15:55 | INFO     | [lf.day.start] Processing RUH-CAI for 27JAN
+2026-01-18 00:15:56 | INFO     | [lf.day.flights_found] Found 1 flights on 27JAN
+2026-01-18 00:15:58 | INFO     | [lf.flight.extracted] SM470 on 27JAN: BKG=48, LF=27.0%
+2026-01-18 00:16:01 | INFO     | [SUCCESS] Day 27JAN
+2026-01-18 00:16:01 | INFO     | [DAY_START] Processing 26JAN
+2026-01-18 00:16:01 | INFO     | [lf.day.start] Processing RUH-CAI for 26JAN
+2026-01-18 00:16:02 | INFO     | [lf.day.flights_found] Found 1 flights on 26JAN
+2026-01-18 00:16:04 | INFO     | [lf.flight.extracted] SM470 on 26JAN: BKG=24, LF=14.4%
+2026-01-18 00:16:08 | INFO     | [SUCCESS] Day 26JAN
+2026-01-18 00:16:08 | INFO     | [DAY_START] Processing 25JAN
+2026-01-18 00:16:08 | INFO     | [lf.day.start] Processing RUH-CAI for 25JAN
+2026-01-18 00:16:09 | INFO     | [lf.day.flights_found] Found 1 flights on 25JAN
+2026-01-18 00:16:11 | INFO     | [lf.flight.extracted] SM462 on 25JAN: BKG=53, LF=30.3%
+2026-01-18 00:16:14 | ERROR    | Atomic write failed for D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_23.33_RETRY\checkpoints\flight_booking_data.json: [WinError 5] Access is denied: 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_170126_at_23.33_RETRY\\checkpoints\\flight_booking_data.tmp_b7852304' -> 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_170126_at_23.33_RETRY\\checkpoints\\flight_booking_data.json'
+2026-01-18 00:16:14 | INFO     | [SUCCESS] Day 25JAN
+2026-01-18 00:16:14 | INFO     | [SUCCESS] LF Search Complete
+2026-01-18 00:16:14 | INFO     | [Worker_9225] Completed: RUH-CAI - 8 results, 0 errors
+2026-01-18 00:16:14 | INFO     | [Worker_9225] Processing: TUU-ATZ
+2026-01-18 00:16:14 | INFO     |   Tier 0: Range 1, Chunk 2/3 (8 days)

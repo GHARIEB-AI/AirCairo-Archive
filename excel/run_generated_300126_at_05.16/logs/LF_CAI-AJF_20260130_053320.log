@@ -1,0 +1,57 @@
+2026-01-30 05:33:20 | INFO     | ======================================================================
+2026-01-30 05:33:20 | INFO     | Load Factor Scraper Started - Route: CAI-AJF
+2026-01-30 05:33:20 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_CAI-AJF_20260130_053320.log
+2026-01-30 05:33:20 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 05:33:20 | INFO     | ======================================================================
+2026-01-30 05:33:20 | INFO     | Starting LF search for route: CAI-AJF
+2026-01-30 05:33:20 | INFO     | [START] LF Search
+2026-01-30 05:33:21 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 05:33:21 | INFO     | [DAY_START] Processing 09APR
+2026-01-30 05:33:21 | INFO     | [lf.day.start] Processing CAI-AJF for 09APR
+2026-01-30 05:33:22 | INFO     | [lf.day.flights_found] Found 1 flights on 09APR
+2026-01-30 05:33:24 | INFO     | [lf.flight.extracted] SM321 on 09APR: BKG=7, LF=3.9%
+2026-01-30 05:33:27 | INFO     | [SUCCESS] Day 09APR
+2026-01-30 05:33:27 | INFO     | [DAY_START] Processing 08APR
+2026-01-30 05:33:27 | INFO     | [lf.day.start] Processing CAI-AJF for 08APR
+2026-01-30 05:33:28 | INFO     | [lf.day.flights_found] Found 1 flights on 08APR
+2026-01-30 05:33:30 | INFO     | [lf.flight.extracted] SM321 on 08APR: BKG=10, LF=5.6%
+2026-01-30 05:33:34 | INFO     | [SUCCESS] Day 08APR
+2026-01-30 05:33:34 | INFO     | [DAY_START] Processing 07APR
+2026-01-30 05:33:34 | INFO     | [lf.day.start] Processing CAI-AJF for 07APR
+2026-01-30 05:33:35 | WARNING  | [lf.day.no_flights] No direct flights on 07APR
+2026-01-30 05:33:35 | INFO     | [SUCCESS] Day 07APR
+2026-01-30 05:33:35 | INFO     | [DAY_START] Processing 06APR
+2026-01-30 05:33:35 | INFO     | [lf.day.start] Processing CAI-AJF for 06APR
+2026-01-30 05:33:39 | WARNING  | [lf.day.no_flights] No direct flights on 06APR
+2026-01-30 05:33:39 | INFO     | [SUCCESS] Day 06APR
+2026-01-30 05:33:39 | INFO     | [DAY_START] Processing 05APR
+2026-01-30 05:33:39 | INFO     | [lf.day.start] Processing CAI-AJF for 05APR
+2026-01-30 05:33:45 | WARNING  | [lf.day.no_flights] No direct flights on 05APR
+2026-01-30 05:33:45 | INFO     | [SUCCESS] Day 05APR
+2026-01-30 05:33:45 | INFO     | [DAY_START] Processing 04APR
+2026-01-30 05:33:45 | INFO     | [lf.day.start] Processing CAI-AJF for 04APR
+2026-01-30 05:33:49 | INFO     | [lf.day.flights_found] Found 1 flights on 04APR
+2026-01-30 05:33:52 | INFO     | [lf.flight.extracted] SM321 on 04APR: BKG=19, LF=10.6%
+2026-01-30 05:33:56 | INFO     | [SUCCESS] Day 04APR
+2026-01-30 05:33:56 | INFO     | [DAY_START] Processing 03APR
+2026-01-30 05:33:56 | INFO     | [lf.day.start] Processing CAI-AJF for 03APR
+2026-01-30 05:33:58 | WARNING  | [lf.day.no_flights] No direct flights on 03APR
+2026-01-30 05:33:58 | INFO     | [SUCCESS] Day 03APR
+2026-01-30 05:33:58 | INFO     | [DAY_START] Processing 02APR
+2026-01-30 05:33:58 | INFO     | [lf.day.start] Processing CAI-AJF for 02APR
+2026-01-30 05:33:59 | INFO     | [lf.day.flights_found] Found 1 flights on 02APR
+2026-01-30 05:34:02 | INFO     | [lf.flight.extracted] SM321 on 02APR: BKG=31, LF=17.3%
+2026-01-30 05:34:11 | INFO     | [SUCCESS] Day 02APR
+2026-01-30 05:34:11 | INFO     | [DAY_START] Processing 01APR
+2026-01-30 05:34:11 | INFO     | [lf.day.start] Processing CAI-AJF for 01APR
+2026-01-30 05:34:30 | INFO     | [lf.day.flights_found] Found 1 flights on 01APR
+2026-01-30 05:34:42 | INFO     | [lf.flight.extracted] SM321 on 01APR: BKG=46, LF=25.7%
+2026-01-30 05:34:48 | INFO     | [SUCCESS] Day 01APR
+2026-01-30 05:34:48 | INFO     | [DAY_START] Processing 31MAR
+2026-01-30 05:34:48 | INFO     | [lf.day.start] Processing CAI-AJF for 31MAR
+2026-01-30 05:34:50 | WARNING  | [lf.day.no_flights] No direct flights on 31MAR
+2026-01-30 05:34:50 | INFO     | [SUCCESS] Day 31MAR
+2026-01-30 05:34:50 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 05:35:02 | INFO     | [Worker_9223] Completed: CAI-AJF - 10 results, 0 errors
+2026-01-30 05:35:02 | INFO     | [Worker_9223] Processing: JED-HBE
+2026-01-30 05:35:02 | INFO     |   Tier 0: Range 2, Chunk 1/3 (10 days)

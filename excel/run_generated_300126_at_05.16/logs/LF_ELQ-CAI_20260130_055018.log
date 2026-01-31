@@ -1,0 +1,56 @@
+2026-01-30 05:50:18 | INFO     | ======================================================================
+2026-01-30 05:50:18 | INFO     | Load Factor Scraper Started - Route: ELQ-CAI
+2026-01-30 05:50:18 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_ELQ-CAI_20260130_055018.log
+2026-01-30 05:50:18 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 05:50:18 | INFO     | ======================================================================
+2026-01-30 05:50:18 | INFO     | Starting LF search for route: ELQ-CAI
+2026-01-30 05:50:18 | INFO     | [START] LF Search
+2026-01-30 05:50:19 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 05:50:19 | INFO     | [DAY_START] Processing 20MAR
+2026-01-30 05:50:19 | INFO     | [lf.day.start] Processing ELQ-CAI for 20MAR
+2026-01-30 05:50:21 | WARNING  | [lf.day.no_flights] No direct flights on 20MAR
+2026-01-30 05:50:21 | INFO     | [SUCCESS] Day 20MAR
+2026-01-30 05:50:21 | INFO     | [DAY_START] Processing 19MAR
+2026-01-30 05:50:21 | INFO     | [lf.day.start] Processing ELQ-CAI for 19MAR
+2026-01-30 05:50:22 | INFO     | [lf.day.flights_found] Found 1 flights on 19MAR
+2026-01-30 05:50:25 | INFO     | [lf.flight.extracted] SM428 on 19MAR: BKG=39, LF=22.3%
+2026-01-30 05:50:29 | INFO     | [SUCCESS] Day 19MAR
+2026-01-30 05:50:29 | INFO     | [DAY_START] Processing 18MAR
+2026-01-30 05:50:29 | INFO     | [lf.day.start] Processing ELQ-CAI for 18MAR
+2026-01-30 05:50:31 | WARNING  | [lf.day.no_flights] No direct flights on 18MAR
+2026-01-30 05:50:31 | INFO     | [SUCCESS] Day 18MAR
+2026-01-30 05:50:31 | INFO     | [DAY_START] Processing 17MAR
+2026-01-30 05:50:31 | INFO     | [lf.day.start] Processing ELQ-CAI for 17MAR
+2026-01-30 05:50:33 | WARNING  | [lf.day.no_flights] No direct flights on 17MAR
+2026-01-30 05:50:33 | INFO     | [SUCCESS] Day 17MAR
+2026-01-30 05:50:33 | INFO     | [DAY_START] Processing 16MAR
+2026-01-30 05:50:33 | INFO     | [lf.day.start] Processing ELQ-CAI for 16MAR
+2026-01-30 05:50:34 | WARNING  | [lf.day.no_flights] No direct flights on 16MAR
+2026-01-30 05:50:34 | INFO     | [SUCCESS] Day 16MAR
+2026-01-30 05:50:34 | INFO     | [DAY_START] Processing 15MAR
+2026-01-30 05:50:34 | INFO     | [lf.day.start] Processing ELQ-CAI for 15MAR
+2026-01-30 05:50:36 | INFO     | [lf.day.flights_found] Found 1 flights on 15MAR
+2026-01-30 05:50:38 | INFO     | [lf.flight.extracted] SM428 on 15MAR: BKG=25, LF=14.3%
+2026-01-30 05:50:43 | INFO     | [SUCCESS] Day 15MAR
+2026-01-30 05:50:43 | INFO     | [DAY_START] Processing 14MAR
+2026-01-30 05:50:43 | INFO     | [lf.day.start] Processing ELQ-CAI for 14MAR
+2026-01-30 05:50:44 | INFO     | [lf.day.flights_found] Found 1 flights on 14MAR
+2026-01-30 05:50:47 | INFO     | [lf.flight.extracted] SM428 on 14MAR: BKG=61, LF=34.9%
+2026-01-30 05:50:52 | INFO     | [SUCCESS] Day 14MAR
+2026-01-30 05:50:52 | INFO     | [DAY_START] Processing 13MAR
+2026-01-30 05:50:52 | INFO     | [lf.day.start] Processing ELQ-CAI for 13MAR
+2026-01-30 05:50:54 | WARNING  | [lf.day.no_flights] No direct flights on 13MAR
+2026-01-30 05:50:54 | INFO     | [SUCCESS] Day 13MAR
+2026-01-30 05:50:54 | INFO     | [DAY_START] Processing 12MAR
+2026-01-30 05:50:54 | INFO     | [lf.day.start] Processing ELQ-CAI for 12MAR
+2026-01-30 05:50:56 | INFO     | [lf.day.flights_found] Found 1 flights on 12MAR
+2026-01-30 05:50:58 | INFO     | [lf.flight.extracted] SM428 on 12MAR: BKG=74, LF=42.3%
+2026-01-30 05:51:05 | INFO     | [SUCCESS] Day 12MAR
+2026-01-30 05:51:05 | INFO     | [DAY_START] Processing 11MAR
+2026-01-30 05:51:05 | INFO     | [lf.day.start] Processing ELQ-CAI for 11MAR
+2026-01-30 05:51:06 | WARNING  | [lf.day.no_flights] No direct flights on 11MAR
+2026-01-30 05:51:06 | INFO     | [SUCCESS] Day 11MAR
+2026-01-30 05:51:06 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 05:51:06 | INFO     | [Worker_9234] Completed: ELQ-CAI - 10 results, 0 errors
+2026-01-30 05:51:06 | INFO     | [Worker_9234] Processing: HBE-MED
+2026-01-30 05:51:06 | INFO     |   Tier 0: Range 2, Chunk 2/3 (10 days)

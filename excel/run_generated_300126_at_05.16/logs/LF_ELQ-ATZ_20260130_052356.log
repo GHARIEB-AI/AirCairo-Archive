@@ -1,0 +1,40 @@
+2026-01-30 05:23:56 | INFO     | ======================================================================
+2026-01-30 05:23:56 | INFO     | Load Factor Scraper Started - Route: ELQ-ATZ
+2026-01-30 05:23:56 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_ELQ-ATZ_20260130_052356.log
+2026-01-30 05:23:56 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 05:23:56 | INFO     | ======================================================================
+2026-01-30 05:23:56 | INFO     | Starting LF search for route: ELQ-ATZ
+2026-01-30 05:23:56 | INFO     | [START] LF Search
+2026-01-30 05:23:57 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 05:23:57 | INFO     | [DAY_START] Processing 06MAY
+2026-01-30 05:23:57 | INFO     | [lf.day.start] Processing ELQ-ATZ for 06MAY
+2026-01-30 05:23:58 | WARNING  | [lf.day.no_flights] No direct flights on 06MAY
+2026-01-30 05:23:58 | INFO     | [SUCCESS] Day 06MAY
+2026-01-30 05:23:58 | INFO     | [DAY_START] Processing 05MAY
+2026-01-30 05:23:58 | INFO     | [lf.day.start] Processing ELQ-ATZ for 05MAY
+2026-01-30 05:23:59 | WARNING  | [lf.day.no_flights] No direct flights on 05MAY
+2026-01-30 05:23:59 | INFO     | [SUCCESS] Day 05MAY
+2026-01-30 05:23:59 | INFO     | [DAY_START] Processing 04MAY
+2026-01-30 05:23:59 | INFO     | [lf.day.start] Processing ELQ-ATZ for 04MAY
+2026-01-30 05:24:01 | WARNING  | [lf.day.no_flights] No direct flights on 04MAY
+2026-01-30 05:24:01 | INFO     | [SUCCESS] Day 04MAY
+2026-01-30 05:24:01 | INFO     | [DAY_START] Processing 03MAY
+2026-01-30 05:24:01 | INFO     | [lf.day.start] Processing ELQ-ATZ for 03MAY
+2026-01-30 05:24:02 | WARNING  | [lf.day.no_flights] No direct flights on 03MAY
+2026-01-30 05:24:02 | INFO     | [SUCCESS] Day 03MAY
+2026-01-30 05:24:02 | INFO     | [DAY_START] Processing 02MAY
+2026-01-30 05:24:02 | INFO     | [lf.day.start] Processing ELQ-ATZ for 02MAY
+2026-01-30 05:24:03 | WARNING  | [lf.day.no_flights] No direct flights on 02MAY
+2026-01-30 05:24:03 | INFO     | [SUCCESS] Day 02MAY
+2026-01-30 05:24:03 | INFO     | [DAY_START] Processing 01MAY
+2026-01-30 05:24:03 | INFO     | [lf.day.start] Processing ELQ-ATZ for 01MAY
+2026-01-30 05:24:04 | WARNING  | [lf.day.no_flights] No direct flights on 01MAY
+2026-01-30 05:24:04 | INFO     | [SUCCESS] Day 01MAY
+2026-01-30 05:24:04 | INFO     | [DAY_START] Processing 30APR
+2026-01-30 05:24:04 | INFO     | [lf.day.start] Processing ELQ-ATZ for 30APR
+2026-01-30 05:24:05 | WARNING  | [lf.day.no_flights] No direct flights on 30APR
+2026-01-30 05:24:05 | INFO     | [SUCCESS] Day 30APR
+2026-01-30 05:24:05 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 05:24:05 | INFO     | [Worker_9233] Completed: ELQ-ATZ - 7 results, 0 errors
+2026-01-30 05:24:05 | INFO     | [Worker_9233] Processing: HBE-MED
+2026-01-30 05:24:05 | INFO     |   Tier 0: Range 4, Chunk 4/4 (7 days)

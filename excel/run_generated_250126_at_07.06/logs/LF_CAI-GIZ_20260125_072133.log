@@ -1,0 +1,47 @@
+2026-01-25 07:21:33 | INFO     | ======================================================================
+2026-01-25 07:21:33 | INFO     | Load Factor Scraper Started - Route: CAI-GIZ
+2026-01-25 07:21:33 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\logs\LF_CAI-GIZ_20260125_072133.log
+2026-01-25 07:21:33 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-25 07:21:33 | INFO     | ======================================================================
+2026-01-25 07:21:33 | INFO     | Starting LF search for route: CAI-GIZ
+2026-01-25 07:21:33 | INFO     | [START] LF Search
+2026-01-25 07:21:33 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-25 07:21:33 | INFO     | [DAY_START] Processing 28APR
+2026-01-25 07:21:33 | INFO     | [lf.day.start] Processing CAI-GIZ for 28APR
+2026-01-25 07:21:35 | WARNING  | [lf.day.no_flights] No direct flights on 28APR
+2026-01-25 07:21:35 | INFO     | [SUCCESS] Day 28APR
+2026-01-25 07:21:35 | INFO     | [DAY_START] Processing 27APR
+2026-01-25 07:21:35 | INFO     | [lf.day.start] Processing CAI-GIZ for 27APR
+2026-01-25 07:21:36 | WARNING  | [lf.day.no_flights] No direct flights on 27APR
+2026-01-25 07:21:36 | INFO     | [SUCCESS] Day 27APR
+2026-01-25 07:21:36 | INFO     | [DAY_START] Processing 26APR
+2026-01-25 07:21:36 | INFO     | [lf.day.start] Processing CAI-GIZ for 26APR
+2026-01-25 07:21:37 | WARNING  | [lf.day.no_flights] No direct flights on 26APR
+2026-01-25 07:21:37 | INFO     | [SUCCESS] Day 26APR
+2026-01-25 07:21:37 | INFO     | [DAY_START] Processing 25APR
+2026-01-25 07:21:37 | INFO     | [lf.day.start] Processing CAI-GIZ for 25APR
+2026-01-25 07:21:39 | INFO     | [lf.day.flights_found] Found 1 flights on 25APR
+2026-01-25 07:21:41 | INFO     | [lf.flight.extracted] SM329 on 25APR: BKG=8, LF=4.5%
+2026-01-25 07:21:44 | INFO     | [SUCCESS] Day 25APR
+2026-01-25 07:21:44 | INFO     | [DAY_START] Processing 24APR
+2026-01-25 07:21:44 | INFO     | [lf.day.start] Processing CAI-GIZ for 24APR
+2026-01-25 07:21:45 | WARNING  | [lf.day.no_flights] No direct flights on 24APR
+2026-01-25 07:21:45 | INFO     | [SUCCESS] Day 24APR
+2026-01-25 07:21:45 | INFO     | [DAY_START] Processing 23APR
+2026-01-25 07:21:45 | INFO     | [lf.day.start] Processing CAI-GIZ for 23APR
+2026-01-25 07:21:46 | INFO     | [lf.day.flights_found] Found 1 flights on 23APR
+2026-01-25 07:21:48 | INFO     | [lf.flight.extracted] SM329 on 23APR: BKG=0, LF=0.0%
+2026-01-25 07:21:50 | INFO     | [SUCCESS] Day 23APR
+2026-01-25 07:21:50 | INFO     | [DAY_START] Processing 22APR
+2026-01-25 07:21:50 | INFO     | [lf.day.start] Processing CAI-GIZ for 22APR
+2026-01-25 07:21:51 | INFO     | [lf.day.flights_found] Found 1 flights on 22APR
+2026-01-25 07:21:53 | INFO     | [lf.flight.extracted] SM329 on 22APR: BKG=5, LF=2.8%
+2026-01-25 07:21:56 | INFO     | [SUCCESS] Day 22APR
+2026-01-25 07:21:56 | INFO     | [DAY_START] Processing 21APR
+2026-01-25 07:21:56 | INFO     | [lf.day.start] Processing CAI-GIZ for 21APR
+2026-01-25 07:21:57 | WARNING  | [lf.day.no_flights] No direct flights on 21APR
+2026-01-25 07:21:57 | INFO     | [SUCCESS] Day 21APR
+2026-01-25 07:21:57 | INFO     | [SUCCESS] LF Search Complete
+2026-01-25 07:21:57 | INFO     | [Worker_9224] Completed: CAI-GIZ - 8 results, 0 errors
+2026-01-25 07:21:57 | INFO     | [Worker_9224] Processing: JED-ASW
+2026-01-25 07:21:57 | INFO     |   Tier 0: Range 3, Chunk 2/4 (8 days)

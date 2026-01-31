@@ -1,0 +1,17 @@
+2026-01-22 11:23:53 | INFO     | ======================================================================
+2026-01-22 11:23:53 | INFO     | Load Factor Scraper Started - Route: DMM-CAI
+2026-01-22 11:23:53 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_220126_at_11.20\logs\LF_DMM-CAI_20260122_112353.log
+2026-01-22 11:23:53 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-22 11:23:53 | INFO     | ======================================================================
+2026-01-22 11:23:53 | INFO     | Starting LF search for route: DMM-CAI
+2026-01-22 11:23:53 | INFO     | [START] LF Search
+2026-01-22 11:23:53 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-22 11:23:53 | INFO     | [DAY_START] Processing 23MAY
+2026-01-22 11:23:53 | INFO     | [lf.day.start] Processing DMM-CAI for 23MAY
+2026-01-22 11:23:55 | WARNING  | [lf.day.no_flights] No direct flights on 23MAY
+2026-01-22 11:23:55 | INFO     | [SUCCESS] Day 23MAY
+2026-01-22 11:23:55 | INFO     | [DAY_START] Processing 22MAY
+2026-01-22 11:23:55 | INFO     | [lf.day.start] Processing DMM-CAI for 22MAY
+2026-01-22 11:23:56 | INFO     | [lf.day.flights_found] Found 2 flights on 22MAY
+2026-01-22 11:23:58 | INFO     | [lf.flight.extracted] SM434 on 22MAY: BKG=15, LF=9.0%
+2026-01-22 11:24:01 | INFO     | [lf.flight.extracted] SM440 on 22MAY: BKG=13, LF=7.4%

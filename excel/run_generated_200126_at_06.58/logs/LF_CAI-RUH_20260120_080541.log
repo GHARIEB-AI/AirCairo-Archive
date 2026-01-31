@@ -1,0 +1,55 @@
+2026-01-20 08:05:41 | INFO     | ======================================================================
+2026-01-20 08:05:41 | INFO     | Load Factor Scraper Started - Route: CAI-RUH
+2026-01-20 08:05:41 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_200126_at_06.58\logs\LF_CAI-RUH_20260120_080541.log
+2026-01-20 08:05:41 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-20 08:05:41 | INFO     | ======================================================================
+2026-01-20 08:05:41 | INFO     | Starting LF search for route: CAI-RUH
+2026-01-20 08:05:41 | INFO     | [START] LF Search
+2026-01-20 08:05:42 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-20 08:05:43 | INFO     | [DAY_START] Processing 04FEB
+2026-01-20 08:05:43 | INFO     | [lf.day.start] Processing CAI-RUH for 04FEB
+2026-01-20 08:05:44 | INFO     | [lf.day.flights_found] Found 2 flights on 04FEB
+2026-01-20 08:05:45 | INFO     | [lf.flight.extracted] SM461 on 04FEB: BKG=20, LF=11.2%
+2026-01-20 08:05:49 | INFO     | [lf.flight.extracted] SM469 on 04FEB: BKG=21, LF=11.7%
+2026-01-20 08:05:56 | INFO     | [SUCCESS] Day 04FEB
+2026-01-20 08:05:56 | INFO     | [DAY_START] Processing 03FEB
+2026-01-20 08:05:56 | INFO     | [lf.day.start] Processing CAI-RUH for 03FEB
+2026-01-20 08:05:57 | INFO     | [lf.day.flights_found] Found 1 flights on 03FEB
+2026-01-20 08:05:59 | INFO     | [lf.flight.extracted] SM469 on 03FEB: BKG=31, LF=17.3%
+2026-01-20 08:06:03 | INFO     | [SUCCESS] Day 03FEB
+2026-01-20 08:06:03 | INFO     | [DAY_START] Processing 02FEB
+2026-01-20 08:06:03 | INFO     | [lf.day.start] Processing CAI-RUH for 02FEB
+2026-01-20 08:06:04 | INFO     | [lf.day.flights_found] Found 1 flights on 02FEB
+2026-01-20 08:06:06 | INFO     | [lf.flight.extracted] SM469 on 02FEB: BKG=39, LF=21.8%
+2026-01-20 08:06:09 | INFO     | [SUCCESS] Day 02FEB
+2026-01-20 08:06:09 | INFO     | [DAY_START] Processing 01FEB
+2026-01-20 08:06:09 | INFO     | [lf.day.start] Processing CAI-RUH for 01FEB
+2026-01-20 08:06:10 | INFO     | [lf.day.flights_found] Found 1 flights on 01FEB
+2026-01-20 08:06:12 | INFO     | [lf.flight.extracted] SM461 on 01FEB: BKG=40, LF=22.7%
+2026-01-20 08:06:16 | INFO     | [SUCCESS] Day 01FEB
+2026-01-20 08:06:16 | INFO     | [DAY_START] Processing 31JAN
+2026-01-20 08:06:16 | INFO     | [lf.day.start] Processing CAI-RUH for 31JAN
+2026-01-20 08:06:17 | INFO     | [lf.day.flights_found] Found 1 flights on 31JAN
+2026-01-20 08:06:19 | INFO     | [lf.flight.extracted] SM461 on 31JAN: BKG=46, LF=25.7%
+2026-01-20 08:06:23 | INFO     | [SUCCESS] Day 31JAN
+2026-01-20 08:06:23 | INFO     | [DAY_START] Processing 30JAN
+2026-01-20 08:06:23 | INFO     | [lf.day.start] Processing CAI-RUH for 30JAN
+2026-01-20 08:06:24 | INFO     | [lf.day.flights_found] Found 2 flights on 30JAN
+2026-01-20 08:06:26 | INFO     | [lf.flight.extracted] SM461 on 30JAN: BKG=71, LF=39.7%
+2026-01-20 08:06:30 | INFO     | [lf.flight.extracted] SM469 on 30JAN: BKG=65, LF=36.3%
+2026-01-20 08:06:39 | INFO     | [SUCCESS] Day 30JAN
+2026-01-20 08:06:39 | INFO     | [DAY_START] Processing 29JAN
+2026-01-20 08:06:39 | INFO     | [lf.day.start] Processing CAI-RUH for 29JAN
+2026-01-20 08:06:40 | INFO     | [lf.day.flights_found] Found 1 flights on 29JAN
+2026-01-20 08:06:43 | INFO     | [lf.flight.extracted] SM461 on 29JAN: BKG=108, LF=60.3%
+2026-01-20 08:06:49 | INFO     | [SUCCESS] Day 29JAN
+2026-01-20 08:06:49 | INFO     | [DAY_START] Processing 28JAN
+2026-01-20 08:06:49 | INFO     | [lf.day.start] Processing CAI-RUH for 28JAN
+2026-01-20 08:06:50 | INFO     | [lf.day.flights_found] Found 2 flights on 28JAN
+2026-01-20 08:06:52 | INFO     | [lf.flight.extracted] SM461 on 28JAN: BKG=108, LF=60.3%
+2026-01-20 08:06:57 | INFO     | [lf.flight.extracted] SM469 on 28JAN: BKG=110, LF=61.5%
+2026-01-20 08:07:10 | INFO     | [SUCCESS] Day 28JAN
+2026-01-20 08:07:10 | INFO     | [SUCCESS] LF Search Complete
+2026-01-20 08:07:12 | INFO     | [Worker_9222] Completed: CAI-RUH - 8 results, 0 errors
+2026-01-20 08:07:12 | INFO     | [Worker_9222] Processing: CAI-GIZ
+2026-01-20 08:07:12 | INFO     |   Tier 0: Range 1, Chunk 3/4 (8 days)

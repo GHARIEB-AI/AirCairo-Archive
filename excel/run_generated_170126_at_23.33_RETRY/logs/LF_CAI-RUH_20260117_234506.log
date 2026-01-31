@@ -1,0 +1,60 @@
+2026-01-17 23:45:06 | INFO     | ======================================================================
+2026-01-17 23:45:06 | INFO     | Load Factor Scraper Started - Route: CAI-RUH
+2026-01-17 23:45:06 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_23.33_RETRY\logs\LF_CAI-RUH_20260117_234506.log
+2026-01-17 23:45:06 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-17 23:45:06 | INFO     | ======================================================================
+2026-01-17 23:45:06 | INFO     | Starting LF search for route: CAI-RUH
+2026-01-17 23:45:06 | INFO     | [START] LF Search
+2026-01-17 23:45:06 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-17 23:45:06 | INFO     | [DAY_START] Processing 01APR
+2026-01-17 23:45:06 | INFO     | [lf.day.start] Processing CAI-RUH for 01APR
+2026-01-17 23:45:08 | INFO     | [lf.day.flights_found] Found 1 flights on 01APR
+2026-01-17 23:45:10 | INFO     | [lf.flight.extracted] SM461 on 01APR: BKG=0, LF=0.0%
+2026-01-17 23:45:11 | INFO     | [SUCCESS] Day 01APR
+2026-01-17 23:45:11 | INFO     | [DAY_START] Processing 31MAR
+2026-01-17 23:45:11 | INFO     | [lf.day.start] Processing CAI-RUH for 31MAR
+2026-01-17 23:45:12 | INFO     | [lf.day.flights_found] Found 1 flights on 31MAR
+2026-01-17 23:45:14 | INFO     | [lf.flight.extracted] SM461 on 31MAR: BKG=0, LF=0.0%
+2026-01-17 23:45:15 | INFO     | [SUCCESS] Day 31MAR
+2026-01-17 23:45:15 | INFO     | [DAY_START] Processing 30MAR
+2026-01-17 23:45:15 | INFO     | [lf.day.start] Processing CAI-RUH for 30MAR
+2026-01-17 23:45:16 | INFO     | [lf.day.flights_found] Found 1 flights on 30MAR
+2026-01-17 23:45:18 | INFO     | [lf.flight.extracted] SM461 on 30MAR: BKG=1, LF=0.6%
+2026-01-17 23:45:21 | INFO     | [SUCCESS] Day 30MAR
+2026-01-17 23:45:21 | INFO     | [DAY_START] Processing 29MAR
+2026-01-17 23:45:21 | INFO     | [lf.day.start] Processing CAI-RUH for 29MAR
+2026-01-17 23:45:22 | INFO     | [lf.day.flights_found] Found 1 flights on 29MAR
+2026-01-17 23:45:24 | INFO     | [lf.flight.extracted] SM461 on 29MAR: BKG=0, LF=0.0%
+2026-01-17 23:45:25 | INFO     | [SUCCESS] Day 29MAR
+2026-01-17 23:45:25 | INFO     | [DAY_START] Processing 28MAR
+2026-01-17 23:45:25 | INFO     | [lf.day.start] Processing CAI-RUH for 28MAR
+2026-01-17 23:45:26 | INFO     | [lf.day.flights_found] Found 1 flights on 28MAR
+2026-01-17 23:45:28 | INFO     | [lf.flight.extracted] SM461 on 28MAR: BKG=69, LF=38.6%
+2026-01-17 23:45:34 | INFO     | [SUCCESS] Day 28MAR
+2026-01-17 23:45:34 | INFO     | [DAY_START] Processing 27MAR
+2026-01-17 23:45:34 | INFO     | [lf.day.start] Processing CAI-RUH for 27MAR
+2026-01-17 23:45:35 | INFO     | [lf.day.flights_found] Found 2 flights on 27MAR
+2026-01-17 23:45:37 | INFO     | [lf.flight.extracted] SM461 on 27MAR: BKG=53, LF=29.6%
+2026-01-17 23:45:40 | INFO     | [lf.flight.extracted] SM469 on 27MAR: BKG=68, LF=38.0%
+2026-01-17 23:45:49 | INFO     | [SUCCESS] Day 27MAR
+2026-01-17 23:45:49 | INFO     | [DAY_START] Processing 26MAR
+2026-01-17 23:45:49 | INFO     | [lf.day.start] Processing CAI-RUH for 26MAR
+2026-01-17 23:45:50 | INFO     | [lf.day.flights_found] Found 1 flights on 26MAR
+2026-01-17 23:45:52 | INFO     | [lf.flight.extracted] SM461 on 26MAR: BKG=29, LF=16.2%
+2026-01-17 23:45:56 | INFO     | [SUCCESS] Day 26MAR
+2026-01-17 23:45:56 | INFO     | [DAY_START] Processing 25MAR
+2026-01-17 23:45:56 | INFO     | [lf.day.start] Processing CAI-RUH for 25MAR
+2026-01-17 23:45:57 | INFO     | [lf.day.flights_found] Found 2 flights on 25MAR
+2026-01-17 23:45:59 | INFO     | [lf.flight.extracted] SM461 on 25MAR: BKG=17, LF=9.5%
+2026-01-17 23:46:02 | INFO     | [lf.flight.extracted] SM469 on 25MAR: BKG=5, LF=2.8%
+2026-01-17 23:46:06 | ERROR    | Atomic write failed for D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_23.33_RETRY\checkpoints\flight_booking_data.json: [WinError 5] Access is denied: 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_170126_at_23.33_RETRY\\checkpoints\\flight_booking_data.tmp_c85c6e72' -> 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_170126_at_23.33_RETRY\\checkpoints\\flight_booking_data.json'
+2026-01-17 23:46:06 | INFO     | [SUCCESS] Day 25MAR
+2026-01-17 23:46:06 | INFO     | [DAY_START] Processing 24MAR
+2026-01-17 23:46:06 | INFO     | [lf.day.start] Processing CAI-RUH for 24MAR
+2026-01-17 23:46:07 | INFO     | [lf.day.flights_found] Found 1 flights on 24MAR
+2026-01-17 23:46:09 | INFO     | [lf.flight.extracted] SM469 on 24MAR: BKG=5, LF=2.8%
+2026-01-17 23:46:11 | INFO     | [SUCCESS] Day 24MAR
+2026-01-17 23:46:11 | INFO     | [SUCCESS] LF Search Complete
+2026-01-17 23:46:28 | INFO     | [Worker_9222] Completed: CAI-RUH - 9 results, 0 errors
+2026-01-17 23:46:28 | INFO     | [Worker_9222] Processing: MED-CAI
+2026-01-17 23:46:28 | INFO     |   Tier 0: Range 3, Chunk 2/3 (8 days)

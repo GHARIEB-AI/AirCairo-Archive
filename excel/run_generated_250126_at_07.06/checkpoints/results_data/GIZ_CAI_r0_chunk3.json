@@ -1,0 +1,76 @@
+{
+  "task_id": "GIZ-CAI_r0_chunk3",
+  "saved_at": "2026-01-25T08:03:36.797271",
+  "lf_results": {
+    "2026-01-31": [],
+    "2026-01-30": [
+      {
+        "Date": "Friday, January 30, 2026",
+        "Flight": "SM330",
+        "DEP": "00:30",
+        "SOLD": 73,
+        "FULL CAPACITY": 175,
+        "LF%": 0.4171,
+        "LowestAvail": "U7",
+        "LASTSOLD": "2026-01-10 00:00:00",
+        "WEEKLY PROGRESS": 0,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 23,
+          "U": 45,
+          "X": 4,
+          "T": 0,
+          "W": 0,
+          "S": 1,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "GIZ-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM330",
+          "sm_route": "GIZ-CAI",
+          "sm_dep": "0030",
+          "sm_arr": "0220",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0020",
+              "outbound_route": "CAI-HRG",
+              "outbound_dep": "0610",
+              "passengers": [
+                {
+                  "iata": "RUHAA28WH"
+                },
+                {
+                  "iata": "RUHAA28WH"
+                },
+                {
+                  "iata": "RUHAA28WH"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "2026-01-29": [],
+    "2026-01-28": [],
+    "2026-01-27": [],
+    "2026-01-26": []
+  },
+  "lf_errors": {}
+}

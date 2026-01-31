@@ -1,0 +1,236 @@
+{
+  "task_id": "AJF-CAI_r0_chunk1",
+  "saved_at": "2026-01-11T01:01:17.905590",
+  "lf_results": {
+    "2026-01-20": [
+      {
+        "Date": "Tuesday, January 20, 2026",
+        "Flight": "SM322",
+        "DEP": "11:00",
+        "SOLD": 47,
+        "FULL CAPACITY": 175,
+        "LF%": 0.2686,
+        "LowestAvail": "O6",
+        "LASTSOLD": "2026-01-10 00:00:00",
+        "WEEKLY PROGRESS": 19,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 44,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 3,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "AJF-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 4,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM322",
+          "sm_route": "AJF-CAI",
+          "sm_dep": "1100",
+          "sm_arr": "1145",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0054",
+              "outbound_route": "CAI-LXR",
+              "outbound_dep": "1530",
+              "passengers": [
+                {
+                  "iata": "ELQS22229"
+                },
+                {
+                  "iata": "ELQS22229"
+                },
+                {
+                  "iata": "ELQS22229"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "2026-01-19": [],
+    "2026-01-18": [],
+    "2026-01-17": [
+      {
+        "Date": "Saturday, January 17, 2026",
+        "Flight": "SM322",
+        "DEP": "21:15",
+        "SOLD": 37,
+        "FULL CAPACITY": 175,
+        "LF%": 0.2114,
+        "LowestAvail": "O2",
+        "LASTSOLD": "2026-01-10 00:00:00",
+        "WEEKLY PROGRESS": 17,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 28,
+          "U": 7,
+          "X": 0,
+          "T": 0,
+          "W": 2,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "AJF-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 5,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-16": [],
+    "2026-01-15": [
+      {
+        "Date": "Thursday, January 15, 2026",
+        "Flight": "SM322",
+        "DEP": "21:55",
+        "SOLD": 85,
+        "FULL CAPACITY": 175,
+        "LF%": 0.4857,
+        "LowestAvail": "U9",
+        "LASTSOLD": "2026-01-10 00:00:00",
+        "WEEKLY PROGRESS": 27,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 70,
+          "U": 12,
+          "X": 0,
+          "T": 1,
+          "W": 1,
+          "S": 1,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "AJF-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 1,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-14": [],
+    "2026-01-13": [
+      {
+        "Date": "Tuesday, January 13, 2026",
+        "Flight": "SM322",
+        "DEP": "11:00",
+        "SOLD": 130,
+        "FULL CAPACITY": 175,
+        "LF%": 0.7429,
+        "LowestAvail": "X4",
+        "LASTSOLD": "2026-01-10 00:00:00",
+        "WEEKLY PROGRESS": 96,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 70,
+          "U": 30,
+          "X": 26,
+          "T": 0,
+          "W": 0,
+          "S": 4,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "AJF-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 16,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM322",
+          "sm_route": "AJF-CAI",
+          "sm_dep": "1100",
+          "sm_arr": "1145",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0054",
+              "outbound_route": "CAI-LXR",
+              "outbound_dep": "1530",
+              "passengers": [
+                {
+                  "iata": "MEDS228AK"
+                }
+              ]
+            },
+            {
+              "outbound_flight": "SM0006",
+              "outbound_route": "CAI-SSH",
+              "outbound_dep": "1600",
+              "passengers": [
+                {
+                  "iata": "JEDSM08AA"
+                }
+              ]
+            },
+            {
+              "outbound_flight": "SM8841",
+              "outbound_route": "CAI-DAR",
+              "outbound_dep": "2145",
+              "passengers": [
+                {
+                  "iata": "MEDS228AK"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "2026-01-12": []
+  },
+  "lf_errors": {}
+}

@@ -1,0 +1,304 @@
+
+============================================================
+     LF WORKER - PORT 9225
+============================================================
+Worker: Worker_9225
+Status: READY
+Waiting for tasks...
+============================================================
+
+
+============================================================
+[Worker_9225] Processing: MED-HBE
+  Tier 0: Range 3, Chunk 1/3
+  Dates: 617 days
+  Date Range: 2031-03-31 to 2029-07-23
+============================================================
+
+2026-01-16 06:39:29 | INFO     | ======================================================================
+2026-01-16 06:39:29 | INFO     | Load Factor Scraper Started - Route: MED-HBE
+2026-01-16 06:39:29 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_160126_at_06.39\logs\LF_MED-HBE_20260116_063929.log
+2026-01-16 06:39:29 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-16 06:39:29 | INFO     | ======================================================================
+[LF] Processing dates (override): ['31MAR', '30MAR', '29MAR', '28MAR', '27MAR', '26MAR', '25MAR', '24MAR', '23MAR', '22MAR', '21MAR', '20MAR', '19MAR', '18MAR', '17MAR', '16MAR', '15MAR', '14MAR', '13MAR', '12MAR', '11MAR', '10MAR', '09MAR', '08MAR', '07MAR', '06MAR', '05MAR', '04MAR', '03MAR', '02MAR', '01MAR', '28FEB', '27FEB', '26FEB', '25FEB', '24FEB', '23FEB', '22FEB', '21FEB', '20FEB', '19FEB', '18FEB', '17FEB', '16FEB', '15FEB', '14FEB', '13FEB', '12FEB', '11FEB', '10FEB', '09FEB', '08FEB', '07FEB', '06FEB', '05FEB', '04FEB', '03FEB', '02FEB', '01FEB', '31JAN', '30JAN', '29JAN', '28JAN', '27JAN', '26JAN', '25JAN', '24JAN', '23JAN', '22JAN', '21JAN', '20JAN', '19JAN', '18JAN', '17JAN', '16JAN', '15JAN', '14JAN', '13JAN', '12JAN', '11JAN', '10JAN', '09JAN', '08JAN', '07JAN', '06JAN', '05JAN', '04JAN', '03JAN', '02JAN', '01JAN', '31DEC', '30DEC', '29DEC', '28DEC', '27DEC', '26DEC', '25DEC', '24DEC', '23DEC', '22DEC', '21DEC', '20DEC', '19DEC', '18DEC', '17DEC', '16DEC', '15DEC', '14DEC', '13DEC', '12DEC', '11DEC', '10DEC', '09DEC', '08DEC', '07DEC', '06DEC', '05DEC', '04DEC', '03DEC', '02DEC', '01DEC', '30NOV', '29NOV', '28NOV', '27NOV', '26NOV', '25NOV', '24NOV', '23NOV', '22NOV', '21NOV', '20NOV', '19NOV', '18NOV', '17NOV', '16NOV', '15NOV', '14NOV', '13NOV', '12NOV', '11NOV', '10NOV', '09NOV', '08NOV', '07NOV', '06NOV', '05NOV', '04NOV', '03NOV', '02NOV', '01NOV', '31OCT', '30OCT', '29OCT', '28OCT', '27OCT', '26OCT', '25OCT', '24OCT', '23OCT', '22OCT', '21OCT', '20OCT', '19OCT', '18OCT', '17OCT', '16OCT', '15OCT', '14OCT', '13OCT', '12OCT', '11OCT', '10OCT', '09OCT', '08OCT', '07OCT', '06OCT', '05OCT', '04OCT', '03OCT', '02OCT', '01OCT', '30SEP', '29SEP', '28SEP', '27SEP', '26SEP', '25SEP', '24SEP', '23SEP', '22SEP', '21SEP', '20SEP', '19SEP', '18SEP', '17SEP', '16SEP', '15SEP', '14SEP', '13SEP', '12SEP', '11SEP', '10SEP', '09SEP', '08SEP', '07SEP', '06SEP', '05SEP', '04SEP', '03SEP', '02SEP', '01SEP', '31AUG', '30AUG', '29AUG', '28AUG', '27AUG', '26AUG', '25AUG', '24AUG', '23AUG', '22AUG', '21AUG', '20AUG', '19AUG', '18AUG', '17AUG', '16AUG', '15AUG', '14AUG', '13AUG', '12AUG', '11AUG', '10AUG', '09AUG', '08AUG', '07AUG', '06AUG', '05AUG', '04AUG', '03AUG', '02AUG', '01AUG', '31JUL', '30JUL', '29JUL', '28JUL', '27JUL', '26JUL', '25JUL', '24JUL', '23JUL', '22JUL', '21JUL', '20JUL', '19JUL', '18JUL', '17JUL', '16JUL', '15JUL', '14JUL', '13JUL', '12JUL', '11JUL', '10JUL', '09JUL', '08JUL', '07JUL', '06JUL', '05JUL', '04JUL', '03JUL', '02JUL', '01JUL', '30JUN', '29JUN', '28JUN', '27JUN', '26JUN', '25JUN', '24JUN', '23JUN', '22JUN', '21JUN', '20JUN', '19JUN', '18JUN', '17JUN', '16JUN', '15JUN', '14JUN', '13JUN', '12JUN', '11JUN', '10JUN', '09JUN', '08JUN', '07JUN', '06JUN', '05JUN', '04JUN', '03JUN', '02JUN', '01JUN', '31MAY', '30MAY', '29MAY', '28MAY', '27MAY', '26MAY', '25MAY', '24MAY', '23MAY', '22MAY', '21MAY', '20MAY', '19MAY', '18MAY', '17MAY', '16MAY', '15MAY', '14MAY', '13MAY', '12MAY', '11MAY', '10MAY', '09MAY', '08MAY', '07MAY', '06MAY', '05MAY', '04MAY', '03MAY', '02MAY', '01MAY', '30APR', '29APR', '28APR', '27APR', '26APR', '25APR', '24APR', '23APR', '22APR', '21APR', '20APR', '19APR', '18APR', '17APR', '16APR', '15APR', '14APR', '13APR', '12APR', '11APR', '10APR', '09APR', '08APR', '07APR', '06APR', '05APR', '04APR', '03APR', '02APR', '01APR', '31MAR', '30MAR', '29MAR', '28MAR', '27MAR', '26MAR', '25MAR', '24MAR', '23MAR', '22MAR', '21MAR', '20MAR', '19MAR', '18MAR', '17MAR', '16MAR', '15MAR', '14MAR', '13MAR', '12MAR', '11MAR', '10MAR', '09MAR', '08MAR', '07MAR', '06MAR', '05MAR', '04MAR', '03MAR', '02MAR', '01MAR', '28FEB', '27FEB', '26FEB', '25FEB', '24FEB', '23FEB', '22FEB', '21FEB', '20FEB', '19FEB', '18FEB', '17FEB', '16FEB', '15FEB', '14FEB', '13FEB', '12FEB', '11FEB', '10FEB', '09FEB', '08FEB', '07FEB', '06FEB', '05FEB', '04FEB', '03FEB', '02FEB', '01FEB', '31JAN', '30JAN', '29JAN', '28JAN', '27JAN', '26JAN', '25JAN', '24JAN', '23JAN', '22JAN', '21JAN', '20JAN', '19JAN', '18JAN', '17JAN', '16JAN', '15JAN', '14JAN', '13JAN', '12JAN', '11JAN', '10JAN', '09JAN', '08JAN', '07JAN', '06JAN', '05JAN', '04JAN', '03JAN', '02JAN', '01JAN', '31DEC', '30DEC', '29DEC', '28DEC', '27DEC', '26DEC', '25DEC', '24DEC', '23DEC', '22DEC', '21DEC', '20DEC', '19DEC', '18DEC', '17DEC', '16DEC', '15DEC', '14DEC', '13DEC', '12DEC', '11DEC', '10DEC', '09DEC', '08DEC', '07DEC', '06DEC', '05DEC', '04DEC', '03DEC', '02DEC', '01DEC', '30NOV', '29NOV', '28NOV', '27NOV', '26NOV', '25NOV', '24NOV', '23NOV', '22NOV', '21NOV', '20NOV', '19NOV', '18NOV', '17NOV', '16NOV', '15NOV', '14NOV', '13NOV', '12NOV', '11NOV', '10NOV', '09NOV', '08NOV', '07NOV', '06NOV', '05NOV', '04NOV', '03NOV', '02NOV', '01NOV', '31OCT', '30OCT', '29OCT', '28OCT', '27OCT', '26OCT', '25OCT', '24OCT', '23OCT', '22OCT', '21OCT', '20OCT', '19OCT', '18OCT', '17OCT', '16OCT', '15OCT', '14OCT', '13OCT', '12OCT', '11OCT', '10OCT', '09OCT', '08OCT', '07OCT', '06OCT', '05OCT', '04OCT', '03OCT', '02OCT', '01OCT', '30SEP', '29SEP', '28SEP', '27SEP', '26SEP', '25SEP', '24SEP', '23SEP', '22SEP', '21SEP', '20SEP', '19SEP', '18SEP', '17SEP', '16SEP', '15SEP', '14SEP', '13SEP', '12SEP', '11SEP', '10SEP', '09SEP', '08SEP', '07SEP', '06SEP', '05SEP', '04SEP', '03SEP', '02SEP', '01SEP', '31AUG', '30AUG', '29AUG', '28AUG', '27AUG', '26AUG', '25AUG', '24AUG', '23AUG', '22AUG', '21AUG', '20AUG', '19AUG', '18AUG', '17AUG', '16AUG', '15AUG', '14AUG', '13AUG', '12AUG', '11AUG', '10AUG', '09AUG', '08AUG', '07AUG', '06AUG', '05AUG', '04AUG', '03AUG', '02AUG', '01AUG', '31JUL', '30JUL', '29JUL', '28JUL', '27JUL', '26JUL', '25JUL', '24JUL', '23JUL']
+[LF] Attaching to Chrome for Altea access
+[LF][[OK] SUCCESS] Connected to Chrome on 127.0.0.1:9225 (after 1 attempts)
+[LF][[OK] SUCCESS] Found Amadeus Altea window: Altéa Reservation Desktop
+[LF][[INFO] INFO] URL: https://tc212.resdesktop.altea.amadeus.com/app_ard/apf/init/login?SITE=ESMPESMP&LANGUAGE=GB&MARKETS=ARDW_PROD_WBP&ACTION=clpLogin
+[LF] Processing MED-HBE for 31MAR
+[LF][ERROR] Amadeus command error detected: UNKNOWN TRANSACTION
+[LF][ERROR] Command: SN31MARMEDHBE/ASM
+[LF][RESYNC] Triggering immediate resync to last successful SN command
+============================================================
+[LF][RESYNC] Command 'SN31MARMEDHBE/ASM' failed: TECH_ERROR:UNKNOWN TRANSACTION
+[LF][RESYNC] Re-running entire day from SN command for MED-HBE 31MAR
+[LF][RESYNC] Attempt 1/50 (waiting 1.0s before retry...)
+============================================================
+[LF][RESYNC] Sending IG to clear session state...
+[LF][RESYNC] Session cleared with IG
+[LF] Processing MED-HBE for 31MAR
+[LF] No direct flights on 31MAR for MED-HBE
+[LF] Processing MED-HBE for 30MAR
+[LF] No direct flights on 30MAR for MED-HBE
+[LF] Processing MED-HBE for 29MAR
+[LF] 29MAR: found 1 direct flights
+[LF] SM486 29MAR: BKG=179, GRP=175, CAP=175, LF%=102.3%, Brd-Off=MED-HBE, Classes: P:175, I:4
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 29MAR: LASTSOLD=2030-12-29 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 28MAR
+[LF] No direct flights on 28MAR for MED-HBE
+[LF] Processing MED-HBE for 27MAR
+[LF] No direct flights on 27MAR for MED-HBE
+[LF] Processing MED-HBE for 26MAR
+[LF] 26MAR: found 1 direct flights
+[LF] SM486 26MAR: BKG=174, GRP=170, CAP=168, LF%=103.6%, Brd-Off=MED-HBE, Classes: P:170, L:2, M:2
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 26MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 25MAR
+[LF] 25MAR: found 1 direct flights
+[LF] SM486 25MAR: BKG=170, GRP=170, CAP=175, LF%=97.1%, Brd-Off=MED-HBE, Classes: P:170
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 25MAR: LASTSOLD=2030-12-29 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 24MAR
+[LF] 24MAR: found 1 direct flights
+[LF] SM486 24MAR: BKG=219, GRP=210, CAP=175, LF%=125.1%, Brd-Off=MED-HBE, Classes: P:210, L:5, V:4
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 24MAR: LASTSOLD=2030-12-30 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 23MAR
+[LF] No direct flights on 23MAR for MED-HBE
+[LF] Processing MED-HBE for 22MAR
+[LF] 22MAR: found 3 direct flights
+[LF] SM974 22MAR: BKG=170, GRP=170, CAP=167, LF%=101.8%, Brd-Off=MED-HBE, Classes: P:170
+[LF] SM486 22MAR: BKG=143, GRP=135, CAP=175, LF%=81.7%, Brd-Off=MED-HBE, Classes: P:135, K:5, Q:1, M:2
+[LF] SM984 22MAR: BKG=165, GRP=165, CAP=167, LF%=98.8%, Brd-Off=MED-HBE, Classes: P:165
+[LF] Getting WEEKLY/LASTSOLD data for 3 flights
+[LF] SM974 22MAR: LASTSOLD=2030-12-28 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM486 22MAR: LASTSOLD=2030-12-29 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM984 22MAR: LASTSOLD=2030-12-29 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 21MAR
+[LF] No direct flights on 21MAR for MED-HBE
+[LF] Processing MED-HBE for 20MAR
+[LF] No direct flights on 20MAR for MED-HBE
+[LF] Processing MED-HBE for 19MAR
+[LF] 19MAR: found 1 direct flights
+[LF] SM486 19MAR: BKG=29, GRP=0, CAP=175, LF%=16.6%, Brd-Off=MED-HBE, Classes: K:5, Q:5, H:5, M:14
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 19MAR: LASTSOLD=2030-12-27 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 18MAR
+[LF] 18MAR: found 1 direct flights
+[LF] SM486 18MAR: BKG=21, GRP=0, CAP=168, LF%=12.5%, Brd-Off=MED-HBE, Classes: K:5, Q:5, H:5, M:6
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 18MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 17MAR
+[LF] 17MAR: found 1 direct flights
+[LF] SM486 17MAR: BKG=12, GRP=0, CAP=168, LF%=7.1%, Brd-Off=MED-HBE, Classes: K:5, Q:5, H:1, M:1
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 17MAR: LASTSOLD=2030-12-30 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 16MAR
+[LF] No direct flights on 16MAR for MED-HBE
+[LF] Processing MED-HBE for 15MAR
+[LF] 15MAR: found 1 direct flights
+[LF] SM486 15MAR: BKG=11, GRP=0, CAP=175, LF%=6.3%, Brd-Off=MED-HBE, Classes: S:7, K:2, Q:1, Y:1
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 15MAR: LASTSOLD=2030-12-29 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 14MAR
+[LF] No direct flights on 14MAR for MED-HBE
+[LF] Processing MED-HBE for 13MAR
+[LF] No direct flights on 13MAR for MED-HBE
+[LF] Processing MED-HBE for 12MAR
+[LF] 12MAR: found 1 direct flights
+[LF] SM486 12MAR: BKG=38, GRP=0, CAP=175, LF%=21.7%, Brd-Off=MED-HBE, Classes: T:9, W:8, S:17, G:1, K:3
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 12MAR: LASTSOLD=2030-12-30 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 11MAR
+[LF] 11MAR: found 1 direct flights
+[LF] SM486 11MAR: BKG=20, GRP=0, CAP=175, LF%=11.4%, Brd-Off=MED-HBE, Classes: T:9, W:7, S:4
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 11MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 10MAR
+[LF] 10MAR: found 1 direct flights
+[LF] SM486 10MAR: BKG=6, GRP=0, CAP=175, LF%=3.4%, Brd-Off=MED-HBE, Classes: T:4, S:2
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 10MAR: LASTSOLD=2030-11-20 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 09MAR
+[LF] No direct flights on 09MAR for MED-HBE
+[LF] Processing MED-HBE for 08MAR
+[LF] 08MAR: found 1 direct flights
+[LF] SM486 08MAR: BKG=55, GRP=45, CAP=175, LF%=31.4%, Brd-Off=MED-HBE, Classes: P:45, T:6, W:2, K:2
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 08MAR: LASTSOLD=2030-12-03 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 07MAR
+[LF] No direct flights on 07MAR for MED-HBE
+[LF] Processing MED-HBE for 06MAR
+[LF] No direct flights on 06MAR for MED-HBE
+[LF] Processing MED-HBE for 05MAR
+[LF] 05MAR: found 1 direct flights
+[LF] SM486 05MAR: BKG=40, GRP=0, CAP=175, LF%=22.9%, Brd-Off=MED-HBE, Classes: I:9, O:8, U:9, X:7, S:7
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 05MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 04MAR
+[LF] 04MAR: found 1 direct flights
+[LF] SM486 04MAR: BKG=18, GRP=0, CAP=168, LF%=10.7%, Brd-Off=MED-HBE, Classes: I:9, O:8, U:1
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 04MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 03MAR
+[LF] 03MAR: found 1 direct flights
+[LF] SM486 03MAR: BKG=100, GRP=80, CAP=175, LF%=57.1%, Brd-Off=MED-HBE, Classes: P:80, I:9, O:3, X:2, S:1, K:5
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 03MAR: LASTSOLD=2030-12-30 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 02MAR
+[LF] No direct flights on 02MAR for MED-HBE
+[LF] Processing MED-HBE for 01MAR
+[LF] 01MAR: found 1 direct flights
+[LF] SM486 01MAR: BKG=42, GRP=0, CAP=168, LF%=25.0%, Brd-Off=MED-HBE, Classes: I:9, O:8, U:3, X:19, K:3
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 01MAR: LASTSOLD=2030-12-30 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 28FEB
+[LF] No direct flights on 28FEB for MED-HBE
+[LF] Processing MED-HBE for 27FEB
+[LF] No direct flights on 27FEB for MED-HBE
+[LF] Processing MED-HBE for 26FEB
+[LF] 26FEB: found 1 direct flights
+[LF] SM486 26FEB: BKG=118, GRP=80, CAP=175, LF%=67.4%, Brd-Off=MED-HBE, Classes: P:80, I:9, O:8, U:9, X:8, T:3, K:1
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 26FEB: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 25FEB
+[LF] 25FEB: found 1 direct flights
+[LF] SM486 25FEB: BKG=173, GRP=170, CAP=175, LF%=98.9%, Brd-Off=MED-HBE, Classes: P:170, X:2, S:1
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 25FEB: LASTSOLD=2030-12-15 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 24FEB
+[LF] 24FEB: found 1 direct flights
+[LF] SM486 24FEB: BKG=175, GRP=165, CAP=175, LF%=100.0%, Brd-Off=MED-HBE, Classes: P:165, I:9, O:1
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 24FEB: LASTSOLD=2030-12-15 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 23FEB
+[LF] 23FEB: found 1 direct flights
+[LF] SM952 23FEB: BKG=130, GRP=130, CAP=164, LF%=79.3%, Brd-Off=MED-HBE, Classes: P:130
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM952 23FEB: LASTSOLD=2030-12-25 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 22FEB
+[LF] 22FEB: found 2 direct flights
+[LF] SM984 22FEB: BKG=0, GRP=0, CAP=175, LF%=0.0%, Brd-Off=MED-HBE
+[LF] SM486 22FEB: BKG=94, GRP=80, CAP=175, LF%=53.7%, Brd-Off=MED-HBE, Classes: P:80, X:9, S:2, L:1, K:2
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 22FEB: LASTSOLD=2030-12-27 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 21FEB
+[LF] No direct flights on 21FEB for MED-HBE
+[LF] Processing MED-HBE for 20FEB
+[LF] No direct flights on 20FEB for MED-HBE
+[LF] Processing MED-HBE for 19FEB
+[LF] 19FEB: found 1 direct flights
+[LF] SM486 19FEB: BKG=2, GRP=0, CAP=175, LF%=1.1%, Brd-Off=MED-HBE, Classes: X:2
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 19FEB: LASTSOLD=2030-11-29 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 18FEB
+[LF] 18FEB: found 1 direct flights
+[LF] SM486 18FEB: BKG=92, GRP=90, CAP=175, LF%=52.6%, Brd-Off=MED-HBE, Classes: P:90, I:1, X:1
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM486 18FEB: LASTSOLD=2030-12-21 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-HBE for 17FEB
+[LF] 17FEB: 1 cancelled flight(s) detected from SN
+[LF] 17FEB: found 1 direct flights
+[LF] SM486 17FEB: BKG=22, GRP=0, CAP=175, LF%=12.6%, Brd-Off=MED-HBE, Classes: I:16, X:6
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+Process Process-5:
+Traceback (most recent call last):
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CODERED\LAB\market_insights\orchestration\queue_worker_system.py", line 587, in lf_worker_process
+    results, errors = run_lf_search(
+                      ~~~~~~~~~~~~~^
+        origin=origin,
+        ^^^^^^^^^^^^^^
+    ...<3 lines>...
+        progress_callback=heartbeat_callback
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\CODERED\LAB\market_insights\lf\orchestration.py", line 771, in run_lf_search
+    dtok, rows, err = process_lf_day(drv, origin, dest, dtok, year_for_token)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CODERED\LAB\market_insights\lf\orchestration.py", line 287, in process_lf_day
+    return handle_amadeus_error_with_resync(
+        drv, origin, dest, dtok, year,
+        _process_lf_day_once,
+        resync_wait_sec=RESYNC_WAIT_SEC
+    )
+  File "D:\CODERED\LAB\market_insights\lf\amadeus.py", line 224, in handle_amadeus_error_with_resync
+    result = process_func(drv, origin, dest, dtok, year)
+  File "D:\CODERED\LAB\market_insights\lf\orchestration.py", line 483, in _process_lf_day_once
+    last_sold, weekly_sold, sold_today, sold_yesterday = weekly_from_lpl_pages(drv, flight, dtok, year_)
+                                                         ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CODERED\LAB\market_insights\lf\parsers.py", line 891, in weekly_from_lpl_pages
+    more = send_and_wait(drv, "M", expect_tokens=[], timeout=SEND_TIMEOUT_SEC) or ""
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CODERED\LAB\market_insights\lf\amadeus.py", line 841, in send_and_wait
+    el, txt = last_resp_elem_and_text(drv)
+              ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\CODERED\LAB\market_insights\lf\amadeus.py", line 724, in last_resp_elem_and_text
+    text = element.get_attribute("textContent")
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py", line 177, in get_attribute
+    attribute_value = self.parent.execute_script(
+        f"/* getAttribute */return ({getAttribute_js}).apply(null, arguments);", self, name
+    )
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 407, in execute_script
+    return self.execute(command, {"script": script, "args": converted_args})["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 345, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 300, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 321, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1432, in getresponse
+    self.close()
+    ~~~~~~~~~~^^
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py", line 369, in close
+    def close(self) -> None:
+    
+KeyboardInterrupt

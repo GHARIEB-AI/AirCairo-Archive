@@ -1,0 +1,44 @@
+2026-01-17 09:33:57 | INFO     | ======================================================================
+2026-01-17 09:33:57 | INFO     | Load Factor Scraper Started - Route: CAI-AJF
+2026-01-17 09:33:57 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_08.47_RETRY\logs\LF_CAI-AJF_20260117_093357.log
+2026-01-17 09:33:57 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-17 09:33:57 | INFO     | ======================================================================
+2026-01-17 09:33:57 | INFO     | Starting LF search for route: CAI-AJF
+2026-01-17 09:33:57 | INFO     | [START] LF Search
+2026-01-17 09:33:57 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-17 09:33:57 | INFO     | [DAY_START] Processing 24JAN
+2026-01-17 09:33:57 | INFO     | [lf.day.start] Processing CAI-AJF for 24JAN
+2026-01-17 09:33:58 | INFO     | [lf.day.flights_found] Found 1 flights on 24JAN
+2026-01-17 09:34:00 | INFO     | [lf.flight.extracted] SM321 on 24JAN: BKG=144, LF=80.5%
+2026-01-17 09:34:07 | INFO     | [SUCCESS] Day 24JAN
+2026-01-17 09:34:07 | INFO     | [DAY_START] Processing 23JAN
+2026-01-17 09:34:07 | INFO     | [lf.day.start] Processing CAI-AJF for 23JAN
+2026-01-17 09:34:08 | WARNING  | [lf.day.no_flights] No direct flights on 23JAN
+2026-01-17 09:34:08 | INFO     | [SUCCESS] Day 23JAN
+2026-01-17 09:34:08 | INFO     | [DAY_START] Processing 22JAN
+2026-01-17 09:34:08 | INFO     | [lf.day.start] Processing CAI-AJF for 22JAN
+2026-01-17 09:34:09 | INFO     | [lf.day.flights_found] Found 1 flights on 22JAN
+2026-01-17 09:34:12 | INFO     | [lf.flight.extracted] SM321 on 22JAN: BKG=163, LF=91.1%
+2026-01-17 09:34:18 | INFO     | [SUCCESS] Day 22JAN
+2026-01-17 09:34:18 | INFO     | [DAY_START] Processing 21JAN
+2026-01-17 09:34:18 | INFO     | [lf.day.start] Processing CAI-AJF for 21JAN
+2026-01-17 09:34:19 | WARNING  | [lf.day.no_flights] No direct flights on 21JAN
+2026-01-17 09:34:19 | INFO     | [SUCCESS] Day 21JAN
+2026-01-17 09:34:19 | INFO     | [DAY_START] Processing 20JAN
+2026-01-17 09:34:19 | INFO     | [lf.day.start] Processing CAI-AJF for 20JAN
+2026-01-17 09:34:21 | INFO     | [lf.day.flights_found] Found 1 flights on 20JAN
+2026-01-17 09:34:23 | INFO     | [lf.flight.extracted] SM321 on 20JAN: BKG=174, LF=97.2%
+2026-01-17 09:34:48 | INFO     | [SUCCESS] Day 20JAN
+2026-01-17 09:34:48 | INFO     | [DAY_START] Processing 19JAN
+2026-01-17 09:34:48 | INFO     | [lf.day.start] Processing CAI-AJF for 19JAN
+2026-01-17 09:34:51 | WARNING  | [lf.day.no_flights] No direct flights on 19JAN
+2026-01-17 09:34:51 | INFO     | [SUCCESS] Day 19JAN
+2026-01-17 09:34:51 | INFO     | [DAY_START] Processing 18JAN
+2026-01-17 09:34:51 | INFO     | [lf.day.start] Processing CAI-AJF for 18JAN
+2026-01-17 09:35:05 | INFO     | [lf.day.start] Processing CAI-AJF for 18JAN
+2026-01-17 09:35:06 | WARNING  | [lf.day.no_flights] No direct flights on 18JAN
+2026-01-17 09:35:06 | INFO     | [SUCCESS] Day 18JAN
+2026-01-17 09:35:06 | INFO     | [SUCCESS] LF Search Complete
+2026-01-17 09:35:06 | INFO     | [Worker_9222] Completed: CAI-AJF - 7 results, 0 errors
+2026-01-17 10:05:24 | INFO     | [Worker_9222] Shutdown signal received, exiting...
+2026-01-17 10:05:24 | INFO     | [Worker_9222] Finished. Processed 79 groups.

@@ -1,0 +1,101 @@
+{
+  "task_id": "ELQ-ATZ_r1_chunk1",
+  "saved_at": "2026-01-20T07:40:34.966466",
+  "lf_results": {
+    "2026-03-17": [],
+    "2026-03-16": [],
+    "2026-03-15": [],
+    "2026-03-14": [
+      {
+        "Date": "Saturday, March 14, 2026",
+        "Flight": "SM436",
+        "DEP": "20:30",
+        "SOLD": 24,
+        "FULL CAPACITY": 175,
+        "LF%": 0.1371,
+        "LowestAvail": "W7",
+        "LASTSOLD": "2026-01-19 00:00:00",
+        "WEEKLY PROGRESS": 14,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 10,
+          "T": 10,
+          "W": 3,
+          "S": 0,
+          "G": 1,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "ELQ-ATZ",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 4,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM436",
+          "sm_route": "ELQ-ATZ",
+          "sm_dep": "2030",
+          "sm_arr": "2145",
+          "connecting_passengers": []
+        }
+      }
+    ],
+    "2026-03-13": [],
+    "2026-03-12": [],
+    "2026-03-11": [
+      {
+        "Date": "Wednesday, March 11, 2026",
+        "Flight": "SM436",
+        "DEP": "00:30",
+        "SOLD": 33,
+        "FULL CAPACITY": 175,
+        "LF%": 0.1886,
+        "LowestAvail": "T7",
+        "LASTSOLD": "2026-01-19 00:00:00",
+        "WEEKLY PROGRESS": 7,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 10,
+          "T": 3,
+          "W": 8,
+          "S": 2,
+          "G": 7,
+          "L": 3,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "ELQ-ATZ",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 1,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-03-10": []
+  },
+  "lf_errors": {}
+}

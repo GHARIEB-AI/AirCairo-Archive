@@ -1,0 +1,44 @@
+2026-01-17 08:53:55 | INFO     | ======================================================================
+2026-01-17 08:53:55 | INFO     | Load Factor Scraper Started - Route: JED-LXR
+2026-01-17 08:53:55 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_08.47_RETRY\logs\LF_JED-LXR_20260117_085355.log
+2026-01-17 08:53:55 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-17 08:53:55 | INFO     | ======================================================================
+2026-01-17 08:53:55 | INFO     | Starting LF search for route: JED-LXR
+2026-01-17 08:53:55 | INFO     | [START] LF Search
+2026-01-17 08:53:56 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-17 08:53:56 | INFO     | [DAY_START] Processing 09APR
+2026-01-17 08:53:56 | INFO     | [lf.day.start] Processing JED-LXR for 09APR
+2026-01-17 08:53:57 | WARNING  | [lf.day.no_flights] No direct flights on 09APR
+2026-01-17 08:53:57 | INFO     | [SUCCESS] Day 09APR
+2026-01-17 08:53:57 | INFO     | [DAY_START] Processing 08APR
+2026-01-17 08:53:57 | INFO     | [lf.day.start] Processing JED-LXR for 08APR
+2026-01-17 08:53:58 | WARNING  | [lf.day.no_flights] No direct flights on 08APR
+2026-01-17 08:53:58 | INFO     | [SUCCESS] Day 08APR
+2026-01-17 08:53:58 | INFO     | [DAY_START] Processing 07APR
+2026-01-17 08:53:58 | INFO     | [lf.day.start] Processing JED-LXR for 07APR
+2026-01-17 08:53:59 | WARNING  | [lf.day.no_flights] No direct flights on 07APR
+2026-01-17 08:53:59 | INFO     | [SUCCESS] Day 07APR
+2026-01-17 08:53:59 | INFO     | [DAY_START] Processing 06APR
+2026-01-17 08:53:59 | INFO     | [lf.day.start] Processing JED-LXR for 06APR
+2026-01-17 08:54:00 | WARNING  | [lf.day.no_flights] No direct flights on 06APR
+2026-01-17 08:54:00 | INFO     | [SUCCESS] Day 06APR
+2026-01-17 08:54:00 | INFO     | [DAY_START] Processing 05APR
+2026-01-17 08:54:00 | INFO     | [lf.day.start] Processing JED-LXR for 05APR
+2026-01-17 08:54:01 | WARNING  | [lf.day.no_flights] No direct flights on 05APR
+2026-01-17 08:54:01 | INFO     | [SUCCESS] Day 05APR
+2026-01-17 08:54:01 | INFO     | [DAY_START] Processing 04APR
+2026-01-17 08:54:01 | INFO     | [lf.day.start] Processing JED-LXR for 04APR
+2026-01-17 08:54:02 | WARNING  | [lf.day.no_flights] No direct flights on 04APR
+2026-01-17 08:54:03 | INFO     | [SUCCESS] Day 04APR
+2026-01-17 08:54:03 | INFO     | [DAY_START] Processing 03APR
+2026-01-17 08:54:03 | INFO     | [lf.day.start] Processing JED-LXR for 03APR
+2026-01-17 08:54:04 | WARNING  | [lf.day.no_flights] No direct flights on 03APR
+2026-01-17 08:54:04 | INFO     | [SUCCESS] Day 03APR
+2026-01-17 08:54:04 | INFO     | [DAY_START] Processing 02APR
+2026-01-17 08:54:04 | INFO     | [lf.day.start] Processing JED-LXR for 02APR
+2026-01-17 08:54:05 | WARNING  | [lf.day.no_flights] No direct flights on 02APR
+2026-01-17 08:54:05 | INFO     | [SUCCESS] Day 02APR
+2026-01-17 08:54:05 | INFO     | [SUCCESS] LF Search Complete
+2026-01-17 08:54:05 | INFO     | [Worker_9233] Completed: JED-LXR - 8 results, 0 errors
+2026-01-17 08:54:05 | INFO     | [Worker_9233] Processing: RUH-ATZ
+2026-01-17 08:54:05 | INFO     |   Tier 0: Range 4, Chunk 3/3 (8 days)

@@ -1,0 +1,44 @@
+2026-01-30 05:21:56 | INFO     | ======================================================================
+2026-01-30 05:21:56 | INFO     | Load Factor Scraper Started - Route: ASW-JED
+2026-01-30 05:21:56 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_ASW-JED_20260130_052156.log
+2026-01-30 05:21:56 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 05:21:56 | INFO     | ======================================================================
+2026-01-30 05:21:56 | INFO     | Starting LF search for route: ASW-JED
+2026-01-30 05:21:56 | INFO     | [START] LF Search
+2026-01-30 05:21:56 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 05:21:56 | INFO     | [DAY_START] Processing 14MAY
+2026-01-30 05:21:56 | INFO     | [lf.day.start] Processing ASW-JED for 14MAY
+2026-01-30 05:21:57 | WARNING  | [lf.day.no_flights] No direct flights on 14MAY
+2026-01-30 05:21:57 | INFO     | [SUCCESS] Day 14MAY
+2026-01-30 05:21:57 | INFO     | [DAY_START] Processing 13MAY
+2026-01-30 05:21:57 | INFO     | [lf.day.start] Processing ASW-JED for 13MAY
+2026-01-30 05:21:58 | WARNING  | [lf.day.no_flights] No direct flights on 13MAY
+2026-01-30 05:21:58 | INFO     | [SUCCESS] Day 13MAY
+2026-01-30 05:21:58 | INFO     | [DAY_START] Processing 12MAY
+2026-01-30 05:21:58 | INFO     | [lf.day.start] Processing ASW-JED for 12MAY
+2026-01-30 05:21:59 | WARNING  | [lf.day.no_flights] No direct flights on 12MAY
+2026-01-30 05:21:59 | INFO     | [SUCCESS] Day 12MAY
+2026-01-30 05:21:59 | INFO     | [DAY_START] Processing 11MAY
+2026-01-30 05:21:59 | INFO     | [lf.day.start] Processing ASW-JED for 11MAY
+2026-01-30 05:22:01 | WARNING  | [lf.day.no_flights] No direct flights on 11MAY
+2026-01-30 05:22:01 | INFO     | [SUCCESS] Day 11MAY
+2026-01-30 05:22:01 | INFO     | [DAY_START] Processing 10MAY
+2026-01-30 05:22:01 | INFO     | [lf.day.start] Processing ASW-JED for 10MAY
+2026-01-30 05:22:02 | WARNING  | [lf.day.no_flights] No direct flights on 10MAY
+2026-01-30 05:22:02 | INFO     | [SUCCESS] Day 10MAY
+2026-01-30 05:22:02 | INFO     | [DAY_START] Processing 09MAY
+2026-01-30 05:22:02 | INFO     | [lf.day.start] Processing ASW-JED for 09MAY
+2026-01-30 05:22:03 | WARNING  | [lf.day.no_flights] No direct flights on 09MAY
+2026-01-30 05:22:03 | INFO     | [SUCCESS] Day 09MAY
+2026-01-30 05:22:03 | INFO     | [DAY_START] Processing 08MAY
+2026-01-30 05:22:03 | INFO     | [lf.day.start] Processing ASW-JED for 08MAY
+2026-01-30 05:22:04 | WARNING  | [lf.day.no_flights] No direct flights on 08MAY
+2026-01-30 05:22:04 | INFO     | [SUCCESS] Day 08MAY
+2026-01-30 05:22:04 | INFO     | [DAY_START] Processing 07MAY
+2026-01-30 05:22:04 | INFO     | [lf.day.start] Processing ASW-JED for 07MAY
+2026-01-30 05:22:05 | WARNING  | [lf.day.no_flights] No direct flights on 07MAY
+2026-01-30 05:22:05 | INFO     | [SUCCESS] Day 07MAY
+2026-01-30 05:22:05 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 05:22:27 | INFO     | [Worker_9233] Completed: ASW-JED - 8 results, 0 errors
+2026-01-30 05:22:27 | INFO     | [Worker_9233] Processing: CAI-AHB
+2026-01-30 05:22:27 | INFO     |   Tier 0: Range 4, Chunk 3/4 (8 days)

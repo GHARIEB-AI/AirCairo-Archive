@@ -1,0 +1,58 @@
+2026-01-30 05:56:39 | INFO     | ======================================================================
+2026-01-30 05:56:39 | INFO     | Load Factor Scraper Started - Route: HBE-MED
+2026-01-30 05:56:39 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_HBE-MED_20260130_055639.log
+2026-01-30 05:56:39 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 05:56:39 | INFO     | ======================================================================
+2026-01-30 05:56:39 | INFO     | Starting LF search for route: HBE-MED
+2026-01-30 05:56:39 | INFO     | [START] LF Search
+2026-01-30 05:56:40 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 05:56:40 | INFO     | [DAY_START] Processing 10MAR
+2026-01-30 05:56:40 | INFO     | [lf.day.start] Processing HBE-MED for 10MAR
+2026-01-30 05:56:41 | INFO     | [lf.day.flights_found] Found 1 flights on 10MAR
+2026-01-30 05:56:43 | INFO     | [lf.flight.extracted] SM485 on 10MAR: BKG=0, LF=0.0%
+2026-01-30 05:56:44 | INFO     | [SUCCESS] Day 10MAR
+2026-01-30 05:56:44 | INFO     | [DAY_START] Processing 09MAR
+2026-01-30 05:56:44 | INFO     | [lf.day.start] Processing HBE-MED for 09MAR
+2026-01-30 05:56:45 | WARNING  | [lf.day.no_flights] No direct flights on 09MAR
+2026-01-30 05:56:45 | INFO     | [SUCCESS] Day 09MAR
+2026-01-30 05:56:45 | INFO     | [DAY_START] Processing 08MAR
+2026-01-30 05:56:45 | INFO     | [lf.day.start] Processing HBE-MED for 08MAR
+2026-01-30 05:56:47 | INFO     | [lf.day.flights_found] Found 1 flights on 08MAR
+2026-01-30 05:56:49 | INFO     | [lf.flight.extracted] SM485 on 08MAR: BKG=19, LF=10.6%
+2026-01-30 05:56:51 | INFO     | [SUCCESS] Day 08MAR
+2026-01-30 05:56:51 | INFO     | [DAY_START] Processing 07MAR
+2026-01-30 05:56:51 | INFO     | [lf.day.start] Processing HBE-MED for 07MAR
+2026-01-30 05:56:52 | WARNING  | [lf.day.no_flights] No direct flights on 07MAR
+2026-01-30 05:56:52 | INFO     | [SUCCESS] Day 07MAR
+2026-01-30 05:56:52 | INFO     | [DAY_START] Processing 06MAR
+2026-01-30 05:56:52 | INFO     | [lf.day.start] Processing HBE-MED for 06MAR
+2026-01-30 05:56:54 | WARNING  | [lf.day.no_flights] No direct flights on 06MAR
+2026-01-30 05:56:54 | INFO     | [SUCCESS] Day 06MAR
+2026-01-30 05:56:54 | INFO     | [DAY_START] Processing 05MAR
+2026-01-30 05:56:54 | INFO     | [lf.day.start] Processing HBE-MED for 05MAR
+2026-01-30 05:56:55 | INFO     | [lf.day.flights_found] Found 1 flights on 05MAR
+2026-01-30 05:56:57 | INFO     | [lf.flight.extracted] SM485 on 05MAR: BKG=180, LF=100.6%
+2026-01-30 05:57:01 | INFO     | [SUCCESS] Day 05MAR
+2026-01-30 05:57:01 | INFO     | [DAY_START] Processing 04MAR
+2026-01-30 05:57:01 | INFO     | [lf.day.start] Processing HBE-MED for 04MAR
+2026-01-30 05:57:02 | INFO     | [lf.day.flights_found] Found 1 flights on 04MAR
+2026-01-30 05:57:04 | INFO     | [lf.flight.extracted] SM485 on 04MAR: BKG=176, LF=98.3%
+2026-01-30 05:57:07 | INFO     | [SUCCESS] Day 04MAR
+2026-01-30 05:57:07 | INFO     | [DAY_START] Processing 03MAR
+2026-01-30 05:57:07 | INFO     | [lf.day.start] Processing HBE-MED for 03MAR
+2026-01-30 05:57:08 | INFO     | [lf.day.flights_found] Found 1 flights on 03MAR
+2026-01-30 05:57:10 | INFO     | [lf.flight.extracted] SM485 on 03MAR: BKG=167, LF=93.3%
+2026-01-30 05:57:13 | INFO     | [SUCCESS] Day 03MAR
+2026-01-30 05:57:13 | INFO     | [DAY_START] Processing 02MAR
+2026-01-30 05:57:13 | INFO     | [lf.day.start] Processing HBE-MED for 02MAR
+2026-01-30 05:57:14 | WARNING  | [lf.day.no_flights] No direct flights on 02MAR
+2026-01-30 05:57:14 | INFO     | [SUCCESS] Day 02MAR
+2026-01-30 05:57:14 | INFO     | [DAY_START] Processing 01MAR
+2026-01-30 05:57:14 | INFO     | [lf.day.start] Processing HBE-MED for 01MAR
+2026-01-30 05:57:15 | INFO     | [lf.day.flights_found] Found 1 flights on 01MAR
+2026-01-30 05:57:17 | INFO     | [lf.flight.extracted] SM485 on 01MAR: BKG=11, LF=6.2%
+2026-01-30 05:57:20 | INFO     | [SUCCESS] Day 01MAR
+2026-01-30 05:57:20 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 05:57:20 | INFO     | [Worker_9224] Completed: HBE-MED - 10 results, 0 errors
+2026-01-30 05:57:20 | INFO     | [Worker_9224] Processing: CAI-RUH
+2026-01-30 05:57:20 | INFO     |   Tier 0: Range 2, Chunk 3/3 (10 days)

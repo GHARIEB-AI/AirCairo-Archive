@@ -1,0 +1,62 @@
+2026-01-30 05:32:29 | INFO     | ======================================================================
+2026-01-30 05:32:29 | INFO     | Load Factor Scraper Started - Route: ATZ-JED
+2026-01-30 05:32:29 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_ATZ-JED_20260130_053229.log
+2026-01-30 05:32:29 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 05:32:29 | INFO     | ======================================================================
+2026-01-30 05:32:29 | INFO     | Starting LF search for route: ATZ-JED
+2026-01-30 05:32:29 | INFO     | [START] LF Search
+2026-01-30 05:32:29 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 05:32:29 | INFO     | [DAY_START] Processing 09APR
+2026-01-30 05:32:29 | INFO     | [lf.day.start] Processing ATZ-JED for 09APR
+2026-01-30 05:32:31 | INFO     | [lf.day.flights_found] Found 1 flights on 09APR
+2026-01-30 05:32:33 | INFO     | [lf.flight.extracted] SM455 on 09APR: BKG=11, LF=6.2%
+2026-01-30 05:32:36 | INFO     | [SUCCESS] Day 09APR
+2026-01-30 05:32:36 | INFO     | [DAY_START] Processing 08APR
+2026-01-30 05:32:36 | INFO     | [lf.day.start] Processing ATZ-JED for 08APR
+2026-01-30 05:32:37 | INFO     | [lf.day.flights_found] Found 1 flights on 08APR
+2026-01-30 05:32:39 | INFO     | [lf.flight.extracted] SM455 on 08APR: BKG=5, LF=2.8%
+2026-01-30 05:32:42 | INFO     | [SUCCESS] Day 08APR
+2026-01-30 05:32:42 | INFO     | [DAY_START] Processing 07APR
+2026-01-30 05:32:42 | INFO     | [lf.day.start] Processing ATZ-JED for 07APR
+2026-01-30 05:32:43 | INFO     | [lf.day.flights_found] Found 1 flights on 07APR
+2026-01-30 05:32:45 | INFO     | [lf.flight.extracted] SM455 on 07APR: BKG=9, LF=5.0%
+2026-01-30 05:32:47 | INFO     | [SUCCESS] Day 07APR
+2026-01-30 05:32:47 | INFO     | [DAY_START] Processing 06APR
+2026-01-30 05:32:47 | INFO     | [lf.day.start] Processing ATZ-JED for 06APR
+2026-01-30 05:32:48 | INFO     | [lf.day.flights_found] Found 1 flights on 06APR
+2026-01-30 05:32:50 | INFO     | [lf.flight.extracted] SM455 on 06APR: BKG=4, LF=2.2%
+2026-01-30 05:32:53 | INFO     | [SUCCESS] Day 06APR
+2026-01-30 05:32:53 | INFO     | [DAY_START] Processing 05APR
+2026-01-30 05:32:53 | INFO     | [lf.day.start] Processing ATZ-JED for 05APR
+2026-01-30 05:32:55 | INFO     | [lf.day.flights_found] Found 1 flights on 05APR
+2026-01-30 05:32:57 | INFO     | [lf.flight.extracted] SM455 on 05APR: BKG=15, LF=8.4%
+2026-01-30 05:33:00 | INFO     | [SUCCESS] Day 05APR
+2026-01-30 05:33:00 | INFO     | [DAY_START] Processing 04APR
+2026-01-30 05:33:00 | INFO     | [lf.day.start] Processing ATZ-JED for 04APR
+2026-01-30 05:33:01 | INFO     | [lf.day.flights_found] Found 1 flights on 04APR
+2026-01-30 05:33:04 | INFO     | [lf.flight.extracted] SM455 on 04APR: BKG=24, LF=13.4%
+2026-01-30 05:33:07 | INFO     | [SUCCESS] Day 04APR
+2026-01-30 05:33:07 | INFO     | [DAY_START] Processing 03APR
+2026-01-30 05:33:07 | INFO     | [lf.day.start] Processing ATZ-JED for 03APR
+2026-01-30 05:33:09 | INFO     | [lf.day.flights_found] Found 1 flights on 03APR
+2026-01-30 05:33:12 | INFO     | [lf.flight.extracted] SM455 on 03APR: BKG=15, LF=8.4%
+2026-01-30 05:33:17 | INFO     | [SUCCESS] Day 03APR
+2026-01-30 05:33:17 | INFO     | [DAY_START] Processing 02APR
+2026-01-30 05:33:17 | INFO     | [lf.day.start] Processing ATZ-JED for 02APR
+2026-01-30 05:33:27 | INFO     | [lf.day.flights_found] Found 1 flights on 02APR
+2026-01-30 05:33:29 | INFO     | [lf.flight.extracted] SM455 on 02APR: BKG=15, LF=8.4%
+2026-01-30 05:33:32 | INFO     | [SUCCESS] Day 02APR
+2026-01-30 05:33:32 | INFO     | [DAY_START] Processing 01APR
+2026-01-30 05:33:32 | INFO     | [lf.day.start] Processing ATZ-JED for 01APR
+2026-01-30 05:33:34 | INFO     | [lf.day.flights_found] Found 1 flights on 01APR
+2026-01-30 05:33:40 | INFO     | [lf.flight.extracted] SM455 on 01APR: BKG=26, LF=14.5%
+2026-01-30 05:33:52 | INFO     | [SUCCESS] Day 01APR
+2026-01-30 05:33:52 | INFO     | [DAY_START] Processing 31MAR
+2026-01-30 05:33:52 | INFO     | [lf.day.start] Processing ATZ-JED for 31MAR
+2026-01-30 05:33:54 | INFO     | [lf.day.flights_found] Found 1 flights on 31MAR
+2026-01-30 05:33:57 | INFO     | [lf.flight.extracted] SM455 on 31MAR: BKG=13, LF=7.3%
+2026-01-30 05:34:01 | INFO     | [SUCCESS] Day 31MAR
+2026-01-30 05:34:01 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 05:34:01 | INFO     | [Worker_9232] Completed: ATZ-JED - 10 results, 0 errors
+2026-01-30 05:34:01 | INFO     | [Worker_9232] Processing: ATZ-ELQ
+2026-01-30 05:34:01 | INFO     |   Tier 0: Range 3, Chunk 3/3 (10 days)

@@ -1,0 +1,42 @@
+2026-01-17 09:32:17 | INFO     | ======================================================================
+2026-01-17 09:32:17 | INFO     | Load Factor Scraper Started - Route: ELQ-ATZ
+2026-01-17 09:32:17 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_08.47_RETRY\logs\LF_ELQ-ATZ_20260117_093217.log
+2026-01-17 09:32:17 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-17 09:32:17 | INFO     | ======================================================================
+2026-01-17 09:32:17 | INFO     | Starting LF search for route: ELQ-ATZ
+2026-01-17 09:32:17 | INFO     | [START] LF Search
+2026-01-17 09:32:18 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-17 09:32:18 | INFO     | [DAY_START] Processing 24JAN
+2026-01-17 09:32:18 | INFO     | [lf.day.start] Processing ELQ-ATZ for 24JAN
+2026-01-17 09:32:19 | INFO     | [lf.day.flights_found] Found 1 flights on 24JAN
+2026-01-17 09:32:21 | INFO     | [lf.flight.extracted] SM436 on 24JAN: BKG=106, LF=60.6%
+2026-01-17 09:32:26 | INFO     | [SUCCESS] Day 24JAN
+2026-01-17 09:32:26 | INFO     | [DAY_START] Processing 23JAN
+2026-01-17 09:32:26 | INFO     | [lf.day.start] Processing ELQ-ATZ for 23JAN
+2026-01-17 09:32:27 | WARNING  | [lf.day.no_flights] No direct flights on 23JAN
+2026-01-17 09:32:27 | INFO     | [SUCCESS] Day 23JAN
+2026-01-17 09:32:27 | INFO     | [DAY_START] Processing 22JAN
+2026-01-17 09:32:27 | INFO     | [lf.day.start] Processing ELQ-ATZ for 22JAN
+2026-01-17 09:32:29 | WARNING  | [lf.day.no_flights] No direct flights on 22JAN
+2026-01-17 09:32:29 | INFO     | [SUCCESS] Day 22JAN
+2026-01-17 09:32:29 | INFO     | [DAY_START] Processing 21JAN
+2026-01-17 09:32:29 | INFO     | [lf.day.start] Processing ELQ-ATZ for 21JAN
+2026-01-17 09:32:30 | INFO     | [lf.day.flights_found] Found 1 flights on 21JAN
+2026-01-17 09:32:31 | INFO     | [lf.flight.extracted] SM436 on 21JAN: BKG=108, LF=61.7%
+2026-01-17 09:32:37 | INFO     | [SUCCESS] Day 21JAN
+2026-01-17 09:32:37 | INFO     | [DAY_START] Processing 20JAN
+2026-01-17 09:32:37 | INFO     | [lf.day.start] Processing ELQ-ATZ for 20JAN
+2026-01-17 09:32:38 | WARNING  | [lf.day.no_flights] No direct flights on 20JAN
+2026-01-17 09:32:38 | INFO     | [SUCCESS] Day 20JAN
+2026-01-17 09:32:38 | INFO     | [DAY_START] Processing 19JAN
+2026-01-17 09:32:38 | INFO     | [lf.day.start] Processing ELQ-ATZ for 19JAN
+2026-01-17 09:32:39 | WARNING  | [lf.day.no_flights] No direct flights on 19JAN
+2026-01-17 09:32:39 | INFO     | [SUCCESS] Day 19JAN
+2026-01-17 09:32:39 | INFO     | [DAY_START] Processing 18JAN
+2026-01-17 09:32:39 | INFO     | [lf.day.start] Processing ELQ-ATZ for 18JAN
+2026-01-17 09:32:40 | WARNING  | [lf.day.no_flights] No direct flights on 18JAN
+2026-01-17 09:32:40 | INFO     | [SUCCESS] Day 18JAN
+2026-01-17 09:32:40 | INFO     | [SUCCESS] LF Search Complete
+2026-01-17 09:32:40 | INFO     | [Worker_9225] Completed: ELQ-ATZ - 7 results, 0 errors
+2026-01-17 09:32:40 | INFO     | [Worker_9225] Processing: CAI-JED
+2026-01-17 09:32:40 | INFO     |   Tier 0: Range 1, Chunk 3/3 (8 days)

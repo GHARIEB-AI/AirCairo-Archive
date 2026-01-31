@@ -1,0 +1,56 @@
+2026-01-20 07:32:33 | INFO     | ======================================================================
+2026-01-20 07:32:33 | INFO     | Load Factor Scraper Started - Route: JED-LXR
+2026-01-20 07:32:33 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_200126_at_06.58\logs\LF_JED-LXR_20260120_073233.log
+2026-01-20 07:32:33 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-20 07:32:33 | INFO     | ======================================================================
+2026-01-20 07:32:33 | INFO     | Starting LF search for route: JED-LXR
+2026-01-20 07:32:33 | INFO     | [START] LF Search
+2026-01-20 07:32:36 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-20 07:32:36 | INFO     | [DAY_START] Processing 26MAR
+2026-01-20 07:32:36 | INFO     | [lf.day.start] Processing JED-LXR for 26MAR
+2026-01-20 07:32:37 | WARNING  | [lf.day.no_flights] No direct flights on 26MAR
+2026-01-20 07:32:37 | INFO     | [SUCCESS] Day 26MAR
+2026-01-20 07:32:37 | INFO     | [DAY_START] Processing 25MAR
+2026-01-20 07:32:37 | INFO     | [lf.day.start] Processing JED-LXR for 25MAR
+2026-01-20 07:32:39 | INFO     | [lf.day.flights_found] Found 1 flights on 25MAR
+2026-01-20 07:32:41 | INFO     | [lf.flight.extracted] SM966 on 25MAR: BKG=0, LF=0.0%
+2026-01-20 07:32:43 | INFO     | [SUCCESS] Day 25MAR
+2026-01-20 07:32:43 | INFO     | [DAY_START] Processing 24MAR
+2026-01-20 07:32:43 | INFO     | [lf.day.start] Processing JED-LXR for 24MAR
+2026-01-20 07:32:44 | INFO     | [lf.day.flights_found] Found 7 flights on 24MAR
+2026-01-20 07:32:47 | INFO     | [lf.flight.extracted] SM940 on 24MAR: BKG=0, LF=0.0%
+2026-01-20 07:32:51 | INFO     | [lf.flight.extracted] SM482 on 24MAR: BKG=0, LF=0.0%
+2026-01-20 07:32:55 | INFO     | [lf.flight.extracted] SM430 on 24MAR: BKG=0, LF=0.0%
+2026-01-20 07:33:00 | INFO     | [lf.flight.extracted] SM968 on 24MAR: BKG=0, LF=0.0%
+2026-01-20 07:33:04 | INFO     | [lf.flight.extracted] SM982 on 24MAR: BKG=0, LF=0.0%
+2026-01-20 07:33:08 | INFO     | [lf.flight.extracted] SM484 on 24MAR: BKG=0, LF=0.0%
+2026-01-20 07:33:13 | INFO     | [lf.flight.extracted] SM960 on 24MAR: BKG=0, LF=0.0%
+2026-01-20 07:33:14 | INFO     | [SUCCESS] Day 24MAR
+2026-01-20 07:33:14 | INFO     | [DAY_START] Processing 23MAR
+2026-01-20 07:33:14 | INFO     | [lf.day.start] Processing JED-LXR for 23MAR
+2026-01-20 07:33:16 | WARNING  | [lf.day.no_flights] No direct flights on 23MAR
+2026-01-20 07:33:16 | INFO     | [SUCCESS] Day 23MAR
+2026-01-20 07:33:16 | INFO     | [DAY_START] Processing 22MAR
+2026-01-20 07:33:16 | INFO     | [lf.day.start] Processing JED-LXR for 22MAR
+2026-01-20 07:33:17 | WARNING  | [lf.day.no_flights] No direct flights on 22MAR
+2026-01-20 07:33:17 | INFO     | [SUCCESS] Day 22MAR
+2026-01-20 07:33:17 | INFO     | [DAY_START] Processing 21MAR
+2026-01-20 07:33:17 | INFO     | [lf.day.start] Processing JED-LXR for 21MAR
+2026-01-20 07:33:18 | WARNING  | [lf.day.no_flights] No direct flights on 21MAR
+2026-01-20 07:33:19 | INFO     | [SUCCESS] Day 21MAR
+2026-01-20 07:33:19 | INFO     | [DAY_START] Processing 20MAR
+2026-01-20 07:33:19 | INFO     | [lf.day.start] Processing JED-LXR for 20MAR
+2026-01-20 07:33:20 | WARNING  | [lf.day.no_flights] No direct flights on 20MAR
+2026-01-20 07:33:20 | INFO     | [SUCCESS] Day 20MAR
+2026-01-20 07:33:20 | INFO     | [DAY_START] Processing 19MAR
+2026-01-20 07:33:20 | INFO     | [lf.day.start] Processing JED-LXR for 19MAR
+2026-01-20 07:33:22 | WARNING  | [lf.day.no_flights] No direct flights on 19MAR
+2026-01-20 07:33:22 | INFO     | [SUCCESS] Day 19MAR
+2026-01-20 07:33:22 | INFO     | [DAY_START] Processing 18MAR
+2026-01-20 07:33:22 | INFO     | [lf.day.start] Processing JED-LXR for 18MAR
+2026-01-20 07:33:24 | WARNING  | [lf.day.no_flights] No direct flights on 18MAR
+2026-01-20 07:33:24 | INFO     | [SUCCESS] Day 18MAR
+2026-01-20 07:33:24 | INFO     | [SUCCESS] LF Search Complete
+2026-01-20 07:33:26 | INFO     | [Worker_9232] Completed: JED-LXR - 9 results, 0 errors
+2026-01-20 07:33:26 | INFO     | [Worker_9232] Processing: TUU-CAI
+2026-01-20 07:33:26 | INFO     |   Tier 0: Range 2, Chunk 1/4 (9 days)

@@ -1,0 +1,57 @@
+2026-01-30 05:59:54 | INFO     | ======================================================================
+2026-01-30 05:59:54 | INFO     | Load Factor Scraper Started - Route: TUU-CAI
+2026-01-30 05:59:54 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_TUU-CAI_20260130_055954.log
+2026-01-30 05:59:54 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 05:59:54 | INFO     | ======================================================================
+2026-01-30 05:59:54 | INFO     | Starting LF search for route: TUU-CAI
+2026-01-30 05:59:54 | INFO     | [START] LF Search
+2026-01-30 05:59:55 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 05:59:55 | INFO     | [DAY_START] Processing 28FEB
+2026-01-30 05:59:55 | INFO     | [lf.day.start] Processing TUU-CAI for 28FEB
+2026-01-30 05:59:56 | INFO     | [lf.day.flights_found] Found 1 flights on 28FEB
+2026-01-30 05:59:58 | INFO     | [lf.flight.extracted] SM326 on 28FEB: BKG=11, LF=10.5%
+2026-01-30 06:00:01 | INFO     | [SUCCESS] Day 28FEB
+2026-01-30 06:00:01 | INFO     | [DAY_START] Processing 27FEB
+2026-01-30 06:00:01 | INFO     | [lf.day.start] Processing TUU-CAI for 27FEB
+2026-01-30 06:00:03 | WARNING  | [lf.day.no_flights] No direct flights on 27FEB
+2026-01-30 06:00:03 | INFO     | [SUCCESS] Day 27FEB
+2026-01-30 06:00:03 | INFO     | [DAY_START] Processing 26FEB
+2026-01-30 06:00:03 | INFO     | [lf.day.start] Processing TUU-CAI for 26FEB
+2026-01-30 06:00:05 | INFO     | [lf.day.flights_found] Found 1 flights on 26FEB
+2026-01-30 06:00:07 | INFO     | [lf.flight.extracted] SM326 on 26FEB: BKG=1, LF=0.6%
+2026-01-30 06:00:09 | INFO     | [SUCCESS] Day 26FEB
+2026-01-30 06:00:09 | INFO     | [DAY_START] Processing 25FEB
+2026-01-30 06:00:09 | INFO     | [lf.day.start] Processing TUU-CAI for 25FEB
+2026-01-30 06:00:10 | INFO     | [lf.day.flights_found] Found 1 flights on 25FEB
+2026-01-30 06:00:12 | INFO     | [lf.flight.extracted] SM326 on 25FEB: BKG=20, LF=11.4%
+2026-01-30 06:00:16 | INFO     | [SUCCESS] Day 25FEB
+2026-01-30 06:00:16 | INFO     | [DAY_START] Processing 24FEB
+2026-01-30 06:00:16 | INFO     | [lf.day.start] Processing TUU-CAI for 24FEB
+2026-01-30 06:00:17 | WARNING  | [lf.day.no_flights] No direct flights on 24FEB
+2026-01-30 06:00:17 | INFO     | [SUCCESS] Day 24FEB
+2026-01-30 06:00:17 | INFO     | [DAY_START] Processing 23FEB
+2026-01-30 06:00:17 | INFO     | [lf.day.start] Processing TUU-CAI for 23FEB
+2026-01-30 06:00:18 | WARNING  | [lf.day.no_flights] No direct flights on 23FEB
+2026-01-30 06:00:18 | INFO     | [SUCCESS] Day 23FEB
+2026-01-30 06:00:18 | INFO     | [DAY_START] Processing 22FEB
+2026-01-30 06:00:18 | INFO     | [lf.day.start] Processing TUU-CAI for 22FEB
+2026-01-30 06:00:19 | WARNING  | [lf.day.no_flights] No direct flights on 22FEB
+2026-01-30 06:00:19 | INFO     | [SUCCESS] Day 22FEB
+2026-01-30 06:00:19 | INFO     | [DAY_START] Processing 21FEB
+2026-01-30 06:00:19 | INFO     | [lf.day.start] Processing TUU-CAI for 21FEB
+2026-01-30 06:00:20 | INFO     | [lf.day.flights_found] Found 1 flights on 21FEB
+2026-01-30 06:00:22 | INFO     | [lf.flight.extracted] SM326 on 21FEB: BKG=16, LF=15.2%
+2026-01-30 06:00:25 | INFO     | [SUCCESS] Day 21FEB
+2026-01-30 06:00:25 | INFO     | [DAY_START] Processing 20FEB
+2026-01-30 06:00:25 | INFO     | [lf.day.start] Processing TUU-CAI for 20FEB
+2026-01-30 06:00:26 | WARNING  | [lf.day.no_flights] No direct flights on 20FEB
+2026-01-30 06:00:26 | INFO     | [SUCCESS] Day 20FEB
+2026-01-30 06:00:26 | INFO     | [DAY_START] Processing 19FEB
+2026-01-30 06:00:26 | INFO     | [lf.day.start] Processing TUU-CAI for 19FEB
+2026-01-30 06:00:27 | INFO     | [lf.day.flights_found] Found 1 flights on 19FEB
+2026-01-30 06:00:29 | INFO     | [lf.flight.extracted] SM326 on 19FEB: BKG=12, LF=7.0%
+2026-01-30 06:00:32 | INFO     | [SUCCESS] Day 19FEB
+2026-01-30 06:00:32 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 06:00:32 | INFO     | [Worker_9232] Completed: TUU-CAI - 10 results, 0 errors
+2026-01-30 06:00:32 | INFO     | [Worker_9232] Processing: AHB-CAI
+2026-01-30 06:00:32 | INFO     |   Tier 0: Range 1, Chunk 1/3 (10 days)

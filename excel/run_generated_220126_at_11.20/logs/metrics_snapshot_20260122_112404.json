@@ -1,0 +1,263 @@
+{
+  "timestamp": "2026-01-22T11:24:04.044964",
+  "service": "market-insights",
+  "counters": {
+    "oal_requests_total": {
+      "description": "Total OAL API requests",
+      "values": []
+    },
+    "lf_requests_total": {
+      "description": "Total LF requests",
+      "values": [
+        {
+          "labels": {
+            "destination": "ATZ",
+            "origin": "MED",
+            "status": "success"
+          },
+          "value": 9.0
+        },
+        {
+          "labels": {
+            "destination": "ATZ",
+            "origin": "DMM",
+            "status": "success"
+          },
+          "value": 9.0
+        },
+        {
+          "labels": {
+            "destination": "CAI",
+            "origin": "AJF",
+            "status": "success"
+          },
+          "value": 9.0
+        },
+        {
+          "labels": {
+            "destination": "MED",
+            "origin": "ATZ",
+            "status": "success"
+          },
+          "value": 9.0
+        },
+        {
+          "labels": {
+            "destination": "JED",
+            "origin": "LXR",
+            "status": "success"
+          },
+          "value": 9.0
+        },
+        {
+          "labels": {
+            "destination": "DMM",
+            "origin": "ATZ",
+            "status": "success"
+          },
+          "value": 9.0
+        },
+        {
+          "labels": {
+            "destination": "AJF",
+            "origin": "CAI",
+            "status": "success"
+          },
+          "value": 9.0
+        },
+        {
+          "labels": {
+            "destination": "CAI",
+            "origin": "MED",
+            "status": "success"
+          },
+          "value": 8.0
+        },
+        {
+          "labels": {
+            "destination": "ATZ",
+            "origin": "RUH",
+            "status": "success"
+          },
+          "value": 8.0
+        }
+      ]
+    },
+    "errors_total": {
+      "description": "Total errors",
+      "values": []
+    }
+  },
+  "gauges": {
+    "routes_in_progress": {
+      "description": "Routes currently being processed",
+      "values": [
+        {
+          "labels": {},
+          "value": 0.0
+        }
+      ]
+    },
+    "flights_analyzed": {
+      "description": "Total flights analyzed in session",
+      "values": [
+        {
+          "labels": {
+            "direction": "lf"
+          },
+          "value": 16.0
+        }
+      ]
+    },
+    "circuit_breaker_state": {
+      "description": "Circuit breaker state (0=closed, 1=open)",
+      "values": []
+    }
+  },
+  "histograms": {
+    "request_duration_seconds": {
+      "description": "Request duration in seconds",
+      "data": {}
+    },
+    "route_processing_seconds": {
+      "description": "Route processing duration",
+      "data": {
+        "{'route': 'MED-ATZ'}": {
+          "sum": 18.880407,
+          "count": 9,
+          "buckets": {
+            "5.0": 9,
+            "10.0": 9,
+            "30.0": 9,
+            "60.0": 9,
+            "120.0": 9,
+            "300.0": 9
+          },
+          "p50": 3.0,
+          "p95": 4.800000000000001,
+          "p99": 4.96
+        },
+        "{'route': 'DMM-ATZ'}": {
+          "sum": 13.093280999999998,
+          "count": 9,
+          "buckets": {
+            "5.0": 9,
+            "10.0": 9,
+            "30.0": 9,
+            "60.0": 9,
+            "120.0": 9,
+            "300.0": 9
+          },
+          "p50": 3.0,
+          "p95": 4.800000000000001,
+          "p99": 4.96
+        },
+        "{'route': 'AJF-CAI'}": {
+          "sum": 30.466150999999996,
+          "count": 9,
+          "buckets": {
+            "5.0": 7,
+            "10.0": 9,
+            "30.0": 9,
+            "60.0": 9,
+            "120.0": 9,
+            "300.0": 9
+          },
+          "p50": 3.5714285714285716,
+          "p95": 5.861111111111112,
+          "p99": 6.061111111111111
+        },
+        "{'route': 'ATZ-MED'}": {
+          "sum": 20.402451,
+          "count": 9,
+          "buckets": {
+            "5.0": 8,
+            "10.0": 9,
+            "30.0": 9,
+            "60.0": 9,
+            "120.0": 9,
+            "300.0": 9
+          },
+          "p50": 3.25,
+          "p95": 5.305555555555556,
+          "p99": 5.5055555555555555
+        },
+        "{'route': 'LXR-JED'}": {
+          "sum": 13.522485,
+          "count": 9,
+          "buckets": {
+            "5.0": 9,
+            "10.0": 9,
+            "30.0": 9,
+            "60.0": 9,
+            "120.0": 9,
+            "300.0": 9
+          },
+          "p50": 3.0,
+          "p95": 4.800000000000001,
+          "p99": 4.96
+        },
+        "{'route': 'ATZ-DMM'}": {
+          "sum": 10.711457999999999,
+          "count": 9,
+          "buckets": {
+            "5.0": 9,
+            "10.0": 9,
+            "30.0": 9,
+            "60.0": 9,
+            "120.0": 9,
+            "300.0": 9
+          },
+          "p50": 3.0,
+          "p95": 4.800000000000001,
+          "p99": 4.96
+        },
+        "{'route': 'CAI-AJF'}": {
+          "sum": 20.661748,
+          "count": 9,
+          "buckets": {
+            "5.0": 8,
+            "10.0": 9,
+            "30.0": 9,
+            "60.0": 9,
+            "120.0": 9,
+            "300.0": 9
+          },
+          "p50": 3.25,
+          "p95": 5.305555555555556,
+          "p99": 5.5055555555555555
+        },
+        "{'route': 'MED-CAI'}": {
+          "sum": 32.055625,
+          "count": 8,
+          "buckets": {
+            "5.0": 4,
+            "10.0": 8,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8
+          },
+          "p50": 5.0,
+          "p95": 7.25,
+          "p99": 7.45
+        },
+        "{'route': 'RUH-ATZ'}": {
+          "sum": 13.450123000000001,
+          "count": 8,
+          "buckets": {
+            "5.0": 7,
+            "10.0": 8,
+            "30.0": 8,
+            "60.0": 8,
+            "120.0": 8,
+            "300.0": 8
+          },
+          "p50": 3.2857142857142856,
+          "p95": 5.375,
+          "p99": 5.575
+        }
+      }
+    }
+  }
+}

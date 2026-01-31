@@ -1,0 +1,41 @@
+2026-01-30 05:23:03 | INFO     | ======================================================================
+2026-01-30 05:23:03 | INFO     | Load Factor Scraper Started - Route: RUH-ATZ
+2026-01-30 05:23:03 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_RUH-ATZ_20260130_052303.log
+2026-01-30 05:23:03 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 05:23:03 | INFO     | ======================================================================
+2026-01-30 05:23:03 | INFO     | Starting LF search for route: RUH-ATZ
+2026-01-30 05:23:03 | INFO     | [START] LF Search
+2026-01-30 05:23:03 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 05:23:04 | INFO     | [DAY_START] Processing 06MAY
+2026-01-30 05:23:04 | INFO     | [lf.day.start] Processing RUH-ATZ for 06MAY
+2026-01-30 05:23:05 | INFO     | [lf.day.flights_found] Found 1 flights on 06MAY
+2026-01-30 05:23:07 | INFO     | [lf.flight.extracted] SM466 on 06MAY: BKG=7, LF=4.0%
+2026-01-30 05:23:09 | INFO     | [SUCCESS] Day 06MAY
+2026-01-30 05:23:09 | INFO     | [DAY_START] Processing 05MAY
+2026-01-30 05:23:09 | INFO     | [lf.day.start] Processing RUH-ATZ for 05MAY
+2026-01-30 05:23:11 | WARNING  | [lf.day.no_flights] No direct flights on 05MAY
+2026-01-30 05:23:11 | INFO     | [SUCCESS] Day 05MAY
+2026-01-30 05:23:11 | INFO     | [DAY_START] Processing 04MAY
+2026-01-30 05:23:11 | INFO     | [lf.day.start] Processing RUH-ATZ for 04MAY
+2026-01-30 05:23:12 | WARNING  | [lf.day.no_flights] No direct flights on 04MAY
+2026-01-30 05:23:12 | INFO     | [SUCCESS] Day 04MAY
+2026-01-30 05:23:12 | INFO     | [DAY_START] Processing 03MAY
+2026-01-30 05:23:12 | INFO     | [lf.day.start] Processing RUH-ATZ for 03MAY
+2026-01-30 05:23:13 | WARNING  | [lf.day.no_flights] No direct flights on 03MAY
+2026-01-30 05:23:13 | INFO     | [SUCCESS] Day 03MAY
+2026-01-30 05:23:13 | INFO     | [DAY_START] Processing 02MAY
+2026-01-30 05:23:13 | INFO     | [lf.day.start] Processing RUH-ATZ for 02MAY
+2026-01-30 05:23:14 | WARNING  | [lf.day.no_flights] No direct flights on 02MAY
+2026-01-30 05:23:14 | INFO     | [SUCCESS] Day 02MAY
+2026-01-30 05:23:14 | INFO     | [DAY_START] Processing 01MAY
+2026-01-30 05:23:14 | INFO     | [lf.day.start] Processing RUH-ATZ for 01MAY
+2026-01-30 05:23:15 | WARNING  | [lf.day.no_flights] No direct flights on 01MAY
+2026-01-30 05:23:15 | INFO     | [SUCCESS] Day 01MAY
+2026-01-30 05:23:15 | INFO     | [DAY_START] Processing 30APR
+2026-01-30 05:23:15 | INFO     | [lf.day.start] Processing RUH-ATZ for 30APR
+2026-01-30 05:23:16 | WARNING  | [lf.day.no_flights] No direct flights on 30APR
+2026-01-30 05:23:16 | INFO     | [SUCCESS] Day 30APR
+2026-01-30 05:23:16 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 05:23:33 | INFO     | [Worker_9225] Completed: RUH-ATZ - 7 results, 0 errors
+2026-01-30 05:23:33 | INFO     | [Worker_9225] Processing: AJF-ATZ
+2026-01-30 05:23:33 | INFO     |   Tier 0: Range 4, Chunk 4/4 (7 days)

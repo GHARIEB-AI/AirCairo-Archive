@@ -1,0 +1,53 @@
+2026-01-25 07:45:37 | INFO     | ======================================================================
+2026-01-25 07:45:37 | INFO     | Load Factor Scraper Started - Route: MED-ATZ
+2026-01-25 07:45:37 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\logs\LF_MED-ATZ_20260125_074537.log
+2026-01-25 07:45:37 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-25 07:45:37 | INFO     | ======================================================================
+2026-01-25 07:45:37 | INFO     | Starting LF search for route: MED-ATZ
+2026-01-25 07:45:37 | INFO     | [START] LF Search
+2026-01-25 07:45:38 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-25 07:45:38 | INFO     | [DAY_START] Processing 24FEB
+2026-01-25 07:45:38 | INFO     | [lf.day.start] Processing MED-ATZ for 24FEB
+2026-01-25 07:45:39 | INFO     | [lf.day.flights_found] Found 1 flights on 24FEB
+2026-01-25 07:45:41 | INFO     | [lf.flight.extracted] SM488 on 24FEB: BKG=166, LF=94.9%
+2026-01-25 07:45:45 | INFO     | [SUCCESS] Day 24FEB
+2026-01-25 07:45:45 | INFO     | [DAY_START] Processing 23FEB
+2026-01-25 07:45:45 | INFO     | [lf.day.start] Processing MED-ATZ for 23FEB
+2026-01-25 07:45:47 | INFO     | [lf.day.flights_found] Found 2 flights on 23FEB
+2026-01-25 07:45:49 | INFO     | [lf.flight.extracted] SM964 on 23FEB: BKG=90, LF=53.9%
+2026-01-25 07:45:52 | INFO     | [lf.flight.extracted] SM488 on 23FEB: BKG=155, LF=88.6%
+2026-01-25 07:45:58 | INFO     | [SUCCESS] Day 23FEB
+2026-01-25 07:45:58 | INFO     | [DAY_START] Processing 22FEB
+2026-01-25 07:45:58 | INFO     | [lf.day.start] Processing MED-ATZ for 22FEB
+2026-01-25 07:45:59 | INFO     | [lf.day.flights_found] Found 1 flights on 22FEB
+2026-01-25 07:46:02 | INFO     | [lf.flight.extracted] SM982 on 22FEB: BKG=135, LF=77.1%
+2026-01-25 07:46:04 | INFO     | [SUCCESS] Day 22FEB
+2026-01-25 07:46:04 | INFO     | [DAY_START] Processing 21FEB
+2026-01-25 07:46:04 | INFO     | [lf.day.start] Processing MED-ATZ for 21FEB
+2026-01-25 07:46:06 | INFO     | [lf.day.flights_found] Found 1 flights on 21FEB
+2026-01-25 07:46:08 | INFO     | [lf.flight.extracted] SM488 on 21FEB: BKG=104, LF=59.4%
+2026-01-25 07:46:11 | INFO     | [SUCCESS] Day 21FEB
+2026-01-25 07:46:11 | INFO     | [DAY_START] Processing 20FEB
+2026-01-25 07:46:11 | INFO     | [lf.day.start] Processing MED-ATZ for 20FEB
+2026-01-25 07:46:12 | INFO     | [lf.day.flights_found] Found 1 flights on 20FEB
+2026-01-25 07:46:14 | INFO     | [lf.flight.extracted] SM964 on 20FEB: BKG=0, LF=0.0%
+2026-01-25 07:46:16 | INFO     | [SUCCESS] Day 20FEB
+2026-01-25 07:46:16 | INFO     | [DAY_START] Processing 19FEB
+2026-01-25 07:46:16 | INFO     | [lf.day.start] Processing MED-ATZ for 19FEB
+2026-01-25 07:46:17 | WARNING  | [lf.day.no_flights] No direct flights on 19FEB
+2026-01-25 07:46:17 | INFO     | [SUCCESS] Day 19FEB
+2026-01-25 07:46:17 | INFO     | [DAY_START] Processing 18FEB
+2026-01-25 07:46:17 | INFO     | [lf.day.start] Processing MED-ATZ for 18FEB
+2026-01-25 07:46:18 | INFO     | [lf.day.flights_found] Found 1 flights on 18FEB
+2026-01-25 07:46:20 | INFO     | [lf.flight.extracted] SM490 on 18FEB: BKG=30, LF=17.1%
+2026-01-25 07:46:24 | ERROR    | Atomic write failed for D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\checkpoints\flight_booking_data.json: [WinError 5] Access is denied: 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_250126_at_07.06\\checkpoints\\flight_booking_data.tmp_7e878257' -> 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_250126_at_07.06\\checkpoints\\flight_booking_data.json'
+2026-01-25 07:46:24 | INFO     | [SUCCESS] Day 18FEB
+2026-01-25 07:46:24 | INFO     | [DAY_START] Processing 17FEB
+2026-01-25 07:46:24 | INFO     | [lf.day.start] Processing MED-ATZ for 17FEB
+2026-01-25 07:46:26 | INFO     | [lf.day.flights_found] Found 1 flights on 17FEB
+2026-01-25 07:46:28 | INFO     | [lf.flight.extracted] SM488 on 17FEB: BKG=53, LF=30.3%
+2026-01-25 07:46:33 | INFO     | [SUCCESS] Day 17FEB
+2026-01-25 07:46:33 | INFO     | [SUCCESS] LF Search Complete
+2026-01-25 07:46:33 | INFO     | [Worker_9232] Completed: MED-ATZ - 8 results, 0 errors
+2026-01-25 07:46:33 | INFO     | [Worker_9232] Processing: RUH-CAI
+2026-01-25 07:46:33 | INFO     |   Tier 0: Range 1, Chunk 1/4 (8 days)

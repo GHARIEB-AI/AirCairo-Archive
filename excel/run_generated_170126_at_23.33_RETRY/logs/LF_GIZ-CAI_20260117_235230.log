@@ -1,0 +1,47 @@
+2026-01-17 23:52:30 | INFO     | ======================================================================
+2026-01-17 23:52:30 | INFO     | Load Factor Scraper Started - Route: GIZ-CAI
+2026-01-17 23:52:30 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_23.33_RETRY\logs\LF_GIZ-CAI_20260117_235230.log
+2026-01-17 23:52:30 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-17 23:52:30 | INFO     | ======================================================================
+2026-01-17 23:52:30 | INFO     | Starting LF search for route: GIZ-CAI
+2026-01-17 23:52:30 | INFO     | [START] LF Search
+2026-01-17 23:52:31 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-17 23:52:31 | INFO     | [DAY_START] Processing 15MAR
+2026-01-17 23:52:31 | INFO     | [lf.day.start] Processing GIZ-CAI for 15MAR
+2026-01-17 23:52:33 | INFO     | [lf.day.flights_found] Found 1 flights on 15MAR
+2026-01-17 23:52:35 | INFO     | [lf.flight.extracted] SM330 on 15MAR: BKG=4, LF=2.3%
+2026-01-17 23:52:39 | INFO     | [SUCCESS] Day 15MAR
+2026-01-17 23:52:39 | INFO     | [DAY_START] Processing 14MAR
+2026-01-17 23:52:39 | INFO     | [lf.day.start] Processing GIZ-CAI for 14MAR
+2026-01-17 23:52:40 | WARNING  | [lf.day.no_flights] No direct flights on 14MAR
+2026-01-17 23:52:40 | INFO     | [SUCCESS] Day 14MAR
+2026-01-17 23:52:40 | INFO     | [DAY_START] Processing 13MAR
+2026-01-17 23:52:40 | INFO     | [lf.day.start] Processing GIZ-CAI for 13MAR
+2026-01-17 23:52:41 | INFO     | [lf.day.flights_found] Found 1 flights on 13MAR
+2026-01-17 23:52:43 | INFO     | [lf.flight.extracted] SM330 on 13MAR: BKG=6, LF=3.4%
+2026-01-17 23:52:46 | INFO     | [SUCCESS] Day 13MAR
+2026-01-17 23:52:46 | INFO     | [DAY_START] Processing 12MAR
+2026-01-17 23:52:46 | INFO     | [lf.day.start] Processing GIZ-CAI for 12MAR
+2026-01-17 23:52:47 | WARNING  | [lf.day.no_flights] No direct flights on 12MAR
+2026-01-17 23:52:47 | INFO     | [SUCCESS] Day 12MAR
+2026-01-17 23:52:47 | INFO     | [DAY_START] Processing 11MAR
+2026-01-17 23:52:47 | INFO     | [lf.day.start] Processing GIZ-CAI for 11MAR
+2026-01-17 23:52:49 | WARNING  | [lf.day.no_flights] No direct flights on 11MAR
+2026-01-17 23:52:49 | INFO     | [SUCCESS] Day 11MAR
+2026-01-17 23:52:49 | INFO     | [DAY_START] Processing 10MAR
+2026-01-17 23:52:49 | INFO     | [lf.day.start] Processing GIZ-CAI for 10MAR
+2026-01-17 23:52:50 | WARNING  | [lf.day.no_flights] No direct flights on 10MAR
+2026-01-17 23:52:50 | INFO     | [SUCCESS] Day 10MAR
+2026-01-17 23:52:50 | INFO     | [DAY_START] Processing 09MAR
+2026-01-17 23:52:50 | INFO     | [lf.day.start] Processing GIZ-CAI for 09MAR
+2026-01-17 23:52:51 | WARNING  | [lf.day.no_flights] No direct flights on 09MAR
+2026-01-17 23:52:51 | INFO     | [SUCCESS] Day 09MAR
+2026-01-17 23:52:51 | INFO     | [DAY_START] Processing 08MAR
+2026-01-17 23:52:51 | INFO     | [lf.day.start] Processing GIZ-CAI for 08MAR
+2026-01-17 23:52:52 | INFO     | [lf.day.flights_found] Found 1 flights on 08MAR
+2026-01-17 23:52:54 | INFO     | [lf.flight.extracted] SM330 on 08MAR: BKG=14, LF=8.0%
+2026-01-17 23:52:57 | INFO     | [SUCCESS] Day 08MAR
+2026-01-17 23:52:57 | INFO     | [SUCCESS] LF Search Complete
+2026-01-17 23:52:57 | INFO     | [Worker_9225] Completed: GIZ-CAI - 8 results, 0 errors
+2026-01-17 23:52:57 | INFO     | [Worker_9225] Processing: HBE-JED
+2026-01-17 23:52:57 | INFO     |   Tier 0: Range 3, Chunk 3/3 (8 days)

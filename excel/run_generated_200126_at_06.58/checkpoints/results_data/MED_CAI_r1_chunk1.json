@@ -1,0 +1,359 @@
+{
+  "task_id": "MED-CAI_r1_chunk1",
+  "saved_at": "2026-01-20T07:38:41.677980",
+  "lf_results": {
+    "2026-03-17": [
+      {
+        "Date": "Tuesday, March 17, 2026",
+        "Flight": "SM496",
+        "DEP": "01:10",
+        "SOLD": 98,
+        "FULL CAPACITY": 168,
+        "LF%": 0.5833,
+        "LowestAvail": "M9",
+        "LASTSOLD": "2026-01-14 00:00:00",
+        "WEEKLY PROGRESS": 2,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 90,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 5,
+          "Q": 0,
+          "H": 0,
+          "M": 3,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 90,
+        "EQP": "320",
+        "Brd-Off": "MED-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM496",
+          "sm_route": "MED-CAI",
+          "sm_dep": "0110",
+          "sm_arr": "0159",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0601",
+              "outbound_route": "CAI-CGN",
+              "outbound_dep": "0605",
+              "passengers": [
+                {
+                  "iata": "DUSSM0100"
+                }
+              ]
+            },
+            {
+              "outbound_flight": "SM0050",
+              "outbound_route": "CAI-LXR",
+              "outbound_dep": "0730",
+              "passengers": [
+                {
+                  "iata": "JEDE328AA"
+                }
+              ]
+            },
+            {
+              "outbound_flight": "MS0879",
+              "outbound_route": "CAI-KAN",
+              "outbound_dep": "0955",
+              "passengers": [
+                {
+                  "iata": "LOSN82832"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Date": "Tuesday, March 17, 2026",
+        "Flight": "SM494",
+        "DEP": "23:30",
+        "SOLD": 12,
+        "FULL CAPACITY": 175,
+        "LF%": 0.0686,
+        "LowestAvail": "M9",
+        "LASTSOLD": "2026-01-16 00:00:00",
+        "WEEKLY PROGRESS": 1,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 5,
+          "Q": 5,
+          "H": 2,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "MED-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-03-16": [],
+    "2026-03-15": [
+      {
+        "Date": "Sunday, March 15, 2026",
+        "Flight": "SM494",
+        "DEP": "21:40",
+        "SOLD": 7,
+        "FULL CAPACITY": 175,
+        "LF%": 0.04,
+        "LowestAvail": "K2",
+        "LASTSOLD": "2026-01-08 00:00:00",
+        "WEEKLY PROGRESS": 0,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 4,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 3,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "MED-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-03-14": [
+      {
+        "Date": "Saturday, March 14, 2026",
+        "Flight": "SM494",
+        "DEP": "09:30",
+        "SOLD": 18,
+        "FULL CAPACITY": 175,
+        "LF%": 0.1029,
+        "LowestAvail": "Q1",
+        "LASTSOLD": "2025-12-30 00:00:00",
+        "WEEKLY PROGRESS": 0,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 15,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 1,
+          "Q": 0,
+          "H": 2,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "MED-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-03-13": [],
+    "2026-03-12": [
+      {
+        "Date": "Thursday, March 12, 2026",
+        "Flight": "SM494",
+        "DEP": "12:55",
+        "SOLD": 39,
+        "FULL CAPACITY": 175,
+        "LF%": 0.2229,
+        "LowestAvail": "G9",
+        "LASTSOLD": "2026-01-18 00:00:00",
+        "WEEKLY PROGRESS": 2,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 9,
+          "W": 8,
+          "S": 17,
+          "G": 2,
+          "L": 0,
+          "V": 0,
+          "K": 2,
+          "Q": 0,
+          "H": 1,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "MED-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-03-11": [],
+    "2026-03-10": [
+      {
+        "Date": "Tuesday, March 10, 2026",
+        "Flight": "SM496",
+        "DEP": "01:10",
+        "SOLD": 29,
+        "FULL CAPACITY": 175,
+        "LF%": 0.1657,
+        "LowestAvail": "W3",
+        "LASTSOLD": "2026-01-17 00:00:00",
+        "WEEKLY PROGRESS": 1,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 15,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 9,
+          "W": 5,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 15,
+        "EQP": "320",
+        "Brd-Off": "MED-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM496",
+          "sm_route": "MED-CAI",
+          "sm_dep": "0110",
+          "sm_arr": "0159",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0601",
+              "outbound_route": "CAI-CGN",
+              "outbound_dep": "0605",
+              "passengers": [
+                {
+                  "iata": "DUSSM0100"
+                },
+                {
+                  "iata": "DUSSM0100"
+                },
+                {
+                  "iata": "DUSSM0100"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Date": "Tuesday, March 10, 2026",
+        "Flight": "SM494",
+        "DEP": "23:30",
+        "SOLD": 17,
+        "FULL CAPACITY": 175,
+        "LF%": 0.0971,
+        "LowestAvail": "W3",
+        "LASTSOLD": "2026-01-18 00:00:00",
+        "WEEKLY PROGRESS": 1,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 9,
+          "W": 5,
+          "S": 3,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "MED-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM494",
+          "sm_route": "MED-CAI",
+          "sm_dep": "2330",
+          "sm_arr": "0020",
+          "connecting_passengers": []
+        }
+      }
+    ]
+  },
+  "lf_errors": {}
+}

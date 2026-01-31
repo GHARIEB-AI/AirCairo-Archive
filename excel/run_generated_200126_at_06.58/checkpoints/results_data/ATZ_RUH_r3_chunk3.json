@@ -1,0 +1,101 @@
+{
+  "task_id": "ATZ-RUH_r3_chunk3",
+  "saved_at": "2026-01-20T07:11:36.680906",
+  "lf_results": {
+    "2026-05-06": [
+      {
+        "Date": "Wednesday, May 06, 2026",
+        "Flight": "SM465",
+        "DEP": "18:35",
+        "SOLD": 19,
+        "FULL CAPACITY": 179,
+        "LF%": 0.1061,
+        "LowestAvail": "U2",
+        "LASTSOLD": "2026-01-15 00:00:00",
+        "WEEKLY PROGRESS": 1,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 5,
+          "O": 6,
+          "U": 5,
+          "X": 2,
+          "T": 1,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "ATZ-RUH",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM465",
+          "sm_route": "ATZ-RUH",
+          "sm_dep": "1835",
+          "sm_arr": "2100",
+          "connecting_passengers": []
+        }
+      }
+    ],
+    "2026-05-05": [],
+    "2026-05-04": [],
+    "2026-05-03": [],
+    "2026-05-02": [],
+    "2026-05-01": [],
+    "2026-04-30": [],
+    "2026-04-29": [
+      {
+        "Date": "Wednesday, April 29, 2026",
+        "Flight": "SM465",
+        "DEP": "18:35",
+        "SOLD": 29,
+        "FULL CAPACITY": 179,
+        "LF%": 0.162,
+        "LowestAvail": "T6",
+        "LASTSOLD": "2026-01-19 00:00:00",
+        "WEEKLY PROGRESS": 4,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 5,
+          "O": 7,
+          "U": 7,
+          "X": 9,
+          "T": 1,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "ATZ-RUH",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 2,
+        "CONNECTING_PASSENGERS": null
+      }
+    ]
+  },
+  "lf_errors": {}
+}

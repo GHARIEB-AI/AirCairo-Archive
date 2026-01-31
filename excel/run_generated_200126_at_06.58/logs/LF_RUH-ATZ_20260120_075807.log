@@ -1,0 +1,47 @@
+2026-01-20 07:58:07 | INFO     | ======================================================================
+2026-01-20 07:58:07 | INFO     | Load Factor Scraper Started - Route: RUH-ATZ
+2026-01-20 07:58:07 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_200126_at_06.58\logs\LF_RUH-ATZ_20260120_075807.log
+2026-01-20 07:58:07 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-20 07:58:07 | INFO     | ======================================================================
+2026-01-20 07:58:07 | INFO     | Starting LF search for route: RUH-ATZ
+2026-01-20 07:58:07 | INFO     | [START] LF Search
+2026-01-20 07:58:09 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-20 07:58:09 | INFO     | [DAY_START] Processing 12FEB
+2026-01-20 07:58:09 | INFO     | [lf.day.start] Processing RUH-ATZ for 12FEB
+2026-01-20 07:58:11 | WARNING  | [lf.day.no_flights] No direct flights on 12FEB
+2026-01-20 07:58:11 | INFO     | [SUCCESS] Day 12FEB
+2026-01-20 07:58:11 | INFO     | [DAY_START] Processing 11FEB
+2026-01-20 07:58:11 | INFO     | [lf.day.start] Processing RUH-ATZ for 11FEB
+2026-01-20 07:58:12 | INFO     | [lf.day.flights_found] Found 1 flights on 11FEB
+2026-01-20 07:58:15 | INFO     | [lf.flight.extracted] SM466 on 11FEB: BKG=71, LF=40.6%
+2026-01-20 07:58:20 | INFO     | [SUCCESS] Day 11FEB
+2026-01-20 07:58:20 | INFO     | [DAY_START] Processing 10FEB
+2026-01-20 07:58:20 | INFO     | [lf.day.start] Processing RUH-ATZ for 10FEB
+2026-01-20 07:58:21 | INFO     | [lf.day.flights_found] Found 1 flights on 10FEB
+2026-01-20 07:58:23 | INFO     | [lf.flight.extracted] SM464 on 10FEB: BKG=71, LF=40.6%
+2026-01-20 07:58:32 | INFO     | [SUCCESS] Day 10FEB
+2026-01-20 07:58:32 | INFO     | [DAY_START] Processing 09FEB
+2026-01-20 07:58:32 | INFO     | [lf.day.start] Processing RUH-ATZ for 09FEB
+2026-01-20 07:58:33 | WARNING  | [lf.day.no_flights] No direct flights on 09FEB
+2026-01-20 07:58:33 | INFO     | [SUCCESS] Day 09FEB
+2026-01-20 07:58:33 | INFO     | [DAY_START] Processing 08FEB
+2026-01-20 07:58:33 | INFO     | [lf.day.start] Processing RUH-ATZ for 08FEB
+2026-01-20 07:58:34 | INFO     | [lf.day.flights_found] Found 1 flights on 08FEB
+2026-01-20 07:58:36 | INFO     | [lf.flight.extracted] SM464 on 08FEB: BKG=68, LF=38.9%
+2026-01-20 07:58:41 | INFO     | [SUCCESS] Day 08FEB
+2026-01-20 07:58:41 | INFO     | [DAY_START] Processing 07FEB
+2026-01-20 07:58:41 | INFO     | [lf.day.start] Processing RUH-ATZ for 07FEB
+2026-01-20 07:58:42 | WARNING  | [lf.day.no_flights] No direct flights on 07FEB
+2026-01-20 07:58:42 | INFO     | [SUCCESS] Day 07FEB
+2026-01-20 07:58:42 | INFO     | [DAY_START] Processing 06FEB
+2026-01-20 07:58:42 | INFO     | [lf.day.start] Processing RUH-ATZ for 06FEB
+2026-01-20 07:58:43 | WARNING  | [lf.day.no_flights] No direct flights on 06FEB
+2026-01-20 07:58:44 | INFO     | [SUCCESS] Day 06FEB
+2026-01-20 07:58:44 | INFO     | [DAY_START] Processing 05FEB
+2026-01-20 07:58:44 | INFO     | [lf.day.start] Processing RUH-ATZ for 05FEB
+2026-01-20 07:58:45 | WARNING  | [lf.day.no_flights] No direct flights on 05FEB
+2026-01-20 07:58:45 | INFO     | [SUCCESS] Day 05FEB
+2026-01-20 07:58:45 | INFO     | [SUCCESS] LF Search Complete
+2026-01-20 07:58:47 | INFO     | [Worker_9233] Completed: RUH-ATZ - 8 results, 0 errors
+2026-01-20 07:58:47 | INFO     | [Worker_9233] Processing: TUU-ATZ
+2026-01-20 07:58:47 | INFO     |   Tier 0: Range 1, Chunk 2/4 (8 days)

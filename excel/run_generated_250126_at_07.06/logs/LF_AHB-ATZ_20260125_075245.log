@@ -1,0 +1,45 @@
+2026-01-25 07:52:45 | INFO     | ======================================================================
+2026-01-25 07:52:45 | INFO     | Load Factor Scraper Started - Route: AHB-ATZ
+2026-01-25 07:52:45 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\logs\LF_AHB-ATZ_20260125_075245.log
+2026-01-25 07:52:45 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-25 07:52:45 | INFO     | ======================================================================
+2026-01-25 07:52:45 | INFO     | Starting LF search for route: AHB-ATZ
+2026-01-25 07:52:45 | INFO     | [START] LF Search
+2026-01-25 07:52:46 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-25 07:52:46 | INFO     | [DAY_START] Processing 16FEB
+2026-01-25 07:52:46 | INFO     | [lf.day.start] Processing AHB-ATZ for 16FEB
+2026-01-25 07:52:47 | WARNING  | [lf.day.no_flights] No direct flights on 16FEB
+2026-01-25 07:52:47 | INFO     | [SUCCESS] Day 16FEB
+2026-01-25 07:52:47 | INFO     | [DAY_START] Processing 15FEB
+2026-01-25 07:52:47 | INFO     | [lf.day.start] Processing AHB-ATZ for 15FEB
+2026-01-25 07:52:48 | WARNING  | [lf.day.no_flights] No direct flights on 15FEB
+2026-01-25 07:52:48 | INFO     | [SUCCESS] Day 15FEB
+2026-01-25 07:52:48 | INFO     | [DAY_START] Processing 14FEB
+2026-01-25 07:52:48 | INFO     | [lf.day.start] Processing AHB-ATZ for 14FEB
+2026-01-25 07:52:49 | WARNING  | [lf.day.no_flights] No direct flights on 14FEB
+2026-01-25 07:52:49 | INFO     | [SUCCESS] Day 14FEB
+2026-01-25 07:52:49 | INFO     | [DAY_START] Processing 13FEB
+2026-01-25 07:52:49 | INFO     | [lf.day.start] Processing AHB-ATZ for 13FEB
+2026-01-25 07:52:51 | INFO     | [lf.day.flights_found] Found 1 flights on 13FEB
+2026-01-25 07:52:53 | INFO     | [lf.flight.extracted] SM446 on 13FEB: BKG=42, LF=24.0%
+2026-01-25 07:52:56 | INFO     | [SUCCESS] Day 13FEB
+2026-01-25 07:52:56 | INFO     | [DAY_START] Processing 12FEB
+2026-01-25 07:52:56 | INFO     | [lf.day.start] Processing AHB-ATZ for 12FEB
+2026-01-25 07:52:58 | WARNING  | [lf.day.no_flights] No direct flights on 12FEB
+2026-01-25 07:52:58 | INFO     | [SUCCESS] Day 12FEB
+2026-01-25 07:52:58 | INFO     | [DAY_START] Processing 11FEB
+2026-01-25 07:52:58 | INFO     | [lf.day.start] Processing AHB-ATZ for 11FEB
+2026-01-25 07:52:59 | WARNING  | [lf.day.no_flights] No direct flights on 11FEB
+2026-01-25 07:52:59 | INFO     | [SUCCESS] Day 11FEB
+2026-01-25 07:52:59 | INFO     | [DAY_START] Processing 10FEB
+2026-01-25 07:52:59 | INFO     | [lf.day.start] Processing AHB-ATZ for 10FEB
+2026-01-25 07:53:00 | WARNING  | [lf.day.no_flights] No direct flights on 10FEB
+2026-01-25 07:53:00 | INFO     | [SUCCESS] Day 10FEB
+2026-01-25 07:53:00 | INFO     | [DAY_START] Processing 09FEB
+2026-01-25 07:53:00 | INFO     | [lf.day.start] Processing AHB-ATZ for 09FEB
+2026-01-25 07:53:02 | WARNING  | [lf.day.no_flights] No direct flights on 09FEB
+2026-01-25 07:53:02 | INFO     | [SUCCESS] Day 09FEB
+2026-01-25 07:53:02 | INFO     | [SUCCESS] LF Search Complete
+2026-01-25 07:53:02 | INFO     | [Worker_9225] Completed: AHB-ATZ - 8 results, 0 errors
+2026-01-25 07:53:02 | INFO     | [Worker_9225] Processing: ELQ-ATZ
+2026-01-25 07:53:02 | INFO     |   Tier 0: Range 1, Chunk 2/4 (8 days)

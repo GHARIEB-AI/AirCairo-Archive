@@ -1,0 +1,22 @@
+2026-01-19 05:20:03 | INFO     | ======================================================================
+2026-01-19 05:20:03 | INFO     | Load Factor Scraper Started - Route: GIZ-CAI
+2026-01-19 05:20:03 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_190126_at_05.18_RETRY\logs\LF_GIZ-CAI_20260119_052003.log
+2026-01-19 05:20:03 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-19 05:20:03 | INFO     | ======================================================================
+2026-01-19 05:20:03 | INFO     | Starting LF search for route: GIZ-CAI
+2026-01-19 05:20:03 | INFO     | [START] LF Search
+2026-01-19 05:20:04 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-19 05:20:04 | INFO     | [DAY_START] Processing 29APR
+2026-01-19 05:20:04 | INFO     | [lf.day.start] Processing GIZ-CAI for 29APR
+2026-01-19 05:20:05 | WARNING  | [lf.day.no_flights] No direct flights on 29APR
+2026-01-19 05:20:06 | INFO     | [SUCCESS] Day 29APR
+2026-01-19 05:20:06 | INFO     | [DAY_START] Processing 28APR
+2026-01-19 05:20:06 | INFO     | [lf.day.start] Processing GIZ-CAI for 28APR
+2026-01-19 05:20:07 | WARNING  | [lf.day.no_flights] No direct flights on 28APR
+2026-01-19 05:20:07 | INFO     | [SUCCESS] Day 28APR
+2026-01-19 05:20:07 | INFO     | [DAY_START] Processing 27APR
+2026-01-19 05:20:07 | INFO     | [lf.day.start] Processing GIZ-CAI for 27APR
+2026-01-19 05:20:08 | WARNING  | [lf.day.no_flights] No direct flights on 27APR
+2026-01-19 05:20:08 | INFO     | [SUCCESS] Day 27APR
+2026-01-19 05:20:08 | INFO     | [DAY_START] Processing 26APR
+2026-01-19 05:20:08 | INFO     | [lf.day.start] Processing GIZ-CAI for 26APR

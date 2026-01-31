@@ -1,0 +1,59 @@
+2026-01-15 08:29:50 | INFO     | ======================================================================
+2026-01-15 08:29:50 | INFO     | Load Factor Scraper Started - Route: JED-LXR
+2026-01-15 08:29:50 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_150126_at_08.22\logs\LF_JED-LXR_20260115_082950.log
+2026-01-15 08:29:50 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-15 08:29:50 | INFO     | ======================================================================
+2026-01-15 08:29:50 | INFO     | Starting LF search for route: JED-LXR
+2026-01-15 08:29:50 | INFO     | [START] LF Search
+2026-01-15 08:29:51 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-15 08:29:51 | INFO     | [DAY_START] Processing 18FEB
+2026-01-15 08:29:51 | INFO     | [lf.day.start] Processing JED-LXR for 18FEB
+2026-01-15 08:29:52 | INFO     | [lf.day.flights_found] Found 1 flights on 18FEB
+2026-01-15 08:29:54 | INFO     | [lf.flight.extracted] SM984 on 18FEB: BKG=0, LF=0.0%
+2026-01-15 08:29:55 | INFO     | [SUCCESS] Day 18FEB
+2026-01-15 08:29:55 | INFO     | [DAY_START] Processing 17FEB
+2026-01-15 08:29:55 | INFO     | [lf.day.start] Processing JED-LXR for 17FEB
+2026-01-15 08:29:57 | INFO     | [lf.day.flights_found] Found 4 flights on 17FEB
+2026-01-15 08:29:59 | INFO     | [lf.flight.extracted] SM482 on 17FEB: BKG=0, LF=0.0%
+2026-01-15 08:30:03 | INFO     | [lf.flight.extracted] SM430 on 17FEB: BKG=0, LF=0.0%
+2026-01-15 08:30:06 | INFO     | [lf.flight.extracted] SM982 on 17FEB: BKG=0, LF=0.0%
+2026-01-15 08:30:10 | INFO     | [lf.flight.extracted] SM484 on 17FEB: BKG=0, LF=0.0%
+2026-01-15 08:30:11 | INFO     | [SUCCESS] Day 17FEB
+2026-01-15 08:30:11 | INFO     | [DAY_START] Processing 16FEB
+2026-01-15 08:30:11 | INFO     | [lf.day.start] Processing JED-LXR for 16FEB
+2026-01-15 08:30:12 | WARNING  | [lf.day.no_flights] No direct flights on 16FEB
+2026-01-15 08:30:12 | INFO     | [SUCCESS] Day 16FEB
+2026-01-15 08:30:12 | INFO     | [DAY_START] Processing 15FEB
+2026-01-15 08:30:12 | INFO     | [lf.day.start] Processing JED-LXR for 15FEB
+2026-01-15 08:30:13 | WARNING  | [lf.day.no_flights] No direct flights on 15FEB
+2026-01-15 08:30:14 | INFO     | [SUCCESS] Day 15FEB
+2026-01-15 08:30:14 | INFO     | [DAY_START] Processing 14FEB
+2026-01-15 08:30:14 | INFO     | [lf.day.start] Processing JED-LXR for 14FEB
+2026-01-15 08:30:15 | WARNING  | [lf.day.no_flights] No direct flights on 14FEB
+2026-01-15 08:30:15 | INFO     | [SUCCESS] Day 14FEB
+2026-01-15 08:30:15 | INFO     | [DAY_START] Processing 13FEB
+2026-01-15 08:30:15 | INFO     | [lf.day.start] Processing JED-LXR for 13FEB
+2026-01-15 08:30:16 | WARNING  | [lf.day.no_flights] No direct flights on 13FEB
+2026-01-15 08:30:16 | INFO     | [SUCCESS] Day 13FEB
+2026-01-15 08:30:16 | INFO     | [DAY_START] Processing 12FEB
+2026-01-15 08:30:16 | INFO     | [lf.day.start] Processing JED-LXR for 12FEB
+2026-01-15 08:30:17 | WARNING  | [lf.day.no_flights] No direct flights on 12FEB
+2026-01-15 08:30:17 | INFO     | [SUCCESS] Day 12FEB
+2026-01-15 08:30:17 | INFO     | [DAY_START] Processing 11FEB
+2026-01-15 08:30:17 | INFO     | [lf.day.start] Processing JED-LXR for 11FEB
+2026-01-15 08:30:18 | INFO     | [lf.day.flights_found] Found 2 flights on 11FEB
+2026-01-15 08:30:21 | INFO     | [lf.flight.extracted] SM960 on 11FEB: BKG=0, LF=0.0%
+2026-01-15 08:30:25 | INFO     | [lf.flight.extracted] SM962 on 11FEB: BKG=0, LF=0.0%
+2026-01-15 08:30:26 | INFO     | [SUCCESS] Day 11FEB
+2026-01-15 08:30:26 | INFO     | [DAY_START] Processing 10FEB
+2026-01-15 08:30:26 | INFO     | [lf.day.start] Processing JED-LXR for 10FEB
+2026-01-15 08:30:27 | INFO     | [lf.day.flights_found] Found 4 flights on 10FEB
+2026-01-15 08:30:29 | INFO     | [lf.flight.extracted] SM482 on 10FEB: BKG=0, LF=0.0%
+2026-01-15 08:30:33 | INFO     | [lf.flight.extracted] SM430 on 10FEB: BKG=0, LF=0.0%
+2026-01-15 08:30:37 | INFO     | [lf.flight.extracted] SM982 on 10FEB: BKG=0, LF=0.0%
+2026-01-15 08:30:41 | INFO     | [lf.flight.extracted] SM484 on 10FEB: BKG=0, LF=0.0%
+2026-01-15 08:30:42 | INFO     | [SUCCESS] Day 10FEB
+2026-01-15 08:30:42 | INFO     | [SUCCESS] LF Search Complete
+2026-01-15 08:30:44 | INFO     | [Worker_9222] Completed: JED-LXR - 9 results, 0 errors
+2026-01-15 08:30:44 | INFO     | [Worker_9222] Processing: DMM-ATZ
+2026-01-15 08:30:44 | INFO     |   Tier 0: Range 2, Chunk 2/3 (9 days)

@@ -1,0 +1,434 @@
+{
+  "task_id": "RUH-CAI_r0_chunk1",
+  "saved_at": "2026-01-15T08:53:04.425940",
+  "lf_results": {
+    "2026-01-22": [
+      {
+        "Date": "Thursday, January 22, 2026",
+        "Flight": "SM462",
+        "DEP": "14:40",
+        "SOLD": 59,
+        "FULL CAPACITY": 175,
+        "LF%": 0.3371,
+        "LowestAvail": "I9",
+        "LASTSOLD": "2026-01-15 00:00:00",
+        "WEEKLY PROGRESS": 30,
+        "RBD": {
+          "N": 4,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 19,
+          "O": 34,
+          "U": 1,
+          "X": 1,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "RUH-CAI",
+        "SOLD TODAY": 1,
+        "SOLD YDAY": 8,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-21": [
+      {
+        "Date": "Wednesday, January 21, 2026",
+        "Flight": "SM462",
+        "DEP": "14:40",
+        "SOLD": 48,
+        "FULL CAPACITY": 175,
+        "LF%": 0.2743,
+        "LowestAvail": "I9",
+        "LASTSOLD": "2026-01-14 00:00:00",
+        "WEEKLY PROGRESS": 5,
+        "RBD": {
+          "N": 1,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 44,
+          "O": 3,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "RUH-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 2,
+        "CONNECTING_PASSENGERS": null
+      },
+      {
+        "Date": "Wednesday, January 21, 2026",
+        "Flight": "SM470",
+        "DEP": "22:10",
+        "SOLD": 22,
+        "FULL CAPACITY": 167,
+        "LF%": 0.1317,
+        "LowestAvail": "I9",
+        "LASTSOLD": "2026-01-15 00:00:00",
+        "WEEKLY PROGRESS": 11,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 22,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "RUH-CAI",
+        "SOLD TODAY": 1,
+        "SOLD YDAY": 2,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-20": [
+      {
+        "Date": "Tuesday, January 20, 2026",
+        "Flight": "SM470",
+        "DEP": "21:55",
+        "SOLD": 65,
+        "FULL CAPACITY": 167,
+        "LF%": 0.3892,
+        "LowestAvail": "I9",
+        "LASTSOLD": "2026-01-14 00:00:00",
+        "WEEKLY PROGRESS": 23,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 44,
+          "O": 14,
+          "U": 6,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 1,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "RUH-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 2,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-19": [
+      {
+        "Date": "Monday, January 19, 2026",
+        "Flight": "SM470",
+        "DEP": "22:10",
+        "SOLD": 25,
+        "FULL CAPACITY": 167,
+        "LF%": 0.1497,
+        "LowestAvail": "I9",
+        "LASTSOLD": "2026-01-14 00:00:00",
+        "WEEKLY PROGRESS": 10,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 25,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "RUH-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 2,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-18": [
+      {
+        "Date": "Sunday, January 18, 2026",
+        "Flight": "SM462",
+        "DEP": "15:00",
+        "SOLD": 47,
+        "FULL CAPACITY": 175,
+        "LF%": 0.2686,
+        "LowestAvail": "I9",
+        "LASTSOLD": "2026-01-11 00:00:00",
+        "WEEKLY PROGRESS": 1,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 42,
+          "O": 4,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 1,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "RUH-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM462",
+          "sm_route": "RUH-CAI",
+          "sm_dep": "1500",
+          "sm_arr": "1700",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0072",
+              "outbound_route": "CAI-LXR",
+              "outbound_dep": "2130",
+              "passengers": [
+                {
+                  "iata": "RUHAA28WH"
+                },
+                {
+                  "iata": "RUHAA28WH"
+                },
+                {
+                  "iata": "RUHAA28WH"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "2026-01-17": [
+      {
+        "Date": "Saturday, January 17, 2026",
+        "Flight": "SM462",
+        "DEP": "14:40",
+        "SOLD": 34,
+        "FULL CAPACITY": 175,
+        "LF%": 0.1943,
+        "LowestAvail": "I9",
+        "LASTSOLD": "2026-01-14 00:00:00",
+        "WEEKLY PROGRESS": 20,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 27,
+          "O": 4,
+          "U": 0,
+          "X": 3,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "RUH-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 6,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM462",
+          "sm_route": "RUH-CAI",
+          "sm_dep": "1440",
+          "sm_arr": "1640",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "MS0048",
+              "outbound_route": "CAI-HRG",
+              "outbound_dep": "1945",
+              "passengers": [
+                {
+                  "iata": "RUHAA28WH"
+                },
+                {
+                  "iata": "RUHAA28WH"
+                },
+                {
+                  "iata": "RUHAA28WH"
+                }
+              ]
+            },
+            {
+              "outbound_flight": "SM0070",
+              "outbound_route": "CAI-ATZ",
+              "outbound_dep": "2230",
+              "passengers": [
+                {
+                  "iata": "RUHAA28WH"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "2026-01-16": [
+      {
+        "Date": "Friday, January 16, 2026",
+        "Flight": "SM462",
+        "DEP": "14:30",
+        "SOLD": 54,
+        "FULL CAPACITY": 175,
+        "LF%": 0.3086,
+        "LowestAvail": "I9",
+        "LASTSOLD": "2026-01-14 00:00:00",
+        "WEEKLY PROGRESS": 25,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 48,
+          "O": 5,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 1,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "RUH-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 13,
+        "CONNECTING_PASSENGERS": null
+      },
+      {
+        "Date": "Friday, January 16, 2026",
+        "Flight": "SM470",
+        "DEP": "22:10",
+        "SOLD": 41,
+        "FULL CAPACITY": 167,
+        "LF%": 0.2455,
+        "LowestAvail": "I9",
+        "LASTSOLD": "2026-01-15 00:00:00",
+        "WEEKLY PROGRESS": 21,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 37,
+          "O": 4,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "RUH-CAI",
+        "SOLD TODAY": 1,
+        "SOLD YDAY": 7,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM470",
+          "sm_route": "RUH-CAI",
+          "sm_dep": "2210",
+          "sm_arr": "0010",
+          "connecting_passengers": []
+        }
+      }
+    ]
+  },
+  "lf_errors": {}
+}

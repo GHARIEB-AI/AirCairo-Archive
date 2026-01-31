@@ -1,0 +1,124 @@
+{
+  "timestamp": "2026-01-15T08:28:06.195078",
+  "service": "market-insights",
+  "counters": {
+    "oal_requests_total": {
+      "description": "Total OAL API requests",
+      "values": []
+    },
+    "lf_requests_total": {
+      "description": "Total LF requests",
+      "values": [
+        {
+          "labels": {
+            "destination": "ATZ",
+            "origin": "JED",
+            "status": "success"
+          },
+          "value": 10.0
+        },
+        {
+          "labels": {
+            "destination": "JED",
+            "origin": "ASW",
+            "status": "success"
+          },
+          "value": 10.0
+        },
+        {
+          "labels": {
+            "destination": "TUU",
+            "origin": "CAI",
+            "status": "success"
+          },
+          "value": 10.0
+        }
+      ]
+    },
+    "errors_total": {
+      "description": "Total errors",
+      "values": []
+    }
+  },
+  "gauges": {
+    "routes_in_progress": {
+      "description": "Routes currently being processed",
+      "values": [
+        {
+          "labels": {},
+          "value": 0.0
+        }
+      ]
+    },
+    "flights_analyzed": {
+      "description": "Total flights analyzed in session",
+      "values": [
+        {
+          "labels": {
+            "direction": "lf"
+          },
+          "value": 41.0
+        }
+      ]
+    },
+    "circuit_breaker_state": {
+      "description": "Circuit breaker state (0=closed, 1=open)",
+      "values": []
+    }
+  },
+  "histograms": {
+    "request_duration_seconds": {
+      "description": "Request duration in seconds",
+      "data": {}
+    },
+    "route_processing_seconds": {
+      "description": "Route processing duration",
+      "data": {
+        "{'route': 'JED-ATZ'}": {
+          "sum": 203.790441,
+          "count": 10,
+          "buckets": {
+            "30.0": 8,
+            "60.0": 10,
+            "120.0": 10,
+            "300.0": 10,
+            "10.0": 1
+          },
+          "p50": 20.0,
+          "p95": 31.5,
+          "p99": 32.7
+        },
+        "{'route': 'ASW-JED'}": {
+          "sum": 61.951770999999994,
+          "count": 10,
+          "buckets": {
+            "5.0": 8,
+            "10.0": 8,
+            "30.0": 10,
+            "60.0": 10,
+            "120.0": 10,
+            "300.0": 10
+          },
+          "p50": 3.5,
+          "p95": 5.9375,
+          "p99": 6.1875
+        },
+        "{'route': 'CAI-TUU'}": {
+          "sum": 54.57645700000001,
+          "count": 10,
+          "buckets": {
+            "30.0": 10,
+            "60.0": 10,
+            "120.0": 10,
+            "300.0": 10,
+            "5.0": 6,
+            "10.0": 8
+          },
+          "p50": 4.333333333333334,
+          "p95": 7.1875,
+          "p99": 7.4375
+        }
+      }
+    }
+  }
+}

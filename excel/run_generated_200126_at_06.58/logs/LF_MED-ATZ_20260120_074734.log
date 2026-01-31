@@ -1,0 +1,51 @@
+2026-01-20 07:47:34 | INFO     | ======================================================================
+2026-01-20 07:47:34 | INFO     | Load Factor Scraper Started - Route: MED-ATZ
+2026-01-20 07:47:34 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_200126_at_06.58\logs\LF_MED-ATZ_20260120_074734.log
+2026-01-20 07:47:34 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-20 07:47:34 | INFO     | ======================================================================
+2026-01-20 07:47:34 | INFO     | Starting LF search for route: MED-ATZ
+2026-01-20 07:47:34 | INFO     | [START] LF Search
+2026-01-20 07:47:36 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-20 07:47:36 | INFO     | [DAY_START] Processing 01MAR
+2026-01-20 07:47:36 | INFO     | [lf.day.start] Processing MED-ATZ for 01MAR
+2026-01-20 07:47:37 | WARNING  | [lf.day.no_flights] No direct flights on 01MAR
+2026-01-20 07:47:37 | INFO     | [SUCCESS] Day 01MAR
+2026-01-20 07:47:37 | INFO     | [DAY_START] Processing 28FEB
+2026-01-20 07:47:37 | INFO     | [lf.day.start] Processing MED-ATZ for 28FEB
+2026-01-20 07:47:38 | INFO     | [lf.day.flights_found] Found 1 flights on 28FEB
+2026-01-20 07:47:40 | INFO     | [lf.flight.extracted] SM488 on 28FEB: BKG=168, LF=96.0%
+2026-01-20 07:47:44 | INFO     | [SUCCESS] Day 28FEB
+2026-01-20 07:47:44 | INFO     | [DAY_START] Processing 27FEB
+2026-01-20 07:47:44 | INFO     | [lf.day.start] Processing MED-ATZ for 27FEB
+2026-01-20 07:47:45 | WARNING  | [lf.day.no_flights] No direct flights on 27FEB
+2026-01-20 07:47:45 | INFO     | [SUCCESS] Day 27FEB
+2026-01-20 07:47:45 | INFO     | [DAY_START] Processing 26FEB
+2026-01-20 07:47:45 | INFO     | [lf.day.start] Processing MED-ATZ for 26FEB
+2026-01-20 07:47:47 | WARNING  | [lf.day.no_flights] No direct flights on 26FEB
+2026-01-20 07:47:47 | INFO     | [SUCCESS] Day 26FEB
+2026-01-20 07:47:47 | INFO     | [DAY_START] Processing 25FEB
+2026-01-20 07:47:47 | INFO     | [lf.day.start] Processing MED-ATZ for 25FEB
+2026-01-20 07:47:48 | INFO     | [lf.day.flights_found] Found 1 flights on 25FEB
+2026-01-20 07:47:50 | INFO     | [lf.flight.extracted] SM490 on 25FEB: BKG=157, LF=89.7%
+2026-01-20 07:47:54 | INFO     | [SUCCESS] Day 25FEB
+2026-01-20 07:47:54 | INFO     | [DAY_START] Processing 24FEB
+2026-01-20 07:47:54 | INFO     | [lf.day.start] Processing MED-ATZ for 24FEB
+2026-01-20 07:47:55 | INFO     | [lf.day.flights_found] Found 1 flights on 24FEB
+2026-01-20 07:47:58 | INFO     | [lf.flight.extracted] SM488 on 24FEB: BKG=155, LF=88.6%
+2026-01-20 07:48:03 | INFO     | [SUCCESS] Day 24FEB
+2026-01-20 07:48:03 | INFO     | [DAY_START] Processing 23FEB
+2026-01-20 07:48:03 | INFO     | [lf.day.start] Processing MED-ATZ for 23FEB
+2026-01-20 07:48:05 | INFO     | [lf.day.flights_found] Found 2 flights on 23FEB
+2026-01-20 07:48:10 | INFO     | [lf.flight.extracted] SM964 on 23FEB: BKG=90, LF=53.9%
+2026-01-20 07:48:16 | INFO     | [lf.flight.extracted] SM488 on 23FEB: BKG=150, LF=85.7%
+2026-01-20 07:48:22 | ERROR    | Atomic write failed for D:\CODERED\LAB\Artifacts\outputs\run_generated_200126_at_06.58\checkpoints\flight_booking_data.json: [WinError 5] Access is denied: 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_200126_at_06.58\\checkpoints\\flight_booking_data.tmp_08c71e4a' -> 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_200126_at_06.58\\checkpoints\\flight_booking_data.json'
+2026-01-20 07:48:24 | INFO     | [SUCCESS] Day 23FEB
+2026-01-20 07:48:24 | INFO     | [DAY_START] Processing 22FEB
+2026-01-20 07:48:24 | INFO     | [lf.day.start] Processing MED-ATZ for 22FEB
+2026-01-20 07:48:25 | INFO     | [lf.day.flights_found] Found 1 flights on 22FEB
+2026-01-20 07:48:27 | INFO     | [lf.flight.extracted] SM982 on 22FEB: BKG=135, LF=77.1%
+2026-01-20 07:48:30 | INFO     | [SUCCESS] Day 22FEB
+2026-01-20 07:48:30 | INFO     | [SUCCESS] LF Search Complete
+2026-01-20 07:48:32 | INFO     | [Worker_9226] Completed: MED-ATZ - 8 results, 0 errors
+2026-01-20 07:48:32 | INFO     | [Worker_9226] Processing: DMM-ATZ
+2026-01-20 07:48:32 | INFO     |   Tier 0: Range 2, Chunk 4/4 (8 days)

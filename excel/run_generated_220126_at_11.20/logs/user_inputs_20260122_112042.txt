@@ -1,0 +1,38 @@
+============================================================
+USER INPUT CONFIGURATION - LOGGED AT START
+============================================================
+Timestamp: 2026-01-22 11:20:42
+
+[MODE]
+Mode: chunked
+
+[PORTS]
+Ports: 9222, 9223, 9224, 9225, 9226, 9227, 9232, 9233, 9234
+Port Count: 9
+
+[ROUTES]
+Route Count: 44
+Routes: MED-CAI, MED-HBE, MED-ATZ, JED-CAI, JED-HBE, JED-ATZ, JED-LXR, JED-ASW, RUH-CAI, RUH-ATZ, DMM-CAI, DMM-ATZ, TUU-CAI, TUU-ATZ, AJF-CAI, AJF-ATZ, YNB-CAI, AHB-CAI, AHB-ATZ, ELQ-CAI, ELQ-ATZ, GIZ-CAI, CAI-MED, HBE-MED, ATZ-MED, CAI-JED, HBE-JED, ATZ-JED, LXR-JED, ASW-JED, CAI-RUH, ATZ-RUH, CAI-DMM, ATZ-DMM, CAI-TUU, ATZ-TUU, CAI-AJF, ATZ-AJF, CAI-YNB, CAI-AHB, ATZ-AHB, CAI-ELQ, ATZ-ELQ, CAI-GIZ
+
+[DATE RANGES]
+Range Count: 4
+Range 1: 22-Jan-2026 to 22-Feb-2026 (32 days, 4 chunks)
+Range 2: 23-Feb-2026 to 27-Mar-2026 (33 days, 4 chunks)
+Range 3: 28-Mar-2026 to 29-Apr-2026 (33 days, 4 chunks)
+Range 4: 30-Apr-2026 to 01-Jun-2026 (33 days, 4 chunks)
+Total Days: 131
+
+[OAL CONFIGURATION]
+OAL Enabled: Yes
+OAL Workers: 10
+OAL Passes: 2 (fixed)
+
+[EXECUTION ORDER]
+Order: lf-first
+
+[EXCEL MODE]
+Mode: BY_DIRECTION
+
+[OUTPUT]
+Output Directory: D:\CODERED\LAB\Artifacts\outputs\run_generated_220126_at_11.20
+============================================================

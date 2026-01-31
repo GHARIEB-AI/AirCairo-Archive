@@ -1,0 +1,47 @@
+2026-01-25 07:24:10 | INFO     | ======================================================================
+2026-01-25 07:24:10 | INFO     | Load Factor Scraper Started - Route: MED-ATZ
+2026-01-25 07:24:10 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\logs\LF_MED-ATZ_20260125_072410.log
+2026-01-25 07:24:10 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-25 07:24:10 | INFO     | ======================================================================
+2026-01-25 07:24:10 | INFO     | Starting LF search for route: MED-ATZ
+2026-01-25 07:24:10 | INFO     | [START] LF Search
+2026-01-25 07:24:11 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-25 07:24:11 | INFO     | [DAY_START] Processing 12APR
+2026-01-25 07:24:11 | INFO     | [lf.day.start] Processing MED-ATZ for 12APR
+2026-01-25 07:24:12 | INFO     | [lf.day.flights_found] Found 1 flights on 12APR
+2026-01-25 07:24:14 | INFO     | [lf.flight.extracted] SM488 on 12APR: BKG=4, LF=2.3%
+2026-01-25 07:24:17 | ERROR    | Atomic write failed for D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\checkpoints\flight_booking_data.json: [WinError 5] Access is denied: 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_250126_at_07.06\\checkpoints\\flight_booking_data.tmp_21c4c3cd' -> 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_250126_at_07.06\\checkpoints\\flight_booking_data.json'
+2026-01-25 07:24:17 | INFO     | [SUCCESS] Day 12APR
+2026-01-25 07:24:17 | INFO     | [DAY_START] Processing 11APR
+2026-01-25 07:24:17 | INFO     | [lf.day.start] Processing MED-ATZ for 11APR
+2026-01-25 07:24:18 | WARNING  | [lf.day.no_flights] No direct flights on 11APR
+2026-01-25 07:24:18 | INFO     | [SUCCESS] Day 11APR
+2026-01-25 07:24:18 | INFO     | [DAY_START] Processing 10APR
+2026-01-25 07:24:18 | INFO     | [lf.day.start] Processing MED-ATZ for 10APR
+2026-01-25 07:24:20 | WARNING  | [lf.day.no_flights] No direct flights on 10APR
+2026-01-25 07:24:20 | INFO     | [SUCCESS] Day 10APR
+2026-01-25 07:24:20 | INFO     | [DAY_START] Processing 09APR
+2026-01-25 07:24:20 | INFO     | [lf.day.start] Processing MED-ATZ for 09APR
+2026-01-25 07:24:21 | WARNING  | [lf.day.no_flights] No direct flights on 09APR
+2026-01-25 07:24:21 | INFO     | [SUCCESS] Day 09APR
+2026-01-25 07:24:21 | INFO     | [DAY_START] Processing 08APR
+2026-01-25 07:24:21 | INFO     | [lf.day.start] Processing MED-ATZ for 08APR
+2026-01-25 07:24:22 | WARNING  | [lf.day.no_flights] No direct flights on 08APR
+2026-01-25 07:24:22 | INFO     | [SUCCESS] Day 08APR
+2026-01-25 07:24:22 | INFO     | [DAY_START] Processing 07APR
+2026-01-25 07:24:22 | INFO     | [lf.day.start] Processing MED-ATZ for 07APR
+2026-01-25 07:24:23 | WARNING  | [lf.day.no_flights] No direct flights on 07APR
+2026-01-25 07:24:23 | INFO     | [SUCCESS] Day 07APR
+2026-01-25 07:24:23 | INFO     | [DAY_START] Processing 06APR
+2026-01-25 07:24:23 | INFO     | [lf.day.start] Processing MED-ATZ for 06APR
+2026-01-25 07:24:24 | WARNING  | [lf.day.no_flights] No direct flights on 06APR
+2026-01-25 07:24:24 | INFO     | [SUCCESS] Day 06APR
+2026-01-25 07:24:24 | INFO     | [DAY_START] Processing 05APR
+2026-01-25 07:24:24 | INFO     | [lf.day.start] Processing MED-ATZ for 05APR
+2026-01-25 07:24:26 | INFO     | [lf.day.flights_found] Found 1 flights on 05APR
+2026-01-25 07:24:28 | INFO     | [lf.flight.extracted] SM488 on 05APR: BKG=139, LF=79.4%
+2026-01-25 07:24:30 | INFO     | [SUCCESS] Day 05APR
+2026-01-25 07:24:30 | INFO     | [SUCCESS] LF Search Complete
+2026-01-25 07:24:30 | INFO     | [Worker_9224] Completed: MED-ATZ - 8 results, 0 errors
+2026-01-25 07:24:30 | INFO     | [Worker_9224] Processing: JED-ASW
+2026-01-25 07:24:30 | INFO     |   Tier 0: Range 3, Chunk 3/4 (8 days)

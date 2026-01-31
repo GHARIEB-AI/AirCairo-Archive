@@ -1,0 +1,54 @@
+{
+  "task_id": "AHB-ATZ_r0_chunk2",
+  "saved_at": "2026-01-17T09:32:23.824759",
+  "lf_results": {
+    "2026-01-24": [],
+    "2026-01-23": [
+      {
+        "Date": "Friday, January 23, 2026",
+        "Flight": "SM446",
+        "DEP": "18:15",
+        "SOLD": 85,
+        "FULL CAPACITY": 175,
+        "LF%": 0.4857,
+        "LowestAvail": "W9",
+        "LASTSOLD": "2026-01-16 00:00:00",
+        "WEEKLY PROGRESS": 29,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 1,
+          "U": 0,
+          "X": 6,
+          "T": 2,
+          "W": 66,
+          "S": 7,
+          "G": 3,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "AHB-ATZ",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 3,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-22": [],
+    "2026-01-21": [],
+    "2026-01-20": [],
+    "2026-01-19": [],
+    "2026-01-18": []
+  },
+  "lf_errors": {}
+}

@@ -1,0 +1,53 @@
+2026-01-25 07:11:00 | INFO     | ======================================================================
+2026-01-25 07:11:00 | INFO     | Load Factor Scraper Started - Route: YNB-CAI
+2026-01-25 07:11:00 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\logs\LF_YNB-CAI_20260125_071100.log
+2026-01-25 07:11:00 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-25 07:11:00 | INFO     | ======================================================================
+2026-01-25 07:11:00 | INFO     | Starting LF search for route: YNB-CAI
+2026-01-25 07:11:00 | INFO     | [START] LF Search
+2026-01-25 07:11:01 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-25 07:11:01 | INFO     | [DAY_START] Processing 30MAY
+2026-01-25 07:11:01 | INFO     | [lf.day.start] Processing YNB-CAI for 30MAY
+2026-01-25 07:11:02 | INFO     | [lf.day.flights_found] Found 2 flights on 30MAY
+2026-01-25 07:11:04 | INFO     | [lf.flight.extracted] SM442 on 30MAY: BKG=0, LF=0.0%
+2026-01-25 07:11:07 | INFO     | [lf.flight.extracted] SM448 on 30MAY: BKG=0, LF=0.0%
+2026-01-25 07:11:08 | INFO     | [SUCCESS] Day 30MAY
+2026-01-25 07:11:08 | INFO     | [DAY_START] Processing 29MAY
+2026-01-25 07:11:08 | INFO     | [lf.day.start] Processing YNB-CAI for 29MAY
+2026-01-25 07:11:09 | INFO     | [lf.day.flights_found] Found 1 flights on 29MAY
+2026-01-25 07:11:11 | INFO     | [lf.flight.extracted] SM442 on 29MAY: BKG=0, LF=0.0%
+2026-01-25 07:11:12 | INFO     | [SUCCESS] Day 29MAY
+2026-01-25 07:11:12 | INFO     | [DAY_START] Processing 28MAY
+2026-01-25 07:11:12 | INFO     | [lf.day.start] Processing YNB-CAI for 28MAY
+2026-01-25 07:11:13 | INFO     | [lf.day.flights_found] Found 1 flights on 28MAY
+2026-01-25 07:11:15 | INFO     | [lf.flight.extracted] SM442 on 28MAY: BKG=0, LF=0.0%
+2026-01-25 07:11:16 | INFO     | [SUCCESS] Day 28MAY
+2026-01-25 07:11:16 | INFO     | [DAY_START] Processing 27MAY
+2026-01-25 07:11:16 | INFO     | [lf.day.start] Processing YNB-CAI for 27MAY
+2026-01-25 07:11:17 | WARNING  | [lf.day.no_flights] No direct flights on 27MAY
+2026-01-25 07:11:17 | INFO     | [SUCCESS] Day 27MAY
+2026-01-25 07:11:17 | INFO     | [DAY_START] Processing 26MAY
+2026-01-25 07:11:17 | INFO     | [lf.day.start] Processing YNB-CAI for 26MAY
+2026-01-25 07:11:18 | INFO     | [lf.day.flights_found] Found 1 flights on 26MAY
+2026-01-25 07:11:20 | INFO     | [lf.flight.extracted] SM442 on 26MAY: BKG=7, LF=4.0%
+2026-01-25 07:11:23 | INFO     | [SUCCESS] Day 26MAY
+2026-01-25 07:11:23 | INFO     | [DAY_START] Processing 25MAY
+2026-01-25 07:11:23 | INFO     | [lf.day.start] Processing YNB-CAI for 25MAY
+2026-01-25 07:11:24 | INFO     | [lf.day.flights_found] Found 1 flights on 25MAY
+2026-01-25 07:11:26 | INFO     | [lf.flight.extracted] SM442 on 25MAY: BKG=0, LF=0.0%
+2026-01-25 07:11:27 | INFO     | [SUCCESS] Day 25MAY
+2026-01-25 07:11:27 | INFO     | [DAY_START] Processing 24MAY
+2026-01-25 07:11:27 | INFO     | [lf.day.start] Processing YNB-CAI for 24MAY
+2026-01-25 07:11:28 | INFO     | [lf.day.flights_found] Found 1 flights on 24MAY
+2026-01-25 07:11:30 | INFO     | [lf.flight.extracted] SM442 on 24MAY: BKG=0, LF=0.0%
+2026-01-25 07:11:32 | INFO     | [SUCCESS] Day 24MAY
+2026-01-25 07:11:32 | INFO     | [DAY_START] Processing 23MAY
+2026-01-25 07:11:32 | INFO     | [lf.day.start] Processing YNB-CAI for 23MAY
+2026-01-25 07:11:33 | INFO     | [lf.day.flights_found] Found 2 flights on 23MAY
+2026-01-25 07:11:35 | INFO     | [lf.flight.extracted] SM442 on 23MAY: BKG=0, LF=0.0%
+2026-01-25 07:11:38 | INFO     | [lf.flight.extracted] SM448 on 23MAY: BKG=0, LF=0.0%
+2026-01-25 07:11:39 | INFO     | [SUCCESS] Day 23MAY
+2026-01-25 07:11:39 | INFO     | [SUCCESS] LF Search Complete
+2026-01-25 07:11:39 | INFO     | [Worker_9227] Completed: YNB-CAI - 8 results, 0 errors
+2026-01-25 07:11:39 | INFO     | [Worker_9227] Processing: CAI-DMM
+2026-01-25 07:11:39 | INFO     |   Tier 0: Range 4, Chunk 1/4 (8 days)

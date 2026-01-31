@@ -1,0 +1,99 @@
+{
+  "task_id": "DMM-ATZ_r0_chunk3",
+  "saved_at": "2026-01-25T08:02:43.048946",
+  "lf_results": {
+    "2026-01-31": [],
+    "2026-01-30": [
+      {
+        "Date": "Friday, January 30, 2026",
+        "Flight": "SM438",
+        "DEP": "07:00",
+        "SOLD": 138,
+        "FULL CAPACITY": 175,
+        "LF%": 0.7886,
+        "LowestAvail": "W3",
+        "LASTSOLD": "2026-01-15 00:00:00",
+        "WEEKLY PROGRESS": 0,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 4,
+          "O": 9,
+          "U": 9,
+          "X": 9,
+          "T": 64,
+          "W": 32,
+          "S": 10,
+          "G": 1,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "DMM-ATZ",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM438",
+          "sm_route": "DMM-ATZ",
+          "sm_dep": "0700",
+          "sm_arr": "0915",
+          "connecting_passengers": []
+        }
+      }
+    ],
+    "2026-01-29": [],
+    "2026-01-28": [],
+    "2026-01-27": [],
+    "2026-01-26": [
+      {
+        "Date": "Monday, January 26, 2026",
+        "Flight": "SM438",
+        "DEP": "12:15",
+        "SOLD": 126,
+        "FULL CAPACITY": 175,
+        "LF%": 0.72,
+        "LowestAvail": "S1",
+        "LASTSOLD": "2026-01-24 00:00:00",
+        "WEEKLY PROGRESS": 43,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 9,
+          "O": 9,
+          "U": 9,
+          "X": 36,
+          "T": 27,
+          "W": 18,
+          "S": 17,
+          "G": 1,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "DMM-ATZ",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 8,
+        "CONNECTING_PASSENGERS": null
+      }
+    ]
+  },
+  "lf_errors": {}
+}

@@ -1,0 +1,52 @@
+2026-01-20 07:08:57 | INFO     | ======================================================================
+2026-01-20 07:08:57 | INFO     | Load Factor Scraper Started - Route: JED-ATZ
+2026-01-20 07:08:57 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_200126_at_06.58\logs\LF_JED-ATZ_20260120_070857.log
+2026-01-20 07:08:57 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-20 07:08:57 | INFO     | ======================================================================
+2026-01-20 07:08:57 | INFO     | Starting LF search for route: JED-ATZ
+2026-01-20 07:08:57 | INFO     | [START] LF Search
+2026-01-20 07:09:00 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-20 07:09:00 | INFO     | [DAY_START] Processing 06MAY
+2026-01-20 07:09:00 | INFO     | [lf.day.start] Processing JED-ATZ for 06MAY
+2026-01-20 07:09:03 | INFO     | [lf.day.flights_found] Found 1 flights on 06MAY
+2026-01-20 07:09:07 | INFO     | [lf.flight.extracted] SM456 on 06MAY: BKG=0, LF=0.0%
+2026-01-20 07:09:09 | INFO     | [SUCCESS] Day 06MAY
+2026-01-20 07:09:09 | INFO     | [DAY_START] Processing 05MAY
+2026-01-20 07:09:09 | INFO     | [lf.day.start] Processing JED-ATZ for 05MAY
+2026-01-20 07:09:11 | INFO     | [lf.day.flights_found] Found 1 flights on 05MAY
+2026-01-20 07:09:14 | INFO     | [lf.flight.extracted] SM456 on 05MAY: BKG=1, LF=0.6%
+2026-01-20 07:09:17 | INFO     | [SUCCESS] Day 05MAY
+2026-01-20 07:09:17 | INFO     | [DAY_START] Processing 04MAY
+2026-01-20 07:09:17 | INFO     | [lf.day.start] Processing JED-ATZ for 04MAY
+2026-01-20 07:09:18 | INFO     | [lf.day.flights_found] Found 1 flights on 04MAY
+2026-01-20 07:09:20 | INFO     | [lf.flight.extracted] SM456 on 04MAY: BKG=0, LF=0.0%
+2026-01-20 07:09:22 | INFO     | [SUCCESS] Day 04MAY
+2026-01-20 07:09:22 | INFO     | [DAY_START] Processing 03MAY
+2026-01-20 07:09:22 | INFO     | [lf.day.start] Processing JED-ATZ for 03MAY
+2026-01-20 07:09:23 | INFO     | [lf.day.flights_found] Found 1 flights on 03MAY
+2026-01-20 07:09:26 | INFO     | [lf.flight.extracted] SM456 on 03MAY: BKG=1, LF=0.6%
+2026-01-20 07:09:32 | INFO     | [SUCCESS] Day 03MAY
+2026-01-20 07:09:32 | INFO     | [DAY_START] Processing 02MAY
+2026-01-20 07:09:32 | INFO     | [lf.day.start] Processing JED-ATZ for 02MAY
+2026-01-20 07:09:34 | INFO     | [lf.day.flights_found] Found 1 flights on 02MAY
+2026-01-20 07:09:38 | INFO     | [lf.flight.extracted] SM456 on 02MAY: BKG=3, LF=1.7%
+2026-01-20 07:09:40 | INFO     | [SUCCESS] Day 02MAY
+2026-01-20 07:09:40 | INFO     | [DAY_START] Processing 01MAY
+2026-01-20 07:09:40 | INFO     | [lf.day.start] Processing JED-ATZ for 01MAY
+2026-01-20 07:09:41 | INFO     | [lf.day.flights_found] Found 1 flights on 01MAY
+2026-01-20 07:09:43 | INFO     | [lf.flight.extracted] SM456 on 01MAY: BKG=1, LF=0.6%
+2026-01-20 07:09:46 | INFO     | [SUCCESS] Day 01MAY
+2026-01-20 07:09:46 | INFO     | [DAY_START] Processing 30APR
+2026-01-20 07:09:46 | INFO     | [lf.day.start] Processing JED-ATZ for 30APR
+2026-01-20 07:09:47 | INFO     | [lf.day.flights_found] Found 1 flights on 30APR
+2026-01-20 07:09:49 | INFO     | [lf.flight.extracted] SM456 on 30APR: BKG=1, LF=0.6%
+2026-01-20 07:09:53 | INFO     | [SUCCESS] Day 30APR
+2026-01-20 07:09:53 | INFO     | [DAY_START] Processing 29APR
+2026-01-20 07:09:53 | INFO     | [lf.day.start] Processing JED-ATZ for 29APR
+2026-01-20 07:09:56 | INFO     | [lf.day.flights_found] Found 1 flights on 29APR
+2026-01-20 07:09:59 | INFO     | [lf.flight.extracted] SM456 on 29APR: BKG=1, LF=0.6%
+2026-01-20 07:10:03 | INFO     | [SUCCESS] Day 29APR
+2026-01-20 07:10:03 | INFO     | [SUCCESS] LF Search Complete
+2026-01-20 07:10:05 | INFO     | [Worker_9226] Completed: JED-ATZ - 8 results, 0 errors
+2026-01-20 07:10:05 | INFO     | [Worker_9226] Processing: ELQ-CAI
+2026-01-20 07:10:05 | INFO     |   Tier 0: Range 4, Chunk 4/4 (8 days)

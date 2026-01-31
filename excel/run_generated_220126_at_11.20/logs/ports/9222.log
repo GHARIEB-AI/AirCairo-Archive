@@ -1,0 +1,18 @@
+2026-01-22 11:21:16,965 | INFO     | [Worker_9222] Completed: MED-HBE - 9 results, 0 errors
+2026-01-22 11:21:16,969 | INFO     | [Worker_9222] Processing: TUU-CAI
+2026-01-22 11:21:16,969 | INFO     |   Tier 0: Range 4, Chunk 1/4 (9 days)
+2026-01-22 11:21:47,664 | INFO     | [Worker_9222] Completed: TUU-CAI - 9 results, 0 errors
+2026-01-22 11:21:47,666 | INFO     | [Worker_9222] Processing: GIZ-CAI
+2026-01-22 11:21:47,666 | INFO     |   Tier 0: Range 4, Chunk 1/4 (9 days)
+2026-01-22 11:22:19,869 | INFO     | [Worker_9222] Completed: GIZ-CAI - 9 results, 0 errors
+2026-01-22 11:22:19,870 | INFO     | [Worker_9222] Processing: ASW-JED
+2026-01-22 11:22:19,870 | INFO     |   Tier 0: Range 4, Chunk 1/4 (9 days)
+2026-01-22 11:22:33,945 | INFO     | [Worker_9222] Completed: ASW-JED - 9 results, 0 errors
+2026-01-22 11:22:33,946 | INFO     | [Worker_9222] Processing: CAI-TUU
+2026-01-22 11:22:33,946 | INFO     |   Tier 0: Range 4, Chunk 1/4 (9 days)
+2026-01-22 11:22:58,639 | INFO     | [Worker_9222] Completed: CAI-TUU - 9 results, 0 errors
+2026-01-22 11:22:58,640 | INFO     | [Worker_9222] Processing: CAI-YNB
+2026-01-22 11:22:58,641 | INFO     |   Tier 0: Range 4, Chunk 1/4 (9 days)
+2026-01-22 11:24:00,032 | INFO     | [Worker_9222] Completed: CAI-YNB - 9 results, 0 errors
+2026-01-22 11:24:00,033 | INFO     | [Worker_9222] Processing: TUU-CAI
+2026-01-22 11:24:00,033 | INFO     |   Tier 0: Range 4, Chunk 2/4 (8 days)

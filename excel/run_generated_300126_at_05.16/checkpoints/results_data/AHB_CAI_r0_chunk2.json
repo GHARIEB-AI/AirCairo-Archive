@@ -1,0 +1,209 @@
+{
+  "task_id": "AHB-CAI_r0_chunk2",
+  "saved_at": "2026-01-30T06:13:07.455267",
+  "lf_results": {
+    "2026-02-08": [
+      {
+        "Date": "Sunday, February 08, 2026",
+        "Flight": "SM444",
+        "DEP": "00:05",
+        "SOLD": 52,
+        "FULL CAPACITY": 172,
+        "LF%": 0.3023,
+        "LowestAvail": "T9",
+        "LASTSOLD": "2026-01-29 00:00:00",
+        "WEEKLY PROGRESS": 24,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 2,
+          "U": 0,
+          "X": 0,
+          "T": 7,
+          "W": 22,
+          "S": 8,
+          "G": 13,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "AHB-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 7,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-02-07": [],
+    "2026-02-06": [
+      {
+        "Date": "Friday, February 06, 2026",
+        "Flight": "SM444",
+        "DEP": "00:05",
+        "SOLD": 81,
+        "FULL CAPACITY": 175,
+        "LF%": 0.4629,
+        "LowestAvail": "X5",
+        "LASTSOLD": "2026-01-29 00:00:00",
+        "WEEKLY PROGRESS": 35,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 4,
+          "U": 1,
+          "X": 20,
+          "T": 22,
+          "W": 13,
+          "S": 15,
+          "G": 6,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "AHB-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 15,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM444",
+          "sm_route": "AHB-CAI",
+          "sm_dep": "0005",
+          "sm_arr": "0205",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0129",
+              "outbound_route": "CAI-ASW",
+              "outbound_dep": "0500",
+              "passengers": [
+                {
+                  "iata": "AHBS228A9"
+                },
+                {
+                  "iata": "AHBS228A9"
+                },
+                {
+                  "iata": "AHBS228A9"
+                }
+              ]
+            },
+            {
+              "outbound_flight": "SM0137",
+              "outbound_route": "CAI-ASW",
+              "outbound_dep": "0520",
+              "passengers": [
+                {
+                  "iata": "RUHAA28WH"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "2026-02-05": [
+      {
+        "Date": "Thursday, February 05, 2026",
+        "Flight": "SM448",
+        "DEP": "01:05",
+        "SOLD": 97,
+        "FULL CAPACITY": 175,
+        "LF%": 0.5543,
+        "LowestAvail": "X9",
+        "LASTSOLD": "2026-01-29 00:00:00",
+        "WEEKLY PROGRESS": 43,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 3,
+          "U": 6,
+          "X": 53,
+          "T": 17,
+          "W": 8,
+          "S": 0,
+          "G": 10,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "AHB-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 3,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-02-04": [],
+    "2026-02-03": [],
+    "2026-02-02": [],
+    "2026-02-01": [
+      {
+        "Date": "Sunday, February 01, 2026",
+        "Flight": "SM444",
+        "DEP": "00:05",
+        "SOLD": 115,
+        "FULL CAPACITY": 175,
+        "LF%": 0.6571,
+        "LowestAvail": "X9",
+        "LASTSOLD": "2026-01-29 00:00:00",
+        "WEEKLY PROGRESS": 57,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 1,
+          "U": 4,
+          "X": 73,
+          "T": 18,
+          "W": 3,
+          "S": 7,
+          "G": 8,
+          "L": 0,
+          "V": 0,
+          "K": 1,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "AHB-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 15,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-31": []
+  },
+  "lf_errors": {}
+}

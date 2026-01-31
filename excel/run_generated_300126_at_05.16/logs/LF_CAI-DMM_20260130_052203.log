@@ -1,0 +1,52 @@
+2026-01-30 05:22:03 | INFO     | ======================================================================
+2026-01-30 05:22:03 | INFO     | Load Factor Scraper Started - Route: CAI-DMM
+2026-01-30 05:22:03 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_CAI-DMM_20260130_052203.log
+2026-01-30 05:22:03 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 05:22:03 | INFO     | ======================================================================
+2026-01-30 05:22:03 | INFO     | Starting LF search for route: CAI-DMM
+2026-01-30 05:22:03 | INFO     | [START] LF Search
+2026-01-30 05:22:03 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 05:22:03 | INFO     | [DAY_START] Processing 14MAY
+2026-01-30 05:22:03 | INFO     | [lf.day.start] Processing CAI-DMM for 14MAY
+2026-01-30 05:22:04 | INFO     | [lf.day.flights_found] Found 1 flights on 14MAY
+2026-01-30 05:22:06 | INFO     | [lf.flight.extracted] SM433 on 14MAY: BKG=0, LF=0.0%
+2026-01-30 05:22:08 | INFO     | [SUCCESS] Day 14MAY
+2026-01-30 05:22:08 | INFO     | [DAY_START] Processing 13MAY
+2026-01-30 05:22:08 | INFO     | [lf.day.start] Processing CAI-DMM for 13MAY
+2026-01-30 05:22:09 | INFO     | [lf.day.flights_found] Found 1 flights on 13MAY
+2026-01-30 05:22:11 | INFO     | [lf.flight.extracted] SM433 on 13MAY: BKG=0, LF=0.0%
+2026-01-30 05:22:12 | INFO     | [SUCCESS] Day 13MAY
+2026-01-30 05:22:12 | INFO     | [DAY_START] Processing 12MAY
+2026-01-30 05:22:12 | INFO     | [lf.day.start] Processing CAI-DMM for 12MAY
+2026-01-30 05:22:13 | INFO     | [lf.day.flights_found] Found 1 flights on 12MAY
+2026-01-30 05:22:15 | INFO     | [lf.flight.extracted] SM433 on 12MAY: BKG=0, LF=0.0%
+2026-01-30 05:22:16 | INFO     | [SUCCESS] Day 12MAY
+2026-01-30 05:22:16 | INFO     | [DAY_START] Processing 11MAY
+2026-01-30 05:22:16 | INFO     | [lf.day.start] Processing CAI-DMM for 11MAY
+2026-01-30 05:22:17 | INFO     | [lf.day.flights_found] Found 1 flights on 11MAY
+2026-01-30 05:22:19 | INFO     | [lf.flight.extracted] SM433 on 11MAY: BKG=0, LF=0.0%
+2026-01-30 05:22:20 | INFO     | [SUCCESS] Day 11MAY
+2026-01-30 05:22:20 | INFO     | [DAY_START] Processing 10MAY
+2026-01-30 05:22:20 | INFO     | [lf.day.start] Processing CAI-DMM for 10MAY
+2026-01-30 05:22:21 | INFO     | [lf.day.flights_found] Found 1 flights on 10MAY
+2026-01-30 05:22:23 | INFO     | [lf.flight.extracted] SM439 on 10MAY: BKG=0, LF=0.0%
+2026-01-30 05:22:24 | INFO     | [SUCCESS] Day 10MAY
+2026-01-30 05:22:24 | INFO     | [DAY_START] Processing 09MAY
+2026-01-30 05:22:24 | INFO     | [lf.day.start] Processing CAI-DMM for 09MAY
+2026-01-30 05:22:25 | INFO     | [lf.day.flights_found] Found 1 flights on 09MAY
+2026-01-30 05:22:27 | INFO     | [lf.flight.extracted] SM433 on 09MAY: BKG=4, LF=2.2%
+2026-01-30 05:22:30 | INFO     | [SUCCESS] Day 09MAY
+2026-01-30 05:22:30 | INFO     | [DAY_START] Processing 08MAY
+2026-01-30 05:22:30 | INFO     | [lf.day.start] Processing CAI-DMM for 08MAY
+2026-01-30 05:22:31 | INFO     | [lf.day.flights_found] Found 1 flights on 08MAY
+2026-01-30 05:22:33 | INFO     | [lf.flight.extracted] SM439 on 08MAY: BKG=1, LF=0.6%
+2026-01-30 05:22:35 | INFO     | [SUCCESS] Day 08MAY
+2026-01-30 05:22:35 | INFO     | [DAY_START] Processing 07MAY
+2026-01-30 05:22:35 | INFO     | [lf.day.start] Processing CAI-DMM for 07MAY
+2026-01-30 05:22:36 | INFO     | [lf.day.flights_found] Found 1 flights on 07MAY
+2026-01-30 05:22:38 | INFO     | [lf.flight.extracted] SM433 on 07MAY: BKG=2, LF=1.1%
+2026-01-30 05:22:41 | INFO     | [SUCCESS] Day 07MAY
+2026-01-30 05:22:41 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 05:22:41 | INFO     | [Worker_9224] Completed: CAI-DMM - 8 results, 0 errors
+2026-01-30 05:22:41 | INFO     | [Worker_9224] Processing: MED-HBE
+2026-01-30 05:22:41 | INFO     |   Tier 0: Range 4, Chunk 4/4 (7 days)

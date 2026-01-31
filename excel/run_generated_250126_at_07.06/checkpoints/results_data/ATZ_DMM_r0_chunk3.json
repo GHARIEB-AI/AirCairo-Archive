@@ -1,0 +1,93 @@
+{
+  "task_id": "ATZ-DMM_r0_chunk3",
+  "saved_at": "2026-01-25T08:04:49.994116",
+  "lf_results": {
+    "2026-01-31": [],
+    "2026-01-30": [
+      {
+        "Date": "Friday, January 30, 2026",
+        "Flight": "SM437",
+        "DEP": "02:25",
+        "SOLD": 179,
+        "FULL CAPACITY": 179,
+        "LF%": 1.0,
+        "LowestAvail": "CLOSED",
+        "LASTSOLD": "2026-01-25 00:00:00",
+        "WEEKLY PROGRESS": 46,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 36,
+          "U": 18,
+          "X": 54,
+          "T": 16,
+          "W": 17,
+          "S": 14,
+          "G": 13,
+          "L": 0,
+          "V": 0,
+          "K": 1,
+          "Q": 0,
+          "H": 10,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "ATZ-DMM",
+        "SOLD TODAY": 5,
+        "SOLD YDAY": 2,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-29": [],
+    "2026-01-28": [],
+    "2026-01-27": [],
+    "2026-01-26": [
+      {
+        "Date": "Monday, January 26, 2026",
+        "Flight": "SM437",
+        "DEP": "07:40",
+        "SOLD": 169,
+        "FULL CAPACITY": 179,
+        "LF%": 0.9441,
+        "LowestAvail": "M1",
+        "LASTSOLD": "2026-01-24 00:00:00",
+        "WEEKLY PROGRESS": 19,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 18,
+          "U": 10,
+          "X": 40,
+          "T": 29,
+          "W": 17,
+          "S": 9,
+          "G": 10,
+          "L": 8,
+          "V": 1,
+          "K": 10,
+          "Q": 4,
+          "H": 2,
+          "M": 11,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "ATZ-DMM",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 2,
+        "CONNECTING_PASSENGERS": null
+      }
+    ]
+  },
+  "lf_errors": {}
+}

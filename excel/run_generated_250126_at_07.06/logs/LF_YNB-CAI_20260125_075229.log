@@ -1,0 +1,54 @@
+2026-01-25 07:52:29 | INFO     | ======================================================================
+2026-01-25 07:52:29 | INFO     | Load Factor Scraper Started - Route: YNB-CAI
+2026-01-25 07:52:29 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\logs\LF_YNB-CAI_20260125_075229.log
+2026-01-25 07:52:29 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-25 07:52:29 | INFO     | ======================================================================
+2026-01-25 07:52:29 | INFO     | Starting LF search for route: YNB-CAI
+2026-01-25 07:52:29 | INFO     | [START] LF Search
+2026-01-25 07:52:30 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-25 07:52:30 | INFO     | [DAY_START] Processing 16FEB
+2026-01-25 07:52:30 | INFO     | [lf.day.start] Processing YNB-CAI for 16FEB
+2026-01-25 07:52:31 | INFO     | [lf.day.flights_found] Found 1 flights on 16FEB
+2026-01-25 07:52:34 | INFO     | [lf.flight.extracted] SM442 on 16FEB: BKG=19, LF=10.9%
+2026-01-25 07:52:37 | INFO     | [SUCCESS] Day 16FEB
+2026-01-25 07:52:37 | INFO     | [DAY_START] Processing 15FEB
+2026-01-25 07:52:37 | INFO     | [lf.day.start] Processing YNB-CAI for 15FEB
+2026-01-25 07:52:39 | INFO     | [lf.day.flights_found] Found 1 flights on 15FEB
+2026-01-25 07:52:41 | INFO     | [lf.flight.extracted] SM442 on 15FEB: BKG=23, LF=13.1%
+2026-01-25 07:52:45 | INFO     | [SUCCESS] Day 15FEB
+2026-01-25 07:52:45 | INFO     | [DAY_START] Processing 14FEB
+2026-01-25 07:52:45 | INFO     | [lf.day.start] Processing YNB-CAI for 14FEB
+2026-01-25 07:52:46 | INFO     | [lf.day.flights_found] Found 1 flights on 14FEB
+2026-01-25 07:52:48 | INFO     | [lf.flight.extracted] SM442 on 14FEB: BKG=21, LF=12.0%
+2026-01-25 07:52:52 | INFO     | [SUCCESS] Day 14FEB
+2026-01-25 07:52:52 | INFO     | [DAY_START] Processing 13FEB
+2026-01-25 07:52:52 | INFO     | [lf.day.start] Processing YNB-CAI for 13FEB
+2026-01-25 07:52:53 | INFO     | [lf.day.flights_found] Found 1 flights on 13FEB
+2026-01-25 07:52:55 | INFO     | [lf.flight.extracted] SM442 on 13FEB: BKG=24, LF=13.7%
+2026-01-25 07:52:59 | INFO     | [SUCCESS] Day 13FEB
+2026-01-25 07:52:59 | INFO     | [DAY_START] Processing 12FEB
+2026-01-25 07:52:59 | INFO     | [lf.day.start] Processing YNB-CAI for 12FEB
+2026-01-25 07:53:00 | INFO     | [lf.day.flights_found] Found 1 flights on 12FEB
+2026-01-25 07:53:02 | INFO     | [lf.flight.extracted] SM442 on 12FEB: BKG=130, LF=74.3%
+2026-01-25 07:53:07 | INFO     | [SUCCESS] Day 12FEB
+2026-01-25 07:53:07 | INFO     | [DAY_START] Processing 11FEB
+2026-01-25 07:53:07 | INFO     | [lf.day.start] Processing YNB-CAI for 11FEB
+2026-01-25 07:53:08 | INFO     | [lf.day.flights_found] Found 1 flights on 11FEB
+2026-01-25 07:53:11 | INFO     | [lf.flight.extracted] SM442 on 11FEB: BKG=142, LF=81.1%
+2026-01-25 07:53:16 | INFO     | [SUCCESS] Day 11FEB
+2026-01-25 07:53:16 | INFO     | [DAY_START] Processing 10FEB
+2026-01-25 07:53:16 | INFO     | [lf.day.start] Processing YNB-CAI for 10FEB
+2026-01-25 07:53:18 | INFO     | [lf.day.flights_found] Found 2 flights on 10FEB
+2026-01-25 07:53:20 | INFO     | [lf.flight.extracted] SM988 on 10FEB: BKG=6, LF=3.4%
+2026-01-25 07:53:24 | INFO     | [lf.flight.extracted] SM442 on 10FEB: BKG=104, LF=59.4%
+2026-01-25 07:53:32 | INFO     | [SUCCESS] Day 10FEB
+2026-01-25 07:53:32 | INFO     | [DAY_START] Processing 09FEB
+2026-01-25 07:53:32 | INFO     | [lf.day.start] Processing YNB-CAI for 09FEB
+2026-01-25 07:53:33 | INFO     | [lf.day.flights_found] Found 2 flights on 09FEB
+2026-01-25 07:53:35 | INFO     | [lf.flight.extracted] SM988 on 09FEB: BKG=2, LF=1.1%
+2026-01-25 07:53:39 | INFO     | [lf.flight.extracted] SM442 on 09FEB: BKG=119, LF=68.0%
+2026-01-25 07:53:46 | INFO     | [SUCCESS] Day 09FEB
+2026-01-25 07:53:46 | INFO     | [SUCCESS] LF Search Complete
+2026-01-25 07:53:56 | INFO     | [Worker_9234] Completed: YNB-CAI - 8 results, 0 errors
+2026-01-25 07:53:56 | INFO     | [Worker_9234] Processing: HBE-JED
+2026-01-25 07:53:56 | INFO     |   Tier 0: Range 1, Chunk 2/4 (8 days)

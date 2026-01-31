@@ -1,0 +1,51 @@
+2026-01-25 07:36:09 | INFO     | ======================================================================
+2026-01-25 07:36:09 | INFO     | Load Factor Scraper Started - Route: CAI-MED
+2026-01-25 07:36:09 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\logs\LF_CAI-MED_20260125_073609.log
+2026-01-25 07:36:09 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-25 07:36:09 | INFO     | ======================================================================
+2026-01-25 07:36:09 | INFO     | Starting LF search for route: CAI-MED
+2026-01-25 07:36:09 | INFO     | [START] LF Search
+2026-01-25 07:36:10 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-25 07:36:10 | INFO     | [DAY_START] Processing 19MAR
+2026-01-25 07:36:10 | INFO     | [lf.day.start] Processing CAI-MED for 19MAR
+2026-01-25 07:36:11 | INFO     | [lf.day.flights_found] Found 2 flights on 19MAR
+2026-01-25 07:36:13 | INFO     | [lf.flight.extracted] SM493 on 19MAR: BKG=0, LF=0.0%
+2026-01-25 07:36:17 | INFO     | [lf.flight.extracted] SM951 on 19MAR: BKG=0, LF=0.0%
+2026-01-25 07:36:18 | INFO     | [SUCCESS] Day 19MAR
+2026-01-25 07:36:18 | INFO     | [DAY_START] Processing 18MAR
+2026-01-25 07:36:18 | INFO     | [lf.day.start] Processing CAI-MED for 18MAR
+2026-01-25 07:36:19 | WARNING  | [lf.day.no_flights] No direct flights on 18MAR
+2026-01-25 07:36:19 | INFO     | [SUCCESS] Day 18MAR
+2026-01-25 07:36:19 | INFO     | [DAY_START] Processing 17MAR
+2026-01-25 07:36:19 | INFO     | [lf.day.start] Processing CAI-MED for 17MAR
+2026-01-25 07:36:20 | INFO     | [lf.day.flights_found] Found 1 flights on 17MAR
+2026-01-25 07:36:22 | INFO     | [lf.flight.extracted] SM493 on 17MAR: BKG=1, LF=0.6%
+2026-01-25 07:36:25 | INFO     | [SUCCESS] Day 17MAR
+2026-01-25 07:36:25 | INFO     | [DAY_START] Processing 16MAR
+2026-01-25 07:36:25 | INFO     | [lf.day.start] Processing CAI-MED for 16MAR
+2026-01-25 07:36:26 | INFO     | [lf.day.flights_found] Found 1 flights on 16MAR
+2026-01-25 07:36:28 | INFO     | [lf.flight.extracted] SM495 on 16MAR: BKG=0, LF=0.0%
+2026-01-25 07:36:29 | INFO     | [SUCCESS] Day 16MAR
+2026-01-25 07:36:29 | INFO     | [DAY_START] Processing 15MAR
+2026-01-25 07:36:29 | INFO     | [lf.day.start] Processing CAI-MED for 15MAR
+2026-01-25 07:36:30 | INFO     | [lf.day.flights_found] Found 1 flights on 15MAR
+2026-01-25 07:36:32 | INFO     | [lf.flight.extracted] SM493 on 15MAR: BKG=0, LF=0.0%
+2026-01-25 07:36:34 | INFO     | [SUCCESS] Day 15MAR
+2026-01-25 07:36:34 | INFO     | [DAY_START] Processing 14MAR
+2026-01-25 07:36:34 | INFO     | [lf.day.start] Processing CAI-MED for 14MAR
+2026-01-25 07:36:35 | INFO     | [lf.day.flights_found] Found 1 flights on 14MAR
+2026-01-25 07:36:37 | INFO     | [lf.flight.extracted] SM493 on 14MAR: BKG=1, LF=0.6%
+2026-01-25 07:36:39 | INFO     | [SUCCESS] Day 14MAR
+2026-01-25 07:36:39 | INFO     | [DAY_START] Processing 13MAR
+2026-01-25 07:36:39 | INFO     | [lf.day.start] Processing CAI-MED for 13MAR
+2026-01-25 07:36:41 | WARNING  | [lf.day.no_flights] No direct flights on 13MAR
+2026-01-25 07:36:41 | INFO     | [SUCCESS] Day 13MAR
+2026-01-25 07:36:41 | INFO     | [DAY_START] Processing 12MAR
+2026-01-25 07:36:41 | INFO     | [lf.day.start] Processing CAI-MED for 12MAR
+2026-01-25 07:36:42 | INFO     | [lf.day.flights_found] Found 1 flights on 12MAR
+2026-01-25 07:36:44 | INFO     | [lf.flight.extracted] SM493 on 12MAR: BKG=0, LF=0.0%
+2026-01-25 07:36:45 | INFO     | [SUCCESS] Day 12MAR
+2026-01-25 07:36:45 | INFO     | [SUCCESS] LF Search Complete
+2026-01-25 07:36:45 | INFO     | [Worker_9226] Completed: CAI-MED - 8 results, 0 errors
+2026-01-25 07:36:45 | INFO     | [Worker_9226] Processing: CAI-DMM
+2026-01-25 07:36:45 | INFO     |   Tier 0: Range 2, Chunk 2/4 (8 days)

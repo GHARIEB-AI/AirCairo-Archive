@@ -1,0 +1,197 @@
+{
+  "task_id": "DMM-CAI_r0_chunk2",
+  "saved_at": "2026-01-17T09:31:45.730231",
+  "lf_results": {
+    "2026-01-24": [
+      {
+        "Date": "Saturday, January 24, 2026",
+        "Flight": "SM434",
+        "DEP": "22:10",
+        "SOLD": 24,
+        "FULL CAPACITY": 168,
+        "LF%": 0.1429,
+        "LowestAvail": "I9",
+        "LASTSOLD": "2026-01-15 00:00:00",
+        "WEEKLY PROGRESS": 3,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 5,
+          "O": 10,
+          "U": 7,
+          "X": 2,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "DMM-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-23": [
+      {
+        "Date": "Friday, January 23, 2026",
+        "Flight": "SM434",
+        "DEP": "13:55",
+        "SOLD": 56,
+        "FULL CAPACITY": 175,
+        "LF%": 0.32,
+        "LowestAvail": "I9",
+        "LASTSOLD": "2026-01-17 00:00:00",
+        "WEEKLY PROGRESS": 21,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 26,
+          "O": 4,
+          "U": 14,
+          "X": 11,
+          "T": 1,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "DMM-CAI",
+        "SOLD TODAY": 1,
+        "SOLD YDAY": 14,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-22": [
+      {
+        "Date": "Thursday, January 22, 2026",
+        "Flight": "SM434",
+        "DEP": "22:10",
+        "SOLD": 51,
+        "FULL CAPACITY": 175,
+        "LF%": 0.2914,
+        "LowestAvail": "I2",
+        "LASTSOLD": "2026-01-16 00:00:00",
+        "WEEKLY PROGRESS": 18,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 18,
+          "O": 4,
+          "U": 21,
+          "X": 8,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "DMM-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 11,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-01-21": [],
+    "2026-01-20": [
+      {
+        "Date": "Tuesday, January 20, 2026",
+        "Flight": "SM434",
+        "DEP": "06:30",
+        "SOLD": 66,
+        "FULL CAPACITY": 175,
+        "LF%": 0.3771,
+        "LowestAvail": "I9",
+        "LASTSOLD": "2026-01-09 00:00:00",
+        "WEEKLY PROGRESS": 0,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 34,
+          "O": 9,
+          "U": 12,
+          "X": 8,
+          "T": 2,
+          "W": 0,
+          "S": 1,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "DMM-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM434",
+          "sm_route": "DMM-CAI",
+          "sm_dep": "0630",
+          "sm_arr": "0845",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0022",
+              "outbound_route": "CAI-HRG",
+              "outbound_dep": "1145",
+              "passengers": [
+                {
+                  "iata": "JEDSM08AA"
+                },
+                {
+                  "iata": "JEDSM08AA"
+                },
+                {
+                  "iata": "JEDSM08AA"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "2026-01-19": [],
+    "2026-01-18": []
+  },
+  "lf_errors": {}
+}

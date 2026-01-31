@@ -1,0 +1,44 @@
+2026-01-15 08:53:41 | INFO     | ======================================================================
+2026-01-15 08:53:41 | INFO     | Load Factor Scraper Started - Route: ATZ-MED
+2026-01-15 08:53:41 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_150126_at_08.22\logs\LF_ATZ-MED_20260115_085341.log
+2026-01-15 08:53:41 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-15 08:53:41 | INFO     | ======================================================================
+2026-01-15 08:53:41 | INFO     | Starting LF search for route: ATZ-MED
+2026-01-15 08:53:41 | INFO     | [START] LF Search
+2026-01-15 08:53:43 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-15 08:53:43 | INFO     | [DAY_START] Processing 22JAN
+2026-01-15 08:53:43 | INFO     | [lf.day.start] Processing ATZ-MED for 22JAN
+2026-01-15 08:53:45 | WARNING  | [lf.day.no_flights] No direct flights on 22JAN
+2026-01-15 08:53:45 | INFO     | [SUCCESS] Day 22JAN
+2026-01-15 08:53:45 | INFO     | [DAY_START] Processing 21JAN
+2026-01-15 08:53:45 | INFO     | [lf.day.start] Processing ATZ-MED for 21JAN
+2026-01-15 08:53:46 | INFO     | [lf.day.flights_found] Found 1 flights on 21JAN
+2026-01-15 08:53:49 | INFO     | [lf.flight.extracted] SM489 on 21JAN: BKG=180, LF=100.6%
+2026-01-15 08:53:53 | INFO     | [SUCCESS] Day 21JAN
+2026-01-15 08:53:53 | INFO     | [DAY_START] Processing 20JAN
+2026-01-15 08:53:53 | INFO     | [lf.day.start] Processing ATZ-MED for 20JAN
+2026-01-15 08:53:54 | INFO     | [lf.day.flights_found] Found 1 flights on 20JAN
+2026-01-15 08:53:57 | INFO     | [lf.flight.extracted] SM487 on 20JAN: BKG=137, LF=76.5%
+2026-01-15 08:54:02 | INFO     | [SUCCESS] Day 20JAN
+2026-01-15 08:54:02 | INFO     | [DAY_START] Processing 19JAN
+2026-01-15 08:54:02 | INFO     | [lf.day.start] Processing ATZ-MED for 19JAN
+2026-01-15 08:54:04 | INFO     | [lf.day.flights_found] Found 1 flights on 19JAN
+2026-01-15 08:54:07 | INFO     | [lf.flight.extracted] SM487 on 19JAN: BKG=158, LF=88.3%
+2026-01-15 08:54:16 | INFO     | [SUCCESS] Day 19JAN
+2026-01-15 08:54:16 | INFO     | [DAY_START] Processing 18JAN
+2026-01-15 08:54:16 | INFO     | [lf.day.start] Processing ATZ-MED for 18JAN
+2026-01-15 08:54:17 | WARNING  | [lf.day.no_flights] No direct flights on 18JAN
+2026-01-15 08:54:17 | INFO     | [SUCCESS] Day 18JAN
+2026-01-15 08:54:17 | INFO     | [DAY_START] Processing 17JAN
+2026-01-15 08:54:17 | INFO     | [lf.day.start] Processing ATZ-MED for 17JAN
+2026-01-15 08:54:19 | INFO     | [lf.day.flights_found] Found 1 flights on 17JAN
+2026-01-15 08:54:22 | INFO     | [lf.flight.extracted] SM487 on 17JAN: BKG=178, LF=99.4%
+2026-01-15 08:54:28 | INFO     | [SUCCESS] Day 17JAN
+2026-01-15 08:54:28 | INFO     | [DAY_START] Processing 16JAN
+2026-01-15 08:54:28 | INFO     | [lf.day.start] Processing ATZ-MED for 16JAN
+2026-01-15 08:54:30 | WARNING  | [lf.day.no_flights] No direct flights on 16JAN
+2026-01-15 08:54:30 | INFO     | [SUCCESS] Day 16JAN
+2026-01-15 08:54:30 | INFO     | [SUCCESS] LF Search Complete
+2026-01-15 08:54:32 | INFO     | [Worker_9232] Completed: ATZ-MED - 7 results, 0 errors
+2026-01-15 08:54:32 | INFO     | [Worker_9232] Processing: ASW-JED
+2026-01-15 08:54:32 | INFO     |   Tier 0: Range 1, Chunk 2/2 (8 days)

@@ -1,0 +1,44 @@
+2026-01-20 07:25:25 | INFO     | ======================================================================
+2026-01-20 07:25:25 | INFO     | Load Factor Scraper Started - Route: JED-ASW
+2026-01-20 07:25:25 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_200126_at_06.58\logs\LF_JED-ASW_20260120_072525.log
+2026-01-20 07:25:25 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-20 07:25:25 | INFO     | ======================================================================
+2026-01-20 07:25:25 | INFO     | Starting LF search for route: JED-ASW
+2026-01-20 07:25:25 | INFO     | [START] LF Search
+2026-01-20 07:25:31 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-20 07:25:31 | INFO     | [DAY_START] Processing 03APR
+2026-01-20 07:25:31 | INFO     | [lf.day.start] Processing JED-ASW for 03APR
+2026-01-20 07:25:36 | WARNING  | [lf.day.no_flights] No direct flights on 03APR
+2026-01-20 07:25:36 | INFO     | [SUCCESS] Day 03APR
+2026-01-20 07:25:36 | INFO     | [DAY_START] Processing 02APR
+2026-01-20 07:25:36 | INFO     | [lf.day.start] Processing JED-ASW for 02APR
+2026-01-20 07:25:40 | WARNING  | [lf.day.no_flights] No direct flights on 02APR
+2026-01-20 07:25:41 | INFO     | [SUCCESS] Day 02APR
+2026-01-20 07:25:41 | INFO     | [DAY_START] Processing 01APR
+2026-01-20 07:25:41 | INFO     | [lf.day.start] Processing JED-ASW for 01APR
+2026-01-20 07:26:05 | WARNING  | [lf.day.no_flights] No direct flights on 01APR
+2026-01-20 07:26:05 | INFO     | [SUCCESS] Day 01APR
+2026-01-20 07:26:05 | INFO     | [DAY_START] Processing 31MAR
+2026-01-20 07:26:05 | INFO     | [lf.day.start] Processing JED-ASW for 31MAR
+2026-01-20 07:26:11 | WARNING  | [lf.day.no_flights] No direct flights on 31MAR
+2026-01-20 07:26:11 | INFO     | [SUCCESS] Day 31MAR
+2026-01-20 07:26:11 | INFO     | [DAY_START] Processing 30MAR
+2026-01-20 07:26:11 | INFO     | [lf.day.start] Processing JED-ASW for 30MAR
+2026-01-20 07:26:15 | WARNING  | [lf.day.no_flights] No direct flights on 30MAR
+2026-01-20 07:26:15 | INFO     | [SUCCESS] Day 30MAR
+2026-01-20 07:26:15 | INFO     | [DAY_START] Processing 29MAR
+2026-01-20 07:26:15 | INFO     | [lf.day.start] Processing JED-ASW for 29MAR
+2026-01-20 07:26:19 | WARNING  | [lf.day.no_flights] No direct flights on 29MAR
+2026-01-20 07:26:19 | INFO     | [SUCCESS] Day 29MAR
+2026-01-20 07:26:19 | INFO     | [DAY_START] Processing 28MAR
+2026-01-20 07:26:19 | INFO     | [lf.day.start] Processing JED-ASW for 28MAR
+2026-01-20 07:26:23 | WARNING  | [lf.day.no_flights] No direct flights on 28MAR
+2026-01-20 07:26:23 | INFO     | [SUCCESS] Day 28MAR
+2026-01-20 07:26:23 | INFO     | [DAY_START] Processing 27MAR
+2026-01-20 07:26:23 | INFO     | [lf.day.start] Processing JED-ASW for 27MAR
+2026-01-20 07:26:27 | WARNING  | [lf.day.no_flights] No direct flights on 27MAR
+2026-01-20 07:26:27 | INFO     | [SUCCESS] Day 27MAR
+2026-01-20 07:26:27 | INFO     | [SUCCESS] LF Search Complete
+2026-01-20 07:26:29 | INFO     | [Worker_9225] Completed: JED-ASW - 8 results, 0 errors
+2026-01-20 07:26:29 | INFO     | [Worker_9225] Processing: DMM-ATZ
+2026-01-20 07:26:29 | INFO     |   Tier 0: Range 3, Chunk 4/4 (8 days)

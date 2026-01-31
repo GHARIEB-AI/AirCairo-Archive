@@ -1,0 +1,50 @@
+2026-01-25 07:16:09 | INFO     | ======================================================================
+2026-01-25 07:16:09 | INFO     | Load Factor Scraper Started - Route: CAI-TUU
+2026-01-25 07:16:09 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\logs\LF_CAI-TUU_20260125_071609.log
+2026-01-25 07:16:09 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-25 07:16:09 | INFO     | ======================================================================
+2026-01-25 07:16:09 | INFO     | Starting LF search for route: CAI-TUU
+2026-01-25 07:16:09 | INFO     | [START] LF Search
+2026-01-25 07:16:09 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-25 07:16:09 | INFO     | [DAY_START] Processing 14MAY
+2026-01-25 07:16:09 | INFO     | [lf.day.start] Processing CAI-TUU for 14MAY
+2026-01-25 07:16:11 | INFO     | [lf.day.flights_found] Found 1 flights on 14MAY
+2026-01-25 07:16:13 | INFO     | [lf.flight.extracted] SM325 on 14MAY: BKG=0, LF=0.0%
+2026-01-25 07:16:14 | INFO     | [SUCCESS] Day 14MAY
+2026-01-25 07:16:14 | INFO     | [DAY_START] Processing 13MAY
+2026-01-25 07:16:14 | INFO     | [lf.day.start] Processing CAI-TUU for 13MAY
+2026-01-25 07:16:15 | WARNING  | [lf.day.no_flights] No direct flights on 13MAY
+2026-01-25 07:16:15 | INFO     | [SUCCESS] Day 13MAY
+2026-01-25 07:16:15 | INFO     | [DAY_START] Processing 12MAY
+2026-01-25 07:16:15 | INFO     | [lf.day.start] Processing CAI-TUU for 12MAY
+2026-01-25 07:16:17 | INFO     | [lf.day.flights_found] Found 1 flights on 12MAY
+2026-01-25 07:16:19 | INFO     | [lf.flight.extracted] SM325 on 12MAY: BKG=0, LF=0.0%
+2026-01-25 07:16:20 | INFO     | [SUCCESS] Day 12MAY
+2026-01-25 07:16:20 | INFO     | [DAY_START] Processing 11MAY
+2026-01-25 07:16:20 | INFO     | [lf.day.start] Processing CAI-TUU for 11MAY
+2026-01-25 07:16:21 | WARNING  | [lf.day.no_flights] No direct flights on 11MAY
+2026-01-25 07:16:21 | INFO     | [SUCCESS] Day 11MAY
+2026-01-25 07:16:21 | INFO     | [DAY_START] Processing 10MAY
+2026-01-25 07:16:21 | INFO     | [lf.day.start] Processing CAI-TUU for 10MAY
+2026-01-25 07:16:23 | WARNING  | [lf.day.no_flights] No direct flights on 10MAY
+2026-01-25 07:16:23 | INFO     | [SUCCESS] Day 10MAY
+2026-01-25 07:16:23 | INFO     | [DAY_START] Processing 09MAY
+2026-01-25 07:16:23 | INFO     | [lf.day.start] Processing CAI-TUU for 09MAY
+2026-01-25 07:16:24 | INFO     | [lf.day.flights_found] Found 1 flights on 09MAY
+2026-01-25 07:16:27 | INFO     | [lf.flight.extracted] SM325 on 09MAY: BKG=0, LF=0.0%
+2026-01-25 07:16:28 | INFO     | [SUCCESS] Day 09MAY
+2026-01-25 07:16:28 | INFO     | [DAY_START] Processing 08MAY
+2026-01-25 07:16:28 | INFO     | [lf.day.start] Processing CAI-TUU for 08MAY
+2026-01-25 07:16:29 | INFO     | [lf.day.flights_found] Found 1 flights on 08MAY
+2026-01-25 07:16:31 | INFO     | [lf.flight.extracted] SM325 on 08MAY: BKG=0, LF=0.0%
+2026-01-25 07:16:33 | INFO     | [SUCCESS] Day 08MAY
+2026-01-25 07:16:33 | INFO     | [DAY_START] Processing 07MAY
+2026-01-25 07:16:33 | INFO     | [lf.day.start] Processing CAI-TUU for 07MAY
+2026-01-25 07:16:34 | INFO     | [lf.day.flights_found] Found 1 flights on 07MAY
+2026-01-25 07:16:36 | INFO     | [lf.flight.extracted] SM325 on 07MAY: BKG=1, LF=0.6%
+2026-01-25 07:16:39 | ERROR    | Atomic write failed for D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\checkpoints\flight_booking_data.json: [WinError 5] Access is denied: 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_250126_at_07.06\\checkpoints\\flight_booking_data.tmp_55fb611d' -> 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_250126_at_07.06\\checkpoints\\flight_booking_data.json'
+2026-01-25 07:16:39 | INFO     | [SUCCESS] Day 07MAY
+2026-01-25 07:16:39 | INFO     | [SUCCESS] LF Search Complete
+2026-01-25 07:16:39 | INFO     | [Worker_9226] Completed: CAI-TUU - 8 results, 0 errors
+2026-01-25 07:16:39 | INFO     | [Worker_9226] Processing: ATZ-ELQ
+2026-01-25 07:16:39 | INFO     |   Tier 0: Range 4, Chunk 3/4 (8 days)

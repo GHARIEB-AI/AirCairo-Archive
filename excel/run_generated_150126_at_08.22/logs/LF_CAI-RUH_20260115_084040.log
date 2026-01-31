@@ -1,0 +1,59 @@
+2026-01-15 08:40:40 | INFO     | ======================================================================
+2026-01-15 08:40:40 | INFO     | Load Factor Scraper Started - Route: CAI-RUH
+2026-01-15 08:40:40 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_150126_at_08.22\logs\LF_CAI-RUH_20260115_084040.log
+2026-01-15 08:40:40 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-15 08:40:40 | INFO     | ======================================================================
+2026-01-15 08:40:40 | INFO     | Starting LF search for route: CAI-RUH
+2026-01-15 08:40:40 | INFO     | [START] LF Search
+2026-01-15 08:40:42 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-15 08:40:42 | INFO     | [DAY_START] Processing 09FEB
+2026-01-15 08:40:42 | INFO     | [lf.day.start] Processing CAI-RUH for 09FEB
+2026-01-15 08:40:43 | INFO     | [lf.day.flights_found] Found 1 flights on 09FEB
+2026-01-15 08:40:47 | INFO     | [lf.flight.extracted] SM469 on 09FEB: BKG=10, LF=5.6%
+2026-01-15 08:40:50 | INFO     | [SUCCESS] Day 09FEB
+2026-01-15 08:40:50 | INFO     | [DAY_START] Processing 08FEB
+2026-01-15 08:40:50 | INFO     | [lf.day.start] Processing CAI-RUH for 08FEB
+2026-01-15 08:40:51 | INFO     | [lf.day.flights_found] Found 1 flights on 08FEB
+2026-01-15 08:40:54 | INFO     | [lf.flight.extracted] SM461 on 08FEB: BKG=9, LF=5.0%
+2026-01-15 08:40:58 | INFO     | [SUCCESS] Day 08FEB
+2026-01-15 08:40:58 | INFO     | [DAY_START] Processing 07FEB
+2026-01-15 08:40:58 | INFO     | [lf.day.start] Processing CAI-RUH for 07FEB
+2026-01-15 08:40:59 | INFO     | [lf.day.flights_found] Found 1 flights on 07FEB
+2026-01-15 08:41:02 | INFO     | [lf.flight.extracted] SM461 on 07FEB: BKG=21, LF=11.7%
+2026-01-15 08:41:06 | INFO     | [SUCCESS] Day 07FEB
+2026-01-15 08:41:06 | INFO     | [DAY_START] Processing 06FEB
+2026-01-15 08:41:06 | INFO     | [lf.day.start] Processing CAI-RUH for 06FEB
+2026-01-15 08:41:07 | INFO     | [lf.day.flights_found] Found 2 flights on 06FEB
+2026-01-15 08:41:10 | INFO     | [lf.flight.extracted] SM461 on 06FEB: BKG=20, LF=11.2%
+2026-01-15 08:41:15 | INFO     | [lf.flight.extracted] SM469 on 06FEB: BKG=14, LF=7.8%
+2026-01-15 08:41:22 | INFO     | [SUCCESS] Day 06FEB
+2026-01-15 08:41:22 | INFO     | [DAY_START] Processing 05FEB
+2026-01-15 08:41:22 | INFO     | [lf.day.start] Processing CAI-RUH for 05FEB
+2026-01-15 08:41:23 | INFO     | [lf.day.flights_found] Found 1 flights on 05FEB
+2026-01-15 08:41:26 | INFO     | [lf.flight.extracted] SM461 on 05FEB: BKG=11, LF=6.2%
+2026-01-15 08:41:29 | INFO     | [SUCCESS] Day 05FEB
+2026-01-15 08:41:29 | INFO     | [DAY_START] Processing 04FEB
+2026-01-15 08:41:29 | INFO     | [lf.day.start] Processing CAI-RUH for 04FEB
+2026-01-15 08:41:30 | INFO     | [lf.day.flights_found] Found 2 flights on 04FEB
+2026-01-15 08:41:33 | INFO     | [lf.flight.extracted] SM461 on 04FEB: BKG=12, LF=6.7%
+2026-01-15 08:41:37 | INFO     | [lf.flight.extracted] SM469 on 04FEB: BKG=11, LF=6.2%
+2026-01-15 08:41:42 | INFO     | [SUCCESS] Day 04FEB
+2026-01-15 08:41:42 | INFO     | [DAY_START] Processing 03FEB
+2026-01-15 08:41:42 | INFO     | [lf.day.start] Processing CAI-RUH for 03FEB
+2026-01-15 08:41:43 | INFO     | [lf.day.flights_found] Found 1 flights on 03FEB
+2026-01-15 08:41:47 | INFO     | [lf.flight.extracted] SM469 on 03FEB: BKG=25, LF=14.0%
+2026-01-15 08:41:51 | INFO     | [SUCCESS] Day 03FEB
+2026-01-15 08:41:51 | INFO     | [DAY_START] Processing 02FEB
+2026-01-15 08:41:51 | INFO     | [lf.day.start] Processing CAI-RUH for 02FEB
+2026-01-15 08:41:52 | INFO     | [lf.day.flights_found] Found 1 flights on 02FEB
+2026-01-15 08:41:54 | INFO     | [lf.flight.extracted] SM469 on 02FEB: BKG=27, LF=15.1%
+2026-01-15 08:41:58 | INFO     | [SUCCESS] Day 02FEB
+2026-01-15 08:41:58 | INFO     | [DAY_START] Processing 01FEB
+2026-01-15 08:41:58 | INFO     | [lf.day.start] Processing CAI-RUH for 01FEB
+2026-01-15 08:42:00 | INFO     | [lf.day.flights_found] Found 1 flights on 01FEB
+2026-01-15 08:42:03 | INFO     | [lf.flight.extracted] SM461 on 01FEB: BKG=34, LF=19.0%
+2026-01-15 08:42:08 | INFO     | [SUCCESS] Day 01FEB
+2026-01-15 08:42:08 | INFO     | [SUCCESS] LF Search Complete
+2026-01-15 08:42:10 | INFO     | [Worker_9223] Completed: CAI-RUH - 9 results, 0 errors
+2026-01-15 08:42:10 | INFO     | [Worker_9223] Processing: CAI-ELQ
+2026-01-15 08:42:10 | INFO     |   Tier 0: Range 2, Chunk 3/3 (9 days)

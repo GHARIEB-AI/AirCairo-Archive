@@ -1,0 +1,159 @@
+{
+  "task_id": "AJF-CAI_r1_chunk2",
+  "saved_at": "2026-01-15T08:38:51.505396",
+  "lf_results": {
+    "2026-02-09": [],
+    "2026-02-08": [],
+    "2026-02-07": [
+      {
+        "Date": "Saturday, February 07, 2026",
+        "Flight": "SM322",
+        "DEP": "21:15",
+        "SOLD": 56,
+        "FULL CAPACITY": 175,
+        "LF%": 0.32,
+        "LowestAvail": "X2",
+        "LASTSOLD": "2026-01-14 00:00:00",
+        "WEEKLY PROGRESS": 17,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 18,
+          "U": 18,
+          "X": 16,
+          "T": 1,
+          "W": 0,
+          "S": 0,
+          "G": 2,
+          "L": 0,
+          "V": 0,
+          "K": 1,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "AJF-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 5,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-02-06": [],
+    "2026-02-05": [
+      {
+        "Date": "Thursday, February 05, 2026",
+        "Flight": "SM322",
+        "DEP": "21:55",
+        "SOLD": 66,
+        "FULL CAPACITY": 175,
+        "LF%": 0.3771,
+        "LowestAvail": "X9",
+        "LASTSOLD": "2026-01-14 00:00:00",
+        "WEEKLY PROGRESS": 21,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 30,
+          "U": 30,
+          "X": 6,
+          "T": 0,
+          "W": 0,
+          "S": 0,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "AJF-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 1,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-02-04": [],
+    "2026-02-03": [
+      {
+        "Date": "Tuesday, February 03, 2026",
+        "Flight": "SM322",
+        "DEP": "11:00",
+        "SOLD": 67,
+        "FULL CAPACITY": 105,
+        "LF%": 0.6381,
+        "LowestAvail": "X9",
+        "LASTSOLD": "2026-01-13 00:00:00",
+        "WEEKLY PROGRESS": 11,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 30,
+          "U": 30,
+          "X": 5,
+          "T": 0,
+          "W": 0,
+          "S": 2,
+          "G": 0,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "E90",
+        "Brd-Off": "AJF-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM322",
+          "sm_route": "AJF-CAI",
+          "sm_dep": "1100",
+          "sm_arr": "1145",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0054",
+              "outbound_route": "CAI-LXR",
+              "outbound_dep": "1530",
+              "passengers": [
+                {
+                  "iata": "JEDSM08AA"
+                },
+                {
+                  "iata": "JEDSM08AA"
+                },
+                {
+                  "iata": "JEDSM08AA"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "2026-02-02": [],
+    "2026-02-01": []
+  },
+  "lf_errors": {}
+}

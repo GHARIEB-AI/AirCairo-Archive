@@ -1,0 +1,50 @@
+2026-01-25 07:15:53 | INFO     | ======================================================================
+2026-01-25 07:15:53 | INFO     | Load Factor Scraper Started - Route: HBE-JED
+2026-01-25 07:15:53 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\logs\LF_HBE-JED_20260125_071553.log
+2026-01-25 07:15:53 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-25 07:15:53 | INFO     | ======================================================================
+2026-01-25 07:15:53 | INFO     | Starting LF search for route: HBE-JED
+2026-01-25 07:15:53 | INFO     | [START] LF Search
+2026-01-25 07:15:54 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-25 07:15:54 | INFO     | [DAY_START] Processing 14MAY
+2026-01-25 07:15:54 | INFO     | [lf.day.start] Processing HBE-JED for 14MAY
+2026-01-25 07:15:55 | INFO     | [lf.day.flights_found] Found 1 flights on 14MAY
+2026-01-25 07:15:57 | INFO     | [lf.flight.extracted] SM451 on 14MAY: BKG=2, LF=1.1%
+2026-01-25 07:16:00 | INFO     | [SUCCESS] Day 14MAY
+2026-01-25 07:16:00 | INFO     | [DAY_START] Processing 13MAY
+2026-01-25 07:16:00 | INFO     | [lf.day.start] Processing HBE-JED for 13MAY
+2026-01-25 07:16:01 | INFO     | [lf.day.flights_found] Found 1 flights on 13MAY
+2026-01-25 07:16:03 | INFO     | [lf.flight.extracted] SM451 on 13MAY: BKG=1, LF=0.6%
+2026-01-25 07:16:06 | INFO     | [SUCCESS] Day 13MAY
+2026-01-25 07:16:06 | INFO     | [DAY_START] Processing 12MAY
+2026-01-25 07:16:06 | INFO     | [lf.day.start] Processing HBE-JED for 12MAY
+2026-01-25 07:16:07 | WARNING  | [lf.day.no_flights] No direct flights on 12MAY
+2026-01-25 07:16:07 | INFO     | [SUCCESS] Day 12MAY
+2026-01-25 07:16:07 | INFO     | [DAY_START] Processing 11MAY
+2026-01-25 07:16:07 | INFO     | [lf.day.start] Processing HBE-JED for 11MAY
+2026-01-25 07:16:08 | INFO     | [lf.day.flights_found] Found 1 flights on 11MAY
+2026-01-25 07:16:10 | INFO     | [lf.flight.extracted] SM451 on 11MAY: BKG=0, LF=0.0%
+2026-01-25 07:16:11 | INFO     | [SUCCESS] Day 11MAY
+2026-01-25 07:16:11 | INFO     | [DAY_START] Processing 10MAY
+2026-01-25 07:16:11 | INFO     | [lf.day.start] Processing HBE-JED for 10MAY
+2026-01-25 07:16:12 | INFO     | [lf.day.flights_found] Found 1 flights on 10MAY
+2026-01-25 07:16:14 | INFO     | [lf.flight.extracted] SM451 on 10MAY: BKG=0, LF=0.0%
+2026-01-25 07:16:15 | INFO     | [SUCCESS] Day 10MAY
+2026-01-25 07:16:15 | INFO     | [DAY_START] Processing 09MAY
+2026-01-25 07:16:15 | INFO     | [lf.day.start] Processing HBE-JED for 09MAY
+2026-01-25 07:16:16 | INFO     | [lf.day.flights_found] Found 1 flights on 09MAY
+2026-01-25 07:16:18 | INFO     | [lf.flight.extracted] SM451 on 09MAY: BKG=2, LF=1.1%
+2026-01-25 07:16:21 | INFO     | [SUCCESS] Day 09MAY
+2026-01-25 07:16:21 | INFO     | [DAY_START] Processing 08MAY
+2026-01-25 07:16:21 | INFO     | [lf.day.start] Processing HBE-JED for 08MAY
+2026-01-25 07:16:22 | WARNING  | [lf.day.no_flights] No direct flights on 08MAY
+2026-01-25 07:16:22 | INFO     | [SUCCESS] Day 08MAY
+2026-01-25 07:16:22 | INFO     | [DAY_START] Processing 07MAY
+2026-01-25 07:16:22 | INFO     | [lf.day.start] Processing HBE-JED for 07MAY
+2026-01-25 07:16:24 | INFO     | [lf.day.flights_found] Found 1 flights on 07MAY
+2026-01-25 07:16:26 | INFO     | [lf.flight.extracted] SM451 on 07MAY: BKG=0, LF=0.0%
+2026-01-25 07:16:27 | INFO     | [SUCCESS] Day 07MAY
+2026-01-25 07:16:27 | INFO     | [SUCCESS] LF Search Complete
+2026-01-25 07:16:27 | INFO     | [Worker_9225] Completed: HBE-JED - 8 results, 0 errors
+2026-01-25 07:16:28 | INFO     | [Worker_9225] Processing: CAI-YNB
+2026-01-25 07:16:28 | INFO     |   Tier 0: Range 4, Chunk 3/4 (8 days)

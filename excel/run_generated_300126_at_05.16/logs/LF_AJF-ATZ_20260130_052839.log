@@ -1,0 +1,52 @@
+2026-01-30 05:28:39 | INFO     | ======================================================================
+2026-01-30 05:28:39 | INFO     | Load Factor Scraper Started - Route: AJF-ATZ
+2026-01-30 05:28:39 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_AJF-ATZ_20260130_052839.log
+2026-01-30 05:28:39 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 05:28:39 | INFO     | ======================================================================
+2026-01-30 05:28:39 | INFO     | Starting LF search for route: AJF-ATZ
+2026-01-30 05:28:39 | INFO     | [START] LF Search
+2026-01-30 05:28:40 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 05:28:40 | INFO     | [DAY_START] Processing 19APR
+2026-01-30 05:28:40 | INFO     | [lf.day.start] Processing AJF-ATZ for 19APR
+2026-01-30 05:28:41 | WARNING  | [lf.day.no_flights] No direct flights on 19APR
+2026-01-30 05:28:41 | INFO     | [SUCCESS] Day 19APR
+2026-01-30 05:28:41 | INFO     | [DAY_START] Processing 18APR
+2026-01-30 05:28:41 | INFO     | [lf.day.start] Processing AJF-ATZ for 18APR
+2026-01-30 05:28:42 | WARNING  | [lf.day.no_flights] No direct flights on 18APR
+2026-01-30 05:28:42 | INFO     | [SUCCESS] Day 18APR
+2026-01-30 05:28:42 | INFO     | [DAY_START] Processing 17APR
+2026-01-30 05:28:42 | INFO     | [lf.day.start] Processing AJF-ATZ for 17APR
+2026-01-30 05:28:43 | WARNING  | [lf.day.no_flights] No direct flights on 17APR
+2026-01-30 05:28:43 | INFO     | [SUCCESS] Day 17APR
+2026-01-30 05:28:43 | INFO     | [DAY_START] Processing 16APR
+2026-01-30 05:28:43 | INFO     | [lf.day.start] Processing AJF-ATZ for 16APR
+2026-01-30 05:28:44 | WARNING  | [lf.day.no_flights] No direct flights on 16APR
+2026-01-30 05:28:44 | INFO     | [SUCCESS] Day 16APR
+2026-01-30 05:28:44 | INFO     | [DAY_START] Processing 15APR
+2026-01-30 05:28:44 | INFO     | [lf.day.start] Processing AJF-ATZ for 15APR
+2026-01-30 05:28:45 | WARNING  | [lf.day.no_flights] No direct flights on 15APR
+2026-01-30 05:28:45 | INFO     | [SUCCESS] Day 15APR
+2026-01-30 05:28:45 | INFO     | [DAY_START] Processing 14APR
+2026-01-30 05:28:45 | INFO     | [lf.day.start] Processing AJF-ATZ for 14APR
+2026-01-30 05:28:47 | WARNING  | [lf.day.no_flights] No direct flights on 14APR
+2026-01-30 05:28:47 | INFO     | [SUCCESS] Day 14APR
+2026-01-30 05:28:47 | INFO     | [DAY_START] Processing 13APR
+2026-01-30 05:28:47 | INFO     | [lf.day.start] Processing AJF-ATZ for 13APR
+2026-01-30 05:28:48 | WARNING  | [lf.day.no_flights] No direct flights on 13APR
+2026-01-30 05:28:48 | INFO     | [SUCCESS] Day 13APR
+2026-01-30 05:28:48 | INFO     | [DAY_START] Processing 12APR
+2026-01-30 05:28:48 | INFO     | [lf.day.start] Processing AJF-ATZ for 12APR
+2026-01-30 05:28:49 | WARNING  | [lf.day.no_flights] No direct flights on 12APR
+2026-01-30 05:28:49 | INFO     | [SUCCESS] Day 12APR
+2026-01-30 05:28:49 | INFO     | [DAY_START] Processing 11APR
+2026-01-30 05:28:49 | INFO     | [lf.day.start] Processing AJF-ATZ for 11APR
+2026-01-30 05:28:50 | WARNING  | [lf.day.no_flights] No direct flights on 11APR
+2026-01-30 05:28:50 | INFO     | [SUCCESS] Day 11APR
+2026-01-30 05:28:50 | INFO     | [DAY_START] Processing 10APR
+2026-01-30 05:28:50 | INFO     | [lf.day.start] Processing AJF-ATZ for 10APR
+2026-01-30 05:28:51 | WARNING  | [lf.day.no_flights] No direct flights on 10APR
+2026-01-30 05:28:51 | INFO     | [SUCCESS] Day 10APR
+2026-01-30 05:28:51 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 05:28:51 | INFO     | [Worker_9226] Completed: AJF-ATZ - 10 results, 0 errors
+2026-01-30 05:28:51 | INFO     | [Worker_9226] Processing: ELQ-CAI
+2026-01-30 05:28:51 | INFO     |   Tier 0: Range 3, Chunk 2/3 (10 days)

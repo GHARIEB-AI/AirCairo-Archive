@@ -1,0 +1,249 @@
+
+============================================================
+     LF WORKER - PORT 9224
+============================================================
+Worker: Worker_9224
+Status: READY
+Waiting for tasks...
+============================================================
+
+
+============================================================
+[Worker_9224] Processing: MED-ATZ
+  Tier 0: Range 3, Chunk 1/3
+  Dates: 617 days
+  Date Range: 2031-03-31 to 2029-07-23
+============================================================
+
+2026-01-16 06:39:29 | INFO     | ======================================================================
+2026-01-16 06:39:29 | INFO     | Load Factor Scraper Started - Route: MED-ATZ
+2026-01-16 06:39:29 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_160126_at_06.39\logs\LF_MED-ATZ_20260116_063929.log
+2026-01-16 06:39:29 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-16 06:39:29 | INFO     | ======================================================================
+[LF] Processing dates (override): ['31MAR', '30MAR', '29MAR', '28MAR', '27MAR', '26MAR', '25MAR', '24MAR', '23MAR', '22MAR', '21MAR', '20MAR', '19MAR', '18MAR', '17MAR', '16MAR', '15MAR', '14MAR', '13MAR', '12MAR', '11MAR', '10MAR', '09MAR', '08MAR', '07MAR', '06MAR', '05MAR', '04MAR', '03MAR', '02MAR', '01MAR', '28FEB', '27FEB', '26FEB', '25FEB', '24FEB', '23FEB', '22FEB', '21FEB', '20FEB', '19FEB', '18FEB', '17FEB', '16FEB', '15FEB', '14FEB', '13FEB', '12FEB', '11FEB', '10FEB', '09FEB', '08FEB', '07FEB', '06FEB', '05FEB', '04FEB', '03FEB', '02FEB', '01FEB', '31JAN', '30JAN', '29JAN', '28JAN', '27JAN', '26JAN', '25JAN', '24JAN', '23JAN', '22JAN', '21JAN', '20JAN', '19JAN', '18JAN', '17JAN', '16JAN', '15JAN', '14JAN', '13JAN', '12JAN', '11JAN', '10JAN', '09JAN', '08JAN', '07JAN', '06JAN', '05JAN', '04JAN', '03JAN', '02JAN', '01JAN', '31DEC', '30DEC', '29DEC', '28DEC', '27DEC', '26DEC', '25DEC', '24DEC', '23DEC', '22DEC', '21DEC', '20DEC', '19DEC', '18DEC', '17DEC', '16DEC', '15DEC', '14DEC', '13DEC', '12DEC', '11DEC', '10DEC', '09DEC', '08DEC', '07DEC', '06DEC', '05DEC', '04DEC', '03DEC', '02DEC', '01DEC', '30NOV', '29NOV', '28NOV', '27NOV', '26NOV', '25NOV', '24NOV', '23NOV', '22NOV', '21NOV', '20NOV', '19NOV', '18NOV', '17NOV', '16NOV', '15NOV', '14NOV', '13NOV', '12NOV', '11NOV', '10NOV', '09NOV', '08NOV', '07NOV', '06NOV', '05NOV', '04NOV', '03NOV', '02NOV', '01NOV', '31OCT', '30OCT', '29OCT', '28OCT', '27OCT', '26OCT', '25OCT', '24OCT', '23OCT', '22OCT', '21OCT', '20OCT', '19OCT', '18OCT', '17OCT', '16OCT', '15OCT', '14OCT', '13OCT', '12OCT', '11OCT', '10OCT', '09OCT', '08OCT', '07OCT', '06OCT', '05OCT', '04OCT', '03OCT', '02OCT', '01OCT', '30SEP', '29SEP', '28SEP', '27SEP', '26SEP', '25SEP', '24SEP', '23SEP', '22SEP', '21SEP', '20SEP', '19SEP', '18SEP', '17SEP', '16SEP', '15SEP', '14SEP', '13SEP', '12SEP', '11SEP', '10SEP', '09SEP', '08SEP', '07SEP', '06SEP', '05SEP', '04SEP', '03SEP', '02SEP', '01SEP', '31AUG', '30AUG', '29AUG', '28AUG', '27AUG', '26AUG', '25AUG', '24AUG', '23AUG', '22AUG', '21AUG', '20AUG', '19AUG', '18AUG', '17AUG', '16AUG', '15AUG', '14AUG', '13AUG', '12AUG', '11AUG', '10AUG', '09AUG', '08AUG', '07AUG', '06AUG', '05AUG', '04AUG', '03AUG', '02AUG', '01AUG', '31JUL', '30JUL', '29JUL', '28JUL', '27JUL', '26JUL', '25JUL', '24JUL', '23JUL', '22JUL', '21JUL', '20JUL', '19JUL', '18JUL', '17JUL', '16JUL', '15JUL', '14JUL', '13JUL', '12JUL', '11JUL', '10JUL', '09JUL', '08JUL', '07JUL', '06JUL', '05JUL', '04JUL', '03JUL', '02JUL', '01JUL', '30JUN', '29JUN', '28JUN', '27JUN', '26JUN', '25JUN', '24JUN', '23JUN', '22JUN', '21JUN', '20JUN', '19JUN', '18JUN', '17JUN', '16JUN', '15JUN', '14JUN', '13JUN', '12JUN', '11JUN', '10JUN', '09JUN', '08JUN', '07JUN', '06JUN', '05JUN', '04JUN', '03JUN', '02JUN', '01JUN', '31MAY', '30MAY', '29MAY', '28MAY', '27MAY', '26MAY', '25MAY', '24MAY', '23MAY', '22MAY', '21MAY', '20MAY', '19MAY', '18MAY', '17MAY', '16MAY', '15MAY', '14MAY', '13MAY', '12MAY', '11MAY', '10MAY', '09MAY', '08MAY', '07MAY', '06MAY', '05MAY', '04MAY', '03MAY', '02MAY', '01MAY', '30APR', '29APR', '28APR', '27APR', '26APR', '25APR', '24APR', '23APR', '22APR', '21APR', '20APR', '19APR', '18APR', '17APR', '16APR', '15APR', '14APR', '13APR', '12APR', '11APR', '10APR', '09APR', '08APR', '07APR', '06APR', '05APR', '04APR', '03APR', '02APR', '01APR', '31MAR', '30MAR', '29MAR', '28MAR', '27MAR', '26MAR', '25MAR', '24MAR', '23MAR', '22MAR', '21MAR', '20MAR', '19MAR', '18MAR', '17MAR', '16MAR', '15MAR', '14MAR', '13MAR', '12MAR', '11MAR', '10MAR', '09MAR', '08MAR', '07MAR', '06MAR', '05MAR', '04MAR', '03MAR', '02MAR', '01MAR', '28FEB', '27FEB', '26FEB', '25FEB', '24FEB', '23FEB', '22FEB', '21FEB', '20FEB', '19FEB', '18FEB', '17FEB', '16FEB', '15FEB', '14FEB', '13FEB', '12FEB', '11FEB', '10FEB', '09FEB', '08FEB', '07FEB', '06FEB', '05FEB', '04FEB', '03FEB', '02FEB', '01FEB', '31JAN', '30JAN', '29JAN', '28JAN', '27JAN', '26JAN', '25JAN', '24JAN', '23JAN', '22JAN', '21JAN', '20JAN', '19JAN', '18JAN', '17JAN', '16JAN', '15JAN', '14JAN', '13JAN', '12JAN', '11JAN', '10JAN', '09JAN', '08JAN', '07JAN', '06JAN', '05JAN', '04JAN', '03JAN', '02JAN', '01JAN', '31DEC', '30DEC', '29DEC', '28DEC', '27DEC', '26DEC', '25DEC', '24DEC', '23DEC', '22DEC', '21DEC', '20DEC', '19DEC', '18DEC', '17DEC', '16DEC', '15DEC', '14DEC', '13DEC', '12DEC', '11DEC', '10DEC', '09DEC', '08DEC', '07DEC', '06DEC', '05DEC', '04DEC', '03DEC', '02DEC', '01DEC', '30NOV', '29NOV', '28NOV', '27NOV', '26NOV', '25NOV', '24NOV', '23NOV', '22NOV', '21NOV', '20NOV', '19NOV', '18NOV', '17NOV', '16NOV', '15NOV', '14NOV', '13NOV', '12NOV', '11NOV', '10NOV', '09NOV', '08NOV', '07NOV', '06NOV', '05NOV', '04NOV', '03NOV', '02NOV', '01NOV', '31OCT', '30OCT', '29OCT', '28OCT', '27OCT', '26OCT', '25OCT', '24OCT', '23OCT', '22OCT', '21OCT', '20OCT', '19OCT', '18OCT', '17OCT', '16OCT', '15OCT', '14OCT', '13OCT', '12OCT', '11OCT', '10OCT', '09OCT', '08OCT', '07OCT', '06OCT', '05OCT', '04OCT', '03OCT', '02OCT', '01OCT', '30SEP', '29SEP', '28SEP', '27SEP', '26SEP', '25SEP', '24SEP', '23SEP', '22SEP', '21SEP', '20SEP', '19SEP', '18SEP', '17SEP', '16SEP', '15SEP', '14SEP', '13SEP', '12SEP', '11SEP', '10SEP', '09SEP', '08SEP', '07SEP', '06SEP', '05SEP', '04SEP', '03SEP', '02SEP', '01SEP', '31AUG', '30AUG', '29AUG', '28AUG', '27AUG', '26AUG', '25AUG', '24AUG', '23AUG', '22AUG', '21AUG', '20AUG', '19AUG', '18AUG', '17AUG', '16AUG', '15AUG', '14AUG', '13AUG', '12AUG', '11AUG', '10AUG', '09AUG', '08AUG', '07AUG', '06AUG', '05AUG', '04AUG', '03AUG', '02AUG', '01AUG', '31JUL', '30JUL', '29JUL', '28JUL', '27JUL', '26JUL', '25JUL', '24JUL', '23JUL']
+[LF] Attaching to Chrome for Altea access
+[LF][[OK] SUCCESS] Connected to Chrome on 127.0.0.1:9224 (after 1 attempts)
+[LF][[OK] SUCCESS] Found Amadeus Altea window: Altéa Reservation Desktop
+[LF][[INFO] INFO] URL: https://tc212.resdesktop.altea.amadeus.com/app_ard/apf/init/login?SITE=ESMPESMP&LANGUAGE=GB&MARKETS=ARDW_PROD_WBP&ACTION=clpLogin
+[LF] Processing MED-ATZ for 31MAR
+[LF][ERROR] Amadeus command error detected: UNKNOWN TRANSACTION
+[LF][ERROR] Command: SN31MARMEDATZ/ASM
+[LF][RESYNC] Triggering immediate resync to last successful SN command
+============================================================
+[LF][RESYNC] Command 'SN31MARMEDATZ/ASM' failed: TECH_ERROR:UNKNOWN TRANSACTION
+[LF][RESYNC] Re-running entire day from SN command for MED-ATZ 31MAR
+[LF][RESYNC] Attempt 1/50 (waiting 1.0s before retry...)
+============================================================
+[LF][RESYNC] Sending IG to clear session state...
+[LF][RESYNC] Session cleared with IG
+[LF] Processing MED-ATZ for 31MAR
+[LF] No direct flights on 31MAR for MED-ATZ
+[LF] Processing MED-ATZ for 30MAR
+[LF] No direct flights on 30MAR for MED-ATZ
+[LF] Processing MED-ATZ for 29MAR
+[LF] 29MAR: found 1 direct flights
+[LF] SM488 29MAR: BKG=154, GRP=135, CAP=175, LF%=88.0%, Brd-Off=MED-ATZ, Classes: P:135, I:17, O:1, Y:1
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM488 29MAR: LASTSOLD=2030-12-30 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 28MAR
+[LF] 28MAR: found 1 direct flights
+[LF] SM488 28MAR: BKG=183, GRP=180, CAP=175, LF%=104.6%, Brd-Off=MED-ATZ, Classes: P:180, S:1, L:2
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM488 28MAR: LASTSOLD=2030-12-28 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 27MAR
+[LF] 27MAR: found 1 direct flights
+[LF] SM964 27MAR: BKG=180, GRP=180, CAP=167, LF%=107.8%, Brd-Off=MED-ATZ, Classes: P:180
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM964 27MAR: LASTSOLD=2030-12-28 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 26MAR
+[LF] No direct flights on 26MAR for MED-ATZ
+[LF] Processing MED-ATZ for 25MAR
+[LF] 25MAR: found 1 direct flights
+[LF] SM490 25MAR: BKG=138, GRP=135, CAP=172, LF%=80.2%, Brd-Off=MED-ATZ, Classes: P:135, Y:3
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM490 25MAR: LASTSOLD=2030-12-28 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 24MAR
+[LF] 24MAR: found 1 direct flights
+[LF] SM488 24MAR: BKG=181, GRP=180, CAP=175, LF%=103.4%, Brd-Off=MED-ATZ, Classes: P:180, Y:1
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM488 24MAR: LASTSOLD=2030-12-28 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 23MAR
+[LF] 23MAR: found 2 direct flights
+[LF] SM964 23MAR: BKG=180, GRP=180, CAP=167, LF%=107.8%, Brd-Off=MED-ATZ, Classes: P:180
+[LF] SM488 23MAR: BKG=140, GRP=135, CAP=175, LF%=80.0%, Brd-Off=MED-ATZ, Classes: P:135, L:5
+[LF] Getting WEEKLY/LASTSOLD data for 2 flights
+[LF] SM964 23MAR: LASTSOLD=2030-12-28 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM488 23MAR: LASTSOLD=2030-12-28 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 22MAR
+[LF] No direct flights on 22MAR for MED-ATZ
+[LF] Processing MED-ATZ for 21MAR
+[LF] 21MAR: found 1 direct flights
+[LF] SM488 21MAR: BKG=145, GRP=135, CAP=172, LF%=84.3%, Brd-Off=MED-ATZ, Classes: P:135, K:3, H:3, M:4
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM488 21MAR: LASTSOLD=2030-12-26 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 20MAR
+[LF] 20MAR: found 1 direct flights
+[LF] SM964 20MAR: BKG=135, GRP=135, CAP=167, LF%=80.8%, Brd-Off=MED-ATZ, Classes: P:135
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM964 20MAR: LASTSOLD=2030-01-04 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 19MAR
+[LF] No direct flights on 19MAR for MED-ATZ
+[LF] Processing MED-ATZ for 18MAR
+[LF] 18MAR: 1 cancelled flight(s) detected from SN
+[LF] No direct flights on 18MAR for MED-ATZ
+[LF] Processing MED-ATZ for 17MAR
+[LF] 17MAR: found 1 direct flights
+[LF] SM488 17MAR: BKG=12, GRP=0, CAP=175, LF%=6.9%, Brd-Off=MED-ATZ, Classes: K:5, Q:5, H:1, M:1
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM488 17MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 16MAR
+[LF] 16MAR: found 1 direct flights
+[LF] SM488 16MAR: BKG=15, GRP=0, CAP=172, LF%=8.7%, Brd-Off=MED-ATZ, Classes: S:7, K:2, Q:6
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM488 16MAR: LASTSOLD=2030-12-24 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 15MAR
+[LF] No direct flights on 15MAR for MED-ATZ
+[LF] Processing MED-ATZ for 14MAR
+[LF] 14MAR: found 1 direct flights
+[LF] SM488 14MAR: BKG=8, GRP=0, CAP=168, LF%=4.8%, Brd-Off=MED-ATZ, Classes: S:3, K:5
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM488 14MAR: LASTSOLD=2030-12-25 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 13MAR
+[LF] No direct flights on 13MAR for MED-ATZ
+[LF] Processing MED-ATZ for 12MAR
+[LF] No direct flights on 12MAR for MED-ATZ
+[LF] Processing MED-ATZ for 11MAR
+[LF] 11MAR: found 1 direct flights
+[LF] SM490 11MAR: BKG=31, GRP=0, CAP=175, LF%=17.7%, Brd-Off=MED-ATZ, Classes: T:9, W:8, S:10, K:4
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM490 11MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 10MAR
+[LF] 10MAR: found 1 direct flights
+[LF] SM488 10MAR: BKG=17, GRP=0, CAP=175, LF%=9.7%, Brd-Off=MED-ATZ, Classes: T:9, W:8
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM488 10MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 09MAR
+[LF] 09MAR: found 1 direct flights
+[LF] SM488 09MAR: BKG=10, GRP=0, CAP=175, LF%=5.7%, Brd-Off=MED-ATZ, Classes: T:9, W:1
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM488 09MAR: LASTSOLD=2030-12-23 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 08MAR
+[LF] No direct flights on 08MAR for MED-ATZ
+[LF] Processing MED-ATZ for 07MAR
+[LF] 07MAR: found 1 direct flights
+[LF] SM488 07MAR: BKG=13, GRP=0, CAP=175, LF%=7.4%, Brd-Off=MED-ATZ, Classes: T:7, W:4, S:2
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM488 07MAR: LASTSOLD=2030-12-27 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 06MAR
+[LF] No direct flights on 06MAR for MED-ATZ
+[LF] Processing MED-ATZ for 05MAR
+[LF] No direct flights on 05MAR for MED-ATZ
+[LF] Processing MED-ATZ for 04MAR
+[LF] 04MAR: found 1 direct flights
+[LF] SM490 04MAR: BKG=32, GRP=0, CAP=175, LF%=18.3%, Brd-Off=MED-ATZ, Classes: I:9, O:8, U:9, X:2, S:4
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM490 04MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 03MAR
+[LF] 03MAR: found 1 direct flights
+[LF] SM488 03MAR: BKG=17, GRP=0, CAP=168, LF%=10.1%, Brd-Off=MED-ATZ, Classes: I:9, O:8
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM488 03MAR: LASTSOLD=2030-12-30 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 02MAR
+[LF] 02MAR: found 1 direct flights
+[LF] SM488 02MAR: BKG=22, GRP=0, CAP=175, LF%=12.6%, Brd-Off=MED-ATZ, Classes: I:9, O:5, X:8
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM488 02MAR: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 01MAR
+[LF] No direct flights on 01MAR for MED-ATZ
+[LF] Processing MED-ATZ for 28FEB
+[LF] 28FEB: found 1 direct flights
+[LF] SM488 28FEB: BKG=166, GRP=135, CAP=175, LF%=94.9%, Brd-Off=MED-ATZ, Classes: P:135, I:9, O:4, X:14, K:4
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM488 28FEB: LASTSOLD=2030-12-21 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 27FEB
+[LF] No direct flights on 27FEB for MED-ATZ
+[LF] Processing MED-ATZ for 26FEB
+[LF] No direct flights on 26FEB for MED-ATZ
+[LF] Processing MED-ATZ for 25FEB
+[LF] 25FEB: found 1 direct flights
+[LF] SM490 25FEB: BKG=148, GRP=135, CAP=175, LF%=84.6%, Brd-Off=MED-ATZ, Classes: P:135, I:5, O:1, X:5, K:2
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM490 25FEB: LASTSOLD=2030-12-28 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 24FEB
+[LF] 24FEB: found 1 direct flights
+[LF] SM488 24FEB: BKG=141, GRP=135, CAP=175, LF%=80.6%, Brd-Off=MED-ATZ, Classes: P:135, I:6
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM488 24FEB: LASTSOLD=2030-12-28 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 23FEB
+[LF] 23FEB: found 2 direct flights
+[LF] SM964 23FEB: BKG=90, GRP=90, CAP=167, LF%=53.9%, Brd-Off=MED-ATZ, Classes: P:90
+[LF] SM488 23FEB: BKG=149, GRP=135, CAP=175, LF%=85.1%, Brd-Off=MED-ATZ, Classes: P:135, I:9, O:4, S:1
+[LF] Getting WEEKLY/LASTSOLD data for 2 flights
+[LF] SM964 23FEB: LASTSOLD=2030-01-06 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] SM488 23FEB: LASTSOLD=2030-12-28 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 22FEB
+[LF] 22FEB: 1 cancelled flight(s) detected from SN
+[LF] 22FEB: found 1 direct flights
+[LF] SM982 22FEB: BKG=135, GRP=135, CAP=175, LF%=77.1%, Brd-Off=MED-ATZ, Classes: P:135
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM982 22FEB: LASTSOLD=2030-01-04 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 21FEB
+[LF] 21FEB: found 1 direct flights
+[LF] SM488 21FEB: BKG=143, GRP=135, CAP=175, LF%=81.7%, Brd-Off=MED-ATZ, Classes: P:135, X:1, L:5, K:2
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM488 21FEB: LASTSOLD=2030-12-31 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 20FEB
+[LF] 20FEB: found 1 direct flights
+[LF] SM964 20FEB: BKG=0, GRP=0, CAP=167, LF%=0.0%, Brd-Off=MED-ATZ
+[LF] Processing MED-ATZ for 19FEB
+[LF] No direct flights on 19FEB for MED-ATZ
+[LF] Processing MED-ATZ for 18FEB
+[LF] 18FEB: found 1 direct flights
+[LF] SM490 18FEB: BKG=19, GRP=0, CAP=175, LF%=10.9%, Brd-Off=MED-ATZ, Classes: I:17, O:2
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+[LF] SM490 18FEB: LASTSOLD=2030-12-28 00:00:00, WEEKLY=0, TODAY=0, YDAY=0
+[LF] Processing MED-ATZ for 17FEB
+[LF] 17FEB: found 1 direct flights
+[LF] SM488 17FEB: BKG=38, GRP=0, CAP=175, LF%=21.7%, Brd-Off=MED-ATZ, Classes: I:17, O:17, U:2, X:2
+[LF] Getting WEEKLY/LASTSOLD data for 1 flights
+Process Process-4:
+Traceback (most recent call last):
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\process.py", line 313, in _bootstrap
+    self.run()
+    ~~~~~~~~^^
+  File "C:\Users\MANDO\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CODERED\LAB\market_insights\orchestration\queue_worker_system.py", line 587, in lf_worker_process
+    results, errors = run_lf_search(
+                      ~~~~~~~~~~~~~^
+        origin=origin,
+        ^^^^^^^^^^^^^^
+    ...<3 lines>...
+        progress_callback=heartbeat_callback
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\CODERED\LAB\market_insights\lf\orchestration.py", line 771, in run_lf_search
+    dtok, rows, err = process_lf_day(drv, origin, dest, dtok, year_for_token)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CODERED\LAB\market_insights\lf\orchestration.py", line 287, in process_lf_day
+    return handle_amadeus_error_with_resync(
+        drv, origin, dest, dtok, year,
+        _process_lf_day_once,
+        resync_wait_sec=RESYNC_WAIT_SEC
+    )
+  File "D:\CODERED\LAB\market_insights\lf\amadeus.py", line 224, in handle_amadeus_error_with_resync
+    result = process_func(drv, origin, dest, dtok, year)
+  File "D:\CODERED\LAB\market_insights\lf\orchestration.py", line 483, in _process_lf_day_once
+    last_sold, weekly_sold, sold_today, sold_yesterday = weekly_from_lpl_pages(drv, flight, dtok, year_)
+                                                         ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CODERED\LAB\market_insights\lf\parsers.py", line 870, in weekly_from_lpl_pages
+    first = send_and_wait(drv, cmd, expect_tokens=[flight, dtok], timeout=SEND_TIMEOUT_SEC) or ""
+            ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CODERED\LAB\market_insights\lf\amadeus.py", line 760, in send_and_wait
+    inp = focus_cmdline(drv)
+  File "D:\CODERED\LAB\market_insights\lf\amadeus.py", line 422, in focus_cmdline
+    time.sleep(0.15)
+    ~~~~~~~~~~^^^^^^
+KeyboardInterrupt

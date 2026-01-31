@@ -1,0 +1,69 @@
+2026-01-11 00:38:19 | INFO     | ======================================================================
+2026-01-11 00:38:19 | INFO     | Load Factor Scraper Started - Route: YNB-CAI
+2026-01-11 00:38:19 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_110126_at_00.36\logs\LF_YNB-CAI_20260111_003819.log
+2026-01-11 00:38:19 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-11 00:38:19 | INFO     | ======================================================================
+2026-01-11 00:38:19 | INFO     | Starting LF search for route: YNB-CAI
+2026-01-11 00:38:19 | INFO     | [START] LF Search
+2026-01-11 00:38:20 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-11 00:38:20 | INFO     | [DAY_START] Processing 28FEB
+2026-01-11 00:38:20 | INFO     | [lf.day.start] Processing YNB-CAI for 28FEB
+2026-01-11 00:38:21 | INFO     | [lf.day.flights_found] Found 1 flights on 28FEB
+2026-01-11 00:38:23 | INFO     | [lf.flight.extracted] SM442 on 28FEB: BKG=17, LF=9.7%
+2026-01-11 00:38:25 | INFO     | [SUCCESS] Day 28FEB
+2026-01-11 00:38:25 | INFO     | [DAY_START] Processing 27FEB
+2026-01-11 00:38:25 | INFO     | [lf.day.start] Processing YNB-CAI for 27FEB
+2026-01-11 00:38:26 | INFO     | [lf.day.flights_found] Found 1 flights on 27FEB
+2026-01-11 00:38:28 | INFO     | [lf.flight.extracted] SM442 on 27FEB: BKG=158, LF=90.3%
+2026-01-11 00:38:31 | INFO     | [SUCCESS] Day 27FEB
+2026-01-11 00:38:31 | INFO     | [DAY_START] Processing 26FEB
+2026-01-11 00:38:31 | INFO     | [lf.day.start] Processing YNB-CAI for 26FEB
+2026-01-11 00:38:32 | INFO     | [lf.day.flights_found] Found 1 flights on 26FEB
+2026-01-11 00:38:37 | INFO     | [lf.flight.extracted] SM442 on 26FEB: BKG=158, LF=90.3%
+2026-01-11 00:38:40 | INFO     | [SUCCESS] Day 26FEB
+2026-01-11 00:38:40 | INFO     | [DAY_START] Processing 25FEB
+2026-01-11 00:38:40 | INFO     | [lf.day.start] Processing YNB-CAI for 25FEB
+2026-01-11 00:38:41 | INFO     | [lf.day.flights_found] Found 1 flights on 25FEB
+2026-01-11 00:38:43 | INFO     | [lf.flight.extracted] SM442 on 25FEB: BKG=150, LF=85.7%
+2026-01-11 00:38:45 | INFO     | [SUCCESS] Day 25FEB
+2026-01-11 00:38:45 | INFO     | [DAY_START] Processing 24FEB
+2026-01-11 00:38:45 | INFO     | [lf.day.start] Processing YNB-CAI for 24FEB
+2026-01-11 00:38:46 | INFO     | [lf.day.flights_found] Found 2 flights on 24FEB
+2026-01-11 00:38:48 | INFO     | [lf.flight.extracted] SM942 on 24FEB: BKG=180, LF=107.8%
+2026-01-11 00:38:51 | INFO     | [lf.flight.extracted] SM442 on 24FEB: BKG=149, LF=85.1%
+2026-01-11 00:38:54 | INFO     | [SUCCESS] Day 24FEB
+2026-01-11 00:38:54 | INFO     | [DAY_START] Processing 23FEB
+2026-01-11 00:38:54 | INFO     | [lf.day.start] Processing YNB-CAI for 23FEB
+2026-01-11 00:38:55 | INFO     | [lf.day.flights_found] Found 3 flights on 23FEB
+2026-01-11 00:38:57 | INFO     | [lf.flight.extracted] SM986 on 23FEB: BKG=170, LF=101.8%
+2026-01-11 00:39:00 | INFO     | [lf.flight.extracted] SM932 on 23FEB: BKG=0, LF=0.0%
+2026-01-11 00:39:03 | INFO     | [lf.flight.extracted] SM442 on 23FEB: BKG=102, LF=58.3%
+2026-01-11 00:39:07 | INFO     | [SUCCESS] Day 23FEB
+2026-01-11 00:39:07 | INFO     | [DAY_START] Processing 22FEB
+2026-01-11 00:39:07 | INFO     | [lf.day.start] Processing YNB-CAI for 22FEB
+2026-01-11 00:39:08 | INFO     | [lf.day.flights_found] Found 3 flights on 22FEB
+2026-01-11 00:39:10 | INFO     | [lf.flight.extracted] SM442 on 22FEB: BKG=90, LF=51.4%
+2026-01-11 00:39:13 | INFO     | [lf.flight.extracted] SM988 on 22FEB: BKG=80, LF=47.9%
+2026-01-11 00:39:16 | INFO     | [lf.flight.extracted] SM956 on 22FEB: BKG=0, LF=0.0%
+2026-01-11 00:39:19 | ERROR    | Atomic write failed for D:\CODERED\LAB\Artifacts\outputs\run_generated_110126_at_00.36\checkpoints\flight_booking_data.json: [WinError 5] Access is denied: 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_110126_at_00.36\\checkpoints\\flight_booking_data.tmp_6720637a' -> 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_110126_at_00.36\\checkpoints\\flight_booking_data.json'
+2026-01-11 00:39:19 | INFO     | [SUCCESS] Day 22FEB
+2026-01-11 00:39:19 | INFO     | [DAY_START] Processing 21FEB
+2026-01-11 00:39:19 | INFO     | [lf.day.start] Processing YNB-CAI for 21FEB
+2026-01-11 00:39:20 | INFO     | [lf.day.flights_found] Found 1 flights on 21FEB
+2026-01-11 00:39:22 | INFO     | [lf.flight.extracted] SM442 on 21FEB: BKG=139, LF=80.8%
+2026-01-11 00:39:25 | INFO     | [SUCCESS] Day 21FEB
+2026-01-11 00:39:25 | INFO     | [DAY_START] Processing 20FEB
+2026-01-11 00:39:25 | INFO     | [lf.day.start] Processing YNB-CAI for 20FEB
+2026-01-11 00:39:26 | INFO     | [lf.day.flights_found] Found 1 flights on 20FEB
+2026-01-11 00:39:28 | INFO     | [lf.flight.extracted] SM442 on 20FEB: BKG=3, LF=1.7%
+2026-01-11 00:39:30 | ERROR    | Atomic write failed for D:\CODERED\LAB\Artifacts\outputs\run_generated_110126_at_00.36\checkpoints\flight_booking_data.json: [WinError 5] Access is denied: 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_110126_at_00.36\\checkpoints\\flight_booking_data.tmp_fcb1b895' -> 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_110126_at_00.36\\checkpoints\\flight_booking_data.json'
+2026-01-11 00:39:30 | INFO     | [SUCCESS] Day 20FEB
+2026-01-11 00:39:30 | INFO     | [DAY_START] Processing 19FEB
+2026-01-11 00:39:30 | INFO     | [lf.day.start] Processing YNB-CAI for 19FEB
+2026-01-11 00:39:31 | INFO     | [lf.day.flights_found] Found 1 flights on 19FEB
+2026-01-11 00:39:33 | INFO     | [lf.flight.extracted] SM442 on 19FEB: BKG=1, LF=0.6%
+2026-01-11 00:39:35 | INFO     | [SUCCESS] Day 19FEB
+2026-01-11 00:39:35 | INFO     | [SUCCESS] LF Search Complete
+2026-01-11 00:39:37 | INFO     | [Worker_9224] Completed: YNB-CAI - 10 results, 0 errors
+2026-01-11 00:39:37 | INFO     | [Worker_9224] Processing: ASW-JED
+2026-01-11 00:39:37 | INFO     |   Tier 0: Range 2, Chunk 1/3 (10 days)

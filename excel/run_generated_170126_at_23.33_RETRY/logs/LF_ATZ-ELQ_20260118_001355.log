@@ -1,0 +1,51 @@
+2026-01-18 00:13:55 | INFO     | ======================================================================
+2026-01-18 00:13:55 | INFO     | Load Factor Scraper Started - Route: ATZ-ELQ
+2026-01-18 00:13:55 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_23.33_RETRY\logs\LF_ATZ-ELQ_20260118_001355.log
+2026-01-18 00:13:55 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-18 00:13:55 | INFO     | ======================================================================
+2026-01-18 00:13:55 | INFO     | Starting LF search for route: ATZ-ELQ
+2026-01-18 00:13:55 | INFO     | [START] LF Search
+2026-01-18 00:13:56 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-18 00:13:56 | INFO     | [DAY_START] Processing 10FEB
+2026-01-18 00:13:56 | INFO     | [lf.day.start] Processing ATZ-ELQ for 10FEB
+2026-01-18 00:13:57 | INFO     | [lf.day.flights_found] Found 1 flights on 10FEB
+2026-01-18 00:13:59 | INFO     | [lf.flight.extracted] SM435 on 10FEB: BKG=10, LF=5.6%
+2026-01-18 00:14:01 | INFO     | [SUCCESS] Day 10FEB
+2026-01-18 00:14:01 | INFO     | [DAY_START] Processing 09FEB
+2026-01-18 00:14:01 | INFO     | [lf.day.start] Processing ATZ-ELQ for 09FEB
+2026-01-18 00:14:02 | WARNING  | [lf.day.no_flights] No direct flights on 09FEB
+2026-01-18 00:14:03 | INFO     | [SUCCESS] Day 09FEB
+2026-01-18 00:14:03 | INFO     | [DAY_START] Processing 08FEB
+2026-01-18 00:14:03 | INFO     | [lf.day.start] Processing ATZ-ELQ for 08FEB
+2026-01-18 00:14:04 | WARNING  | [lf.day.no_flights] No direct flights on 08FEB
+2026-01-18 00:14:04 | INFO     | [SUCCESS] Day 08FEB
+2026-01-18 00:14:04 | INFO     | [DAY_START] Processing 07FEB
+2026-01-18 00:14:04 | INFO     | [lf.day.start] Processing ATZ-ELQ for 07FEB
+2026-01-18 00:14:05 | INFO     | [lf.day.flights_found] Found 1 flights on 07FEB
+2026-01-18 00:14:07 | INFO     | [lf.flight.extracted] SM435 on 07FEB: BKG=21, LF=11.7%
+2026-01-18 00:14:10 | INFO     | [SUCCESS] Day 07FEB
+2026-01-18 00:14:10 | INFO     | [DAY_START] Processing 06FEB
+2026-01-18 00:14:10 | INFO     | [lf.day.start] Processing ATZ-ELQ for 06FEB
+2026-01-18 00:14:12 | WARNING  | [lf.day.no_flights] No direct flights on 06FEB
+2026-01-18 00:14:12 | INFO     | [SUCCESS] Day 06FEB
+2026-01-18 00:14:12 | INFO     | [DAY_START] Processing 05FEB
+2026-01-18 00:14:12 | INFO     | [lf.day.start] Processing ATZ-ELQ for 05FEB
+2026-01-18 00:14:13 | WARNING  | [lf.day.no_flights] No direct flights on 05FEB
+2026-01-18 00:14:13 | INFO     | [SUCCESS] Day 05FEB
+2026-01-18 00:14:13 | INFO     | [DAY_START] Processing 04FEB
+2026-01-18 00:14:13 | INFO     | [lf.day.start] Processing ATZ-ELQ for 04FEB
+2026-01-18 00:14:14 | WARNING  | [lf.day.no_flights] No direct flights on 04FEB
+2026-01-18 00:14:14 | INFO     | [SUCCESS] Day 04FEB
+2026-01-18 00:14:14 | INFO     | [DAY_START] Processing 03FEB
+2026-01-18 00:14:14 | INFO     | [lf.day.start] Processing ATZ-ELQ for 03FEB
+2026-01-18 00:14:15 | INFO     | [lf.day.flights_found] Found 1 flights on 03FEB
+2026-01-18 00:14:20 | INFO     | [lf.flight.extracted] SM435 on 03FEB: BKG=21, LF=11.7%
+2026-01-18 00:14:23 | INFO     | [SUCCESS] Day 03FEB
+2026-01-18 00:14:23 | INFO     | [DAY_START] Processing 02FEB
+2026-01-18 00:14:23 | INFO     | [lf.day.start] Processing ATZ-ELQ for 02FEB
+2026-01-18 00:14:24 | WARNING  | [lf.day.no_flights] No direct flights on 02FEB
+2026-01-18 00:14:24 | INFO     | [SUCCESS] Day 02FEB
+2026-01-18 00:14:24 | INFO     | [SUCCESS] LF Search Complete
+2026-01-18 00:14:24 | INFO     | [Worker_9222] Completed: ATZ-ELQ - 9 results, 0 errors
+2026-01-18 00:14:24 | INFO     | [Worker_9222] Processing: JED-HBE
+2026-01-18 00:14:24 | INFO     |   Tier 0: Range 1, Chunk 2/3 (8 days)

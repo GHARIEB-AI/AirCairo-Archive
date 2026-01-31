@@ -1,0 +1,48 @@
+2026-01-25 07:56:15 | INFO     | ======================================================================
+2026-01-25 07:56:15 | INFO     | Load Factor Scraper Started - Route: MED-ATZ
+2026-01-25 07:56:15 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_250126_at_07.06\logs\LF_MED-ATZ_20260125_075615.log
+2026-01-25 07:56:15 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-25 07:56:15 | INFO     | ======================================================================
+2026-01-25 07:56:15 | INFO     | Starting LF search for route: MED-ATZ
+2026-01-25 07:56:15 | INFO     | [START] LF Search
+2026-01-25 07:56:16 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-25 07:56:16 | INFO     | [DAY_START] Processing 08FEB
+2026-01-25 07:56:16 | INFO     | [lf.day.start] Processing MED-ATZ for 08FEB
+2026-01-25 07:56:17 | WARNING  | [lf.day.no_flights] No direct flights on 08FEB
+2026-01-25 07:56:17 | INFO     | [SUCCESS] Day 08FEB
+2026-01-25 07:56:17 | INFO     | [DAY_START] Processing 07FEB
+2026-01-25 07:56:17 | INFO     | [lf.day.start] Processing MED-ATZ for 07FEB
+2026-01-25 07:56:19 | INFO     | [lf.day.flights_found] Found 1 flights on 07FEB
+2026-01-25 07:56:21 | INFO     | [lf.flight.extracted] SM488 on 07FEB: BKG=178, LF=101.7%
+2026-01-25 07:56:27 | INFO     | [SUCCESS] Day 07FEB
+2026-01-25 07:56:27 | INFO     | [DAY_START] Processing 06FEB
+2026-01-25 07:56:27 | INFO     | [lf.day.start] Processing MED-ATZ for 06FEB
+2026-01-25 07:56:28 | WARNING  | [lf.day.no_flights] No direct flights on 06FEB
+2026-01-25 07:56:28 | INFO     | [SUCCESS] Day 06FEB
+2026-01-25 07:56:28 | INFO     | [DAY_START] Processing 05FEB
+2026-01-25 07:56:28 | INFO     | [lf.day.start] Processing MED-ATZ for 05FEB
+2026-01-25 07:56:29 | WARNING  | [lf.day.no_flights] No direct flights on 05FEB
+2026-01-25 07:56:29 | INFO     | [SUCCESS] Day 05FEB
+2026-01-25 07:56:29 | INFO     | [DAY_START] Processing 04FEB
+2026-01-25 07:56:29 | INFO     | [lf.day.start] Processing MED-ATZ for 04FEB
+2026-01-25 07:56:31 | INFO     | [lf.day.flights_found] Found 1 flights on 04FEB
+2026-01-25 07:56:33 | INFO     | [lf.flight.extracted] SM490 on 04FEB: BKG=174, LF=99.4%
+2026-01-25 07:56:38 | INFO     | [SUCCESS] Day 04FEB
+2026-01-25 07:56:38 | INFO     | [DAY_START] Processing 03FEB
+2026-01-25 07:56:38 | INFO     | [lf.day.start] Processing MED-ATZ for 03FEB
+2026-01-25 07:56:40 | INFO     | [lf.day.flights_found] Found 1 flights on 03FEB
+2026-01-25 07:56:42 | INFO     | [lf.flight.extracted] SM488 on 03FEB: BKG=154, LF=86.5%
+2026-01-25 07:56:47 | INFO     | [SUCCESS] Day 03FEB
+2026-01-25 07:56:47 | INFO     | [DAY_START] Processing 02FEB
+2026-01-25 07:56:47 | INFO     | [lf.day.start] Processing MED-ATZ for 02FEB
+2026-01-25 07:56:48 | INFO     | [lf.day.flights_found] Found 1 flights on 02FEB
+2026-01-25 07:56:50 | INFO     | [lf.flight.extracted] SM488 on 02FEB: BKG=176, LF=100.6%
+2026-01-25 07:56:55 | INFO     | [SUCCESS] Day 02FEB
+2026-01-25 07:56:55 | INFO     | [DAY_START] Processing 01FEB
+2026-01-25 07:56:55 | INFO     | [lf.day.start] Processing MED-ATZ for 01FEB
+2026-01-25 07:56:56 | WARNING  | [lf.day.no_flights] No direct flights on 01FEB
+2026-01-25 07:56:56 | INFO     | [SUCCESS] Day 01FEB
+2026-01-25 07:56:56 | INFO     | [SUCCESS] LF Search Complete
+2026-01-25 07:56:56 | INFO     | [Worker_9223] Completed: MED-ATZ - 8 results, 0 errors
+2026-01-25 07:56:56 | INFO     | [Worker_9223] Processing: RUH-CAI
+2026-01-25 07:56:56 | INFO     |   Tier 0: Range 1, Chunk 3/4 (8 days)

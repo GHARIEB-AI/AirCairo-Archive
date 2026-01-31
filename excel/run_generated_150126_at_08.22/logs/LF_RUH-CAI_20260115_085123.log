@@ -1,0 +1,49 @@
+2026-01-15 08:51:23 | INFO     | ======================================================================
+2026-01-15 08:51:23 | INFO     | Load Factor Scraper Started - Route: RUH-CAI
+2026-01-15 08:51:23 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_150126_at_08.22\logs\LF_RUH-CAI_20260115_085123.log
+2026-01-15 08:51:23 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-15 08:51:23 | INFO     | ======================================================================
+2026-01-15 08:51:23 | INFO     | Starting LF search for route: RUH-CAI
+2026-01-15 08:51:23 | INFO     | [START] LF Search
+2026-01-15 08:51:26 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-15 08:51:26 | INFO     | [DAY_START] Processing 22JAN
+2026-01-15 08:51:26 | INFO     | [lf.day.start] Processing RUH-CAI for 22JAN
+2026-01-15 08:51:29 | INFO     | [lf.day.flights_found] Found 1 flights on 22JAN
+2026-01-15 08:51:34 | INFO     | [lf.flight.extracted] SM462 on 22JAN: BKG=59, LF=33.7%
+2026-01-15 08:51:40 | INFO     | [SUCCESS] Day 22JAN
+2026-01-15 08:51:40 | INFO     | [DAY_START] Processing 21JAN
+2026-01-15 08:51:40 | INFO     | [lf.day.start] Processing RUH-CAI for 21JAN
+2026-01-15 08:51:42 | INFO     | [lf.day.flights_found] Found 2 flights on 21JAN
+2026-01-15 08:51:44 | INFO     | [lf.flight.extracted] SM462 on 21JAN: BKG=48, LF=27.4%
+2026-01-15 08:51:49 | INFO     | [lf.flight.extracted] SM470 on 21JAN: BKG=22, LF=13.2%
+2026-01-15 08:51:58 | INFO     | [SUCCESS] Day 21JAN
+2026-01-15 08:51:58 | INFO     | [DAY_START] Processing 20JAN
+2026-01-15 08:51:58 | INFO     | [lf.day.start] Processing RUH-CAI for 20JAN
+2026-01-15 08:52:00 | INFO     | [lf.day.flights_found] Found 1 flights on 20JAN
+2026-01-15 08:52:02 | INFO     | [lf.flight.extracted] SM470 on 20JAN: BKG=65, LF=38.9%
+2026-01-15 08:52:09 | INFO     | [SUCCESS] Day 20JAN
+2026-01-15 08:52:09 | INFO     | [DAY_START] Processing 19JAN
+2026-01-15 08:52:09 | INFO     | [lf.day.start] Processing RUH-CAI for 19JAN
+2026-01-15 08:52:10 | INFO     | [lf.day.flights_found] Found 1 flights on 19JAN
+2026-01-15 08:52:13 | INFO     | [lf.flight.extracted] SM470 on 19JAN: BKG=25, LF=15.0%
+2026-01-15 08:52:20 | INFO     | [SUCCESS] Day 19JAN
+2026-01-15 08:52:20 | INFO     | [DAY_START] Processing 18JAN
+2026-01-15 08:52:20 | INFO     | [lf.day.start] Processing RUH-CAI for 18JAN
+2026-01-15 08:52:23 | INFO     | [lf.day.flights_found] Found 1 flights on 18JAN
+2026-01-15 08:52:28 | INFO     | [lf.flight.extracted] SM462 on 18JAN: BKG=47, LF=26.9%
+2026-01-15 08:52:32 | INFO     | [SUCCESS] Day 18JAN
+2026-01-15 08:52:32 | INFO     | [DAY_START] Processing 17JAN
+2026-01-15 08:52:32 | INFO     | [lf.day.start] Processing RUH-CAI for 17JAN
+2026-01-15 08:52:33 | INFO     | [lf.day.flights_found] Found 1 flights on 17JAN
+2026-01-15 08:52:36 | INFO     | [lf.flight.extracted] SM462 on 17JAN: BKG=34, LF=19.4%
+2026-01-15 08:52:44 | INFO     | [SUCCESS] Day 17JAN
+2026-01-15 08:52:44 | INFO     | [DAY_START] Processing 16JAN
+2026-01-15 08:52:44 | INFO     | [lf.day.start] Processing RUH-CAI for 16JAN
+2026-01-15 08:52:45 | INFO     | [lf.day.flights_found] Found 2 flights on 16JAN
+2026-01-15 08:52:47 | INFO     | [lf.flight.extracted] SM462 on 16JAN: BKG=54, LF=30.9%
+2026-01-15 08:52:51 | INFO     | [lf.flight.extracted] SM470 on 16JAN: BKG=41, LF=24.6%
+2026-01-15 08:53:02 | INFO     | [SUCCESS] Day 16JAN
+2026-01-15 08:53:02 | INFO     | [SUCCESS] LF Search Complete
+2026-01-15 08:53:04 | INFO     | [Worker_9227] Completed: RUH-CAI - 7 results, 0 errors
+2026-01-15 08:53:04 | INFO     | [Worker_9227] Processing: ELQ-CAI
+2026-01-15 08:53:04 | INFO     |   Tier 0: Range 1, Chunk 2/2 (8 days)

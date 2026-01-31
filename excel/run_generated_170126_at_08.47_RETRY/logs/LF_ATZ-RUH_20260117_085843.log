@@ -1,0 +1,52 @@
+2026-01-17 08:58:43 | INFO     | ======================================================================
+2026-01-17 08:58:43 | INFO     | Load Factor Scraper Started - Route: ATZ-RUH
+2026-01-17 08:58:43 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_08.47_RETRY\logs\LF_ATZ-RUH_20260117_085843.log
+2026-01-17 08:58:43 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-17 08:58:43 | INFO     | ======================================================================
+2026-01-17 08:58:43 | INFO     | Starting LF search for route: ATZ-RUH
+2026-01-17 08:58:43 | INFO     | [START] LF Search
+2026-01-17 08:58:44 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-17 08:58:44 | INFO     | [DAY_START] Processing 01APR
+2026-01-17 08:58:44 | INFO     | [lf.day.start] Processing ATZ-RUH for 01APR
+2026-01-17 08:58:45 | INFO     | [lf.day.flights_found] Found 1 flights on 01APR
+2026-01-17 08:58:47 | INFO     | [lf.flight.extracted] SM465 on 01APR: BKG=78, LF=43.6%
+2026-01-17 08:58:52 | INFO     | [SUCCESS] Day 01APR
+2026-01-17 08:58:52 | INFO     | [DAY_START] Processing 31MAR
+2026-01-17 08:58:52 | INFO     | [lf.day.start] Processing ATZ-RUH for 31MAR
+2026-01-17 08:58:53 | WARNING  | [lf.day.no_flights] No direct flights on 31MAR
+2026-01-17 08:58:53 | INFO     | [SUCCESS] Day 31MAR
+2026-01-17 08:58:53 | INFO     | [DAY_START] Processing 30MAR
+2026-01-17 08:58:53 | INFO     | [lf.day.start] Processing ATZ-RUH for 30MAR
+2026-01-17 08:58:54 | WARNING  | [lf.day.no_flights] No direct flights on 30MAR
+2026-01-17 08:58:54 | INFO     | [SUCCESS] Day 30MAR
+2026-01-17 08:58:54 | INFO     | [DAY_START] Processing 29MAR
+2026-01-17 08:58:54 | INFO     | [lf.day.start] Processing ATZ-RUH for 29MAR
+2026-01-17 08:58:55 | WARNING  | [lf.day.no_flights] No direct flights on 29MAR
+2026-01-17 08:58:55 | INFO     | [SUCCESS] Day 29MAR
+2026-01-17 08:58:55 | INFO     | [DAY_START] Processing 28MAR
+2026-01-17 08:58:55 | INFO     | [lf.day.start] Processing ATZ-RUH for 28MAR
+2026-01-17 08:58:56 | WARNING  | [lf.day.no_flights] No direct flights on 28MAR
+2026-01-17 08:58:57 | INFO     | [SUCCESS] Day 28MAR
+2026-01-17 08:58:57 | INFO     | [DAY_START] Processing 27MAR
+2026-01-17 08:58:57 | INFO     | [lf.day.start] Processing ATZ-RUH for 27MAR
+2026-01-17 08:58:57 | WARNING  | [lf.day.no_flights] No direct flights on 27MAR
+2026-01-17 08:58:58 | INFO     | [SUCCESS] Day 27MAR
+2026-01-17 08:58:58 | INFO     | [DAY_START] Processing 26MAR
+2026-01-17 08:58:58 | INFO     | [lf.day.start] Processing ATZ-RUH for 26MAR
+2026-01-17 08:58:59 | WARNING  | [lf.day.no_flights] No direct flights on 26MAR
+2026-01-17 08:58:59 | INFO     | [SUCCESS] Day 26MAR
+2026-01-17 08:58:59 | INFO     | [DAY_START] Processing 25MAR
+2026-01-17 08:58:59 | INFO     | [lf.day.start] Processing ATZ-RUH for 25MAR
+2026-01-17 08:59:00 | INFO     | [lf.day.flights_found] Found 1 flights on 25MAR
+2026-01-17 08:59:02 | INFO     | [lf.flight.extracted] SM465 on 25MAR: BKG=72, LF=40.2%
+2026-01-17 08:59:07 | ERROR    | Atomic write failed for D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_08.47_RETRY\checkpoints\flight_booking_data.json: [WinError 5] Access is denied: 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_170126_at_08.47_RETRY\\checkpoints\\flight_booking_data.tmp_978ec859' -> 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_170126_at_08.47_RETRY\\checkpoints\\flight_booking_data.json'
+2026-01-17 08:59:07 | INFO     | [SUCCESS] Day 25MAR
+2026-01-17 08:59:07 | INFO     | [DAY_START] Processing 24MAR
+2026-01-17 08:59:07 | INFO     | [lf.day.start] Processing ATZ-RUH for 24MAR
+2026-01-17 08:59:08 | INFO     | [lf.day.flights_found] Found 1 flights on 24MAR
+2026-01-17 08:59:10 | INFO     | [lf.flight.extracted] SM463 on 24MAR: BKG=10, LF=5.6%
+2026-01-17 08:59:13 | INFO     | [SUCCESS] Day 24MAR
+2026-01-17 08:59:13 | INFO     | [SUCCESS] LF Search Complete
+2026-01-17 08:59:13 | INFO     | [Worker_9222] Completed: ATZ-RUH - 9 results, 0 errors
+2026-01-17 08:59:13 | INFO     | [Worker_9222] Processing: CAI-AJF
+2026-01-17 08:59:13 | INFO     |   Tier 0: Range 3, Chunk 1/3 (9 days)

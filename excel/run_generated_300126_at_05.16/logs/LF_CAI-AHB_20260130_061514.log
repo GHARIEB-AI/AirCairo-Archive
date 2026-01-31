@@ -1,0 +1,53 @@
+2026-01-30 06:15:14 | INFO     | ======================================================================
+2026-01-30 06:15:14 | INFO     | Load Factor Scraper Started - Route: CAI-AHB
+2026-01-30 06:15:14 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\logs\LF_CAI-AHB_20260130_061514.log
+2026-01-30 06:15:14 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-30 06:15:14 | INFO     | ======================================================================
+2026-01-30 06:15:14 | INFO     | Starting LF search for route: CAI-AHB
+2026-01-30 06:15:14 | INFO     | [START] LF Search
+2026-01-30 06:15:14 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-30 06:15:14 | INFO     | [DAY_START] Processing 08FEB
+2026-01-30 06:15:14 | INFO     | [lf.day.start] Processing CAI-AHB for 08FEB
+2026-01-30 06:15:16 | WARNING  | [lf.day.no_flights] No direct flights on 08FEB
+2026-01-30 06:15:16 | INFO     | [SUCCESS] Day 08FEB
+2026-01-30 06:15:16 | INFO     | [DAY_START] Processing 07FEB
+2026-01-30 06:15:16 | INFO     | [lf.day.start] Processing CAI-AHB for 07FEB
+2026-01-30 06:15:17 | INFO     | [lf.day.flights_found] Found 1 flights on 07FEB
+2026-01-30 06:15:19 | INFO     | [lf.flight.extracted] SM443 on 07FEB: BKG=105, LF=59.7%
+2026-01-30 06:15:24 | INFO     | [SUCCESS] Day 07FEB
+2026-01-30 06:15:24 | INFO     | [DAY_START] Processing 06FEB
+2026-01-30 06:15:24 | INFO     | [lf.day.start] Processing CAI-AHB for 06FEB
+2026-01-30 06:15:26 | WARNING  | [lf.day.no_flights] No direct flights on 06FEB
+2026-01-30 06:15:26 | INFO     | [SUCCESS] Day 06FEB
+2026-01-30 06:15:26 | INFO     | [DAY_START] Processing 05FEB
+2026-01-30 06:15:26 | INFO     | [lf.day.start] Processing CAI-AHB for 05FEB
+2026-01-30 06:15:27 | INFO     | [lf.day.flights_found] Found 1 flights on 05FEB
+2026-01-30 06:15:29 | INFO     | [lf.flight.extracted] SM443 on 05FEB: BKG=112, LF=62.6%
+2026-01-30 06:15:34 | INFO     | [SUCCESS] Day 05FEB
+2026-01-30 06:15:34 | INFO     | [DAY_START] Processing 04FEB
+2026-01-30 06:15:34 | INFO     | [lf.day.start] Processing CAI-AHB for 04FEB
+2026-01-30 06:15:35 | INFO     | [lf.day.flights_found] Found 1 flights on 04FEB
+2026-01-30 06:15:37 | INFO     | [lf.flight.extracted] SM447 on 04FEB: BKG=140, LF=78.2%
+2026-01-30 06:15:43 | INFO     | [SUCCESS] Day 04FEB
+2026-01-30 06:15:43 | INFO     | [DAY_START] Processing 03FEB
+2026-01-30 06:15:43 | INFO     | [lf.day.start] Processing CAI-AHB for 03FEB
+2026-01-30 06:15:44 | WARNING  | [lf.day.no_flights] No direct flights on 03FEB
+2026-01-30 06:15:44 | INFO     | [SUCCESS] Day 03FEB
+2026-01-30 06:15:44 | INFO     | [DAY_START] Processing 02FEB
+2026-01-30 06:15:44 | INFO     | [lf.day.start] Processing CAI-AHB for 02FEB
+2026-01-30 06:15:45 | WARNING  | [lf.day.no_flights] No direct flights on 02FEB
+2026-01-30 06:15:45 | INFO     | [SUCCESS] Day 02FEB
+2026-01-30 06:15:45 | INFO     | [DAY_START] Processing 01FEB
+2026-01-30 06:15:45 | INFO     | [lf.day.start] Processing CAI-AHB for 01FEB
+2026-01-30 06:15:46 | WARNING  | [lf.day.no_flights] No direct flights on 01FEB
+2026-01-30 06:15:46 | INFO     | [SUCCESS] Day 01FEB
+2026-01-30 06:15:46 | INFO     | [DAY_START] Processing 31JAN
+2026-01-30 06:15:46 | INFO     | [lf.day.start] Processing CAI-AHB for 31JAN
+2026-01-30 06:15:47 | INFO     | [lf.day.flights_found] Found 1 flights on 31JAN
+2026-01-30 06:15:49 | INFO     | [lf.flight.extracted] SM443 on 31JAN: BKG=172, LF=96.1%
+2026-01-30 06:15:55 | ERROR    | Atomic write failed for D:\CODERED\LAB\Artifacts\outputs\run_generated_300126_at_05.16\checkpoints\flight_booking_data.json: [WinError 5] Access is denied: 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_300126_at_05.16\\checkpoints\\flight_booking_data.tmp_3cab573c' -> 'D:\\CODERED\\LAB\\Artifacts\\outputs\\run_generated_300126_at_05.16\\checkpoints\\flight_booking_data.json'
+2026-01-30 06:15:55 | INFO     | [SUCCESS] Day 31JAN
+2026-01-30 06:15:55 | INFO     | [SUCCESS] LF Search Complete
+2026-01-30 06:15:55 | INFO     | [Worker_9223] Completed: CAI-AHB - 9 results, 0 errors
+2026-01-30 06:21:41 | INFO     | [Worker_9223] Shutdown signal received, exiting...
+2026-01-30 06:21:41 | INFO     | [Worker_9223] Finished. Processed 57 groups.

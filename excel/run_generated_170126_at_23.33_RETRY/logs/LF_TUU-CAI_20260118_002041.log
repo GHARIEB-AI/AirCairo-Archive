@@ -1,0 +1,44 @@
+2026-01-18 00:20:41 | INFO     | ======================================================================
+2026-01-18 00:20:41 | INFO     | Load Factor Scraper Started - Route: TUU-CAI
+2026-01-18 00:20:41 | INFO     | Log file: D:\CODERED\LAB\Artifacts\outputs\run_generated_170126_at_23.33_RETRY\logs\LF_TUU-CAI_20260118_002041.log
+2026-01-18 00:20:41 | INFO     | Enhanced logging: Capturing both logging.info() and print()
+2026-01-18 00:20:41 | INFO     | ======================================================================
+2026-01-18 00:20:41 | INFO     | Starting LF search for route: TUU-CAI
+2026-01-18 00:20:41 | INFO     | [START] LF Search
+2026-01-18 00:20:41 | INFO     | [HEALTH CHECK] [OK] Chrome connection is healthy
+2026-01-18 00:20:42 | INFO     | [DAY_START] Processing 24JAN
+2026-01-18 00:20:42 | INFO     | [lf.day.start] Processing TUU-CAI for 24JAN
+2026-01-18 00:20:43 | INFO     | [lf.day.flights_found] Found 1 flights on 24JAN
+2026-01-18 00:20:45 | INFO     | [lf.flight.extracted] SM326 on 24JAN: BKG=14, LF=8.0%
+2026-01-18 00:20:48 | INFO     | [SUCCESS] Day 24JAN
+2026-01-18 00:20:48 | INFO     | [DAY_START] Processing 23JAN
+2026-01-18 00:20:48 | INFO     | [lf.day.start] Processing TUU-CAI for 23JAN
+2026-01-18 00:20:49 | WARNING  | [lf.day.no_flights] No direct flights on 23JAN
+2026-01-18 00:20:49 | INFO     | [SUCCESS] Day 23JAN
+2026-01-18 00:20:49 | INFO     | [DAY_START] Processing 22JAN
+2026-01-18 00:20:49 | INFO     | [lf.day.start] Processing TUU-CAI for 22JAN
+2026-01-18 00:20:50 | INFO     | [lf.day.flights_found] Found 1 flights on 22JAN
+2026-01-18 00:20:52 | INFO     | [lf.flight.extracted] SM326 on 22JAN: BKG=93, LF=53.1%
+2026-01-18 00:20:59 | INFO     | [SUCCESS] Day 22JAN
+2026-01-18 00:20:59 | INFO     | [DAY_START] Processing 21JAN
+2026-01-18 00:20:59 | INFO     | [lf.day.start] Processing TUU-CAI for 21JAN
+2026-01-18 00:21:00 | INFO     | [lf.day.flights_found] Found 1 flights on 21JAN
+2026-01-18 00:21:02 | INFO     | [lf.flight.extracted] SM326 on 21JAN: BKG=41, LF=23.4%
+2026-01-18 00:21:06 | INFO     | [SUCCESS] Day 21JAN
+2026-01-18 00:21:06 | INFO     | [DAY_START] Processing 20JAN
+2026-01-18 00:21:06 | INFO     | [lf.day.start] Processing TUU-CAI for 20JAN
+2026-01-18 00:21:07 | WARNING  | [lf.day.no_flights] No direct flights on 20JAN
+2026-01-18 00:21:07 | INFO     | [SUCCESS] Day 20JAN
+2026-01-18 00:21:07 | INFO     | [DAY_START] Processing 19JAN
+2026-01-18 00:21:07 | INFO     | [lf.day.start] Processing TUU-CAI for 19JAN
+2026-01-18 00:21:08 | WARNING  | [lf.day.no_flights] No direct flights on 19JAN
+2026-01-18 00:21:09 | INFO     | [SUCCESS] Day 19JAN
+2026-01-18 00:21:09 | INFO     | [DAY_START] Processing 17JAN
+2026-01-18 00:21:09 | INFO     | [lf.day.start] Processing TUU-CAI for 17JAN
+2026-01-18 00:21:10 | INFO     | [lf.day.flights_found] Found 1 flights on 17JAN
+2026-01-18 00:21:12 | INFO     | [lf.flight.extracted] SM326 on 17JAN: BKG=98, LF=56.0%
+2026-01-18 00:21:18 | INFO     | [SUCCESS] Day 17JAN
+2026-01-18 00:21:18 | INFO     | [SUCCESS] LF Search Complete
+2026-01-18 00:21:18 | INFO     | [Worker_9233] Completed: TUU-CAI - 7 results, 0 errors
+2026-01-18 00:21:18 | INFO     | [Worker_9233] Processing: AHB-CAI
+2026-01-18 00:21:18 | INFO     |   Tier 0: Range 1, Chunk 3/3 (8 days)

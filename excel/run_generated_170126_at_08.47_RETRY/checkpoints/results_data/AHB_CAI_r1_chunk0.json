@@ -1,0 +1,222 @@
+{
+  "task_id": "AHB-CAI_r1_chunk0",
+  "saved_at": "2026-01-17T09:09:54.902197",
+  "lf_results": {
+    "2026-03-07": [],
+    "2026-03-06": [
+      {
+        "Date": "Friday, March 06, 2026",
+        "Flight": "SM444",
+        "DEP": "00:05",
+        "SOLD": 50,
+        "FULL CAPACITY": 175,
+        "LF%": 0.2857,
+        "LowestAvail": "K9",
+        "LASTSOLD": "2026-01-14 00:00:00",
+        "WEEKLY PROGRESS": 13,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 0,
+          "S": 7,
+          "G": 7,
+          "L": 9,
+          "V": 24,
+          "K": 3,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "AHB-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM444",
+          "sm_route": "AHB-CAI",
+          "sm_dep": "0005",
+          "sm_arr": "0205",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0129",
+              "outbound_route": "CAI-ASW",
+              "outbound_dep": "0500",
+              "passengers": [
+                {
+                  "iata": "RUHAA28WH"
+                },
+                {
+                  "iata": "RUHAA28WH"
+                },
+                {
+                  "iata": "RUHAA28WH"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "2026-03-05": [
+      {
+        "Date": "Thursday, March 05, 2026",
+        "Flight": "SM448",
+        "DEP": "01:05",
+        "SOLD": 47,
+        "FULL CAPACITY": 175,
+        "LF%": 0.2686,
+        "LowestAvail": "K9",
+        "LASTSOLD": "2026-01-15 00:00:00",
+        "WEEKLY PROGRESS": 1,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 1,
+          "S": 3,
+          "G": 6,
+          "L": 17,
+          "V": 17,
+          "K": 3,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "AHB-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-03-04": [],
+    "2026-03-03": [],
+    "2026-03-02": [],
+    "2026-03-01": [
+      {
+        "Date": "Sunday, March 01, 2026",
+        "Flight": "SM444",
+        "DEP": "00:05",
+        "SOLD": 30,
+        "FULL CAPACITY": 175,
+        "LF%": 0.1714,
+        "LowestAvail": "L1",
+        "LASTSOLD": "2026-01-13 00:00:00",
+        "WEEKLY PROGRESS": 3,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 6,
+          "S": 10,
+          "G": 1,
+          "L": 13,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "AHB-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": null
+      }
+    ],
+    "2026-02-28": [],
+    "2026-02-27": [
+      {
+        "Date": "Friday, February 27, 2026",
+        "Flight": "SM444",
+        "DEP": "00:05",
+        "SOLD": 18,
+        "FULL CAPACITY": 167,
+        "LF%": 0.1078,
+        "LowestAvail": "G2",
+        "LASTSOLD": "2026-01-10 00:00:00",
+        "WEEKLY PROGRESS": 1,
+        "RBD": {
+          "N": 0,
+          "P": 0,
+          "A": 0,
+          "E": 0,
+          "I": 0,
+          "O": 0,
+          "U": 0,
+          "X": 0,
+          "T": 0,
+          "W": 10,
+          "S": 1,
+          "G": 7,
+          "L": 0,
+          "V": 0,
+          "K": 0,
+          "Q": 0,
+          "H": 0,
+          "M": 0,
+          "B": 0,
+          "Y": 0
+        },
+        "GRP": 0,
+        "EQP": "320",
+        "Brd-Off": "AHB-CAI",
+        "SOLD TODAY": 0,
+        "SOLD YDAY": 0,
+        "CONNECTING_PASSENGERS": {
+          "sm_flight": "SM444",
+          "sm_route": "AHB-CAI",
+          "sm_dep": "0005",
+          "sm_arr": "0205",
+          "connecting_passengers": [
+            {
+              "outbound_flight": "SM0129",
+              "outbound_route": "CAI-ASW",
+              "outbound_dep": "0500",
+              "passengers": [
+                {
+                  "iata": "RUHAK38AB"
+                },
+                {
+                  "iata": "RUHAK38AB"
+                },
+                {
+                  "iata": "RUHAK38AB"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "lf_errors": {}
+}
