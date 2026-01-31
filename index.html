@@ -65,9 +65,7 @@
         .run-time { font-size: 12px; color: rgba(255,255,255,0.6); }
         .btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
         .report-btn {
-            flex: 1;
-            min-width: 80px;
-            padding: 10px 12px;
+            padding: 10px 20px;
             border-radius: 8px;
             text-decoration: none;
             text-align: center;
@@ -80,7 +78,6 @@
         .btn-excel { background: linear-gradient(135deg, #f97316, #ea580c); color: #fff; }
         .btn-word { background: linear-gradient(135deg, #8b5cf6, #6d28d9); color: #fff; }
         .report-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
-        .btn-disabled { background: #555 !important; cursor: not-allowed; opacity: 0.5; pointer-events: none; }
         .section-title { color: #F7941D; font-size: 18px; margin: 25px 0 15px; padding-bottom: 8px; border-bottom: 2px solid rgba(247, 148, 29, 0.3); }
     </style>
 </head>
@@ -94,15 +91,15 @@
             <h1>Reports Archive</h1>
             <p>PC Report | Mobile Report | Excel Report | Text Report</p>
             <div class="stats">
-                <div class="stat"><span>34</span> Organized Runs</div>
                 <div class="stat"><span>11</span> Excel Folders</div>
                 <div class="stat"><span>5</span> Word Documents</div>
+                <div class="stat"><span>34</span> Organized Runs</div>
             </div>
         </div>
 
         <div class="section-title">January 2026</div>
 
-        <!-- 30 Jan 2026 - Flat file -->
+        <!-- 30 Jan 2026 - PC + Excel + Word -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">30 Jan 2026</span>
@@ -110,13 +107,12 @@
             </div>
             <div class="btn-row">
                 <a href="report_2026_01_30_05-16.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
                 <a href="excel/run_generated_300126_at_05.16/" class="report-btn btn-excel">Excel</a>
                 <a href="word/text_report_generated_30jan26_at_06.30am.docx" class="report-btn btn-word">Text</a>
             </div>
         </div>
 
-        <!-- 25 Jan 2026 - Flat file -->
+        <!-- 25 Jan 2026 - PC + Excel + Word -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">25 Jan 2026</span>
@@ -124,7 +120,6 @@
             </div>
             <div class="btn-row">
                 <a href="report_2026_01_25_07-06.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
                 <a href="excel/run_generated_250126_at_07.06/" class="report-btn btn-excel">Excel</a>
                 <a href="word/text_report_generated_25jan26_at_09.08am.docx" class="report-btn btn-word">Text</a>
             </div>
@@ -137,14 +132,11 @@
                 <span class="run-time">11:20</span>
             </div>
             <div class="btn-row">
-                <a href="#" class="report-btn btn-pc btn-disabled">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
                 <a href="excel/run_generated_220126_at_11.20/" class="report-btn btn-excel">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 20 Jan 2026 - Flat file -->
+        <!-- 20 Jan 2026 - PC + Excel + Word -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">20 Jan 2026</span>
@@ -152,13 +144,12 @@
             </div>
             <div class="btn-row">
                 <a href="report_2026_01_20_06-58.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
                 <a href="excel/run_generated_200126_at_06.58/" class="report-btn btn-excel">Excel</a>
                 <a href="word/text_report_generated_20jan26_at_08.58am.docx" class="report-btn btn-word">Text</a>
             </div>
         </div>
 
-        <!-- 19 Jan 2026 - Flat file -->
+        <!-- 19 Jan 2026 - PC + Excel -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">19 Jan 2026</span>
@@ -166,9 +157,7 @@
             </div>
             <div class="btn-row">
                 <a href="report_2026-01-19_01-38.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
                 <a href="excel/run_generated_190126_at_05.28/" class="report-btn btn-excel">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
@@ -179,14 +168,11 @@
                 <span class="run-time">01:01</span>
             </div>
             <div class="btn-row">
-                <a href="#" class="report-btn btn-pc btn-disabled">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
                 <a href="word/text_report_generated_18jan26_at_01.01am.docx" class="report-btn btn-word">Text</a>
             </div>
         </div>
 
-        <!-- 17 Jan 2026 23:33 -->
+        <!-- 17 Jan 2026 23:33 - PC + Excel -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">17 Jan 2026</span>
@@ -194,9 +180,7 @@
             </div>
             <div class="btn-row">
                 <a href="report_2026_01_17_23-33.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
                 <a href="excel/run_generated_170126_at_23.33_RETRY/" class="report-btn btn-excel">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
@@ -207,14 +191,11 @@
                 <span class="run-time">10:14</span>
             </div>
             <div class="btn-row">
-                <a href="#" class="report-btn btn-pc btn-disabled">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
                 <a href="word/text_report_generated_17jan26_at_10.14am.docx" class="report-btn btn-word">Text</a>
             </div>
         </div>
 
-        <!-- 17 Jan 2026 08:47 -->
+        <!-- 17 Jan 2026 08:47 - PC + Excel -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">17 Jan 2026</span>
@@ -222,9 +203,7 @@
             </div>
             <div class="btn-row">
                 <a href="report_2026_01_17_08-47.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
                 <a href="excel/run_generated_170126_at_08.47_RETRY/" class="report-btn btn-excel">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
@@ -235,14 +214,11 @@
                 <span class="run-time">06:39</span>
             </div>
             <div class="btn-row">
-                <a href="#" class="report-btn btn-pc btn-disabled">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
                 <a href="excel/run_generated_160126_at_06.39/" class="report-btn btn-excel">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 15 Jan 2026 08:22 -->
+        <!-- 15 Jan 2026 08:22 - PC + Excel -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">15 Jan 2026</span>
@@ -250,27 +226,11 @@
             </div>
             <div class="btn-row">
                 <a href="report_2026_01_15_08-22.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
                 <a href="excel/run_generated_150126_at_08.22/" class="report-btn btn-excel">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 15 Jan 2026 02:37 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">15 Jan 2026</span>
-                <span class="run-time">02:37</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20260115_0237/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 11 Jan 2026 00:36 - runs folder -->
+        <!-- 11 Jan 2026 - PC + Mobile + Excel -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">11 Jan 2026</span>
@@ -280,11 +240,12 @@
                 <a href="runs/run_20260111_0036/index.html" class="report-btn btn-pc">PC Report</a>
                 <a href="runs/run_20260111_0036/mobile.html" class="report-btn btn-mobile">Mobile</a>
                 <a href="excel/run_generated_110126_at_00.36/" class="report-btn btn-excel">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 07 Jan 2026 16:32 - runs folder -->
+        <div class="section-title">Older Runs (PC Report Only)</div>
+
+        <!-- Grouped older runs with only PC Report -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">07 Jan 2026</span>
@@ -292,13 +253,9 @@
             </div>
             <div class="btn-row">
                 <a href="runs/run_20260107_1632/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 06 Jan 2026 10:24 - runs folder -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">06 Jan 2026</span>
@@ -306,55 +263,9 @@
             </div>
             <div class="btn-row">
                 <a href="runs/run_20260106_1024/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 06 Jan 2026 09:20 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">06 Jan 2026</span>
-                <span class="run-time">09:20</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20260106_0920/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 06 Jan 2026 08:43 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">06 Jan 2026</span>
-                <span class="run-time">08:43</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20260106_0843/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 06 Jan 2026 07:53 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">06 Jan 2026</span>
-                <span class="run-time">07:53</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20260106_0753/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 05 Jan 2026 16:47 - runs folder -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">05 Jan 2026</span>
@@ -362,41 +273,9 @@
             </div>
             <div class="btn-row">
                 <a href="runs/run_20260105_1647/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 05 Jan 2026 05:36 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">05 Jan 2026</span>
-                <span class="run-time">05:36</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20260105_0536/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 05 Jan 2026 00:18 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">05 Jan 2026</span>
-                <span class="run-time">00:18</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20260105_0018/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 04 Jan 2026 09:19 - runs folder -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">04 Jan 2026</span>
@@ -404,27 +283,9 @@
             </div>
             <div class="btn-row">
                 <a href="runs/run_20260104_0919/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 04 Jan 2026 07:15 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">04 Jan 2026</span>
-                <span class="run-time">07:15</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20260104_0715/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 03 Jan 2026 05:10 - runs folder -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">03 Jan 2026</span>
@@ -432,13 +293,9 @@
             </div>
             <div class="btn-row">
                 <a href="runs/run_20260103_0510/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 01 Jan 2026 08:01 - runs folder -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">01 Jan 2026</span>
@@ -446,15 +303,11 @@
             </div>
             <div class="btn-row">
                 <a href="runs/run_20260101_0801/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
         <div class="section-title">December 2025</div>
 
-        <!-- 31 Dec 2025 23:27 - runs folder -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">31 Dec 2025</span>
@@ -462,41 +315,9 @@
             </div>
             <div class="btn-row">
                 <a href="runs/run_20251231_2327/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 31 Dec 2025 22:10 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">31 Dec 2025</span>
-                <span class="run-time">22:10</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20251231_2210/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 31 Dec 2025 20:48 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">31 Dec 2025</span>
-                <span class="run-time">20:48</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20251231_2048/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 30 Dec 2025 21:07 - runs folder -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">30 Dec 2025</span>
@@ -504,13 +325,9 @@
             </div>
             <div class="btn-row">
                 <a href="runs/run_20251230_2107/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 29 Dec 2025 07:25 - runs folder -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">29 Dec 2025</span>
@@ -518,13 +335,9 @@
             </div>
             <div class="btn-row">
                 <a href="runs/run_20251229_0725/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 28 Dec 2025 07:09 - runs folder -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">28 Dec 2025</span>
@@ -532,41 +345,9 @@
             </div>
             <div class="btn-row">
                 <a href="runs/run_20251228_0709/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 28 Dec 2025 05:25 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">28 Dec 2025</span>
-                <span class="run-time">05:25</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20251228_0525/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 28 Dec 2025 03:27 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">28 Dec 2025</span>
-                <span class="run-time">03:27</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20251228_0327/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 27 Dec 2025 00:11 - runs folder -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">27 Dec 2025</span>
@@ -574,13 +355,9 @@
             </div>
             <div class="btn-row">
                 <a href="runs/run_20251227_0011/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 26 Dec 2025 22:28 - runs folder -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">26 Dec 2025</span>
@@ -588,55 +365,9 @@
             </div>
             <div class="btn-row">
                 <a href="runs/run_20251226_2228/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 26 Dec 2025 21:58 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">26 Dec 2025</span>
-                <span class="run-time">21:58</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20251226_2158/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 26 Dec 2025 16:14 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">26 Dec 2025</span>
-                <span class="run-time">16:14</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20251226_1614/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 26 Dec 2025 02:35 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">26 Dec 2025</span>
-                <span class="run-time">02:35</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20251226_0235/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 25 Dec 2025 22:36 - runs folder -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">25 Dec 2025</span>
@@ -644,71 +375,11 @@
             </div>
             <div class="btn-row">
                 <a href="runs/run_20251225_2236/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 25 Dec 2025 10:34 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">25 Dec 2025</span>
-                <span class="run-time">10:34</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20251225_1034/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 25 Dec 2025 08:12 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">25 Dec 2025</span>
-                <span class="run-time">08:12</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20251225_0812/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 25 Dec 2025 01:29 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">25 Dec 2025</span>
-                <span class="run-time">01:29</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20251225_0129/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
-            </div>
-        </div>
-
-        <!-- 25 Dec 2025 01:27 - runs folder -->
-        <div class="run-card">
-            <div class="run-header">
-                <span class="run-date">25 Dec 2025</span>
-                <span class="run-time">01:27</span>
-            </div>
-            <div class="btn-row">
-                <a href="runs/run_20251225_0127/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
         <div class="section-title">December 2024</div>
 
-        <!-- 25 Dec 2024 18:28 - runs folder -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">25 Dec 2024</span>
@@ -716,13 +387,9 @@
             </div>
             <div class="btn-row">
                 <a href="runs/run_20241225_1828/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
-        <!-- 25 Dec 2024 08:12 - runs folder -->
         <div class="run-card">
             <div class="run-header">
                 <span class="run-date">25 Dec 2024</span>
@@ -730,9 +397,6 @@
             </div>
             <div class="btn-row">
                 <a href="runs/run_20241225_0812/index.html" class="report-btn btn-pc">PC Report</a>
-                <a href="#" class="report-btn btn-mobile btn-disabled">Mobile</a>
-                <a href="#" class="report-btn btn-excel btn-disabled">Excel</a>
-                <a href="#" class="report-btn btn-word btn-disabled">Text</a>
             </div>
         </div>
 
