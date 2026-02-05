@@ -1,0 +1,2307 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="report-generated" content="2026-02-05T20:26:00">
+    <meta name="report-version" content="20260205202600">
+    <title>Threat Alert Report - Routes</title>
+    <!-- Preload loader GIF for instant display -->
+    <link rel="preload" href="assets/img/aircairo-loader.gif" as="image">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            overflow-x: hidden;
+            width: 100%;
+            max-width: 100vw;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(180deg, #462B73 0%, #462B73 180px, #f0f0f5 180px, #f0f0f5 100%);
+            color: #462B73;
+            min-height: 100vh;
+            padding-bottom: 80px;
+            overflow-x: hidden;
+            width: 100%;
+            max-width: 100vw;
+        }
+
+        body.en { direction: ltr; }
+        .ar-text { display: inline; }
+        .en-text { display: none; }
+        body.en .ar-text { display: none; }
+        body.en .en-text { display: inline; }
+
+        /* Header - centered title */
+        .header {
+            background: transparent;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .header-text {
+            width: 100%;
+        }
+
+        .header h1 {
+            font-size: 1.4em;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+
+        .header-meta {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            margin-top: 5px;
+        }
+
+        .header .subtitle {
+            color: white;
+            font-size: 0.9em;
+            font-weight: 600;
+            background: rgba(255,255,255,0.15);
+            padding: 6px 16px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+
+        .header .generated {
+            color: #F7941D;
+            font-size: 0.85em;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .lang-toggle {
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        body.en .lang-toggle {
+            margin-right: 0;
+            margin-left: 10px;
+        }
+
+        /* GATE Button - Inside Header (No Floating) */
+        .gate-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background-color: #462B73;
+            background-image: url('web_purple.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border: none;
+            padding: 0;
+            margin: 0;
+            display: block;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            outline: none;
+            text-decoration: none;
+            -webkit-tap-highlight-color: transparent;
+            cursor: pointer;
+        }
+
+        body.en .gate-btn {
+            right: auto;
+            left: 10px;
+        }
+
+        /* Stats Title */
+        .stats-title {
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: 700;
+            color: #462B73;
+            margin: 15px 20px 0 20px;
+            padding: 10px;
+            background: white;
+            border-radius: 12px 12px 0 0;
+            box-shadow: 0 -2px 8px rgba(0,0,0,0.04);
+        }
+
+        /* 3D Sphere Stats - Medium Size */
+        .stats-section {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 20px 15px;
+            background: white;
+            margin: 0 20px 15px 20px;
+            border-radius: 0 0 12px 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            position: relative;
+            z-index: 10;
+        }
+
+        .stat-sphere {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            min-width: 85px;
+        }
+
+        .sphere {
+            width: 90px;
+            height: 90px;
+            margin-bottom: 8px;
+            position: relative;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .sphere img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .stat-sphere.low .sphere img {
+            transform: scale(1.4);
+        }
+
+        .stat-sphere .count {
+            font-size: 1.2em;
+            font-weight: 800;
+            margin-bottom: 2px;
+        }
+
+        .stat-sphere.low .count { color: #2563eb; }
+        .stat-sphere.medium .count { color: #d4ac0d; }
+        .stat-sphere.high .count { color: #e74c3c; }
+
+        .stat-sphere .label {
+            font-size: 0.7em;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #666;
+        }
+
+        .stat-sphere.active-filter {
+            transform: scale(1.1);
+        }
+
+        .stat-sphere.active-filter .sphere {
+            box-shadow: 0 0 0 2px rgba(70, 43, 115, 0.3), 0 3px 8px rgba(0,0,0,0.25);
+        }
+
+        /* Dramatic fire/lamp glowing animation for index page spheres */
+        @keyframes index-fire-high {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 20px rgba(231, 76, 60, 0.8), 0 0 40px rgba(231, 76, 60, 0.6), 0 0 60px rgba(231, 76, 60, 0.4), inset 0 0 15px rgba(255, 200, 100, 0.5);
+            }
+            50% {
+                transform: scale(1.15);
+                box-shadow: 0 0 35px rgba(231, 76, 60, 1), 0 0 70px rgba(231, 76, 60, 0.8), 0 0 100px rgba(231, 76, 60, 0.5), inset 0 0 25px rgba(255, 255, 150, 0.8);
+            }
+        }
+        @keyframes index-fire-medium {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 20px rgba(241, 196, 15, 0.8), 0 0 40px rgba(241, 196, 15, 0.6), 0 0 60px rgba(241, 196, 15, 0.4), inset 0 0 15px rgba(255, 255, 200, 0.5);
+            }
+            50% {
+                transform: scale(1.15);
+                box-shadow: 0 0 35px rgba(241, 196, 15, 1), 0 0 70px rgba(241, 196, 15, 0.8), 0 0 100px rgba(241, 196, 15, 0.5), inset 0 0 25px rgba(255, 255, 255, 0.8);
+            }
+        }
+        @keyframes index-fire-low {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 20px rgba(37, 99, 235, 0.8), 0 0 40px rgba(37, 99, 235, 0.6), 0 0 60px rgba(37, 99, 235, 0.4), inset 0 0 15px rgba(150, 200, 255, 0.5);
+            }
+            50% {
+                transform: scale(1.15);
+                box-shadow: 0 0 35px rgba(37, 99, 235, 1), 0 0 70px rgba(37, 99, 235, 0.8), 0 0 100px rgba(37, 99, 235, 0.5), inset 0 0 25px rgba(200, 230, 255, 0.8);
+            }
+        }
+        .stat-sphere.high.active-filter .sphere {
+            animation: index-fire-high 0.8s ease-in-out infinite;
+        }
+        .stat-sphere.medium.active-filter .sphere {
+            animation: index-fire-medium 0.8s ease-in-out infinite;
+        }
+        .stat-sphere.low.active-filter .sphere {
+            animation: index-fire-low 0.8s ease-in-out infinite;
+        }
+
+        /* Mini-sphere animations (softer glow) */
+        @keyframes mini-fire-high {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 0 8px rgba(231, 76, 60, 0.4);
+            }
+            50% {
+                transform: scale(1.08);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 0 15px rgba(231, 76, 60, 0.6), 0 0 25px rgba(231, 76, 60, 0.3);
+            }
+        }
+        @keyframes mini-fire-medium {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 0 8px rgba(241, 196, 15, 0.4);
+            }
+            50% {
+                transform: scale(1.08);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 0 15px rgba(241, 196, 15, 0.6), 0 0 25px rgba(241, 196, 15, 0.3);
+            }
+        }
+        @keyframes mini-fire-low {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 0 8px rgba(37, 99, 235, 0.4);
+            }
+            50% {
+                transform: scale(1.08);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.25), 0 0 15px rgba(37, 99, 235, 0.6), 0 0 25px rgba(37, 99, 235, 0.3);
+            }
+        }
+        body.filter-high .mini-sphere.high {
+            animation: mini-fire-high 1.2s ease-in-out infinite;
+        }
+        body.filter-medium .mini-sphere.medium {
+            animation: mini-fire-medium 1.2s ease-in-out infinite;
+        }
+        body.filter-low .mini-sphere.low {
+            animation: mini-fire-low 1.2s ease-in-out infinite;
+        }
+
+        /* Search Bar */
+        .search-section {
+            padding: 15px;
+        }
+
+        .search-box {
+            background: white;
+            border-radius: 15px;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border: 1px solid rgba(70, 43, 115, 0.1);
+        }
+
+        .search-box input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 0.95em;
+            color: #462B73;
+            text-align: right;
+            background: transparent;
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        body.en .search-box input {
+            text-align: left;
+        }
+
+        .search-box input::placeholder {
+            color: #999;
+        }
+
+        .search-icon {
+            color: #999;
+            font-size: 1.2em;
+        }
+
+        /* Filter Buttons - Connected Style */
+        .filter-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 15px;
+        }
+
+        .filter-group {
+            display: flex;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .filter-btn {
+            padding: 10px 18px;
+            border: none;
+            background: white;
+            color: #462B73;
+            font-size: 0.85em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            border-right: 1px solid rgba(70, 43, 115, 0.1);
+        }
+
+        .filter-btn:last-child {
+            border-right: none;
+        }
+
+        .filter-btn.active {
+            background: #462B73;
+            color: white;
+        }
+
+        /* Routes Grid */
+        .routes-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            padding: 0 15px 15px;
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        /* Route Card - New Design */
+        .route-card {
+            background: white;
+            border-radius: 16px;
+            padding: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .route-card:active {
+            transform: scale(0.98);
+        }
+
+        .route-card-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .route-card-name {
+            font-size: 1.1em;
+            font-weight: 800;
+            color: #462B73;
+        }
+
+        .plane-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .plane-icon img,
+        .aircraft-icon {
+            width: 1.2em;
+            height: 1.2em;
+            object-fit: contain;
+            vertical-align: middle;
+        }
+
+        .header-aircraft {
+            width: 1em;
+            height: 1em;
+            object-fit: contain;
+            vertical-align: middle;
+            margin-right: 4px;
+        }
+
+        /* Mini Spheres for route stats - matching top sphere design */
+        .route-stats-row {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 8px;
+            gap: 6px;
+        }
+
+        .mini-stat {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            flex: 1;
+        }
+
+        .mini-sphere {
+            width: 43px;
+            height: 43px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8em;
+            font-weight: 800;
+            color: white;
+            position: relative;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+        }
+
+        .mini-sphere.low {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+        }
+
+        .mini-sphere.medium {
+            background: linear-gradient(135deg, #f1c40f 0%, #d4ac0d 100%);
+        }
+
+        .mini-sphere.high {
+            background: linear-gradient(135deg, #e74c3c 0%, #922b21 100%);
+        }
+
+        .mini-stat-label {
+            font-size: 0.6em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .mini-stat.low .mini-stat-label { color: #2563eb; }
+        .mini-stat.medium .mini-stat-label { color: #d4ac0d; }
+        .mini-stat.high .mini-stat-label { color: #e74c3c; }
+
+        .route-total {
+            text-align: center;
+            font-size: 0.75em;
+            color: #666;
+            padding-top: 8px;
+            border-top: 1px dashed rgba(0,0,0,0.1);
+        }
+
+        .route-total strong {
+            color: #462B73;
+        }
+
+        /* Bottom Navigation - Modern Floating Style */
+        .pages-nav {
+            position: fixed;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            z-index: 100;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+            border-radius: 50px;
+            border: 1px solid rgba(255,255,255,0.8);
+        }
+
+        .pages-nav a {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            text-decoration: none;
+            color: #555;
+            font-size: 12px;
+            font-weight: 500;
+            padding: 10px 16px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            background: transparent;
+        }
+
+        .pages-nav a:hover {
+            background: rgba(70, 43, 115, 0.1);
+            color: #462B73;
+        }
+
+        .pages-nav a.nav-download {
+            background: linear-gradient(135deg, #462B73 0%, #6B4A9E 100%);
+            color: white;
+            padding: 12px 20px;
+            box-shadow: 0 4px 15px rgba(70, 43, 115, 0.4);
+        }
+
+        .pages-nav a.nav-download:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(70, 43, 115, 0.5);
+        }
+
+        .pages-nav .nav-icon {
+            font-size: 18px;
+            line-height: 1;
+        }
+
+        .pages-nav .nav-text {
+            white-space: nowrap;
+        }
+
+        /* Hidden class */
+        .hidden {
+            display: none !important;
+        }
+
+        /* ===== UNIFIED PAGE LOADER ===== */
+        #page-loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.98);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 99999;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        #page-loader.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        #page-loader .loader-gif {
+            width: 200px;
+            height: 200px;
+        }
+        #page-loader .loader-text {
+            color: #462B73;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 2px;
+            margin-top: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        #page-loader .loader-dots {
+            display: flex;
+            gap: 5px;
+            margin-top: 15px;
+        }
+        #page-loader .loader-dots span {
+            width: 8px;
+            height: 8px;
+            background: #F7941D;
+            border-radius: 50%;
+            animation: loader-bounce 1.4s ease-in-out infinite;
+        }
+        #page-loader .loader-dots span:nth-child(1) { animation-delay: 0s; }
+        #page-loader .loader-dots span:nth-child(2) { animation-delay: 0.2s; }
+        #page-loader .loader-dots span:nth-child(3) { animation-delay: 0.4s; }
+        @keyframes loader-bounce {
+            0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
+            40% { transform: scale(1.2); opacity: 1; }
+        }
+        /* ===== END PAGE LOADER ===== */
+    </style>
+</head>
+<body class="en">
+    <!-- PAGE LOADER -->
+    <div id="page-loader">
+        <img class="loader-gif" src="assets/img/aircairo-loader.gif" alt="Loading...">
+        <div class="loader-text">LOADING</div>
+        <div class="loader-dots"><span></span><span></span><span></span></div>
+    </div>
+
+    <header class="header">
+        <!-- GATE Button - Inside Header -->
+        <a href="index.html" class="gate-btn" title="GATE" aria-label="GATE"></a>
+        <div class="header-text">
+            <h1><span class="ar-text">رصد حركة الاسعار <img src="aircairo_aircraft.png" class="header-aircraft" alt=""></span><span class="en-text">Threat Alert Report <img src="aircairo_aircraft.png" class="header-aircraft" alt=""></span></h1>
+            <div class="header-meta">
+                <div class="subtitle"><span class="ar-text">الفترة: 05FEB26 - 30MAY26</span><span class="en-text">Range: 05FEB26 - 30MAY26</span></div>
+                <div class="generated">
+                    <button class="lang-toggle" onclick="toggleLanguage()">عربي</button>
+                    <span class="ar-text">تم الإنشاء:</span><span class="en-text">Generated:</span> 2026-02-05 20:26
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="stats-title">
+        <span class="ar-text">الأسعار التنافسية</span>
+        <span class="en-text">THREAT ALERT</span>
+    </div>
+    <div class="stats-section" id="statsSection"
+         data-all-low="2873" data-all-medium="908" data-all-high="1508"
+         data-egy-low="1315" data-egy-medium="366" data-egy-high="436"
+         data-ksa-low="1558" data-ksa-medium="542" data-ksa-high="1072">
+        <div class="stat-sphere low" onclick="filterByThreat('LOW')">
+            <div class="sphere"><img src="web_blue.png" alt="Low"></div>
+            <div class="count" id="lowCount">2873</div>
+            <div class="label"><span class="ar-text">تهديد منخفض</span><span class="en-text">LOW THREAT</span></div>
+        </div>
+        <div class="stat-sphere medium" onclick="filterByThreat('MEDIUM')">
+            <div class="sphere"><img src="web_yello.png" alt="Medium"></div>
+            <div class="count" id="mediumCount">908</div>
+            <div class="label"><span class="ar-text">تهديد متوسط</span><span class="en-text">MEDIUM THREAT</span></div>
+        </div>
+        <div class="stat-sphere high" onclick="filterByThreat('HIGH')">
+            <div class="sphere"><img src="web_red.png" alt="High"></div>
+            <div class="count" id="highCount">1508</div>
+            <div class="label"><span class="ar-text">تهديد عالي</span><span class="en-text">HIGH THREAT</span></div>
+        </div>
+    </div>
+
+    <div class="filter-section">
+        <div class="filter-group">
+            <button class="filter-btn active" id="filterAll" onclick="setFilter('all')"><span class="ar-text">الكل</span><span class="en-text">All</span></button>
+            <button class="filter-btn" id="filterEgy" onclick="setFilter('egy')"><span class="ar-text">مصر←السعودية</span><span class="en-text">EGY→KSA</span></button>
+            <button class="filter-btn" id="filterKsa" onclick="setFilter('ksa')"><span class="ar-text">السعودية←مصر</span><span class="en-text">KSA→EGY</span></button>
+        </div>
+    </div>
+
+    <div class="search-section">
+        <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="searchInput" placeholder="Search routes..." data-ar-placeholder="بحث عن الخطوط..." oninput="filterRoutes()">
+        </div>
+    </div>
+
+    <div class="routes-grid" id="routesGrid">
+        
+    <a href="routes/AHB-CAI.html" class="route-card" data-route="AHB-CAI" data-threat="HIGH" data-direction="KSA_EGY" data-high="2" data-medium="6" data-low="15">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">AHB-CAI</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">15</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">6</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">2</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>23</strong>
+        </div>
+    </a>
+    
+    <a href="routes/AHB-CCE.html" class="route-card" data-route="AHB-CCE" data-threat="HIGH" data-direction="KSA_EGY" data-high="2" data-medium="6" data-low="15">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">AHB-CCE</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">15</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">6</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">2</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>23</strong>
+        </div>
+    </a>
+    
+    <a href="routes/AJF-CAI.html" class="route-card" data-route="AJF-CAI" data-threat="HIGH" data-direction="KSA_EGY" data-high="1" data-medium="1" data-low="3">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">AJF-CAI</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">3</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">1</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">1</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>5</strong>
+        </div>
+    </a>
+    
+    <a href="routes/AJF-CCE.html" class="route-card" data-route="AJF-CCE" data-threat="HIGH" data-direction="KSA_EGY" data-high="1" data-medium="1" data-low="3">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">AJF-CCE</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">3</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">1</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">1</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>5</strong>
+        </div>
+    </a>
+    
+    <a href="routes/ATZ-MED.html" class="route-card" data-route="ATZ-MED" data-threat="MEDIUM" data-direction="EGY_KSA" data-high="0" data-medium="18" data-low="22">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">ATZ-MED</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">22</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">18</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">0</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>40</strong>
+        </div>
+    </a>
+    
+    <a href="routes/ATZ-RUH.html" class="route-card" data-route="ATZ-RUH" data-threat="HIGH" data-direction="EGY_KSA" data-high="1" data-medium="38" data-low="23">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">ATZ-RUH</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">23</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">38</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">1</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>62</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CAI-AHB.html" class="route-card" data-route="CAI-AHB" data-threat="LOW" data-direction="EGY_KSA" data-high="0" data-medium="0" data-low="11">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CAI-AHB</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">11</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">0</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">0</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>11</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CAI-AJF.html" class="route-card" data-route="CAI-AJF" data-threat="MEDIUM" data-direction="EGY_KSA" data-high="0" data-medium="1" data-low="1">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CAI-AJF</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">1</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">1</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">0</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>2</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CAI-DMM.html" class="route-card" data-route="CAI-DMM" data-threat="HIGH" data-direction="EGY_KSA" data-high="5" data-medium="19" data-low="109">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CAI-DMM</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">109</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">19</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">5</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>133</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CAI-ELQ.html" class="route-card" data-route="CAI-ELQ" data-threat="HIGH" data-direction="EGY_KSA" data-high="1" data-medium="0" data-low="40">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CAI-ELQ</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">40</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">0</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">1</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>41</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CAI-GIZ.html" class="route-card" data-route="CAI-GIZ" data-threat="MEDIUM" data-direction="EGY_KSA" data-high="0" data-medium="7" data-low="5">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CAI-GIZ</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">5</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">7</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">0</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>12</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CAI-JED.html" class="route-card" data-route="CAI-JED" data-threat="HIGH" data-direction="EGY_KSA" data-high="241" data-medium="188" data-low="597">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CAI-JED</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">597</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">188</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">241</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>1026</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CAI-MED.html" class="route-card" data-route="CAI-MED" data-threat="HIGH" data-direction="EGY_KSA" data-high="5" data-medium="5" data-low="62">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CAI-MED</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">62</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">5</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">5</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>72</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CAI-RUH.html" class="route-card" data-route="CAI-RUH" data-threat="HIGH" data-direction="EGY_KSA" data-high="4" data-medium="27" data-low="166">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CAI-RUH</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">166</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">27</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">4</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>197</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CAI-TUU.html" class="route-card" data-route="CAI-TUU" data-threat="HIGH" data-direction="EGY_KSA" data-high="2" data-medium="1" data-low="58">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CAI-TUU</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">58</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">1</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">2</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>61</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CAI-YNB.html" class="route-card" data-route="CAI-YNB" data-threat="HIGH" data-direction="EGY_KSA" data-high="6" data-medium="4" data-low="27">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CAI-YNB</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">27</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">4</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">6</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>37</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CCE-AHB.html" class="route-card" data-route="CCE-AHB" data-threat="LOW" data-direction="EGY_KSA" data-high="0" data-medium="0" data-low="11">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CCE-AHB</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">11</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">0</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">0</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>11</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CCE-AJF.html" class="route-card" data-route="CCE-AJF" data-threat="MEDIUM" data-direction="EGY_KSA" data-high="0" data-medium="1" data-low="1">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CCE-AJF</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">1</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">1</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">0</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>2</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CCE-DMM.html" class="route-card" data-route="CCE-DMM" data-threat="HIGH" data-direction="EGY_KSA" data-high="5" data-medium="19" data-low="109">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CCE-DMM</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">109</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">19</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">5</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>133</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CCE-ELQ.html" class="route-card" data-route="CCE-ELQ" data-threat="HIGH" data-direction="EGY_KSA" data-high="1" data-medium="0" data-low="40">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CCE-ELQ</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">40</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">0</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">1</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>41</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CCE-GIZ.html" class="route-card" data-route="CCE-GIZ" data-threat="MEDIUM" data-direction="EGY_KSA" data-high="0" data-medium="7" data-low="5">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CCE-GIZ</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">5</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">7</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">0</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>12</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CCE-JED.html" class="route-card" data-route="CCE-JED" data-threat="HIGH" data-direction="EGY_KSA" data-high="241" data-medium="188" data-low="597">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CCE-JED</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">597</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">188</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">241</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>1026</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CCE-MED.html" class="route-card" data-route="CCE-MED" data-threat="HIGH" data-direction="EGY_KSA" data-high="5" data-medium="5" data-low="62">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CCE-MED</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">62</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">5</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">5</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>72</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CCE-RUH.html" class="route-card" data-route="CCE-RUH" data-threat="HIGH" data-direction="EGY_KSA" data-high="4" data-medium="27" data-low="166">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CCE-RUH</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">166</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">27</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">4</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>197</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CCE-TUU.html" class="route-card" data-route="CCE-TUU" data-threat="HIGH" data-direction="EGY_KSA" data-high="2" data-medium="1" data-low="58">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CCE-TUU</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">58</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">1</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">2</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>61</strong>
+        </div>
+    </a>
+    
+    <a href="routes/CCE-YNB.html" class="route-card" data-route="CCE-YNB" data-threat="HIGH" data-direction="EGY_KSA" data-high="6" data-medium="4" data-low="27">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">CCE-YNB</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">27</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">4</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">6</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>37</strong>
+        </div>
+    </a>
+    
+    <a href="routes/DMM-ATZ.html" class="route-card" data-route="DMM-ATZ" data-threat="LOW" data-direction="KSA_EGY" data-high="0" data-medium="0" data-low="5">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">DMM-ATZ</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">5</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">0</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">0</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>5</strong>
+        </div>
+    </a>
+    
+    <a href="routes/DMM-CAI.html" class="route-card" data-route="DMM-CAI" data-threat="HIGH" data-direction="KSA_EGY" data-high="44" data-medium="19" data-low="71">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">DMM-CAI</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">71</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">19</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">44</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>134</strong>
+        </div>
+    </a>
+    
+    <a href="routes/DMM-CCE.html" class="route-card" data-route="DMM-CCE" data-threat="HIGH" data-direction="KSA_EGY" data-high="44" data-medium="19" data-low="71">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">DMM-CCE</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">71</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">19</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">44</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>134</strong>
+        </div>
+    </a>
+    
+    <a href="routes/ELQ-ATZ.html" class="route-card" data-route="ELQ-ATZ" data-threat="HIGH" data-direction="KSA_EGY" data-high="3" data-medium="0" data-low="4">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">ELQ-ATZ</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">4</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">0</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">3</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>7</strong>
+        </div>
+    </a>
+    
+    <a href="routes/ELQ-CAI.html" class="route-card" data-route="ELQ-CAI" data-threat="HIGH" data-direction="KSA_EGY" data-high="8" data-medium="11" data-low="42">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">ELQ-CAI</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">42</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">11</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">8</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>61</strong>
+        </div>
+    </a>
+    
+    <a href="routes/ELQ-CCE.html" class="route-card" data-route="ELQ-CCE" data-threat="HIGH" data-direction="KSA_EGY" data-high="8" data-medium="11" data-low="42">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">ELQ-CCE</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">42</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">11</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">8</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>61</strong>
+        </div>
+    </a>
+    
+    <a href="routes/GIZ-CAI.html" class="route-card" data-route="GIZ-CAI" data-threat="HIGH" data-direction="KSA_EGY" data-high="2" data-medium="1" data-low="3">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">GIZ-CAI</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">3</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">1</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">2</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>6</strong>
+        </div>
+    </a>
+    
+    <a href="routes/GIZ-CCE.html" class="route-card" data-route="GIZ-CCE" data-threat="HIGH" data-direction="KSA_EGY" data-high="2" data-medium="1" data-low="3">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">GIZ-CCE</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">3</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">1</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">2</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>6</strong>
+        </div>
+    </a>
+    
+    <a href="routes/HBE-JED.html" class="route-card" data-route="HBE-JED" data-threat="HIGH" data-direction="EGY_KSA" data-high="168" data-medium="43" data-low="173">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">HBE-JED</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">173</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">43</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">168</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>384</strong>
+        </div>
+    </a>
+    
+    <a href="routes/HBE-MED.html" class="route-card" data-route="HBE-MED" data-threat="MEDIUM" data-direction="EGY_KSA" data-high="0" data-medium="15" data-low="21">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">HBE-MED</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">21</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">15</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">0</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>36</strong>
+        </div>
+    </a>
+    
+    <a href="routes/JED-ATZ.html" class="route-card" data-route="JED-ATZ" data-threat="HIGH" data-direction="KSA_EGY" data-high="222" data-medium="21" data-low="108">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">JED-ATZ</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">108</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">21</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">222</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>351</strong>
+        </div>
+    </a>
+    
+    <a href="routes/JED-CAI.html" class="route-card" data-route="JED-CAI" data-threat="HIGH" data-direction="KSA_EGY" data-high="490" data-medium="174" data-low="575">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">JED-CAI</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">575</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">174</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">490</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>1239</strong>
+        </div>
+    </a>
+    
+    <a href="routes/JED-CCE.html" class="route-card" data-route="JED-CCE" data-threat="HIGH" data-direction="KSA_EGY" data-high="490" data-medium="174" data-low="575">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">JED-CCE</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">575</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">174</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">490</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>1239</strong>
+        </div>
+    </a>
+    
+    <a href="routes/JED-HBE.html" class="route-card" data-route="JED-HBE" data-threat="HIGH" data-direction="KSA_EGY" data-high="185" data-medium="33" data-low="158">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">JED-HBE</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">158</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">33</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">185</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>376</strong>
+        </div>
+    </a>
+    
+    <a href="routes/LXR-JED.html" class="route-card" data-route="LXR-JED" data-threat="HIGH" data-direction="EGY_KSA" data-high="3" data-medium="0" data-low="0">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">LXR-JED</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">0</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">0</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">3</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>3</strong>
+        </div>
+    </a>
+    
+    <a href="routes/MED-ATZ.html" class="route-card" data-route="MED-ATZ" data-threat="LOW" data-direction="KSA_EGY" data-high="0" data-medium="0" data-low="20">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">MED-ATZ</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">20</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">0</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">0</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>20</strong>
+        </div>
+    </a>
+    
+    <a href="routes/MED-CAI.html" class="route-card" data-route="MED-CAI" data-threat="HIGH" data-direction="KSA_EGY" data-high="3" data-medium="26" data-low="75">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">MED-CAI</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">75</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">26</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">3</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>104</strong>
+        </div>
+    </a>
+    
+    <a href="routes/MED-CCE.html" class="route-card" data-route="MED-CCE" data-threat="HIGH" data-direction="KSA_EGY" data-high="3" data-medium="26" data-low="75">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">MED-CCE</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">75</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">26</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">3</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>104</strong>
+        </div>
+    </a>
+    
+    <a href="routes/MED-HBE.html" class="route-card" data-route="MED-HBE" data-threat="MEDIUM" data-direction="KSA_EGY" data-high="0" data-medium="5" data-low="9">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">MED-HBE</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">9</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">5</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">0</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>14</strong>
+        </div>
+    </a>
+    
+    <a href="routes/RUH-ATZ.html" class="route-card" data-route="RUH-ATZ" data-threat="HIGH" data-direction="KSA_EGY" data-high="31" data-medium="92" data-low="160">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">RUH-ATZ</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">160</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">92</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">31</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>283</strong>
+        </div>
+    </a>
+    
+    <a href="routes/RUH-CAI.html" class="route-card" data-route="RUH-CAI" data-threat="HIGH" data-direction="KSA_EGY" data-high="68" data-medium="139" data-low="250">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">RUH-CAI</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">250</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">139</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">68</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>457</strong>
+        </div>
+    </a>
+    
+    <a href="routes/RUH-CCE.html" class="route-card" data-route="RUH-CCE" data-threat="HIGH" data-direction="KSA_EGY" data-high="68" data-medium="139" data-low="250">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">RUH-CCE</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">250</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">139</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">68</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>457</strong>
+        </div>
+    </a>
+    
+    <a href="routes/TUU-ATZ.html" class="route-card" data-route="TUU-ATZ" data-threat="MEDIUM" data-direction="KSA_EGY" data-high="0" data-medium="2" data-low="5">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">TUU-ATZ</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">5</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">2</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">0</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>7</strong>
+        </div>
+    </a>
+    
+    <a href="routes/TUU-CAI.html" class="route-card" data-route="TUU-CAI" data-threat="HIGH" data-direction="KSA_EGY" data-high="4" data-medium="9" data-low="25">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">TUU-CAI</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">25</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">9</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">4</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>38</strong>
+        </div>
+    </a>
+    
+    <a href="routes/TUU-CCE.html" class="route-card" data-route="TUU-CCE" data-threat="HIGH" data-direction="KSA_EGY" data-high="4" data-medium="9" data-low="25">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">TUU-CCE</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">25</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">9</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">4</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>38</strong>
+        </div>
+    </a>
+    
+    <a href="routes/YNB-CAI.html" class="route-card" data-route="YNB-CAI" data-threat="HIGH" data-direction="KSA_EGY" data-high="9" data-medium="3" data-low="30">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">YNB-CAI</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">30</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">3</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">9</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>42</strong>
+        </div>
+    </a>
+    
+    <a href="routes/YNB-CCE.html" class="route-card" data-route="YNB-CCE" data-threat="HIGH" data-direction="KSA_EGY" data-high="9" data-medium="3" data-low="30">
+        <div class="route-card-header">
+            <span class="plane-icon"><img src="aircairo_aircraft.png" alt=""></span>
+            <span class="route-card-name">YNB-CCE</span>
+        </div>
+        <div class="route-stats-row">
+            <div class="mini-stat low">
+                <div class="mini-sphere low">30</div>
+                <span class="mini-stat-label"><span class="ar-text">منخفض</span><span class="en-text">Low</span></span>
+            </div>
+            <div class="mini-stat medium">
+                <div class="mini-sphere medium">3</div>
+                <span class="mini-stat-label"><span class="ar-text">متوسط</span><span class="en-text">Med</span></span>
+            </div>
+            <div class="mini-stat high">
+                <div class="mini-sphere high">9</div>
+                <span class="mini-stat-label"><span class="ar-text">عالي</span><span class="en-text">High</span></span>
+            </div>
+        </div>
+        <div class="route-total">
+            <span class="ar-text">اجمالي التهديدات: </span>
+            <span class="en-text">threats </span>
+            <strong>42</strong>
+        </div>
+    </a>
+    
+    </div>
+
+    <nav class="pages-nav">
+        <a href="online_mobile_dashboard.html">
+            <span class="nav-icon">📊</span>
+            <span class="nav-text"><span class="ar-text">لوحة التحكم</span><span class="en-text">Dashboard</span></span>
+        </a>
+        <a href="https://flyaircairo-my.sharepoint.com/:f:/g/personal/dammam_to_aircairo_com/IgDvjscVb3zPQ63E6oVxGyViAencC8ryBmR137Me_icPPRs?e=oNiSIH" target="_blank" class="nav-download">
+            <span class="nav-icon">⬇️</span>
+            <span class="nav-text"><span class="ar-text">تحميل</span><span class="en-text">Download</span></span>
+        </a>
+        <a href="archive/">
+            <span class="nav-icon">📂</span>
+            <span class="nav-text"><span class="ar-text">الأرشيف</span><span class="en-text">Archive</span></span>
+        </a>
+    </nav>
+
+    <script>
+        let currentThreatFilter = null;
+        let currentDirectionFilter = 'all';
+        let originalCardOrder = [];
+
+        // Store original card order on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.querySelector('.routes-grid');
+            if (container) {
+                originalCardOrder = Array.from(container.querySelectorAll('.route-card'));
+            }
+        });
+
+        function sortCardsByThreat(level) {
+            const container = document.querySelector('.routes-grid');
+            if (!container) return;
+
+            const cards = Array.from(container.querySelectorAll('.route-card'));
+
+            if (!level) {
+                // Restore original order
+                originalCardOrder.forEach(card => container.appendChild(card));
+                return;
+            }
+
+            // Sort by the selected threat level count (descending)
+            cards.sort((a, b) => {
+                const aCount = parseInt(a.querySelector(`.mini-sphere.${level.toLowerCase()}`).textContent) || 0;
+                const bCount = parseInt(b.querySelector(`.mini-sphere.${level.toLowerCase()}`).textContent) || 0;
+                return bCount - aCount;
+            });
+
+            // Reorder cards in DOM
+            cards.forEach(card => container.appendChild(card));
+        }
+
+        function toggleLanguage() {
+            const body = document.body;
+            const btn = document.querySelector('.lang-toggle');
+            if (body.classList.contains('en')) {
+                body.classList.remove('en');
+                body.classList.add('ar');
+                body.dir = 'rtl';
+                btn.textContent = 'EN';
+                localStorage.setItem('aircairo_lang', 'ar');
+            } else {
+                body.classList.remove('ar');
+                body.classList.add('en');
+                body.dir = 'ltr';
+                btn.textContent = 'عربي';
+                localStorage.setItem('aircairo_lang', 'en');
+            }
+        }
+
+        // Load saved language on page load
+        (function() {
+            const savedLang = localStorage.getItem('aircairo_lang');
+            if (savedLang === 'ar') {
+                const body = document.body;
+                const btn = document.querySelector('.lang-toggle');
+                body.classList.remove('en');
+                body.classList.add('ar');
+                body.dir = 'rtl';
+                if (btn) btn.textContent = 'EN';
+            }
+        })();
+
+        function filterByThreat(level) {
+            const spheres = document.querySelectorAll('.stat-sphere');
+            spheres.forEach(s => s.classList.remove('active-filter'));
+            // Remove all filter classes from body
+            document.body.classList.remove('filter-high', 'filter-medium', 'filter-low');
+
+            if (currentThreatFilter === level) {
+                currentThreatFilter = null;
+                // Restore original order when filter is removed
+                sortCardsByThreat(null);
+            } else {
+                currentThreatFilter = level;
+                const sphere = document.querySelector(`.stat-sphere.${level.toLowerCase()}`);
+                if (sphere) sphere.classList.add('active-filter');
+                // Add filter class to body for mini-sphere animation
+                document.body.classList.add(`filter-${level.toLowerCase()}`);
+                // Sort cards by selected threat level
+                sortCardsByThreat(level);
+            }
+            applyFilters();
+        }
+
+        function setFilter(dir) {
+            currentDirectionFilter = dir;
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+
+            if (dir === 'all') {
+                document.getElementById('filterAll').classList.add('active');
+            } else if (dir === 'egy') {
+                document.getElementById('filterEgy').classList.add('active');
+            } else {
+                document.getElementById('filterKsa').classList.add('active');
+            }
+
+            updateSphereCounts(dir);
+            applyFilters();
+        }
+
+        function updateSphereCounts(dir) {
+            const stats = document.getElementById('statsSection');
+            let low, medium, high;
+
+            if (dir === 'egy') {
+                low = stats.dataset.egyLow;
+                medium = stats.dataset.egyMedium;
+                high = stats.dataset.egyHigh;
+            } else if (dir === 'ksa') {
+                low = stats.dataset.ksaLow;
+                medium = stats.dataset.ksaMedium;
+                high = stats.dataset.ksaHigh;
+            } else {
+                low = stats.dataset.allLow;
+                medium = stats.dataset.allMedium;
+                high = stats.dataset.allHigh;
+            }
+
+            document.getElementById('lowCount').textContent = low;
+            document.getElementById('mediumCount').textContent = medium;
+            document.getElementById('highCount').textContent = high;
+        }
+
+        function filterRoutes() {
+            applyFilters();
+        }
+
+        function applyFilters() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const cards = document.querySelectorAll('.route-card');
+
+            cards.forEach(card => {
+                const route = card.dataset.route || card.querySelector('.route-card-name').textContent;
+                const direction = card.dataset.direction || '';
+
+                let show = true;
+
+                // Search filter
+                if (searchTerm && !route.toLowerCase().includes(searchTerm)) {
+                    show = false;
+                }
+
+                // Threat filter - show cards that have ANY threats of selected level
+                if (currentThreatFilter) {
+                    const countAttr = 'data-' + currentThreatFilter.toLowerCase();
+                    const count = parseInt(card.getAttribute(countAttr)) || 0;
+                    if (count === 0) {
+                        show = false;
+                    }
+                }
+
+                // Direction filter
+                if (currentDirectionFilter !== 'all') {
+                    if (currentDirectionFilter === 'egy' && direction !== 'EGY_KSA') show = false;
+                    if (currentDirectionFilter === 'ksa' && direction !== 'KSA_EGY') show = false;
+                }
+
+                card.style.display = show ? '' : 'none';
+            });
+        }
+    </script>
+
+    <!-- Freshness Check - Warns if report is older than 24 hours -->
+    <div id="freshnessWarning" style="display:none; position:fixed; top:0; left:0; right:0; background:linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); color:white; padding:10px 15px; text-align:center; z-index:9999; font-weight:600; font-size:0.85em; box-shadow:0 2px 10px rgba(0,0,0,0.3);">
+        <span class="ar-text">⚠️ تقرير قديم (أكثر من 24 ساعة) - <a href="javascript:location.reload(true)" style="color:#fff;text-decoration:underline;">تحديث</a></span>
+        <span class="en-text">⚠️ Stale report (older than 24h) - <a href="javascript:location.reload(true)" style="color:#fff;text-decoration:underline;">Refresh</a></span>
+        <button onclick="this.parentElement.style.display='none'" style="position:absolute;right:10px;top:50%;transform:translateY(-50%);background:none;border:none;color:white;font-size:1.2em;cursor:pointer;">×</button>
+    </div>
+    <script>
+    (function() {
+        var meta = document.querySelector('meta[name="report-generated"]');
+        if (meta) {
+            var generated = new Date(meta.content);
+            var now = new Date();
+            var hoursDiff = (now - generated) / (1000 * 60 * 60);
+            if (hoursDiff > 24) {
+                document.getElementById('freshnessWarning').style.display = 'block';
+            }
+        }
+    })();
+    </script>
+
+    <!-- UNIFIED PAGE LOADER SCRIPT -->
+    <script>
+    (function() {
+        var loader = document.getElementById('page-loader');
+
+        function showLoader() {
+            if (loader) {
+                loader.classList.add('show');
+            }
+        }
+
+        function hideLoader() {
+            if (loader) {
+                loader.classList.remove('show');
+            }
+        }
+
+        window.addEventListener('load', hideLoader);
+        window.addEventListener('pageshow', hideLoader);
+        window.addEventListener('beforeunload', showLoader);
+        window.addEventListener('pagehide', showLoader);
+
+        document.addEventListener('click', function(e) {
+            var link = e.target.closest('a');
+            if (link && link.href && !link.href.startsWith('javascript:') && !link.href.startsWith('#')) {
+                showLoader();
+            }
+        });
+    })();
+    </script>
+</body>
+</html>
