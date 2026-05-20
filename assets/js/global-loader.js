@@ -4,7 +4,15 @@
     var LOADER_ID = 'page-loader';
     var STYLE_ID = 'global-page-loader-style';
     var MIN_VISIBLE_MS = 350;
+    // Safety net: if `load`/`pageshow` never fires after a showLoader() call
+    // (downloads, in-page anchors, AJAX flows, browser kept the old page),
+    // force the loader off after this many ms so users are never stuck.
+    var SAFETY_HIDE_MS = 6000;
+    // Heuristic for "this anchor triggers a download, not a navigation".
+    // Matches the path part only; query/hash are tolerated after.
+    var DOWNLOAD_EXT_RE = /\.(csv|tsv|pdf|xlsx|xls|zip|7z|rar|docx|doc|pptx|ppt|json|png|jpg|jpeg|gif|svg|webp|mp3|mp4|mov|webm|wav|txt|xml)(\?|#|$)/i;
     var hideTimer = null;
+    var safetyTimer = null;
     var shownAt = Date.now();
 
     function getCurrentScript() {
@@ -86,6 +94,23 @@
         return loader;
     }
 
+    function armSafetyTimer() {
+        if (safetyTimer) {
+            clearTimeout(safetyTimer);
+        }
+        safetyTimer = setTimeout(function () {
+            safetyTimer = null;
+            hideLoader();
+        }, SAFETY_HIDE_MS);
+    }
+
+    function clearSafetyTimer() {
+        if (safetyTimer) {
+            clearTimeout(safetyTimer);
+            safetyTimer = null;
+        }
+    }
+
     function showLoader() {
         injectStyle();
         var loader = ensureLoader();
@@ -100,6 +125,7 @@
         loader.classList.remove('is-hidden');
         loader.classList.add('show');
         loader.setAttribute('aria-hidden', 'false');
+        armSafetyTimer();
     }
 
     function hideLoader() {
@@ -108,6 +134,7 @@
             return;
         }
 
+        clearSafetyTimer();
         var elapsed = Date.now() - shownAt;
         var delay = Math.max(0, MIN_VISIBLE_MS - elapsed);
         if (hideTimer) {
@@ -126,8 +153,10 @@
             return true;
         }
         var trimmed = rawHref.trim();
-        if (!trimmed || trimmed === '#' || trimmed.indexOf('javascript:') === 0 ||
-                trimmed.indexOf('mailto:') === 0 || trimmed.indexOf('tel:') === 0) {
+        if (!trimmed || trimmed === '#' || trimmed.charAt(0) === '#' ||
+                trimmed.indexOf('javascript:') === 0 ||
+                trimmed.indexOf('mailto:') === 0 || trimmed.indexOf('tel:') === 0 ||
+                trimmed.indexOf('blob:') === 0 || trimmed.indexOf('data:') === 0) {
             return true;
         }
         if (anchor && (anchor.hasAttribute('download') || (anchor.target && anchor.target !== '_self'))) {
@@ -136,9 +165,15 @@
         try {
             var nextUrl = new URL(trimmed, window.location.href);
             var currentUrl = new URL(window.location.href);
+            // Download-by-extension heuristic: file downloads do NOT cause a
+            // page reload, so showing a loader for them would leave it stuck.
+            if (DOWNLOAD_EXT_RE.test(nextUrl.pathname)) {
+                return true;
+            }
             nextUrl.hash = '';
             currentUrl.hash = '';
-            if (nextUrl.href === currentUrl.href && trimmed.indexOf('#') !== -1) {
+            if (nextUrl.href === currentUrl.href) {
+                // Same-page navigation (hash change or no change at all).
                 return true;
             }
         } catch (e) {
@@ -154,6 +189,12 @@
 
     function bindNavigationHooks() {
         document.addEventListener('click', function (event) {
+            // Programmatic clicks (e.g. temp <a> for file downloads) MUST NOT
+            // trigger the loader — they don't unload the page so the loader
+            // would stay forever. Real user clicks have isTrusted === true.
+            if (event.isTrusted === false) {
+                return;
+            }
             if (clickHasModifier(event)) {
                 return;
             }
@@ -168,24 +209,27 @@
             if (!button) {
                 return;
             }
-            if (button.type === 'submit') {
-                showLoader();
-                return;
-            }
             var onclick = button.getAttribute('onclick') || '';
             if (/\b(location|window\.location|document\.location)\b/.test(onclick)) {
                 showLoader();
             }
-        }, true);
-
-        document.addEventListener('submit', function () {
-            showLoader();
+            // NOTE: submit-type buttons used to auto-trigger showLoader here,
+            // and a global submit-event hook did the same. Both were removed
+            // because dashboards almost always submit via AJAX (no reload),
+            // leaving the loader stuck. Real cross-page submits will still
+            // hit `beforeunload` and show the loader correctly.
         }, true);
 
         window.addEventListener('beforeunload', showLoader);
         window.addEventListener('pagehide', showLoader);
         window.addEventListener('load', hideLoader);
         window.addEventListener('pageshow', hideLoader);
+        // SPA-style navigation (hash change, history pushState) never fires
+        // `load` or `pageshow`, so if a stale showLoader() was triggered we
+        // must hide it here. Otherwise tab clicks on the WhatsApp dashboard
+        // leave the loader visible forever.
+        window.addEventListener('hashchange', hideLoader);
+        window.addEventListener('popstate', hideLoader);
     }
 
     injectStyle();
