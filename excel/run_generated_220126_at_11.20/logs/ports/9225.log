@@ -1,9 +1,0 @@
-2026-01-22 11:23:19,587 | INFO     | [Worker_9225] Completed: JED-CAI - 9 results, 0 errors
-2026-01-22 11:23:19,590 | INFO     | [Worker_9225] Processing: MED-HBE
-2026-01-22 11:23:19,591 | INFO     |   Tier 0: Range 4, Chunk 2/4 (8 days)
-2026-01-22 11:23:43,115 | INFO     | [Worker_9225] Completed: MED-HBE - 8 results, 0 errors
-2026-01-22 11:23:43,116 | INFO     | [Worker_9225] Processing: JED-ASW
-2026-01-22 11:23:43,117 | INFO     |   Tier 0: Range 4, Chunk 2/4 (8 days)
-2026-01-22 11:23:55,922 | INFO     | [Worker_9225] Completed: JED-ASW - 8 results, 0 errors
-2026-01-22 11:23:55,923 | INFO     | [Worker_9225] Processing: DMM-ATZ
-2026-01-22 11:23:55,923 | INFO     |   Tier 0: Range 4, Chunk 2/4 (8 days)

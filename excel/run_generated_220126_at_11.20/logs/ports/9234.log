@@ -1,9 +1,0 @@
-2026-01-22 11:21:07,087 | INFO     | [Worker_9234] Completed: JED-ASW - 9 results, 0 errors
-2026-01-22 11:21:07,088 | INFO     | [Worker_9234] Processing: DMM-CAI
-2026-01-22 11:21:07,088 | INFO     |   Tier 0: Range 4, Chunk 1/4 (9 days)
-2026-01-22 11:22:07,428 | INFO     | [Worker_9234] Completed: DMM-CAI - 9 results, 0 errors
-2026-01-22 11:22:07,431 | INFO     | [Worker_9234] Processing: CAI-JED
-2026-01-22 11:22:07,431 | INFO     |   Tier 0: Range 4, Chunk 1/4 (9 days)
-2026-01-22 11:24:03,909 | INFO     | [Worker_9234] Completed: CAI-JED - 9 results, 0 errors
-2026-01-22 11:24:03,911 | INFO     | [Worker_9234] Processing: TUU-ATZ
-2026-01-22 11:24:03,911 | INFO     |   Tier 0: Range 4, Chunk 2/4 (8 days)
