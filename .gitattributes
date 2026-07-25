@@ -1,0 +1,30 @@
+# Archive line-ending policy.
+#
+# Publisher ownership records the SHA-256 of WORKING-TREE bytes, so the bytes a
+# checkout produces must be deterministic and identical on every machine. Left
+# to each developer's global core.autocrlf, the same commit could check out as
+# LF on one machine and CRLF on another, and every recorded checksum would be
+# wrong on one of them.
+#
+# CRLF is chosen because it matches the archive's existing published reports,
+# whose recorded checksums were taken from CRLF working-tree bytes.
+#
+# Every OWNED text file needs an explicit rule here. A rule is not optional
+# tidiness: an owned file with no rule falls back to the ambient core.autocrlf,
+# which is exactly the non-determinism this file exists to remove.
+*.html text eol=crlf
+*.js   text eol=crlf
+*.css  text eol=crlf
+*.json text eol=crlf
+*.svg  text eol=crlf
+
+# This file is itself owned and checksummed, so it must pin its own endings.
+.gitattributes text eol=crlf
+
+# Binary formats must never be line-ending converted or diffed as text.
+*.xlsx binary
+*.png  binary
+*.gif  binary
+*.ico  binary
+*.jpg  binary
+*.jpeg binary
